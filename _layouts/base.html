@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=utf-8 />
+        <title> {% if page.title %} {{ page.title }} | {% endif %} JKirchartz - Web Developer n'at</title>
+        <link rel="stylesheet" href="/css/styles.css" />
+    </head>
+    <body>
+
+        <div id="main">
+
+            <header>
+            <h1>JKirchartz</h1>
+            <span>Web Developer n'at</span>
+            <header>
+
+            <nav role="navigation">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/Demos/">Portfolio</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+            </nav>
+
+            {{ content }}
+
+            <footer>
+            <p>Code presented under a <a href="http://en.wikipedia.org/wiki/copyleft">Copyleft</a>
+            liscence; all wrongs reserved.</p>
+            </footer>
+
+        </div>
+    </body>
+</html>

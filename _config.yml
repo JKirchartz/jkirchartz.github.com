@@ -1,0 +1,14 @@
+safe: true
+source: blog
+lsi: false
+markdown: rdiscount
+pygments: true
+permalink: /:year/:month/:name.html
+
+title : JKirchartz -  Web Developer n'at
+
+author :
+  name : Joel Kirchartz
+  email : JKirchartz@gmail.com
+  github : JKirchartz
+  twitter : JKirchartz
