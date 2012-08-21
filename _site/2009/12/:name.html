@@ -1,0 +1,40 @@
+<h2 class="content"></h2>
+
+<p>Image Optimization is a fun game, trying to get just the right compression ratio to balance file size and appearance. There are a ton of tricks out there, but as a Photoshop user you generally end up with some pretty big files that are just small images. Today I had an icon, 71x30px that was 40.1kb after I resized it from a larger jpeg that was 38kb.</p>
+
+<p>Where does all this extra data come from? Metadata. Cameras throw it in,
+<a href="http://flickr.com/">flickr</a> reads it and shows the setting your <a href="http%0A://www.usa.canon.com/consumer/controller?act=ProductCatIndex1Act&amp;fcategoryid=1%0A01">Cannon</a> used to get that photo. Photoshop throws some junk in too. The real evil
+is thumbnails, <a href="http://en.wikipedia.org/wiki/Catherine_Schwartz">Cat Schwartz</a>
+had a bit of a <a href="http://graphicssoft.about.com/b/2003/07/26/techtvs-%0Acat-schwartz-exposed-is-photoshop-to-blame.htm">scandal</a> 6 years ago with thumbnails of
+un-cropped photos in the metadata that were not suitable for work. These
+thumbnails can almost DOUBLE your file size. It's just part and parcel of
+<a href="http://en.wikipedia.org/wiki/Exchangeable_image_file_format">EXIF</a> (The
+Exchangeable Image File format) standard, a bunch of useful data that takes up
+a bunch of space, and isn't important to the end user.</p>
+
+<p>How do you get rid of EXIF? On OSX you could use <a href="http://imageoptim.pornel.net/">Image
+Optim</a>, which is totally sweet, if you own a
+mac. On a PC you run into a bunch of poorly written, virus laden, scam-ware
+programs that may or may not work. Fortunately for us, there's an <a href="http://en.wikipedia.org/wiki/Open_Source">Open
+Source</a> community. So we'll do this
+with some <a href="http://en.wikipedia.org/wiki/Free_and_open_source_software">FOSS</a>.</p>
+
+<ol>
+<li>Create a folder for all your image files (which you should do anyhow)</li>
+<li>download JHEAD to that folder (<a href="http://www.sentex.net/~mwandel/jhead/jhead.exe">jhead.exe</a> | <a href="http://www.sentex.net/~mwandel/jhead/">main page</a>)</li>
+<li>Create .BAT file (plain text renamed to .BAT) containing</li>
+</ol>
+
+
+<pre><code>jhead.exe -purejpg *
+</code></pre>
+
+<ol>
+<li>Run it.
+What this does is strip out any EXIF and other metadata in the files in that
+folder. Just does away with anything that isn't purely essential for a jpeg to
+be an image, thus saving quite a bit on file size, bandwidth, and hopefully
+some embarrassment.</li>
+</ol>
+
+

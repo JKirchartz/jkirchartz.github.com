@@ -1,4 +1,5 @@
 permalink: /:year/:month/:name.html
+markdown: rdiscount
 
 title : JKirchartz -  Web Developer n'at
 author :
