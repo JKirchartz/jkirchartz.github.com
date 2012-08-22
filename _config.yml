@@ -1,4 +1,4 @@
-permalink: /:year/:month/:title.html
+permalink: /blog/:year/:month/:title.html
 markdown: rdiscount
 
 title : JKirchartz -  Web Developer n'at
