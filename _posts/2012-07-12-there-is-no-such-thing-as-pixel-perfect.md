@@ -22,10 +22,7 @@ display](http://www.apple.com/iphone/features/retina-display.html) which packs
 4 pixels in the place of 1. This unit of measurement is vastly different in
 every format, and we haven't even left the sofa.
 
-[ ![](http://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Pixel_geometry_
-01_Pengo.jpg/600px-Pixel_geometry_01_Pengo.jpg) ](http://upload.wikimedia.org/
-wikipedia/commons/thumb/4/4d/Pixel_geometry_01_Pengo.jpg/600px-
-Pixel_geometry_01_Pengo.jpg)
+[ ![](http://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Pixel_geometry_01_Pengo.jpg/600px-Pixel_geometry_01_Pengo.jpg) ](http://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Pixel_geometry_01_Pengo.jpg/600px-Pixel_geometry_01_Pengo.jpg)
 
 (each set of 3 colors is a pixel)
 
@@ -38,12 +35,9 @@ the screen dimensions on these devices vary greatly. As time passes this
 fragmentation problem will probably only get worse.
 
 [ ![graph showing trend of growing screen sizes on Android
-handsets](http://www.carrypad.com/files/2012/02/android-handset-screen-sizes-
-over-time.png) ](http://www.carrypad.com/files/2012/02/android-handset-screen-
-sizes-over-time.png)
+handsets](http://www.carrypad.com/files/2012/02/android-handset-screen-sizes-over-time.png) ](http://www.carrypad.com/files/2012/02/android-handset-screen-sizes-over-time.png)
 
-([source](http://www.carrypad.com/2012/02/08/report-android-handset-screens-
-growing-over-time-5-screens-the-norm-by-end-of-2013-where-will-it-stop/))
+([source](http://www.carrypad.com/2012/02/08/report-android-handset-screens-growing-over-time-5-screens-the-norm-by-end-of-2013-where-will-it-stop/))
 
 This graph is just screen dimensions for Android phones! Nevermind the
 completely proprietary nature of [feature
@@ -64,8 +58,7 @@ Walton](http://trentwalton.com/2012/06/19/fluid-type/)
 ##  What's the solution?
 
 It's just not possible to plan for every single device, so you'll just have to
-embrace uncertainty. [Responsive design](http://www.alistapart.com/articles
-/responsive-web-design/) will help adapt, but it has its
+embrace uncertainty. [Responsive design](http://www.alistapart.com/articles/responsive-web-design/) will help adapt, but it has its
 [problems](http://www.webdesignshock.com/responsive-design-problems/), you
 could also make a separate mobile site (and you _could_ make that responsive),
 mix solutions until you find what works for you and your client. There's more
