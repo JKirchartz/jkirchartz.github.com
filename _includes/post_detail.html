@@ -1,9 +1,9 @@
 <h1 class="entry-title">
 {% if page.title %}
-    <a href="{{ page.url }}">{{ page.title }}</a>
+    <a href="{{ page.url | replace_first:/ }}">{{ page.title }}</a>
 {% endif %}
 {% if post.title %}
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ post.url | replace_first:/  }}">{{ post.title }}</a>
 {% endif %}
 </h1>
 <div class="entry-content">{{ content }}</div>
