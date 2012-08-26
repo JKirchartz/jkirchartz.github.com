@@ -61,6 +61,7 @@ html](http://stackoverflow.com/a/1732454/276250).
   * [http://regexr.com](http://regexr.com/)
   * [http://rextester.com/rundotnet](http://rextester.com/rundotnet)
   * [http://rextester.com/](http://rextester.com/)
+  * [regexp lint](http://regexp.quaxio.com/)
 **cdn**  
 include a library into your sandbox
 
