@@ -16,7 +16,7 @@ users obviously need some assistance in understanding them.
 Here's the source code:
 
 
-    
+{% highlight javascript %}    
     (function($) {  
     $.fn.clickify = function(){  
      $("a[href]").each(function(){  
@@ -24,15 +24,14 @@ Here's the source code:
      });  
     }  
     })(jQuery);  
-    
+{% endhighlight %}    
 
 
-And it's simple to use! Just add <script>$(function(){$.clickify()});</script>
+And it's simple to use! Just add `<script>$(function(){$.clickify()});</script>`
 to your page and you're good to go!
 
 
 for more on the subject visit:
 
-[http://www.goodusability.co.uk/2009/01/dont-say-click-here-on-link-
-text/](http://www.goodusability.co.uk/2009/01/dont-say-click-here-on-link-
+[Good Usability's _Don't say click here on link text_](http://www.goodusability.co.uk/2009/01/dont-say-click-here-on-link-
 text/)

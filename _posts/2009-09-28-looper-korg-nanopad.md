@@ -24,14 +24,11 @@ feet, but for beatboxing in the style of
 there. To get instructions, tips, and download the Live set w/ nanoPAD preset,
 please continue reading.
 
-
-[](http://www.blogger.com/blogger.g?blogID=6876592441336450182)
-
-
 The software needed is:
 
   * Ableton Live 8
   * Korg Control Editor
+
 Alright, here's the setup:
 
   * Create 1 audio track (ctrl + t) & arm it for recording.

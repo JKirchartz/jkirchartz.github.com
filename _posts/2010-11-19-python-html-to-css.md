@@ -1,37 +1,22 @@
 --- 
-time: 2010-11-19 16:30:00 -05:00 
-title: The Great Internet Migratory Box Of Electronics Junk 
+time: 2010-11-19 14:00:00 -05:00 
+title: Python - HTML to CSS
 layout: post 
-name: great-internet-migratory-box-of 
---- 
+name: python-html-to-css 
+---
 
-[![](http://1.bp.blogspot.com/_KHL6Vvj96Eo/TOgBB40umBI/AAAAAAAAAoQ/0J81Xv-pjJY
-/s400/SDC10649.jpg)](http://1.bp.blogspot.com/_KHL6Vvj96Eo/TOgBB40umBI/AAAAAAA
-AAoQ/0J81Xv-pjJY/s1600/SDC10649.jpg)
+I surely couldn't have been the first to think of this, but wouldn't it be great if you could write your HTML, 
+then convert it to CSS? Yeah, I know they're not really the same, but the CSS has to be attached to something. 
+Why not pull it out and have a skeleton CSS file made for you? This short python script will read in HTML, and 
+spit out all the CSS selectors it can find. I plan on adding this to a larger project, so it's just a funtion and the call.
 
+<script src="https://gist.github.com/1118350.js"> </script>
 
+I'm using regex to get rid of everything that ISN'T HTML, then [BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/) to parse the HTML into tags, ids, and classes. 
+I then remove duplicates by converting the list to a set and back, sort the lists, and add the appropriate CSS selector and brackets. 
+Then it writes the CSS to a file. This last line runs the function, the first argument is the input HTML file, and the second is the 
+output CSS file. You'll have to change this to reflect your desired filenames.
 
-If you didn't know [The Great Internet Migratory Box Of Electronics
-Junk](http://tgimboej.org/) is a project that allows hackers & makers to share
-some electronics/components with each other. There's a ton of these things
-going around, but it seems like they move quite slowly.
-
-
- I received the box code-named [_Baltimore
-Bazaar_](http://tgimboej.org/Box_Code:_Baltimore_Bazaar) a few days ago &
-busted it open immediately; nothing really caught my eye in there, a few
-motors, a batter charger and a bunch of small components EVERYWHERE. I had to
-pick a bunch of capacitors and screws out of one of the motors I decided to
-play with, but there was nothing in there I really wanted or needed.
-
-
-I took a 2GB SD card out (I'm planning on adding the [Homebrew
-Channel](http://hbc.hackmii.com/) to my Wii), and replaced it with a couple
-old-school RCA transistors, a small geared motor, a 20Q game (needs a new
-battery), and a few ICs. I think I saw somewhere that you could hack the 20Q
-device, I'm sure somebody can find a use for it.
-
-
-Hopefully I get another box sometime in the future, it was fun trying to
-figure out what everything is. Perhaps the next one will be more useful to me;
-maybe I'll even split it, I've certainly got enough junk!
+I'm sure there are a few things I can do to optimize this, or at least reduce the line count, but I'm new to python 
+so I'll save that for another day. Like I said I plan to add this to a larger project so I'm going to take out the 
+file I/O for that and just feed in strings; but until then, enjoy!

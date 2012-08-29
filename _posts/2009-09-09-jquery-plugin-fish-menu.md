@@ -19,7 +19,7 @@ Use is as easy as the original potato menu, by simply using nested unordered
 lists, like this:
 
 
-    
+{% highlight html %}    
     <ul id="menu1">  
     <li><a href="#">Item 1</a></li>  
     <li><a href="#">Item 2</a></li>  
@@ -31,11 +31,12 @@ lists, like this:
     </ul>  
     </li>  
     </ul>
-
+{% endhighlight %}
 
 And then throwing some javascript/css at it like this:
 
     
+{% highlight html %}    
     <link rel="stylesheet" type="text/css" href="jquery.fish.css" />  
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>  
     <script src="js/jquery.hoverIntent.min.js" type="text/javascript"></script>  
@@ -45,6 +46,7 @@ And then throwing some javascript/css at it like this:
     $('#menu1').fishMenu();  
     });  
     </script>
+{% endhighlight %}
 
 and Ka-Pow, drop-down jQuery menus in 2.66KB (minified)
 

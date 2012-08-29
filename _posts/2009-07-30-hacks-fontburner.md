@@ -5,9 +5,8 @@ layout: post
 name: hacks-fontburner 
 --- 
 
-As you might have noticed I've got a couple crazy "non-standard" fonts here on 
-my blog from [fontburner.com](http://www.fontburner.com/).  
-[FontBurner](http://www.fontburner.com/) is a great tool for hosting [sIFR
+As you might have noticed <s>I've got</s> I had a couple crazy "non-standard" fonts
+from [fontburner.com](http://www.fontburner.com/). [FontBurner](http://www.fontburner.com/) is a great tool for hosting [sIFR
 (scalable inman flash replacement)](http://www.mikeindustries.com/blog/sifr/)
 flash files & javascript to simply replace fonts & text with a small flash
 file that displays it in the font of your choice. Currently fontburner has a
@@ -19,41 +18,49 @@ fonts, then which style of font to use. Once you've chosen a style you can
 easily navigate through all the different type-faces, right below each example
 is a 'get the code' button, which will give you this:
 
-    
-    <link rel="stylesheet" href="http://www.fontburner.com/css/fontburner.css" type="text/css" media="screen" /> <link rel="stylesheet" href="http://www.fontburner.com/css/fontburner_print.css" type="text/css" media="print" /> <script src="http://www.fontburner.com/fontburner.js" type="text/javascript"></script> <script type="text/javascript" src="http://www.fontburner.com/js/black/high_strung.php"></script> <!-- sIFR fonts delivered by www.fontburner.com -->
+{% highlight html %}    
+    <link rel="stylesheet" href="http://www.fontburner.com/css/fontburner.css" type="text/css" media="screen" /> 
+    <link rel="stylesheet" href="http://www.fontburner.com/css/fontburner_print.css" type="text/css" media="print" /> 
+    <script src="http://www.fontburner.com/fontburner.js" type="text/javascript"></script> 
+    <script type="text/javascript" src="http://www.fontburner.com/js/black/high_strung.php"></script> 
+    <!-- sIFR fonts delivered by www.fontburner.com -->
+{% endhighlight %}
 
 Now you copy that code onto your page & it will replace h1, h2, h3 tags and
 any dom element with a class or ID the same as the font-name.
 
 Ok, so now let's do a little disection & investigation...
 
-  1. <link rel="stylesheet" href="http://www.fontburner.com/css/fontburner.css" type="text/css" media="screen">  
+{% highlight html %}    
+    <link rel="stylesheet" href="http://www.fontburner.com/css/fontburner.css" type="text/css" media="screen">  
+{% endhighlight %}
 
 Basically does the CSS image-replacement technique
 
-
-  2. <link rel="stylesheet" href="http://www.fontburner.com/css/fontburner_print.css" type="text/css" media="print">  
-
+{% highlight html %}    
+    <link rel="stylesheet" href="http://www.fontburner.com/css/fontburner_print.css" type="text/css" media="print">  
+{% endhighlight %}
 Undoes the CSS image-replacement technique for print-only
 
-
-  3. &ltscript src="http://www.fontburner.com/fontburner.js" type="text/javascript"></script>  
-
+{% highlight html %}    
+    <script src="http://www.fontburner.com/fontburner.js" type="text/javascript"></script>  
+{% endhighlight %}
 The sIFR code itself
 
-
-  4. <script type="text/javascript" src="http://www.fontburner.com/js/black/high_strung.php"></script>  
+{% highlight html %}    
+    <script type="text/javascript" src="http://www.fontburner.com/js/black/high_strung.php"></script>  
+{% endhighlight %}
 
 The motherload of hackability, this is where we will have our fun.
 
-
-  5. <!-- sIFR fonts delivered by www.fontburner.com -->  
-
+{% highlight html %}    
+  <!-- sIFR fonts delivered by www.fontburner.com -->  
+{% endhighlight %}
 Attribution, let's leave this in there because they deserve some credit.
 
-Alright let's see what item #4 has in there:
-
+Alright let's see what's in that php file loaded as javascript:
     
+{% highlight html %}    
     var high_strung = {  
     src: 'http://www.fontburner.com/flash/high_strung.swf'  
     };  
@@ -77,6 +84,7 @@ Alright let's see what item #4 has in there:
     ,verticalSpacing: 0  
     ,wmode: 'transparent'  
     });
+{% endhighlight %}
 
 Hey look, CSS... this is EXACTLY what we want, and editing this script will
 give us much more control & options for fontburner. I suggest removing the h1,
@@ -89,6 +97,7 @@ now you can text-align and almost anything else in flash's limited css.
 Now you might have some code that looks like this:
 
     
+{% highlight html %}    
     <link rel="stylesheet" href="http://www.fontburner.com/css/fontburner.css" type="text/css" media="screen" />  
     <link rel="stylesheet" href="http://www.fontburner.com/css/fontburner_print.css" type="text/css" media="print" />  
     <script src="http://www.fontburner.com/fontburner.js" type="text/javascript"></script>  
@@ -117,7 +126,7 @@ Now you might have some code that looks like this:
     ,wmode: 'transparent'  
     });  
     </script>
-
+{% endhighlight %}
 
 And you will have khaki-colour center-aligned text with a non-standard font.
 

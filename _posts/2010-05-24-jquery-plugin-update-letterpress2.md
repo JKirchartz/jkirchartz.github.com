@@ -16,7 +16,7 @@ i8kMa0oI/AAAAAAAAAiM/g4mhv-ePzYs/s1600-h/letterpresser_screenshot.gif)
 
 and this is the code needed for this example:
 
-    
+{% highlight html %}    
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>  
     <script src="jquery.letterpress2.js" type="text/javascript"></script>  
     <style>  
@@ -47,7 +47,7 @@ and this is the code needed for this example:
     <h3>Lorem ipsum dolor sit amet</h3>  
     <h4>Lorem ipsum dolor sit amet</h4>  
     </div>  
-    
+{% highlight %}    
 
 
 
@@ -59,27 +59,25 @@ over the markup of. No extra tags, or css required. No duplicate text needed.
 Here's the basics:
 
 
-    
+{% highlight javascript %}    
     $(".letterpress").letterpress();
-
+{% endhighlight %}
 
 
 You can, however, edit the styles easily with these 5 options:
 
-
-    
+{% highlight javascript %}
     color, highlight, blur, topOffset, leftOffset
-
+{% endhighlight %}
 
 note: The blur will only be applied if text-shadow is being used.
 
 
 These attributes can be implemented like this:
 
-
-    
+{% highlight javascript %}
     $(".letterpress").letterpress({color: '#000', highlight: '#0ff', topOffset: '1px', blur: '1px', leftOffset: '1px'});
-
+{% endhighlight %}
 
 [Download the JS here](http://jkirchartz-jquery-
 repository.googlecode.com/files/jquery.letterpress2.js)

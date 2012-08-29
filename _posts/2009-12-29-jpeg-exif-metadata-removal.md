@@ -31,10 +31,11 @@ with some [FOSS](http://en.wikipedia.org/wiki/Free_and_open_source_software).
   1. Create a folder for all your image files (which you should do anyhow)
   2. download JHEAD to that folder ([jhead.exe](http://www.sentex.net/~mwandel/jhead/jhead.exe) | [main page](http://www.sentex.net/~mwandel/jhead/)) 
   3. Create .BAT file (plain text renamed to .BAT) containing
-    
-    jhead.exe -purejpg *
-
+     {% highlight bat %}
+         jhead.exe -purejpg *
+     {% endhighlight %}
   4. Run it.
+
 What this does is strip out any EXIF and other metadata in the files in that
 folder. Just does away with anything that isn't purely essential for a jpeg to
 be an image, thus saving quite a bit on file size, bandwidth, and hopefully
