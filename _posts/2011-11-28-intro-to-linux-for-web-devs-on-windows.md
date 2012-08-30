@@ -27,7 +27,7 @@ docs](http://the.earth.li/~sgtatham/putty/0.61/htmldoc/).
 ## Getting Around:
 
 On windows you can list folders and directories like "C:/Program Files/" or
-"C:\Program Files\", on linux it's "/var/www/html" (for apache's html
+"C:\Program Files\", on linux it's "/var/www/html" (for apache's default html
 directory), so linux is /-only, where windows doesn't care if you use / or \.
 
 Let's see where we are on the server, type in "pwd" at the command line (you
@@ -48,7 +48,7 @@ move to the parent directory of your current folder you do "cd ../" but you
 can move anywhere with this command as long as you know where you're going. If
 this is an apache server try "cd /var/www/html" to get to the default main
 directory for the files. Some servers keep this directory at "/sites" so you
-could try too.
+could try there too.
 
 Here's a quick reference of commands for moving around:
 
@@ -101,8 +101,7 @@ Here's a few nano commands that are useful:
 Nano's UI shows options you can use to translate keystrokes you should know
 that ^ = ctrl and M = esc.
 
-For more information on nano, read [the Nano docs](http://www.nano-
-editor.org/dist/v2.2/nano.html)
+For more information on nano, read [the Nano docs](http://www.nano-editor.org/dist/v2.2/nano.html)
 
 ## Moving, Copying, Renaming, and Deleting files:
 
@@ -113,7 +112,7 @@ files!? The commands are mv, cp, and rm.
 Moving a file is "mv path/to/file/location/name.ext
 /path/to/new/location/name.ext" if you're currently in the directory with your
 file use "mv file.ext /path/to/wherever/your/putting/it/file.ext" you just
-gotta know where you're moving the file to, to move it up a directory use "mv
+got to know where you're moving the file to, to move it up a directory use "mv
 file.ext ../", multiple files are easy too "mv file1 file2 ~/" would move
 those files to your home directory.
 
@@ -122,7 +121,7 @@ the file to a new directory, you can even copy a directory with "cp
 /dir/to/copy/ ~/new/dir/"
 
 Deleting files can be done with "rm file.ext" you can delete a directory and
-it's content with "rm -r", and the flag to force a deletion is "-f" but be
+it's content with the recursive flag "rm -r", and the flag to force a deletion is "-f" but be
 careful, "rm -rf /" can delete the whole root directory and totally screw up
 the server. Most platforms and admins protect against this but it's better to
 be safe than sorry.

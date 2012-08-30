@@ -10,7 +10,7 @@ _I wrote this piece in October of 2011 for the [Songwhale Blog](http://blog.song
 
 The times they are a-changin’. Every day our technology becomes more advanced
 as we push into the future; it wasn’t too long ago that yahoo looked like
-[this](http://www.topdesignmag.com/wp-content/uploads/2011/06/118.jpg%5D) and
+[this](http://www.topdesignmag.com/wp-content/uploads/2011/06/118.jpg) and
 an [iPod](http://www.ipodhistory.com/ipod-first-generation/) held 512mb, five
 years before that NewsWeek [published an
 article](http://www.thedailybeast.com/newsweek/1995/02/26/the-internet-
@@ -47,16 +47,15 @@ Magazine](http://www.smashingmagazine.com/2011/07/15/email-newsletters-worth-
 subscribing-to/) offer a lot of free information on web technologies and
 techniques. Smashing magazine’s daughter-blog [Noupe](http://www.noupe.com/)
 has an A.D.D.-like selection covering all areas of design, development,
-inspiration, and tutorials. For pure design
-[](http://www.notcot.org/)[Notcot](http://www.notcot.org/) and
-[](http://www.juxtapoz.com/) [Juxtapoz](http://www.juxtapoz.com/) are updated
+inspiration, and tutorials. For pure design [Notcot](http://www.notcot.org/) and
+[Juxtapoz](http://www.juxtapoz.com/) are updated
 very, very often. These guys all have a writing/curation staff so they cover a
 lot of ground.
 
 
 For a more personal touch you should check out individuals who are outstanding
 in their field.  The design-specific [Swiss
-Miss](http://www.blogger.com/%5Bhttp://www.swiss-miss.com/) offers a ton of
+Miss](http://www.swiss-miss.com/) offers a ton of
 inspiration and distraction to get your creative juices flowing. [Jonathan
 Snook](http://snook.ca/) and [456 berea
 street](http://www.456bereastreet.com/) are more focused on development, but
