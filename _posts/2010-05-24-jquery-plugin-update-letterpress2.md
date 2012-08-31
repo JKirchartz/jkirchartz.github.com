@@ -1,9 +1,9 @@
---- 
-time: 2010-05-24 15:56:00 -04:00 
-title: "JQuery Plugin update: Letterpress2" 
-layout: post 
-name: jquery-plugin-update-letterpress2 
---- 
+---
+time: 2010-05-24 15:56:00 -04:00
+title: "JQuery Plugin update: Letterpress2"
+name: jquery-plugin-update-letterpress2
+layout: post
+---
 
 A While back I coded a plugin to apply the letterpress effect, since then I've decided that css's text-shadow property was a better way to go, but some browsers don't support text-shadow *cough* IE *cough* this is a slight mod to check for IE & apply the letterpress plugin to them, and use text-shadow on browsers that support it.  
 
@@ -79,5 +79,4 @@ These attributes can be implemented like this:
     $(".letterpress").letterpress({color: '#000', highlight: '#0ff', topOffset: '1px', blur: '1px', leftOffset: '1px'});
 {% endhighlight %}
 
-[Download the JS here](http://jkirchartz-jquery-
-repository.googlecode.com/files/jquery.letterpress2.js)
+[Download the JS here](http://jkirchartz-jquery-repository.googlecode.com/files/jquery.letterpress2.js)
