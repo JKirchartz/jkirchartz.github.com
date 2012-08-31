@@ -1,10 +1,2 @@
 permalink: /:year/:month/:title.html
 markdown: rdiscount
-
-title : JKirchartz -  Web Developer n'at
-
-author :
-  name : Joel Kirchartz
-  email : JKirchartz@gmail.com
-  github : JKirchartz
-  twitter : JKirchartz
