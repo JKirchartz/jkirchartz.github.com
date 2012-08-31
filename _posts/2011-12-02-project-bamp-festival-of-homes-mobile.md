@@ -1,8 +1,6 @@
 --- 
-time: 2011-12-02 13:54:00 -05:00 
-title: "Project: BAMP Festival of Homes mobile site" 
 layout: post 
-name: project-bamp-festival-of-homes-mobile 
+title: "Project: BAMP Festival of Homes mobile site" 
 --- 
 
 [![](http://2.bp.blogspot.com/--9bknh6sbAA/Ttke0KomNGI/AAAAAAAAAz0/On-

@@ -1,8 +1,6 @@
 --- 
-time: 2010-04-22 09:34:00 -04:00 
 title: "Project: Automotive Mobile site template." 
 layout: post 
-name: project-automotive-mobile-site-template 
 --- 
 
 [![](http://4.bp.blogspot.com/_KHL6Vvj96Eo/S9BO9Tb4OiI/AAAAAAAAAmg/8f4G1X9wIxY

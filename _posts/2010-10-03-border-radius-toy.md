@@ -1,8 +1,6 @@
 --- 
-time: 2010-10-03 13:33:00 -04:00 
-title: Border Radius Toy 
 layout: post 
-name: border-radius-toy 
+title: Border Radius Toy 
 --- 
 
 [![](http://3.bp.blogspot.com/_KHL6Vvj96Eo/TKi5woZN7jI/AAAAAAAAAoA/hewVyI7JzKA

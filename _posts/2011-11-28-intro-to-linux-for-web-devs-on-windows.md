@@ -1,8 +1,6 @@
 --- 
-time: 2011-11-28 17:00:00 -05:00 
-title: Intro to Linux for Web Devs on Windows 
 layout: post 
-name: intro-to-linux-for-web-devs-on-windows 
+title: Intro to Linux for Web Devs on Windows 
 --- 
 
 I've been spending a lot of time using the linux CLI lately, and I know it can

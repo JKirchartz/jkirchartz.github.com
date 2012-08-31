@@ -1,8 +1,6 @@
 --- 
-time: 2009-09-09 18:17:00 -04:00 
 title: "jQuery Plugin: Fish-Menu" 
 layout: post 
-name: jquery-plugin-fish-menu 
 --- 
 
 Here we go, at it again... with a new plugin called fish-menu... heavily based on [jquery.ui.potato.menu](http://labs.makotokw.com/s/jquery/menu) by [Makoto_KW](http://makotokw.com/en/)   

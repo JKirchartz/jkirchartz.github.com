@@ -1,8 +1,6 @@
 --- 
-time: 2012-06-06 10:36:00 -04:00 
-title: "Rocking StackOverflow: Sites to Troubleshoot Code in Your Browser" 
 layout: post 
-name: rocking-stackoverflow-sites-to 
+title: "Rocking StackOverflow: Sites to Troubleshoot Code in Your Browser" 
 --- 
 
 [StackOverflow](http://stackoverflow.com/) is an awesome community, devs 

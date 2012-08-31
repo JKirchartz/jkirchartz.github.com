@@ -1,8 +1,6 @@
 --- 
-time: 2010-11-19 14:00:00 -05:00 
-title: Python - HTML to CSS
 layout: post 
-name: python-html-to-css 
+title: Python - HTML to CSS
 ---
 
 I surely couldn't have been the first to think of this, but wouldn't it be great if you could write your HTML, 

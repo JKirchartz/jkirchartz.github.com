@@ -1,8 +1,6 @@
 --- 
-time: 2011-04-04 10:48:00 -04:00 
-title: XUIjs for Mobile Development + 2 extensions 
 layout: post 
-name: xuijs-for-mobile-development-2 
+title: XUIjs for Mobile Development + 2 extensions 
 --- 
 
 I recently stared playing with [xui.js](http://xuijs.com/) it's a really nice library targeted to mobile devices, 

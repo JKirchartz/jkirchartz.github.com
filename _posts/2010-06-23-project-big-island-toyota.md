@@ -1,8 +1,6 @@
 --- 
-time: 2010-06-23 11:30:00 -04:00 
-title: "Project: Big Island Toyota" 
 layout: post 
-name: project-big-island-toyota 
+title: "Project: Big Island Toyota" 
 --- 
 
 Big Island Toyota has always been a little ahead of the curve on social media, They're involved with their community, and they use their website pro-actively. Here are 2 requested projects from them.  

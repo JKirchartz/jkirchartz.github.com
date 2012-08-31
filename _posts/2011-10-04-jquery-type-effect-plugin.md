@@ -1,8 +1,6 @@
 --- 
-time: 2011-10-04 14:28:00 -04:00 
-title: jQuery type effect plugin 
 layout: post 
-name: jquery-type-effect-plugin 
+title: jQuery type effect plugin 
 --- 
 
 Let's kick it old-school, with the absolute CLASSIC typewriter effect. I couldn't 

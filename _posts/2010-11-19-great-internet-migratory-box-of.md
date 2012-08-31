@@ -1,8 +1,6 @@
 --- 
-time: 2010-11-19 16:30:00 -05:00 
-title: The Great Internet Migratory Box Of Electronics Junk 
 layout: post 
-name: great-internet-migratory-box-of 
+title: The Great Internet Migratory Box Of Electronics Junk 
 --- 
 
 [![](http://1.bp.blogspot.com/_KHL6Vvj96Eo/TOgBB40umBI/AAAAAAAAAoQ/0J81Xv-pjJY

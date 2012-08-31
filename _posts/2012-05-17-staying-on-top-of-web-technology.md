@@ -1,8 +1,6 @@
 --- 
-time: 2012-05-17 13:47:00 -04:00 
-title: Staying on Top of Web Technology 
 layout: post 
-name: staying-on-top-of-web-technology 
+title: Staying on Top of Web Technology 
 --- 
 
 _I wrote this piece in October of 2011 for the [Songwhale Blog](http://blog.songwhale.com/post/11316955561/webtechnology), re-posting it here for prosperity._  

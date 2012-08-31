@@ -1,8 +1,6 @@
 --- 
-time: 2012-07-12 17:00:00 -04:00 
-title: There is no such thing as pixel-perfect web design 
 layout: post 
-name: there-is-no-such-thing-as-pixel-perfect 
+title: There is no such thing as pixel-perfect web design 
 --- 
 
 There, I said it. Now get the phrase out of your head, it doesn't exist, please stop trying. 

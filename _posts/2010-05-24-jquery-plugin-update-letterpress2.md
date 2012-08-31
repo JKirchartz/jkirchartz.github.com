@@ -1,8 +1,6 @@
 ---
-time: 2010-05-24 15:56:00 -04:00
-title: "JQuery Plugin update: Letterpress2"
-name: jquery-plugin-update-letterpress2
 layout: post
+title: "JQuery Plugin update: Letterpress2"
 ---
 
 A While back I coded a plugin to apply the letterpress effect, since then I've decided that css's text-shadow property was a better way to go, but some browsers don't support text-shadow *cough* IE *cough* this is a slight mod to check for IE & apply the letterpress plugin to them, and use text-shadow on browsers that support it.  

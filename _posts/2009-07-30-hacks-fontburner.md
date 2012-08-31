@@ -1,8 +1,6 @@
 --- 
-time: 2009-07-30 12:42:00 -04:00 
 title: "Hacks: FontBurner" 
 layout: post 
-name: hacks-fontburner 
 --- 
 
 As you might have noticed <s>I've got</s> I had a couple crazy "non-standard" fonts
