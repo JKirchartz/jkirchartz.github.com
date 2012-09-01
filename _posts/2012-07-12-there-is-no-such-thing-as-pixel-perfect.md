@@ -20,6 +20,7 @@ display](http://www.apple.com/iphone/features/retina-display.html) which packs
 4 pixels in the place of 1. This unit of measurement is vastly different in
 every format, and we haven't even left the sofa.
 
+
 <div class="img">
 
 
@@ -29,6 +30,7 @@ every format, and we haven't even left the sofa.
 
 </div>
 
+
 ## Moving the Web Forward
 
 In our current market place, there are hundreds of web-ready devices and
@@ -36,6 +38,7 @@ smartphones (and [refrigerators](http://www.gizmag.com/go/1132/)) that are
 trying to access your site. Unfortunately this also causes problems because
 the screen dimensions on these devices vary greatly. As time passes this
 fragmentation problem will probably only get worse.
+
 
 <div class="img">
 
@@ -46,6 +49,7 @@ handsets](http://www.carrypad.com/files/2012/02/android-handset-screen-sizes-ove
 
 
 </div>
+
 
 This graph is just screen dimensions for Android phones! Nevermind the
 completely proprietary nature of [feature
