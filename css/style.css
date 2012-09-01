@@ -20,12 +20,12 @@ body {
     margin: 0;
 }
 a {
-    color: #224;
+    color: #130f30;
     text-decoration: none;
 }
 
 a:hover {
-    color: #226;
+    color: #373f63;
     text-decoration: underline;
 }
 
