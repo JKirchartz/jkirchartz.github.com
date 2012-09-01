@@ -20,9 +20,12 @@ display](http://www.apple.com/iphone/features/retina-display.html) which packs
 4 pixels in the place of 1. This unit of measurement is vastly different in
 every format, and we haven't even left the sofa.
 
-[ ![](http://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Pixel_geometry_01_Pengo.jpg/600px-Pixel_geometry_01_Pengo.jpg) ](http://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Pixel_geometry_01_Pengo.jpg/600px-Pixel_geometry_01_Pengo.jpg)
+<div class="img">
 
+[ ![Close-up of different pixels](http://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Pixel_geometry_01_Pengo.jpg/600px-Pixel_geometry_01_Pengo.jpg) ](http://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Pixel_geometry_01_Pengo.jpg/600px-Pixel_geometry_01_Pengo.jpg)
 (each set of 3 colors is a pixel)
+
+</div>
 
 ## Moving the Web Forward
 
@@ -32,10 +35,13 @@ trying to access your site. Unfortunately this also causes problems because
 the screen dimensions on these devices vary greatly. As time passes this
 fragmentation problem will probably only get worse.
 
+<div class="img">
+
 [ ![graph showing trend of growing screen sizes on Android
 handsets](http://www.carrypad.com/files/2012/02/android-handset-screen-sizes-over-time.png) ](http://www.carrypad.com/files/2012/02/android-handset-screen-sizes-over-time.png)
-
 ([source](http://www.carrypad.com/2012/02/08/report-android-handset-screens-growing-over-time-5-screens-the-norm-by-end-of-2013-where-will-it-stop/))
+
+</div>
 
 This graph is just screen dimensions for Android phones! Nevermind the
 completely proprietary nature of [feature
