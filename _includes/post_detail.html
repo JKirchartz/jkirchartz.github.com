@@ -1,9 +1,9 @@
-<h1 class="entry-title">
+<h2 class="entry-title">
 {% if page.title %}
     <a href="{{ page.url | lower }}">{{ page.title }}</a>
 {% endif %}
 {% if post.title %}
     <a href="{{ post.url | lower  }}">{{ post.title }}</a>
 {% endif %}
-</h1>
-<div class="entry-content">{{ content }}</div>
+</h2>
+{{ content }}
