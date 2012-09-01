@@ -1,9 +1,13 @@
 ---
 layout: post
 title: "JQuery Plugin update: Letterpress2"
+name: jquery-plugin-update-letterpress2
 ---
 
-A While back I coded a plugin to apply the letterpress effect, since then I've decided that css's text-shadow property was a better way to go, but some browsers don't support text-shadow *cough* IE *cough* this is a slight mod to check for IE & apply the letterpress plugin to them, and use text-shadow on browsers that support it.  
+A While back I coded a plugin to apply the letterpress effect, since then I've decided
+that css's text-shadow property was a better way to go, but some browsers don't support
+text-shadow *cough* IE *cough* this is a slight mod to check for IE & apply the letterpress 
+plugin to them, and use text-shadow on browsers that support it.  
 
 Here's what it looks like:
 
@@ -45,7 +49,7 @@ and this is the code needed for this example:
     <h3>Lorem ipsum dolor sit amet</h3>  
     <h4>Lorem ipsum dolor sit amet</h4>  
     </div>  
-{% highlight %}    
+{% endhighlight %}    
 
 
 
