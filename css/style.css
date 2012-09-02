@@ -40,9 +40,10 @@ header {
     padding: 0 10px;
     overflow: hidden;
 }
-h1 {
-    margin: 0;
-}
+h1, h2, h3 { margin-top:0; margin-bottom:0; }
+h1 { font-size:4.23em; padding:1.55em 0; }
+h2 { font-size:2.61em; padding:1.54em 0; }
+h3 { font-size:1.61em; padding:1.57em 0; }
 
 nav ul, ul.entries {
     list-style-type: none;
