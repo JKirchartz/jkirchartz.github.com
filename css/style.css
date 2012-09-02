@@ -87,7 +87,7 @@ blockquote:before {
     content: '“'; 
     font-size:4em;
     line-height:0.1em;
-    margin-right:0.25em;
+    margin-right:0.1em;
     vertical-align:-0.4em;
     font-weight: bold;
 }
