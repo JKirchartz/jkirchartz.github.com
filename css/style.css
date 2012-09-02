@@ -20,12 +20,13 @@ body {
     margin: 0;
 }
 a {
+    font-size:1em;
     color: #130f30;
     text-decoration: none;
 }
 
 a:hover {
-    color: #373f63;
+    color: #261f41;
     text-decoration: underline;
 }
 
