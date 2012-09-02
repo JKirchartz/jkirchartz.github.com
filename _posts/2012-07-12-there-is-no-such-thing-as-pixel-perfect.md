@@ -42,7 +42,7 @@ fragmentation problem will probably only get worse.
 [ ![graph showing trend of growing screen sizes on Android
 handsets](http://www.carrypad.com/files/2012/02/android-handset-screen-sizes-over-time.png) ](http://www.carrypad.com/files/2012/02/android-handset-screen-sizes-over-time.png)
 
-<div class-"img-metadata">
+<div class="img-metadata">
 
 ([source](http://www.carrypad.com/2012/02/08/report-android-handset-screens-growing-over-time-5-screens-the-norm-by-end-of-2013-where-will-it-stop/))
 
