@@ -44,7 +44,7 @@ handsets](http://www.carrypad.com/files/2012/02/android-handset-screen-sizes-ove
 
 <div class="img-metadata">
 
-([source](http://www.carrypad.com/2012/02/08/report-android-handset-screens-growing-over-time-5-screens-the-norm-by-end-of-2013-where-will-it-stop/))
+\([source](http://www.carrypad.com/2012/02/08/report-android-handset-screens-growing-over-time-5-screens-the-norm-by-end-of-2013-where-will-it-stop/)\)
 
 </div>
 
