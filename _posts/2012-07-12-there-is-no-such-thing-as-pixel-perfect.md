@@ -22,7 +22,7 @@ every format, and we haven't even left the sofa.
 
 
 [ ![Close-up of different pixels](http://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Pixel_geometry_01_Pengo.jpg/600px-Pixel_geometry_01_Pengo.jpg) ](http://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Pixel_geometry_01_Pengo.jpg/600px-Pixel_geometry_01_Pengo.jpg)
-(each set of 3 colors is a pixel)
+<div class="img-metadata">(each set of 3 colors is a pixel)</div>
 
 
 ## Moving the Web Forward
@@ -36,7 +36,7 @@ fragmentation problem will probably only get worse.
 
 [ ![graph showing trend of growing screen sizes on Android
 handsets](http://www.carrypad.com/files/2012/02/android-handset-screen-sizes-over-time.png) ](http://www.carrypad.com/files/2012/02/android-handset-screen-sizes-over-time.png)
-([source](http://www.carrypad.com/2012/02/08/report-android-handset-screens-growing-over-time-5-screens-the-norm-by-end-of-2013-where-will-it-stop/))
+<div class-"img-metadata">([source](http://www.carrypad.com/2012/02/08/report-android-handset-screens-growing-over-time-5-screens-the-norm-by-end-of-2013-where-will-it-stop/))</div>
 
 
 completely proprietary nature of [feature
