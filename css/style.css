@@ -78,7 +78,10 @@ ul.entries a:hover {
 img {
     max-width:100%;
 }
-
+blockquote {
+    margin-top:1em;
+    border-left:0.5em solid rgba(255, 255, 255, 0.1);
+}
 blockquote p {
     display:inline;
 }
