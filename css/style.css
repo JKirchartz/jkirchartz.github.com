@@ -78,19 +78,27 @@ ul.entries a:hover {
 img {
     max-width:100%;
 }
+
+blockquote p {
+    display:inline;
+}
+
 blockquote:before {
     content: '“'; 
-    font-size: 6em;
+    font-size:4em;
+    line-height:.1em;
+    margin-right:.25em;
+    vertical-align:-.4em;
     font-weight: bold;
-    line-height: 0px;
-    vertical-align: bottom;
 }
 blockquote:after {
     content: '”'; 
-    font-size: 6em;
+    font-size:4em;
+    line-height:.1em;
+    margin-right:.25em;
+    vertical-align:-.5em;
     font-weight: bold;
-    line-height: 0px;
-    vertical-align: bottom;
+}
 footer {
     font-size: 0.65em;
     text-align: center;
