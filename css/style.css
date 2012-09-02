@@ -33,7 +33,7 @@ a:hover {
     min-width:50%;
     max-width:60em;
     margin: 0 auto;
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.7);
 }
 header {
     padding: 0 10px;
@@ -50,10 +50,10 @@ nav li a {
     float: left;
     margin: 5px; 
 }
-.content {
-    padding: 10px;
+p { 
+    padding:0.5em; 
 }
-p img, div.img img {
+p img {
     display:block;
     margin:0 auto;
 }

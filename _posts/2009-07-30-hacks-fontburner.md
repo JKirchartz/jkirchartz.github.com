@@ -38,11 +38,13 @@ Basically does the CSS image-replacement technique
 {% highlight html %}    
     <link rel="stylesheet" href="http://www.fontburner.com/css/fontburner_print.css" type="text/css" media="print">  
 {% endhighlight %}
+
 Undoes the CSS image-replacement technique for print-only
 
 {% highlight html %}    
     <script src="http://www.fontburner.com/fontburner.js" type="text/javascript"></script>  
 {% endhighlight %}
+
 The sIFR code itself
 
 {% highlight html %}    
@@ -54,6 +56,7 @@ The motherload of hackability, this is where we will have our fun.
 {% highlight html %}    
   <!-- sIFR fonts delivered by www.fontburner.com -->  
 {% endhighlight %}
+
 Attribution, let's leave this in there because they deserve some credit.
 
 Alright let's see what's in that php file loaded as javascript:
