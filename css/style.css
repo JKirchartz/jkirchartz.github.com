@@ -78,6 +78,15 @@ ul.entries a:hover {
 img {
     max-width:100%;
 }
+blockquote:before
+{
+    content: '201C'; /* http://monc.se/kitchen/129/rendering-quotes-with-css */
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 0px;
+    margin: 0px 5px 0px -40px;
+    vertical-align: bottom;
+}
 footer {
     font-size: 0.65em;
     text-align: center;
