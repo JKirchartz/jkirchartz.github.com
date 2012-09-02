@@ -91,6 +91,14 @@ blockquote:before {
     vertical-align:-0.4em;
     font-weight: bold;
 }
+blockquote:after {
+    content: '”'; 
+    font-size:4em;
+    line-height:0.1em;
+    margin-right:0.1em;
+    vertical-align:-0.4em;
+    font-weight: bold;
+}
 
 footer {
     font-size: 0.65em;
