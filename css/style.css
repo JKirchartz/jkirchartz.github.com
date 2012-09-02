@@ -83,7 +83,8 @@ blockquote p {
     display:inline;
 }
 blockquote + p {
-    display:inline;
+    text-align:right;
+    padding-right:5em;
 }
 blockquote:before {
     content: '“'; 
