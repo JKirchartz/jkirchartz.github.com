@@ -26,6 +26,8 @@ some of these cover multiple languages
 * [http://c9.io/](http://c9.io/)
 * [http://repl.it/](http://repl.it/)
 * [http://wonderfl.net/](http://wonderfl.net/)
+
+
 **javascript / html / css **  
 
 * [http://jsfiddle.net](http://jsfiddle.net/)
@@ -39,6 +41,8 @@ some of these cover multiple languages
 * [http://rendera.heroku.com/](http://rendera.heroku.com/)
 * [http://fiddlesalad.com/](http://fiddlesalad.com/)
 * [http://codepen.io/](http://codepen.io/)
+
+
 **validators / cleaners **  
 
 * [http://jshint.com/](http://jshint.com/)
@@ -49,6 +53,8 @@ some of these cover multiple languages
 * [http://www.dirtymarkup.com/](http://www.dirtymarkup.com/)
 * [http://validator.w3.org/](http://validator.w3.org/)
 * [http://jigsaw.w3.org/css-validator/](http://jigsaw.w3.org/css-validator/)
+
+
 **regex **  
 mod_redirect & just about anything else, just [don't parse
 html](http://stackoverflow.com/a/1732454/276250).
@@ -60,6 +66,8 @@ html](http://stackoverflow.com/a/1732454/276250).
 * [http://rextester.com/rundotnet](http://rextester.com/rundotnet)
 * [http://rextester.com/](http://rextester.com/)
 * [regexp lint](http://regexp.quaxio.com/)
+
+
 **cdn**  
 include a library into your sandbox
 
@@ -68,8 +76,6 @@ include a library into your sandbox
 * [http://www.asp.net/ajaxlibrary/cdn.ashx](http://www.asp.net/ajaxlibrary/cdn.ashx)
 * [http://developers.google.com/speed/libraries/devguide](http://developers.google.com/speed/libraries/devguide)
 
-**  
-**  
 **other **  
 these don't really_ do_ anything, but they help you make your knowledge a
 little more transferable
