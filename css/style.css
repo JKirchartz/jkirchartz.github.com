@@ -83,7 +83,7 @@ blockquote p {
     display:inline;
 }
 blockquote + p {
-    text-align:right;
+    display:inline;
 }
 blockquote:before {
     content: '“'; 
