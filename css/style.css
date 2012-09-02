@@ -80,7 +80,7 @@ img {
 }
 blockquote:before
 {
-    content: '201C'; /* http://monc.se/kitchen/129/rendering-quotes-with-css */
+    content: '“'; /* http://monc.se/kitchen/129/rendering-quotes-with-css */
     font-size: 1.5em;
     font-weight: bold;
     line-height: 0px;
