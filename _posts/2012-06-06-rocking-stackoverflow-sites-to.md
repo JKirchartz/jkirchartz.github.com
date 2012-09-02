@@ -75,6 +75,8 @@ include a library into your sandbox
 * [http://cdnjs.com/](http://cdnjs.com/)
 * [http://www.asp.net/ajaxlibrary/cdn.ashx](http://www.asp.net/ajaxlibrary/cdn.ashx)
 * [http://developers.google.com/speed/libraries/devguide](http://developers.google.com/speed/libraries/devguide)
+* [http://code.createjs.com/](http://code.createjs.com/)
+
 
 ##other  
 these don't really_ do_ anything, but they help you make your knowledge a
