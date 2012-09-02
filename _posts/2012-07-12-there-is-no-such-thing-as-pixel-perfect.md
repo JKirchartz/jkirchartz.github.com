@@ -24,7 +24,7 @@ every format, and we haven't even left the sofa.
 [ ![Close-up of different pixels](http://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Pixel_geometry_01_Pengo.jpg/600px-Pixel_geometry_01_Pengo.jpg) ](http://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Pixel_geometry_01_Pengo.jpg/600px-Pixel_geometry_01_Pengo.jpg)
 
 <div class="img-metadata">
-(each set of 3 colors is a pixel)
+(each set of 3 colors is a pixel) <a href="https://en.wikipedia.org/wiki/File:Pixel_geometry_01_Pengo.jpg">[source]</a>
 </div>
 
 
