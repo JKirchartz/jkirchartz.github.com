@@ -50,8 +50,9 @@ cats](https://www.youtube.com/watch?v=Pk7yqlTMvp8).
 
 > For me, “ideal” on the web isn’t about pixel-perfection anymore, but about
 > seeking the most pragmatic approach to balancing different kinds of content
-> with an ever-increasing number of screen sizes and resolutions. &mdash; [Trent
-> Walton](http://trentwalton.com/2012/06/19/fluid-type/)
+> with an ever-increasing number of screen sizes and resolutions. 
+
+&mdash; [Trent Walton](http://trentwalton.com/2012/06/19/fluid-type/)
 
 
 ##  What's the solution?
