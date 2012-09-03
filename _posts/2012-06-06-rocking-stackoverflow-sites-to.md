@@ -11,6 +11,7 @@ some work to do. I often hear my fellow dev's asking "Is there a JSFiddle for...
 almost any programing language. Well, friend, here's my list of sites and sandboxes
 that make troubleshooting all sorts of code a lot easier:  
 
+
 ##server-side / programming languages
 some of these cover multiple languages
 
@@ -65,12 +66,11 @@ html](http://stackoverflow.com/a/1732454/276250).
 * [http://regexr.com](http://regexr.com/)
 * [http://rextester.com/rundotnet](http://rextester.com/rundotnet)
 * [http://rextester.com/](http://rextester.com/)
-* [regexp lint](http://regexp.quaxio.com/)
+* [http://regexp.quaxio.com/ (linter)](http://regexp.quaxio.com/)
 
 
 ##cdn  
 include a library into your sandbox
-
 
 * [http://cdnjs.com/](http://cdnjs.com/)
 * [http://www.asp.net/ajaxlibrary/cdn.ashx](http://www.asp.net/ajaxlibrary/cdn.ashx)
