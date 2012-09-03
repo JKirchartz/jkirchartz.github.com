@@ -48,6 +48,6 @@ var fitText = function() {
 }();
 
 
-fitText.init("header h1", 0.6);
-fitText.init("article h1", 1.8);
-fitText.init("article h2",2);
+fitText.init("header h1", 0.6, { minFontSize: '36px', maxFontSize: '180px' });
+fitText.init("article h1", 1.8, { minFontSize: '24px', maxFontSize: '52px' });
+fitText.init("article h2",2, { minFontSize: '18px', maxFontSize: '47px' });
