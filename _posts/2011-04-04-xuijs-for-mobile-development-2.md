@@ -15,8 +15,3 @@ simplifying the code to do without the IS, but it might be useful to you)
 Here's the extensions:
 
 <script src="https://gist.github.com/901715.js"> </script>
-
-I ran into a couple problems, mainly that XUI doesn't return elements as
-_this_ from it's main function but an object containing a list of elements,
-but I finally figured it out and now pass the knowledge on to you for free,
-because I'm awesome. Don't you love me?
