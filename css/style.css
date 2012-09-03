@@ -103,7 +103,9 @@ ul.entries li {
     padding: 20px;
     background: #ececec;
 }
-
+em {
+    font-style:italic;
+}
 ul.entries li h3 {
     font-size: 2em;
 }
