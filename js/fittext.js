@@ -48,6 +48,6 @@ var fitText = function() {
 }();
 
 
-fitText.init("header h1", 0.8);
-fitText.init("article h1", 1.4);
-fitText.init("article h2", 1.4);
+fitText.init("header h1", 0.7);
+fitText.init("article h1", 1.8);
+fitText.init("article h2");
