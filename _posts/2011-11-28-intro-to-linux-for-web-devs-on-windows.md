@@ -131,5 +131,5 @@ can be a very helpful tool. For more information check out
 [http://linuxcommand.org/](http://linuxcommand.org/), [TuxFiles' intro to the
 Linux CLI](http://www.tuxfiles.org/linuxhelp/cli.html) and [Hypexr's Bash
 Tutorial](http://www.hypexr.org/bash_tutorial.php). You can also add a linux
-cli to your windows desktop wth [cygwin](http://www.cygwin.com/) or a lightweight
-alternative [gow][https://github.com/bmatzelle/gow/wiki/]
+shell to your windows machine wth [cygwin](http://www.cygwin.com/) or a lightweight
+alternative [gow](https://github.com/bmatzelle/gow/wiki/)
