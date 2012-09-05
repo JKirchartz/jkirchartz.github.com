@@ -50,9 +50,9 @@ could try there too.
 
 Here's a quick reference of commands for moving around:
 
-  * pwd = display current directory path (Print Working Directory)
-  * ls = list files, you can add flags to see more info on each file, I like to use "ls -alF" (LiSt) 
-  * cd = change directory, use "cd ../" to move up one directory, or "cd /var/www/html" to move to an entirely different directory (Change Directory)
+* pwd = display current directory path (Print Working Directory)
+* ls = list files, you can add flags to see more info on each file, I like to use "ls -alF" (LiSt) 
+* cd = change directory, use "cd ../" to move up one directory, or "cd /var/www/html" to move to an entirely different directory (Change Directory)
 
 for more on these, check the wikipedia pages for
 [cd](http://en.wikipedia.org/wiki/Cd_\(command\)),
@@ -61,16 +61,15 @@ for more on these, check the wikipedia pages for
 
 ## Editing Text-based files:
 
-The de-facto standard is VIM, so to try it out simply type "vim" into the
+My favorite is VIM, so to try it out simply type "vim" into the
 command line to create a new file and lets go. Notice that typing isn't
 changing anything? yeah, vim has input mode and command mode, and you start in
 command mode. So hit "i" to switch from command mode to input mode and you can
 finally start typing, to get back to control mode hit "esc", and to save and
 quit (from command mode) use ":wq"; to quit immediately without saving use
-":q!". Vim is super powerful but this switching thing is annoying and it's not
-obvious how to use it. The [learning curve is
-steep](http://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-
-use-vim-was-wrong/). There have been books written about using VIM, it's a
+":q!". Vim is super powerful but this switching thing is radically different than most windows-based 
+text editors. The [learning curve is steep](http://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/), but worth it.
+There have been books written about using VIM, it's a
 huge entity unto itself to [learn more about VIM](http://www.vim.org/docs.php)
 try [their docs](http://www.vim.org/docs.php) or check out this nice [VIM
 Cheat-sheet](http://michael.peopleofhonoronly.com/vim/).
@@ -91,10 +90,10 @@ it the same.
 
 Here's a few nano commands that are useful:
 
-  * ctrl+k = cut, you can cut out multiple lines by hitting this repeatedly.
-  * ctrl+u = uncut, you can re-insert cutout lines by hitting this repeatedly.
-  * ctrl+/ = goto line #
-  * ctrl+w = search for a word or phrase, there are a few options here, 'M-R' is a regex search, try hitting "esc+r" to use this (M stand for Meta-key, so try the Apple key or Windows key if esc doesn't work).
+* ctrl+k = cut, you can cut out multiple lines by hitting this repeatedly.
+* ctrl+u = uncut, you can re-insert cutout lines by hitting this repeatedly.
+* ctrl+/ = goto line #
+* ctrl+w = search for a word or phrase, there are a few options here, 'M-R' is a regex search, try hitting "esc+r" to use this (M stand for Meta-key, so try the Apple key or Windows key if esc doesn't work).
 
 Nano's UI shows options you can use to translate keystrokes you should know
 that ^ = ctrl and M = esc.
@@ -131,5 +130,5 @@ can be a very helpful tool. For more information check out
 [http://linuxcommand.org/](http://linuxcommand.org/), [TuxFiles' intro to the
 Linux CLI](http://www.tuxfiles.org/linuxhelp/cli.html) and [Hypexr's Bash
 Tutorial](http://www.hypexr.org/bash_tutorial.php). You can also add a linux
-shell to your windows machine wth [cygwin](http://www.cygwin.com/) or a lightweight
+shell to your windows machine wth [cygwin](http://www.cygwin.com/) or lightweight
 alternative [gow](https://github.com/bmatzelle/gow/wiki/)
