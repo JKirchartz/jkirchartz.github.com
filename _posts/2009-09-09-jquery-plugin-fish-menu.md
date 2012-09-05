@@ -48,10 +48,9 @@ And then throwing some javascript/css at it like this:
 
 and Ka-Pow, drop-down jQuery menus in 2.66KB (minified)
 
-DOWNLOAD: [FULL](http://jkirchartz-jquery-
-repository.googlecode.com/files/jquery.fish.menu.js) [MINI](http://jkirchartz-
-jquery-repository.googlecode.com/files/jquery.fish.menu-min.js) [CSS](http
-://jkirchartz-jquery-repository.googlecode.com/files/jquery.fish.css)
+DOWNLOAD: [FULL](http://jkirchartz-jquery-repository.googlecode.com/files/jquery.fish.menu.js) 
+[MINI](http://jkirchartz-jquery-repository.googlecode.com/files/jquery.fish.menu-min.js) 
+[CSS](http://jkirchartz-jquery-repository.googlecode.com/files/jquery.fish.css)
 
 I have noticed a bug in ie6 (it exists in the original potato menu too) and I
 can't really figure it out, the li's in the sub-nav appear to float left, if
