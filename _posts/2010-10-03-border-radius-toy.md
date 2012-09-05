@@ -3,9 +3,7 @@ layout: post
 title: Border Radius Toy 
 --- 
 
-[![](http://3.bp.blogspot.com/_KHL6Vvj96Eo/TKi5woZN7jI/AAAAAAAAAoA/hewVyI7JzKA
-/s320/BorderRadiusToy.png)](http://3.bp.blogspot.com/_KHL6Vvj96Eo/TKi5woZN7jI/
-AAAAAAAAAoA/hewVyI7JzKA/s1600/BorderRadiusToy.png)
+[![](http://3.bp.blogspot.com/_KHL6Vvj96Eo/TKi5woZN7jI/AAAAAAAAAoA/hewVyI7JzKA/s320/BorderRadiusToy.png)](http://3.bp.blogspot.com/_KHL6Vvj96Eo/TKi5woZN7jI/AAAAAAAAAoA/hewVyI7JzKA/s1600/BorderRadiusToy.png)
 
 
 This is my CSS3 Border-Radius Toy, it's kind of a rip-off of a rip-off of
@@ -20,6 +18,4 @@ creating more complex shapes. It's a simple single-page toy, written with
 
 
 The [source code](http://github.com/JKirchartz/BorderRadiusToy) is available
-on [GitHub](http://github.com/), and you can view it live at [http://demos.jki
-rchartz.com/Border_Radius_Toy.html](http://demos.jkirchartz.com/Border_Radius_
-Toy.html)
+on [GitHub](http://github.com/), or you can [view it live](http://demos.jkirchartz.com/Border_Radius_Toy.html)
