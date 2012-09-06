@@ -89,7 +89,10 @@ header h1 a {
     text-shadow:2px 2px 0px #130f30,
     0px 0px 5px #fff;
 }
-header h1 a:hover { text-decoration:none }
+header h1 a:hover { 
+    text-decoration:none 
+    color:#309090;
+}
 header span {
     font-style:italic; 
     color:#b0e0e0;
