@@ -69,18 +69,21 @@ a:hover {
     background: rgba(255, 255, 255, 0.7);
 }
 
-header {
-    overflow: hidden;
+
+h1, h2, h3 { margin:0 0.5rem; }
+
+h1 { font-size:3.4em; }
+h2 { font-size:2.1em; }
+h3 { font-size:1.3em; }
+
+header h1 {
+    font-size:4em; 
+    display:inline-block 
 }
-
-h1, h2, h3 { margin:0 0.5em; }
-
-h1 { font-size:3.5em; }
-h2 { font-size:2.5em; }
-h3 { font-size:1.5em; }
-
-header h1 {font-size:4em; display:inline-block }
-header span {font-style:italic; display:inline-block}
+header span {
+    font-style:italic; 
+    display:inline-block;
+}
 nav ul {
     background:#130f30;
     padding:0.5em;
@@ -181,3 +184,10 @@ footer {
     font-size: 0.65em;
     text-align: center;
 }
+/* media query: change header span padding @ 555px */
+@media all and (max-width: 555px) {
+    header span {
+        padding:0.5em 2em;
+    }
+}
+
