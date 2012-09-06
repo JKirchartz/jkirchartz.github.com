@@ -66,9 +66,12 @@ a:hover {
     min-width:50%;
     max-width:60em;
     margin: 0 auto;
-    background: rgba(255, 255, 255, 0.7);
 }
 
+article {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius:0.5em;
+}
 
 h1, h2, h3 { margin:0 0.5rem; }
 
@@ -78,14 +81,19 @@ h3 { font-size:1.3em; }
 
 header h1 {
     font-size:4em; 
-    display:inline-block 
+    display:inline-block; 
+}
+header h1 a {
+    text-decoration:none;
+    color:#309090;
+    text-shadow:1px 1px 0px #130f30,
+    0px 0px 5px #fff;
 }
 header span {
     font-style:italic; 
     display:inline-block;
 }
-nav ul {
-    background:#130f30;
+nav ul { 
     padding:0.5em;
 }
 nav li {
@@ -187,7 +195,7 @@ footer {
 /* media query: change header span padding @ 555px */
 @media all and (max-width: 555px) {
     header span {
-        padding:0 1em;
+        padding:0 0 1em 1em;
     }
 }
 
