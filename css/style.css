@@ -187,7 +187,7 @@ footer {
 /* media query: change header span padding @ 555px */
 @media all and (max-width: 555px) {
     header span {
-        padding:0.5em 2em;
+        padding:0 1em;
     }
 }
 
