@@ -45,12 +45,11 @@ body {
 a {
     font-size:1em;
     color: #130f30;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:hover {
     color: #261f41;
-    text-decoration: underline;
 }
 #canvas {
     width:100%;
@@ -90,7 +89,7 @@ header h1 a {
     0px 0px 5px #fff;
 }
 header h1 a:hover { 
-    text-decoration:none 
+    text-decoration:none;
     color:#309090;
 }
 header span {
@@ -244,6 +243,8 @@ footer {
     border-radius:0.5em;
     font-size: 0.65em;
     text-align: center;
+    margin:1em 0;
+    padding:0.5em;
 }
 footer li {
     display:inline-block;
