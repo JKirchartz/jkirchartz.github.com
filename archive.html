@@ -17,7 +17,7 @@ title: archive
                 {{ post.date | date: "%Y" }}
             </span>
         </time>
-        <h3><a href="/blog{{ post.url | downcase }}">{{ post.title }}</a></h3>
+        <a href="/blog{{ post.url | downcase }}">{{ post.title }}</a>
     </li>
     {% endfor %}
 </ul>

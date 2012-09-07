@@ -135,9 +135,16 @@ nav li a:hover {
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
-nav.pagination {
+.pagination {
     text-align:center;
     font-size:1.3em;
+}
+.pagination span {
+    display:inline-block;
+    border:2px #309090 solid;
+    border-bottom:0;
+    border-radius:0.5em;
+    background:#b0e0e0;
 }
 p img {
     display:block;
@@ -226,15 +233,16 @@ time {
     background: #b0e0e0;
     border-radius: 0 0 0.75em 0.75em;
 }
-.archive h3 {
-    display:inline-block
+.archive a {
+    display:block;
+    text-align:center;
+    font-size:2.1em;
 }
 footer {
     font-size: 0.65em;
     text-align: center;
 }
-/* media query: change header span padding @ 555px */
-@media all and (max-width: 555px) {
+@media all and (max-width: 35em) {
     header span {
         padding:0 0 1em 1em;
     }
