@@ -197,11 +197,35 @@ blockquote p:last-child:after {
 p {
     padding:0.5em 0.75em;
 }
-time {display:inline-block;width:3em;font-family:sans-serif;border:4px solid #b0e0e0;color:#130f30}
-.month, .day, .year {display:block;text-align:center;line-height:0.9;padding:0.1em 0}
-.month {font-size:2.2em;background:#309090}
-.day {font-size:1.5em;background:#b0e0e0}
-.year {font-size:1em;background:#309090}
+time {
+    display: block;
+    width: 4em;
+    font-family: sans-serif;
+    border-radius: 1em;
+    border: 4px solid #309090;
+    background: #309090;
+    color: #130f30;
+    margin: 0.5em auto;
+}       
+.month, .day, .year {
+    display: block;
+    text-align: center;
+    line-height: 1.3;
+}
+.day {
+    font-size: 2.5em;
+    background: #b0e0e0;
+    border-radius: 0.3em 0.3em 0 0;
+}
+.month {
+    font-size: 2.2em;
+    background: #309090;
+}
+.year {
+    font-size: 1em;
+    background: #b0e0e0;
+    border-radius: 0 0 0.75em 0.75em;
+}
 .archive h3 {
     display:inline-block
 }
