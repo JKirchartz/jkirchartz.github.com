@@ -4,3 +4,14 @@ layout: base
 {% assign post = site.posts.first %}
 {% assign content = post.content %}
 {% include post_detail.html %}
+<nav class="pagination">
+    {% if page.previous.url %}
+    <a href="/blog{{ page.previous.url }}" rel="previous" title="{{ page.previous.title }}">&raquo;</a>
+    {% endif %}
+    &nbsp;
+    ({{ paginator.posts }}/{{ paginator.total_posts }})
+    &nbsp;
+    {% if page.next.url %}
+    <a href="/blog{{ page.next.url }}" rel="next" title="{{ page.next.title }}">&laquo;</a>
+    {% endif %}
+</nav>
