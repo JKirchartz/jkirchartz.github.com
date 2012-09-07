@@ -6,4 +6,8 @@
     <a href="{{ post.url | lower  }}">{{ post.title }}</a>
 {% endif %}
 </h1>
-{{ content }}
+{% if content %}
+    {{ content }}
+{% elseif page.content %}
+    {{ page.content }}
+{% endif %}
