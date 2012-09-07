@@ -135,7 +135,10 @@ nav li a:hover {
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
-
+nav.pagination {
+    text-align:center;
+    font-size:1.3em;
+}
 p img {
     display:block;
     margin:0 auto;
