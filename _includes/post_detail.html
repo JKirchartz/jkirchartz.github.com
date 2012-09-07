@@ -9,7 +9,9 @@
 {% if content %}
     {{ content }}
 {% else %}
-    {% if content %}
+    {% if page.content %}
         {{ page.content }}
+    {% else  %}
+        {{ post.content }}
     {% endif %}
 {% endif %}
