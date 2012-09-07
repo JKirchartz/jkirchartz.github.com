@@ -1,9 +1,9 @@
 <h1 class="entry-title">
     {% if page.title %}
-    x <a href="{{ page.url | lower }}">{{ page.title }}</a>
+        <a href="{{ page.url | lower }}">{{ page.title }}</a>
     {% endif %}
     {% if post.title %}
-    <a href="{{ post.url | lower  }}">{{ post.title }}</a>
+        <a href="{{ post.url | lower  }}">{{ post.title }}</a>
     {% endif %}
 </h1>
 
@@ -13,6 +13,19 @@
 {{ post.content }}
 {% endif %}
 
+{% if page.date %}
+<time datetime="{{ page.date }}">
+    <span class="day">
+        {{ page.date | date: "%d" }}
+    </span>
+    <span class="month">
+        {{ page.date | date: "%b" }}
+    </span>
+    <span class="year">
+        {{ page.date | date: "%Y" }}
+    </span>
+</time>
+{% else %}
 <time datetime="{{ post.date }}">
     <span class="day">
         {{ post.date | date: "%d" }}
@@ -24,3 +37,4 @@
         {{ post.date | date: "%Y" }}
     </span>
 </time>
+{% endif %}
