@@ -3,13 +3,13 @@ layout: base
 ---
 {% include post_detail.html %}
 <nav class="pagination">
-    {% if page.previous.url %}
-    <a href="{{ page.previous.url }}" rel="previous" title="{{ page.previous.title }}">&raquo;</a>
+    {% if post.previous.url %}
+    <a href="/blog{{ post.previous.url }}" rel="previous" title="{{ page.previous.title }}">&raquo;</a>
     {% endif %}
     &nbsp;
-    {{ paginator.posts  }}/{{ paginator.total_posts }}
+    ({{ paginator.posts }}/{{ paginator.total_posts }})
     &nbsp;
     {% if page.next.url %}
-    <a href="{{ page.next.url }}" rel="next" title="{{ page.next.title }}">&laquo;</a>
+    <a href="/blog{{ post.next.url }}" rel="next" title="{{ page.next.title }}">&laquo;</a>
     {% endif %}
 </nav>

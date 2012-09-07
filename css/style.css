@@ -197,6 +197,11 @@ blockquote p:last-child:after {
 p {
     padding:0.5em 0.75em;
 }
+time {display:inline-block;width:50px;font-family:sans-serif;border:4px solid #b0e0e0;color:#130f30}
+.month, .day, .year {display:block;text-align:center;line-height:0.9;padding:0.1em 0}
+.month {font-size:2.2em;background:#309090}
+.day {font-size:1.5em;background:#b0e0e0}
+.year {font-size:1em;background:#309090}
 footer {
     font-size: 0.65em;
     text-align: center;
