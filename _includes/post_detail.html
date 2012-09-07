@@ -8,6 +8,8 @@
 </h1>
 {% if content %}
     {{ content }}
-{% elseif page.content %}
-    {{ page.content }}
+{% else %}
+    {% if content %}
+        {{ page.content }}
+    {% endif %}
 {% endif %}
