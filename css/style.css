@@ -202,7 +202,7 @@ blockquote p:last-child:after {
     vertical-align:-0.6em;
     font-weight: bold;
 }
-p {
+article ul, p {
     padding:0.5em 0.75em;
 }
 time {
@@ -240,8 +240,15 @@ time {
     font-size:2.1em;
 }
 footer {
+    background:rgba(255,255,255,0.8);
+    border-radius:0.5em;
     font-size: 0.65em;
     text-align: center;
+}
+footer li {
+    display:inline-block;
+    width:33%;
+    text-align:center;
 }
 @media all and (max-width: 35em) {
     header span {

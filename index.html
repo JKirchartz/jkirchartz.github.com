@@ -8,11 +8,11 @@ layout: base
 <div class="pagination">
     <span>
         {% if paginator.previous_page %}
-            <a href="/blog/page{{paginator.previous_page}}" class="previous">&laquo;</a>
+            <a href="/blog/page{{paginator.previous_page}}" class="previous">&laquo;~</a>
         {% endif %}
-        ~[{{paginator.page}}/{{paginator.total_pages}}]~
+        [{{paginator.page}}/{{paginator.total_pages}}]
         {% if paginator.next_page %}
-            <a href="/blog/page{{paginator.next_page}}" class="next ">&raquo;</a>
+            <a href="/blog/page{{paginator.next_page}}" class="next ">~&raquo;</a>
         {% endif %}
     </span>
 </div>
