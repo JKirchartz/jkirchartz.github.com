@@ -2,8 +2,6 @@
 layout: base
 ---
 {% for post in paginator.posts %}
-{{ # assign post = site.posts.first }}
-{{ # assign content = post.content }}
 {% include post_detail.html %}
 {% endfor %}
 
