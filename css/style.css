@@ -36,12 +36,14 @@ html {
     background-attachment:fixed;
     background-size:cover;
 }
+
 body {
     font: 112.5%/1.5 Cambria, Georgia, serif;
-    color: #222;
+    color: #555;
     padding: 0;
     margin: 0;
 }
+
 a {
     font-size:1em;
     color: #130f30;
@@ -49,8 +51,9 @@ a {
 }
 
 a:hover {
-    color: #261f41;
+    color: #31277C;
 }
+
 #canvas {
     width:100%;
     height:100%;
@@ -68,7 +71,7 @@ a:hover {
 }
 
 article {
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.8);
     border-radius:0.5em;
 }
 
@@ -76,16 +79,18 @@ h1, h2, h3 { margin:0 0.5rem; }
 h1 { font-size:2.11538em; padding:1.73177em 0; }
 h2 { font-size:1.61538em; padding:1.57136em 0; }
 h3 { font-size:1.30769em; padding:1.54418em 0; }
-
+h1 a, h2 a, h3 a {
+    text-decoration:none;
+}
 header h1 {
     font-size:3.42308em; 
     padding:1.66011em 0;
     display:inline-block; 
 }
 header h1 a {
-    text-decoration:none;
     color:#b0e0e0;
     text-shadow:2px 2px 0px #130f30,
+    0 0 10px #130f30,
     0px 0px 5px #fff;
 }
 header h1 a:hover { 
@@ -236,7 +241,7 @@ time {
 .archive a {
     display:block;
     text-align:center;
-    font-size:2.1em;
+    font-size:2em;
 }
 #disqus_thread {
     max-width:75%;
