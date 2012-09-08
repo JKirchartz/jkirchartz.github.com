@@ -6,17 +6,7 @@ title: archive
 <ul class="archive">
     {% for post in site.posts %}
     <li>
-        <time datetime="{{ post.date }}">
-            <span class="day">
-                {{ post.date | date: "%d" }}
-            </span>
-            <span class="month">
-                {{ post.date | date: "%b" }}
-            </span>
-            <span class="year">
-                {{ post.date | date: "%Y" }}
-            </span>
-        </time>
+        {% include time.html %}
         <a href="/blog{{ post.url | downcase }}">{{ post.title }}</a>
     </li>
     {% endfor %}
