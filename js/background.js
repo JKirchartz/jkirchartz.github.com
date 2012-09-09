@@ -229,9 +229,9 @@ boxBlurCanvasRGBA("canvas", 0, 0, canvas.width, canvas.height, 20, 30);
     //filter for IE, not sure if an IE with canvas
     //has opacity working...
     canvas.style.filter = 'alpha(opacity=' + fadein*100 + ')';
-    if(canvas.style.opacity>=0.9){
-        canvas.style.opacity=0.9;   
-        canvas.style.filter = 'alpha(opacity=90)';
+    if(canvas.style.opacity>=0.7){
+        canvas.style.opacity=0.7;   
+        canvas.style.filter = 'alpha(opacity=70)';
         return false;                                                                                                                                                                                                                            
     }     
     setTimeout(arguments.callee,30);     
