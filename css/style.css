@@ -302,6 +302,9 @@ time {
        text-align:center;
        font-size:2em;
 }
+div.highlight {
+    margin:1em;
+}
 #disqus_thread {
     max-width:75%;
     margin:0 auto;
