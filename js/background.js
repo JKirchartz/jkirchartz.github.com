@@ -230,8 +230,8 @@ boxBlurCanvasRGBA("canvas", 0, 0, canvas.width, canvas.height, 20, 30);
     //has opacity working...
     canvas.style.filter = 'alpha(opacity=' + fadein*100 + ')';
     if(canvas.style.opacity>=0.9){
-        canvas.style.opacity=1;   
-        canvas.style.filter = 'alpha(opacity=100)';
+        canvas.style.opacity=0.9;   
+        canvas.style.filter = 'alpha(opacity=90)';
         return false;                                                                                                                                                                                                                            
     }     
     setTimeout(arguments.callee,30);     
