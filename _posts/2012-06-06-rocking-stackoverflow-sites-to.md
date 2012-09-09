@@ -89,3 +89,5 @@ little more transferable
 
 update2: added cdn, if anybody wants to add to the list drop me a line, if
 there's enough interest I'll make a repo to keep it updated in the future ;)
+
+update3: My blog now runs on Jekyll on Github, to add to the list fork & make a pull request!
