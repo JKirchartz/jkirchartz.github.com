@@ -2,7 +2,9 @@
 layout: base
 ---
 {% for post in paginator.posts %}
+<article>
 {% include post_detail.html %}
+</article>
 {% endfor %}
 
 <div class="pagination">

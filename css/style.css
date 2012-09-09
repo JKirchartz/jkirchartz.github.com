@@ -305,7 +305,8 @@ time {
        text-align:center;
        font-size:2em;
 }
-div.highlight {
+.highlight, .gist, iframe{
+
     margin:1em;
 }
 #disqus_thread {
