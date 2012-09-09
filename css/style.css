@@ -270,11 +270,11 @@ time {
 }
 .year:after {
        border-right-color: transparent;
-       right: -2.25em;
+       right: -1.9em;
 }
 .day:before {
        border-left-color: transparent;
-       left: -2.2em;
+       left: -1.9em;
 }                                  
 .day:after, .year:before {
        content: '';
