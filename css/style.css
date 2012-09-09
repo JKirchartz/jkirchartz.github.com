@@ -39,7 +39,7 @@ html {
 
 body {
     font: 112.5%/1.5 Cambria, Georgia, serif;
-    color: #555;
+    color: #333;
     padding: 0;
     margin: 0;
 }
@@ -245,7 +245,7 @@ time {
        position: absolute;
        border-style: solid;
        border-color: transparent;
-       bottom: -0.4em;
+       bottom: -0.5em;
 }
 .month:before {
        border-width: 0 0.5em 0.5em 0;
@@ -265,7 +265,7 @@ time {
        position: absolute;
        border-style: solid;
        border-color: #49DCDC;   
-       top: -0.5em;
+       top: -0.35em;
        border-width: 1.21em;    
 }
 .year:after {
