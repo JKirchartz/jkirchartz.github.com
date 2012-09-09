@@ -194,6 +194,7 @@ function boxBlurCanvasRGBA( id, top_x, top_y, width, height, radius, iterations 
 
 /*********************************************
  * Generate Background
+ * what follows is copyleft: use & abuse at will
  *********************************************/
 
 var canvas = document.getElementById("canvas"),
@@ -228,7 +229,7 @@ boxBlurCanvasRGBA("canvas", 0, 0, canvas.width, canvas.height, 20, 30);
     //filter for IE, not sure if an IE with canvas
     //has opacity working...
     canvas.style.filter = 'alpha(opacity=' + fadein*100 + ')';
-    if(canvas.style.opacity>=1){
+    if(canvas.style.opacity>=0.9){
         canvas.style.opacity=1;   
         canvas.style.filter = 'alpha(opacity=100)';
         return false;                                                                                                                                                                                                                            
