@@ -73,6 +73,7 @@ a:hover {
 article {
     background: #ddd;
     border-radius:0.5em;
+    margin: 0.5em 0;
 }
 
 h1, h2, h3 { margin:0 0.5rem; }
@@ -146,10 +147,9 @@ nav li a:hover {
 .pagination span {
     display:inline-block;
     border:2px #309090 solid;
-    border-bottom:0;
     background:#b0e0e0;
-    padding:0.5;
-    border-radius: 0.5em 0.5em 0 0;
+    padding:0.5em;
+    border-radius: 0.5em;
 }
 p img {
     display:block;
