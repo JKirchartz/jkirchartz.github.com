@@ -234,11 +234,11 @@ time {
       margin: 0 -0.75em;  
       border:1px solid #359D9D;
       background:#49DCDC;    
-      z-index:25;
+      z-index:30;
 }
 .month:before, .month:after {
        content: '';
-       z-index:20;
+       z-index:25;
        margin:0;
        padding:0;
        position: absolute;
