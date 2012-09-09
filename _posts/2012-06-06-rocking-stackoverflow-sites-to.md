@@ -79,7 +79,7 @@ include a library into your sandbox
 
 
 ##other  
-these don't really_ do_ anything, but they help you make your knowledge a
+these don't really _do_ anything, but they help you make your knowledge a
 little more transferable
 
 * [http://httpstatus.es](http://httpstatus.es/)
