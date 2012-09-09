@@ -228,15 +228,17 @@ time {
 .day, .year {
        top:0.45em;
        border:1px solid #359D9D;
+       z-index:20;
 }
 .month {
       margin: 0 -0.75em;  
       border:1px solid #359D9D;
       background:#49DCDC;    
-      z-index:15;
+      z-index:25;
 }
 .month:before, .month:after {
        content: '';
+       z-index:20;
        margin:0;
        padding:0;
        position: absolute;
@@ -257,7 +259,7 @@ time {
 
 .year:after {
        content: '';
-       z-index:11;
+       z-index:15;
        margin:0;
        padding:0;
        position: absolute;
