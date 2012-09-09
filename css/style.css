@@ -215,7 +215,9 @@ article ul, p {
 }
 time {
        display:inline-block;
-       margin:0.5em auto;
+       margin:1em auto 2em auto;
+       color:#eee;
+       text-shadow: 0 0 5px #333, 1px 1px 0 #000;
 }
 .day, .month, .year {
     padding:0.5em 1em;
@@ -224,6 +226,7 @@ time {
     line-height:1.5;
     background:#309090;
     border:1px solid #359D9D;   
+    box-shadow: inset 0 0 10px #333, 2px 0 5px #333;
 }
 .day, .year {
     top:0.45em;
