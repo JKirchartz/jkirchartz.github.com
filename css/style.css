@@ -71,7 +71,7 @@ a:hover {
 }
 
 article {
-    background: rgba(255, 255, 255, 0.8);
+    background: #ddd;
     border-radius:0.5em;
 }
 
