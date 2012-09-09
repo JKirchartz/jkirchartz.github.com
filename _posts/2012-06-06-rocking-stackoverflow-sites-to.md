@@ -42,7 +42,7 @@ some of these cover multiple languages
 * [http://rendera.heroku.com/](http://rendera.heroku.com/)
 * [http://fiddlesalad.com/](http://fiddlesalad.com/)
 * [http://codepen.io/](http://codepen.io/)
-
+* [http://www.htmlinstant.com/](http://www.htmlinstant.com/)
 
 ##validators / cleaners  
 
