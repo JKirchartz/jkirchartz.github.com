@@ -192,6 +192,7 @@ blockquote + p {
 }
 blockquote p:first-child:before {
     content: '“'; 
+    font-family: sans-serif;
     font-size:4em;
     line-height:0.1em;
     margin-right:0.1em;
@@ -200,6 +201,7 @@ blockquote p:first-child:before {
 }
 blockquote p:last-child:after {
     content: '”'; 
+    font-family: sans-serif;
     font-size:4em;
     line-height:0.1em;
     margin-right:0.1em;
@@ -226,7 +228,7 @@ time {
     line-height:1.5;
     background:#309090;
     border:1px solid #359D9D;   
-    box-shadow: inset 0 0 5px rgba(51,51,51,0.5), 0 2px -5px rgba(51,51,51,0.5);
+    box-shadow: inset 0 0 5px rgba(51,51,51,0.5), 0 2px 5px rgba(51,51,51,0.5);
 }
 .day, .year {
     top:0.45em;
@@ -306,7 +308,6 @@ time {
        font-size:2em;
 }
 .highlight, .gist, iframe{
-
     margin:1em;
 }
 #disqus_thread {
@@ -323,7 +324,8 @@ footer {
 }
 footer li {
     display:inline-block;
-    width:33%;
+    margin:0.5em 1em;
+    min-width: 50px;
     text-align:center;
 }
 @media all and (max-width: 35em) {
