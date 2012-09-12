@@ -45,7 +45,7 @@ handsets](http://www.carrypad.com/files/2012/02/android-handset-screen-sizes-ove
 </div>
 
 
-completely proprietary nature of [feature
+This graph is just screen dimensions for Android phones! Nevermind the completely proprietary nature of [feature
 phones](http://www.phonescoop.com/glossary/term.php?gid=310) and the world of
 tablets. You have absolutely no control over the screen dimensions your client
 is using, or what resolution they're running, because of this there is no way
