@@ -1,6 +1,8 @@
 --- 
 layout: post 
 title: There is no such thing as pixel-perfect web design 
+tags:
+- article
 --- 
 
 There, I said it. Now get the phrase out of your head, it doesn't exist, please stop trying. 

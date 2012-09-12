@@ -2,6 +2,8 @@
 layout: post
 title: Hello Github, Goodbye Blogger
 published: false
+tags:
+- article
 ---
 
 

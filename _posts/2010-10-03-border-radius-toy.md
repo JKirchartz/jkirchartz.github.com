@@ -1,6 +1,10 @@
 --- 
 layout: post 
 title: Border Radius Toy 
+tags:
+- demo
+- jQuery
+- html5
 --- 
 
 [![](http://3.bp.blogspot.com/_KHL6Vvj96Eo/TKi5woZN7jI/AAAAAAAAAoA/hewVyI7JzKA/s320/BorderRadiusToy.png)](http://3.bp.blogspot.com/_KHL6Vvj96Eo/TKi5woZN7jI/AAAAAAAAAoA/hewVyI7JzKA/s1600/BorderRadiusToy.png)

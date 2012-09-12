@@ -1,6 +1,11 @@
 --- 
 layout: post 
 title: "Rocking StackOverflow: Sites to Troubleshoot Code in Your Browser" 
+tags:
+- article
+- html
+- javascript
+- regex
 --- 
 
 [StackOverflow](http://stackoverflow.com/) is an awesome community, devs 

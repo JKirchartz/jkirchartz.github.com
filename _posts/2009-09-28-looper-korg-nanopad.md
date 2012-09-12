@@ -1,6 +1,8 @@
 --- 
 title: Ableton Live 8 Looper & Korg nanoPAD 
 layout: post 
+tags:
+- music
 ---    
 
 The music of [Yoav](http://www.yoavmusic.com/) is heavily loop based, due to

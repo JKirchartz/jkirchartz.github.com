@@ -1,6 +1,9 @@
 --- 
 layout: post 
 title: The Great Internet Migratory Box Of Electronics Junk 
+tags:
+- hacks
+- article
 --- 
 
 [![](http://1.bp.blogspot.com/_KHL6Vvj96Eo/TOgBB40umBI/AAAAAAAAAoQ/0J81Xv-pjJY

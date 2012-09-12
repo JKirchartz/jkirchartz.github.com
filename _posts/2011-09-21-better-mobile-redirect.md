@@ -1,6 +1,9 @@
 --- 
 layout: post 
 title: Better Mobile Redirect 
+tags:
+- html
+- javascript
 --- 
 
 Here is a simple reusable javascript redirect that uses the [Mobile Link Discovery Spec](http://www.sixapart.jp/docs/tech/mobile_link_discovery_en.html) 
