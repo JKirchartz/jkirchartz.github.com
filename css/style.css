@@ -73,7 +73,6 @@ a:hover {
 #main {
     position:relative;
     z-index:10;
-    min-width:50%;
     max-width:40.5em;
     margin: 0 auto;
 }
@@ -94,6 +93,7 @@ h1 a, h2 a, h3 a {
 header h1 {
     font-size:3.42308em; 
     padding:1em 0;
+    display:inline; /* for IE */
     display:inline-block; 
 }
 header h1 a {
@@ -109,6 +109,7 @@ header h1 a:hover {
 header span {
     font-style:italic; 
     color:#b0e0e0;
+    display:inline; /* for IE */
     display:inline-block;
     text-shadow:0px 0px 5px #130f30;
 }
@@ -116,6 +117,7 @@ nav ul {
     padding:0.5em;
 }
 nav li {
+    display:inline; /* for IE */
     display:inline-block; 
 }
 nav li a {
@@ -135,6 +137,7 @@ nav li a {
     padding:0.5em;
     text-decoration:none; 
     margin: 5px; 
+    display:inline; /* for IE */
     display:inline-block;
 }
 nav li a:hover {
@@ -224,6 +227,7 @@ article ul, p {
     text-align:center;   
 }
 time {
+    display:inline; /* for IE */
     display:inline-block;
     margin:1em auto 2em auto;
     color:#eee;
@@ -232,6 +236,7 @@ time {
 .day, .month, .year {
     padding:0.5em 1em;
     margin:0;
+    display:inline; /* for IE */
     display:inline-block;
     line-height:1.5;
     background:#309090;
@@ -331,6 +336,7 @@ footer {
     padding:0.5em;
 }
 footer li {
+    display:inline; /* for IE */
     display:inline-block;
     margin:0.5em 1em;
     min-width: 50px;
