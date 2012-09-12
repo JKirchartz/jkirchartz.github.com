@@ -324,6 +324,7 @@ time {
     font-size:2em;
 }
 .highlight, .gist, iframe{
+    display:block;
     margin:1em;
     max-width:100%;
 }
