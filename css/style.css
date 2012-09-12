@@ -325,6 +325,7 @@ time {
 }
 .highlight, .gist, iframe{
     margin:1em;
+    max-width:100%;
 }
 #disqus_thread {
     max-width:75%;
