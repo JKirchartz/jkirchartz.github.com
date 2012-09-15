@@ -69,7 +69,6 @@ html](http://stackoverflow.com/a/1732454/276250).
 * [http://www.regexplanet.com/](http://www.regexplanet.com/)
 * [http://www.regextester.com/](http://www.regextester.com/)
 * [http://regexr.com](http://regexr.com/)
-* [http://rextester.com/rundotnet](http://rextester.com/rundotnet)
 * [http://rextester.com/](http://rextester.com/)
 * [http://regexp.quaxio.com/ (linter)](http://regexp.quaxio.com/)
 
