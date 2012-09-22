@@ -5,6 +5,9 @@ tags:
 - music
 ---    
 
+<iframe width="420" height="315" src="http://www.youtube.com/embed/7qpUFDoNBHs" frameborder="0" allowfullscreen>
+</iframe>
+
 The music of [Yoav](http://www.yoavmusic.com/) is heavily loop based, due to
 the fact that every sound is either produced by his guitar or his voice. To
 accomplish this he has several looping delay pedals; In some of [his videos on
