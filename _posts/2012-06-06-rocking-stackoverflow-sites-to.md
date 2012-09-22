@@ -80,6 +80,7 @@ include a library into your sandbox
 * [http://www.asp.net/ajaxlibrary/cdn.ashx](http://www.asp.net/ajaxlibrary/cdn.ashx)
 * [http://developers.google.com/speed/libraries/devguide](http://developers.google.com/speed/libraries/devguide)
 * [http://code.createjs.com/](http://code.createjs.com/)
+* [http://www.jsdelivr.com/](http://www.jsdelivr.com/)
 
 
 ##other  
