@@ -5,7 +5,7 @@ tags:
 - music
 ---    
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/7qpUFDoNBHs" frameborder="0" allowfullscreen>
+<iframe width="420" height="315" src="http://www.youtube.com/embed/7qpUFDoNBHs" frameborder="0">
 </iframe>
 
 The music of [Yoav](http://www.yoavmusic.com/) is heavily loop based, due to
