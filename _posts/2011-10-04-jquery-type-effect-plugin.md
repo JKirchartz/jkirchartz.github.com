@@ -10,7 +10,8 @@ Let's kick it old-school, with the absolute CLASSIC typewriter effect. I couldn'
 find a decent jQuery version of this effect that worked, so I pluginified some vintage 
 javascript.
  
-<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/JKirchartz/JEpWV/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe style="width: 95%; height: 300px" src="http://jsfiddle.net/JKirchartz/JEpWV/embedded/" allowfullscreen="allowfullscreen" frameborder="0">
+</iframe>
 
 One little "bug" here is that I'm not handling any dom elements, so the raw
 html code is displayed while it's writing, but as soon as it's written the dom
