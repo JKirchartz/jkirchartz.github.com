@@ -10,7 +10,8 @@ then convert it to CSS? Yeah, I know they're not really the same, but the CSS ha
 Why not pull it out and have a skeleton CSS file made for you? This short python script will read in HTML, and 
 spit out all the CSS selectors it can find. I plan on adding this to a larger project, so it's just a funtion and the call.
 
-<script src="https://gist.github.com/1118350.js"> </script>
+<script src="https://gist.github.com/1118350.js"> 
+</script>
 
 I'm using regex to get rid of everything that _isn't_ HTML, then [BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/) to parse the HTML into tags, ids, and classes. 
 I then remove duplicates by converting the list to a set and back, sort the lists, and add the appropriate CSS selector and brackets. 

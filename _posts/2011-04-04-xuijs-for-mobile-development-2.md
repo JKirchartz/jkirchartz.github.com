@@ -16,4 +16,6 @@ Hylckama Vlieg's Simple jQuery Accordion](http://www.i-marco.nl/weblog/jquery-ac
 simplifying the code to do without the IS, but it might be useful to you)
 Here's the extensions:
 
-<script src="https://gist.github.com/901715.js"> </script>
+<script src="https://gist.github.com/901715.js"> 
+</script>
+

@@ -13,11 +13,13 @@ whole [Responsive Design](http://www.alistapart.com/articles/responsive-web-desi
 and that has [it's problems](http://www.webdesignshock.com/responsive-design-problems/). 
 Sometimes you just gotta redirect, try using the link tag with the script below:  
 
-<script src="https://gist.github.com/1232304.js?file=redirect.js"></script>
+<script src="https://gist.github.com/1232304.js?file=redirect.js">
+</script>
 
 Then you'd have html like this:
 
-<script src="https://gist.github.com/1232304.js?file=test.html"></script>
+<script src="https://gist.github.com/1232304.js?file=test.html">
+</script>
 
 And away you go... I'm only testing for iPhone, iPad, Android, Blackberry, and WebOs. They run
 the market right now so I don't feel too bad for leaving out the fray, if
