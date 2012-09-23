@@ -227,18 +227,11 @@ article ul, p {
 }
 article li:before {
     display:inline-block;
-    content: counter(li);
-    counter-increment: li;
+    content: " ";
     background:#B0E0E0;
     border:1px solid #000;
-    font-size:1em;
-    font-weight:900;
     border-radius:1em;
     padding:0.2em 0.6em;
-}
-
-article li:nth-child(n+10):before {
-    padding:0.2em 0.33em 0.2em 0.27em;
 }
 
 .center {
