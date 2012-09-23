@@ -152,11 +152,11 @@ nav li a:hover {
     transition: all 0.2s ease-in-out;
 }
 header nav {
-    width:90%;
+    width:80%;
     display:inline-block;
 }
 #search {
-    width:10%;
+    width:15%;
     display:inline-block;
 }
 #search input, #search button {
