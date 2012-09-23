@@ -29,8 +29,8 @@ please continue reading.
 
 The software needed is:
 
-  * Ableton Live 8
-  * Korg Control Editor
+* Ableton Live 8
+* Korg Control Editor
 
 Alright, here's the setup:
 

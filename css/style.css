@@ -225,7 +225,10 @@ blockquote p:last-child:after {
 article ul, p {
     padding:0.5em 0.75em;
 }
-
+article ul {
+    margin-left:1em;
+    list-style:circle;
+}
 .center {
     text-align:center;   
 }
