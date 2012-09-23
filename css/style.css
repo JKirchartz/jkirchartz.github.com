@@ -225,6 +225,9 @@ blockquote p:last-child:after {
 article ul, p {
     padding:0.5em 0.75em;
 }
+article li {
+    margin:0.5em 0;
+}
 article li:before {
     display:inline-block;
     content: " ";
