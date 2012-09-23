@@ -38,12 +38,12 @@ Alright, here's the setup:
 * Create up to 6 return tracks (ctrl + alt + t)
 * * sometimes the returns don't show up, so switch to arrange view & click the arrow next to one and they should all show up in the session view
 * In each return track place a looper
-    * For each looper the setup is:
-        * Quantization: none
-        * Song Control: none
-        * Tempo Control: none
-        * Input -> Output: none
-        * Optionally you could set the first looper's tempo control to "Set & Follow Song Tempo" and every other track to "Follow Song Tempo", then record your beat into the first looper.
+* For each looper the setup is:
+    * Quantization: none
+    * Song Control: none
+    * Tempo Control: none
+    * Input -> Output: none
+    * Optionally you could set the first looper's tempo control to "Set & Follow Song Tempo" and every other track to "Follow Song Tempo", then record your beat into the first looper.
 * Setup the Midi map: open the MIDI map mode
     * set one button to turn up the send on the audio rack
     * set one button to control the "Multi-Purpose Transport Button" (MPTB from now on) (it should show record at first, but will switch to play & overdub)
