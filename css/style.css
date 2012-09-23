@@ -155,6 +155,9 @@ nav li a:hover {
     text-align:center;
     font-size:1.3em;
 }
+.pagination a {
+    text-decoration:none;
+}
 .pagination span {
     display:inline-block;
     border:2px #309090 solid;
