@@ -151,6 +151,19 @@ nav li a:hover {
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
+header nav {
+    width:90%;
+    display:inline-block;
+}
+#search {
+    width:10%;
+    display:inline-block;
+}
+#search input, #search button {
+    line-height:2;
+    font-size:1em;
+}
+
 .pagination {
     text-align:center;
     font-size:1.3em;
