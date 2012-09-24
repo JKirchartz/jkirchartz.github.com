@@ -2,6 +2,7 @@
 layout: post 
 title: Border Radius Toy 
 tags:
+- portfolio
 - demo
 - jQuery
 - html5
