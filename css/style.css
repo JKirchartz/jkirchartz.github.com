@@ -255,6 +255,9 @@ article li:before {
 }
 article li p {
    display:inline-block;
+   max-width: 90%;
+   vertical-align: top;
+   padding-top: 0;
 }
 
 .center {
