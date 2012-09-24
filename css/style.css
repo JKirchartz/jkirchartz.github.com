@@ -385,5 +385,8 @@ footer li {
     header span {
         padding:0 0 1em 1em;
    }
+   article li p {
+        max-width:80%;
+   }
 }
 
