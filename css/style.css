@@ -78,7 +78,7 @@ a:hover {
     margin: 0 auto;
 }
 
-article {
+article, .archive {
     background: #ddd;
     border-radius:0.5em;
     margin: 0.5em 0;
