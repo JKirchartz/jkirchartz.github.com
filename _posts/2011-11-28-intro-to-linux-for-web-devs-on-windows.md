@@ -53,7 +53,9 @@ could try there too.
 Here's a quick reference of commands for moving around:
 
 * pwd = display current directory path (Print Working Directory)
+
 * ls = list files, you can add flags to see more info on each file, I like to use "ls -alF" (LiSt) 
+
 * cd = change directory, use "cd ../" to move up one directory, or "cd /var/www/html" to move to an entirely different directory (Change Directory)
 
 for more on these, check the wikipedia pages for
@@ -93,8 +95,11 @@ it the same.
 Here's a few nano commands that are useful:
 
 * ctrl+k = cut, you can cut out multiple lines by hitting this repeatedly.
+
 * ctrl+u = uncut, you can re-insert cutout lines by hitting this repeatedly.
+
 * ctrl+/ = goto line #
+
 * ctrl+w = search for a word or phrase, there are a few options here, 'M-R' is a regex search, try hitting "esc+r" to use this (M stand for Meta-key, so try the Apple key or Windows key if esc doesn't work).
 
 Nano's UI shows options you can use to translate keystrokes you should know
