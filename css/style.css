@@ -46,8 +46,7 @@ body {
 
 a {
     font-size:1em;
-    color: #130f30;
-    text-decoration: underline;
+    color: #369;
     white-space: pre;           /* CSS 2.0 */
     white-space: pre-wrap;      /* CSS 2.1 */
     white-space: pre-line;      /* CSS 3.0 */
@@ -60,6 +59,7 @@ a {
 
 a:hover {
     color: #31277C;
+    border-bottom:1px solid #369;
 }
 
 #canvas {
