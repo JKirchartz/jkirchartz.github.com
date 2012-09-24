@@ -253,6 +253,9 @@ article li:before {
     padding:0.25em;
     margin:0 0.5em;
 }
+article li p {
+   display:inline-block;
+}
 
 .center {
     text-align:center;   
