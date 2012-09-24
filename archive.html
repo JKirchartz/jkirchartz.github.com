@@ -2,8 +2,9 @@
 layout: base
 title: archive
 ---
+<dic class="archive">
 <h2>Archive</h2>
-<ul class="archive">
+<ul>
     {% for post in site.posts %}
     <li>
         {% include time.html %}
@@ -11,3 +12,4 @@ title: archive
     </li>
     {% endfor %}
 </ul>
+</div>
