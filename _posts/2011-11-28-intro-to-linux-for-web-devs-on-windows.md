@@ -1,8 +1,6 @@
 -- 
 layout: post 
 title: Intro to Linux for Web Devs on Windows 
-tags:
-- article
 --- 
 
 I've been spending a lot of time using the linux CLI lately, and I know it can
