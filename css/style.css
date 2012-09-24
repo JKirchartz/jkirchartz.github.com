@@ -47,6 +47,7 @@ body {
 a {
     font-size:1em;
     color: #369;
+    text-decoration:none;
     white-space: pre;           /* CSS 2.0 */
     white-space: pre-wrap;      /* CSS 2.1 */
     white-space: pre-line;      /* CSS 3.0 */
