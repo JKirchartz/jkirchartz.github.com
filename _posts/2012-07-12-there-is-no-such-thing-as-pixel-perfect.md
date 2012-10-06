@@ -55,6 +55,7 @@ to do a pixel-perfect design that looks _good_ everywhere. If you try prepare
 to spend your resources on [herding
 cats](https://www.youtube.com/watch?v=Pk7yqlTMvp8).
 
+## Don't take my word for it
 
 > For me, “ideal” on the web isn’t about pixel-perfection anymore, but about
 > seeking the most pragmatic approach to balancing different kinds of content
@@ -62,6 +63,9 @@ cats](https://www.youtube.com/watch?v=Pk7yqlTMvp8).
 
 &mdash; [Trent Walton](http://trentwalton.com/2012/06/19/fluid-type/)
 
+> A pixel is not a pixel. There are different kind of pixels: CSS pixels, density independent pixels and device pixels. 
+
+&emdash; [Peter-Paul Koch](http://twitter.com/smashingmag/status/253785972377010176)
 
 ##  What's the solution?
 
