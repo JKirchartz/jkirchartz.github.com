@@ -43,8 +43,7 @@ worth-subscribing-to/) at Smashing Magazine.
 
 If newsletters are not your thing, or not enough [A List
 Apart](http://www.alistapart.com/) and [Smashing
-Magazine](http://www.smashingmagazine.com/2011/07/15/email-newsletters-worth-
-subscribing-to/) offer a lot of free information on web technologies and
+Magazine](http://www.smashingmagazine.com/) offer a lot of free information on web technologies and
 techniques. Smashing magazine’s daughter-blog [Noupe](http://www.noupe.com/)
 has an A.D.D.-like selection covering all areas of design, development,
 inspiration, and tutorials. For pure design [Notcot](http://www.notcot.org/) and
