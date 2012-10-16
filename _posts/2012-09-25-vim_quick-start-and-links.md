@@ -6,8 +6,9 @@ tags:
 - tutorial
 ---
 
-VIM
-==========
+If you've been [following me](http://twitter.com/jkirchartz) for a while, you might know my editor of choice is VIM,
+it's very clean. There's nothing there to get in your way, except your own limitations, and those limitations can be
+destroyed through practice. Havn't tried vim yet? What are you waiting for?
 
 What is VIM?
 ----------
@@ -33,6 +34,7 @@ Quick Start
 * in command mode to cut a line hit "dd"
 * in command mode to copy a line hit "yy"
 * to cut or copy multiple lines put a number before the command like "5dd"
+    * you can put a number before most commands to repeat them X many times.
 * press "p" to paste after the current line
 * press "P" to pase before the current line
 * in command mode to search for "apple" type "/apple"
@@ -42,6 +44,13 @@ Quick Start
 * in command mode to find and replace all occurances type ":s/original/replacement/g"
 * If the file is owned by root and you opened it as another user, you can escalate privileges and save with ":w !sudo tee %"
 
+Going Further
+------------
+Vim is highly customizable, you can set shortcuts and preferences in the `.vimrc` file, usually located in your home directory.
+There are a [ton of plugins (aka scripts)](http://www.vim.org/scripts/) available too. They're easy to manage with other scripts
+like [Pathogen](https://github.com/tpope/vim-pathogen) or [Vundle](https://github.com/gmarik/vundle). 
+
+If you want to get a headstart, my dotfiles are available
 
 Links
 ------------
