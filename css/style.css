@@ -367,8 +367,8 @@ time {
     margin:1em;
     max-width:100%;
 }
-#flattr {
-    text-align:right;
+.FlattrButton {
+    margin:0 auto;;
 }
 #disqus_thread {
     max-width:75%;
