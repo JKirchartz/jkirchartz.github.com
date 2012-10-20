@@ -85,11 +85,13 @@ article, .archive {
 }
 
 h1, h2, h3 { margin:0 0.5rem; }
-h1 { font-size:2.11538em; padding:1em 0 1.73177em; }
-h2 { font-size:1.61538em; padding:1.57136em 0 1em; }
-h3 { font-size:1.30769em; padding:1.54418em 0 1em; }
+h1 { font-size:2.11538em; padding:1rem 0 1.73177rem; }
+h2 { font-size:1.61538em; padding:1.57136rem 0 1rem; }
+h3 { font-size:1.30769em; padding:1.54418rem 0 1rem; }
 h1 a, h2 a, h3 a {
     color:#130f30;
+    border:none;
+    text-decoration:none;
 }
 header h1 {
     font-size:3.42308em; 
@@ -357,6 +359,8 @@ time {
     display:block;
     text-align:center;
     font-size:2em;
+    text-decoration:none;
+    border:none;
 }
 .highlight, .gist, iframe{
     display:block;
@@ -395,4 +399,3 @@ footer li {
         max-width:80%;
    }
 }
-
