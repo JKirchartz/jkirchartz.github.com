@@ -390,6 +390,10 @@ footer li {
     min-width: 50px;
     text-align:center;
 }
+ul.social_media a {
+    border:none;
+    text-decoration:none;
+}
 @media all and (max-width: 35em) {
     header span {
         padding:0 0 1em 1em;
