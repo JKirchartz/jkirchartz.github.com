@@ -65,7 +65,7 @@ cats](https://www.youtube.com/watch?v=Pk7yqlTMvp8).
 
 > A pixel is not a pixel. There are different kind of pixels: CSS pixels, density independent pixels and device pixels. 
 
-&emdash; [Peter-Paul Koch](http://twitter.com/smashingmag/status/253785972377010176)
+&mdash; [Peter-Paul Koch](http://twitter.com/smashingmag/status/253785972377010176)
 
 ##  What's the solution?
 
