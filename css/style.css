@@ -166,8 +166,19 @@ footer ul {
 #search input, #search button {
     line-height:2;
     font-size:1em;
+    border-radius:0.5em;
 }
-
+a[href='#main']{
+    display:block;
+    height:1em;
+    width:1em;
+    border-radius:0.5em;
+    border:1px solid #333;
+}
+a[href='#main']:hover {
+    color:#EEE;
+    background:#333;
+}
 .pagination {
     text-align:center;
     font-size:1.3em;
@@ -374,7 +385,7 @@ time {
     max-width:75%;
 }
 footer {
-    background:rgba(255,255,255,0.8);
+    background:#DEE;
     border-radius:0.5em;
     font-size: 0.65em;
     text-align: center;
