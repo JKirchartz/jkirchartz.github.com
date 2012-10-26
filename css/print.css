@@ -13,14 +13,18 @@ a[href]:after {
     content: "(" attr(href) ")";
 }
 
+h1 a[href]:after, h2 a[href]:after { content:""; }
+
 blockquote {
     margin-top:3em;
     display:block;
 }
+
 blockquote + p {
     text-align:right;
     padding-right:8em;
 }
+
 blockquote p:first-child:before {
     content: '“'; 
     font-family: sans-serif;
@@ -30,6 +34,7 @@ blockquote p:first-child:before {
     vertical-align:-0.4em;
     font-weight: bold;
 }
+
 blockquote p:last-child:after {
     content: '”'; 
     font-family: sans-serif;
@@ -39,3 +44,6 @@ blockquote p:last-child:after {
     vertical-align:-0.6em;
     font-weight: bold;
 }
+
+
+time:before { content: 'Posted On:' }
