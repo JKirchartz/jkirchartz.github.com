@@ -4,7 +4,8 @@
         <meta charset="utf-8" />
         <title> {% if page.title %} {{ page.title }} | {% endif %} JKirchartz - Web Developer n'at</title>
         <meta name="viewport" content="width=device-width" />
-        <link rel="stylesheet" href="/blog/css/style.css" />
+        <link rel="stylesheet" media="not print" href="/blog/css/style.css" />
+        <link rel="stylesheet" media="only print" href="/blog/css/print.css" />
         <link rel="stylesheet" href="/blog/css/syntax.css" />
         <link href="/blog/favicon2.ico" rel="icon" type="image/x-icon" />
         <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
