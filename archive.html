@@ -8,7 +8,7 @@ title: archive
     {% for post in site.posts %}
     <li>
         {% include time.html %}
-        <a href="/blog{{ post.url | downcase }}">{{ post.title }}</a>
+        <a href="{{ post.url | downcase }}">{{ post.title }}</a>
     </li>
     {% endfor %}
 </ul>
