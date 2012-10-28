@@ -6,7 +6,7 @@ table {
     border-collapse:collapse;
     border-spacing:0;
 }
-fieldset,img { 
+fieldset,img {
     border:0;
 }
 address,caption,cite,code,dfn,em,strong,th,var {
@@ -21,7 +21,7 @@ q:before,q:after {
 }
 abbr,acronym { border:0;}
 
-html { 
+html {
     width:100%;
     height:100%;
     overflow:auto;
@@ -108,7 +108,8 @@ header h1 a {
 }
 header h1 a:hover { 
     text-decoration:none;
-    color:#309090;
+    color:#FFF;
+    border:none;
 }
 header span {
     font-style:italic; 
