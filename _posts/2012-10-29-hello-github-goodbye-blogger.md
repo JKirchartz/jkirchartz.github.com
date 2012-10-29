@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Hello Github, Goodbye Blogger
-published: false
 tags:
 - article
 ---
@@ -18,3 +17,5 @@ I had hopes that the Google acquisition or their subsequent redesign would resol
 I've been in the process of recreating and redesigning this blog using markdown and jekyll to host it on github. I'm pretty excited to use VIM and such a simple
 markup system to write. The minimal experience, comfort, and confidence in my tools will definitely help me focus. Also the Liquid templates are well documented
 and easy to use. This allows much greater customization, and an all around better experience.
+
+It's taken me two months of squeezing this in between other projects and launches, (the draft for this post was written 8-29-12) and I'm now proud to present to you my new site.
