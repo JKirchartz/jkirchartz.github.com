@@ -2,10 +2,7 @@
 layout: post
 title: "Opinion: Protaculous to JQuery"
 tags:
-- Javascript
-- JQuery
-- Protaculous
-- Opinion
+- article 
 ---
 
 Last night I went to my local <a href="http://pitcfug.org/">CFUG</a> meeting, to 
