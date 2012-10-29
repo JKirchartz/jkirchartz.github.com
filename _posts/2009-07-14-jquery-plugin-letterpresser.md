@@ -57,19 +57,19 @@ Here's the basics:
 
 {% highlight javascript %}
     $(".letterpress").letterpress();
-{% end highlight %}
+{% endhighlight %}
 
 You can, however, edit the styles easily with these 4 options:
 
 {% highlight javascript %}
     color, highlight, topOffset, leftOffset
-{% end highlight %}
+{% endhighlight %}
 
 Which can be implemented as such:
 
 {% highlight javascript %}
     $(".letterpress").letterpress({color: '#000', highlight: '#0ff', topOffset: '1px', leftOffset: '1px'});
-{% highlight javascript %}
+{% endhighlight %}
 
 [Download the JS here](http://jkirchartz-jquery-repository.googlecode.com/files/jquery.letterpresser.js)
 
