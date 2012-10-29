@@ -16,6 +16,7 @@ Here's what it looks like:
 
 and this is the code needed for this example:
 
+{% highlight html %}
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
     <script src="jquery.letterpress.js" type="text/javascript"></script>
     <style>
@@ -46,6 +47,7 @@ and this is the code needed for this example:
 	    <h3>Lorem ipsum dolor sit amet</h3>
 	    <h4>Lorem ipsum dolor sit amet</h4>
 	</div>
+{% endhighlight %}
 
 This is a CSS / Graphic effect that usually requires a bit of planning and is kind-of hard
 to throw into dynamic content, or content you have no control over the markup of. No extra 
@@ -53,15 +55,21 @@ tags, or css required. No duplicate text needed.
 
 Here's the basics:
 
+{% highlight javascript %}
     $(".letterpress").letterpress();
+{% end highlight %}
 
 You can, however, edit the styles easily with these 4 options:
 
+{% highlight javascript %}
     color, highlight, topOffset, leftOffset
+{% end highlight %}
 
 Which can be implemented as such:
 
+{% highlight javascript %}
     $(".letterpress").letterpress({color: '#000', highlight: '#0ff', topOffset: '1px', leftOffset: '1px'});
+{% highlight javascript %}
 
-<a href="http://jkirchartz-jquery-repository.googlecode.com/files/jquery.letterpresser.js">Download the JS here</a>
+[Download the JS here](http://jkirchartz-jquery-repository.googlecode.com/files/jquery.letterpresser.js)
 
