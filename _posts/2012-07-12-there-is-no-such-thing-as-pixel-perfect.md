@@ -67,6 +67,10 @@ cats](https://www.youtube.com/watch?v=Pk7yqlTMvp8).
 
 &mdash; [Peter-Paul Koch](http://twitter.com/smashingmag/status/253785972377010176)
 
+> The important thing to keep in mind is that we need to stop thinking about the web in pixels and think about it more in views and how our designs will be displayed in these different views.
+
+&mdash; [Patrick Cox](http://tympanus.net/codrops/2012/10/30/becoming-device-agnostic/)
+
 ##  What's the solution?
 
 It's just not possible to plan for every single device, so you'll just have to
