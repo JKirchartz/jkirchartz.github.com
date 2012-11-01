@@ -74,7 +74,7 @@ html](http://stackoverflow.com/a/1732454/276250).
 * [htaccess.madewithlove.be](http://htaccess.madewithlove.be/)
 
 
-##cdn  
+##cdn
 include a library into your sandbox
 
 * [cdnjs.com](http://cdnjs.com/)
@@ -92,6 +92,7 @@ little more transferable, or explains some important concept
 * [hyperpolyglot.org](http://hyperpolyglot.org/)
 * [rosettacode.org](http://rosettacode.org/)
 * [whathaveyoutried.com](http://whathaveyoutried.com)
+* [sscce.org (Short, Self Contained, Correct Example)](http://sscce.org/)
 
 **update 2:** added cdn, if anybody wants to add to the list drop me a line, if
 there's enough interest I'll make a repo to keep it updated in the future ;)
