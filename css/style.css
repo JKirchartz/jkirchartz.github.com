@@ -188,6 +188,7 @@ a[href='#main']:hover {
 }
 .pagination a {
     text-decoration:none;
+    border:none;
 }
 .pagination span {
     display:inline-block;
