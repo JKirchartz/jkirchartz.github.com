@@ -81,3 +81,6 @@ mix solutions until you find what works for you and your client. There's more
 planning and experimentation in developing for the web today than there was a
 decade ago, and who knows what the future will bring. Technology is there to
 help, even if it does complicate things sometimes.
+
+
+BTW, the physical pixel on the device has nothing to do with the CSS pixel, because [in CSS pixels are angular measurements](http://inamidst.com/stuff/notes/csspx), i.e. they are non-linear.

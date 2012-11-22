@@ -170,11 +170,13 @@ footer ul {
     border-radius:0.5em;
 }
 a[href='#main']{
-    display:block;
-    height:1em;
-    width:1em;
-    border-radius:0.5em;
-    border:1px solid #333;
+    display: block;
+    margin: 0 auto;
+    height: 2em;
+    width: 2em;
+    border-radius: 1.5em;
+    line-height: 2em;
+    border: 1px solid #333;
 }
 a[href='#main']:hover {
     color:#EEE;
@@ -277,6 +279,10 @@ article li p {
 
 .center {
     text-align:center;   
+}
+.center a {
+    border:none;
+    text-decoration:none;
 }
 time {
     display:inline; /* for IE */
