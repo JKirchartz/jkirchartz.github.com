@@ -28,3 +28,9 @@ Sometimes mockups are neccessary, but I don't use them often.
 It's much faster to prototype instead and it gives you a great head start to the final product. 
 Clients love seeing progress, and if you let them play with the minimum viable product they feel much more involved in the process. 
 This also allows them to give you feedback quicker, spot mistakes, and ask questions &mdash; all valuable time savers. 
+
+#Don't take my word for it
+
+>A PSD/PNG should be nothing more than an idea of a website. It should give clues and a direction to the build, but ultimately should not be treated as a final design. Following PSDs to the pixel will lead to ill-considered code, and code is your final product, not an image. For example, if your PSD uses three shades of very similar blue, the build should pick and honour just one. There is no point repeating similar declarations in your CSS when a happy middle-ground is more efficient, easier and quicker. A PSD is a clue, not a contract.
+
+&mdash; [Harry Roberts](http://the-pastry-box-project.net/harry-roberts/2012-november-20/)

@@ -31,7 +31,7 @@ Quick Start
 * hit "esc" to switch back to command mode
 
 ###VIM Commands
-* type ":wq" to save and quit
+* type ":wq" or "ZZ" to save and quit
 * type ":q!" to quit without saving
 * moving the cursor
     * `j` move down one line

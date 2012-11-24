@@ -30,8 +30,7 @@ produce everything from new toasters to cars, each pushing the boundaries of pro
 as well suited on a space-ship as they did next to a sleak console hi-fi system. The designs and implementations varied
 wildly as new technologies and cultural whims were discovered. Everything changes just as much as it stays the same.
 
-There's only 12 notes
-in the western musical scale, yet everything from Mozart to the Beatles to Method Man can be found within. Each of these
+There's only 12 notes in the western musical scale, yet everything from Mozart to the Beatles to Method Man can be found within. Each of these
 builds upon the past for the betterment of the future. We can all prosper if we let information flow freely.
 
 There are only so many ways to cut a shirt, just as there are only so many ways to write a program. 
