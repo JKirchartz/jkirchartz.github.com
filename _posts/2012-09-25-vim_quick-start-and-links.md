@@ -1,6 +1,6 @@
 ---
 layout: post
-title: VIM quick-start &amp; links 
+title: "VIM quick-start &amp; links"
 published: false
 tags:
 - tutorial

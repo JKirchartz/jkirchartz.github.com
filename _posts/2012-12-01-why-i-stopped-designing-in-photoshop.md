@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Why I stopped designing in Photoshop
+title: "Why I stopped designing in Photoshop"
 tags:
 - Article
-
 ---
 
 When I was learning design I was glued to photoshop. 
