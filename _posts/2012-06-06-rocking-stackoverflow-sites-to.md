@@ -95,7 +95,7 @@ little more transferable, or explains some important concept
 * [sscce.org (Short, Self Contained, Correct Example)](http://sscce.org/)
 
 
-Ivan Zuzak has compiled another list of online tools that might be helpful, check out [The Web engineer's online toolbox](http://ivanzuzak.info/2012/11/18/the-web-engineers-online-toolbox.html)...
+Ivan Zuzak has compiled another list of online tools that might be helpful, check out [The Web engineer's online toolbox](http://ivanzuzak.info/2012/11/18/the-web-engineers-online-toolbox.html).
 
 **update 2:** added cdn, if anybody wants to add to the list drop me a line, if
 there's enough interest I'll make a repo to keep it updated in the future ;)
