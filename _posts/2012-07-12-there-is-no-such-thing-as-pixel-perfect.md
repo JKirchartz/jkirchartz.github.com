@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: There is no such thing as pixel-perfect web design 
+title: "There is no such thing as pixel-perfect web design" 
 tags:
 - article
 --- 

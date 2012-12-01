@@ -1,5 +1,5 @@
 --- 
-title: Ableton Live 8 Looper & Korg nanoPAD 
+title: "Ableton Live 8 Looper &amp; Korg nanoPAD"
 layout: post 
 tags:
 - music

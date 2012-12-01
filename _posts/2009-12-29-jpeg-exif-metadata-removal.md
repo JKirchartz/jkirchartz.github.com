@@ -1,5 +1,5 @@
 --- 
-title: Jpeg EXIF Metadata Removal 
+title: "Jpeg EXIF Metadata Removal" 
 layout: post 
 tags:
 - exif
