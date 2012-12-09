@@ -16,7 +16,7 @@ It's not a web devlopment tool, it's a graphics tool, and you should always use 
 #PX
 
 Everything you do in Photoshop has to be pixel-perfect, snapping to the pixel grid ensures jpegs are crisp and don't have any jagged edges or odd artifacts. 
-Only one small problem: on the web, [there is no such thing as pixel perfect]({% post_url 2012-07-12-there-is-no-such-thing-as-pixel-perfect %}). 
+Only one small problem: on the web, [there is no such thing as pixel perfect](http://jkirchartz.com/2012/07/there-is-no-such-thing-as-pixel-perfect.html).
 There's just no telling what a pixel will be on the end-user's screen. 
 When using viewed at smaller resolutions set pixel values don't change, so if you have a combined total of `960px` of margins, padding, and images on a `320px` wide screen you're not giving the user the best experience.
 There's another bug when using IE6-8, if you set your font with a pixel height it won't resize like modern browsers and this hurts your site's accessability.
