@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why I stopped designing in Photoshop"
+title: Why I Stopped Designing in Photoshop
 tags:
 - article
 ---
