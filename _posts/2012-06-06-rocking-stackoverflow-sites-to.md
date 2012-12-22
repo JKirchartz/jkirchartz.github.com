@@ -43,7 +43,7 @@ some of these cover multiple languages
 * [jsdo.it](http://jsdo.it/)
 * [dabblet.com](http://dabblet.com/)
 * [cssdesk.com](http://cssdesk.com/)
-* [www.akshell.com](http://www.akshell.com/)
+* [akshell.com](http://www.akshell.com/)
 * [rendera.heroku.com](http://rendera.heroku.com/)
 * [fiddlesalad.com](http://fiddlesalad.com/)
 * [codepen.io](http://codepen.io/)
@@ -56,7 +56,7 @@ some of these cover multiple languages
 * [jsonlint.com](http://jsonlint.com/)
 * [jsbeautifier.org](http://jsbeautifier.org/)
 * [cleancss.com](http://cleancss.com/)
-* [www.dirtymarkup.com](http://www.dirtymarkup.com/)
+* [dirtymarkup.com](http://www.dirtymarkup.com/)
 * [validator.w3.org](http://validator.w3.org/)
 * [jigsaw.w3.org/css-validator](http://jigsaw.w3.org/css-validator/)
 
@@ -66,8 +66,8 @@ mod_redirect &amp; just about anything else, just [don't parse
 html](http://stackoverflow.com/a/1732454/276250).
 
 * [rentzsch.github.com/JSRegexTeststand](http://rentzsch.github.com/JSRegexTeststand/)
-* [www.regexplanet.com](http://www.regexplanet.com/)
-* [www.regextester.com](http://www.regextester.com/)
+* [regexplanet.com](http://www.regexplanet.com/)
+* [regextester.com](http://www.regextester.com/)
 * [regexr.com](http://regexr.com/)
 * [rextester.com](http://rextester.com/)
 * [regexp.quaxio.com/ (linter)](http://regexp.quaxio.com/)
@@ -78,11 +78,11 @@ html](http://stackoverflow.com/a/1732454/276250).
 include a library into your sandbox
 
 * [cdnjs.com](http://cdnjs.com/)
-* [www.asp.net/ajaxlibrary/cdn.ashx](http://www.asp.net/ajaxlibrary/cdn.ashx)
+* [asp.net/ajaxlibrary/cdn.ashx](http://www.asp.net/ajaxlibrary/cdn.ashx)
 * [developers.google.com/speed/libraries/devguide](http://developers.google.com/speed/libraries/devguide)
 * [code.createjs.com](http://code.createjs.com/)
-* [www.jsdelivr.com](http://www.jsdelivr.com/)
-
+* [jsdelivr.com](http://www.jsdelivr.com/)
+* [cdn.tl](http://www.cdn.tl/)
 
 ##other
 these don't really _do_ anything, but they help you make your knowledge a
