@@ -25,10 +25,10 @@ some of these cover multiple languages
 * [codepad.viper-7.com](http://codepad.viper-7.com/)
 * [pythonfiddle.com](http://pythonfiddle.com/)
 * [compilr.com](http://compilr.com/)
-* [www.onlinecompiler.net](http://www.onlinecompiler.net/)
-* [www.dpriver.com/pp/sqlformat.htm](http://www.dpriver.com/pp/sqlformat.htm)
+* [onlinecompiler.net](http://www.onlinecompiler.net/)
+* [dpriver.com/pp/sqlformat.htm](http://www.dpriver.com/pp/sqlformat.htm)
 * [sqlfiddle.com](http://sqlfiddle.com/)
-* [www.coderun.com/ide](http://www.coderun.com/ide/)
+* [coderun.com/ide](http://www.coderun.com/ide/)
 * [c9.io](http://c9.io/)
 * [repl.it](http://repl.it/)
 * [wonderfl.net](http://wonderfl.net/)
@@ -47,7 +47,8 @@ some of these cover multiple languages
 * [rendera.heroku.com](http://rendera.heroku.com/)
 * [fiddlesalad.com](http://fiddlesalad.com/)
 * [codepen.io](http://codepen.io/)
-* [www.htmlinstant.com](http://www.htmlinstant.com/)
+* [htmlinstant.com](http://www.htmlinstant.com/)
+* [scratchpad.io](http://scratchpad.io/)
 
 ##validators / cleaners
 
