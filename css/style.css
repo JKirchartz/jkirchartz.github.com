@@ -118,14 +118,7 @@ header span {
     display:inline-block;
     text-shadow:0px 0px 5px #130f30;
 }
-nav ul { 
-    padding:0.5em;
-}
-nav li {
-    display:inline; /* for IE */
-    display:inline-block; 
-}
-nav li a {
+nav a {
     color:#130f30;
     background: #b0e0e0;
     background-image: -moz-linear-gradient(-45deg, #b0e0e0 0%, #b0e0e0 50%, #309090 100%);
@@ -142,10 +135,9 @@ nav li a {
     padding:0.5em;
     text-decoration:none; 
     margin: 5px; 
-    display:inline; /* for IE */
     display:inline-block;
 }
-nav li a:hover {
+nav a:hover {
     color:#130f30;
     text-shadow: 0px 0px 5px #FFF;
     background-position: 0 0;
