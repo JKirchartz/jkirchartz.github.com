@@ -1,4 +1,4 @@
-body,div,p,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,th,td { 
+body,div,p,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,th,td {
     margin:0;
     padding:0;
 }
@@ -16,10 +16,6 @@ address,caption,cite,code,dfn,em,strong,th,var {
 ol,ul {
     list-style:none;
 }
-q:before,q:after {
-    content:'';
-}
-abbr,acronym { border:0;}
 
 html {
     width:100%;
@@ -95,10 +91,10 @@ h1 a, h2 a, h3 a {
     text-decoration:none;
 }
 header h1 {
-    font-size:3.42308em; 
+    font-size:3.42308em;
     padding:1em 0;
     display:inline; /* for IE */
-    display:inline-block; 
+    display:inline-block;
 }
 header h1 a {
     color:#b0e0e0;
@@ -106,13 +102,13 @@ header h1 a {
     0 0 10px #130f30,
     0px 0px 5px #fff;
 }
-header h1 a:hover { 
+header h1 a:hover {
     text-decoration:none;
     color:#FFF;
     border:none;
 }
 header span {
-    font-style:italic; 
+    font-style:italic;
     color:#b0e0e0;
     display:inline; /* for IE */
     display:inline-block;
@@ -130,11 +126,11 @@ nav a {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0e0e0', endColorstr='#309090',GradientType=1 );
     background-position: 50px 0;
     background-repeat: no-repeat;
-    border: #309090 solid 1px; 
+    border: #309090 solid 1px;
     border-radius:0.2em;
     padding:0.5em;
-    text-decoration:none; 
-    margin: 5px; 
+    text-decoration:none;
+    margin: 5px;
     display:inline-block;
 }
 nav a:hover {
@@ -142,7 +138,7 @@ nav a:hover {
     text-shadow: 0px 0px 5px #FFF;
     background-position: 0 0;
     padding:0.5em;
-    text-decoration:none; 
+    text-decoration:none;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
@@ -231,7 +227,7 @@ blockquote + p {
     padding-right:8em;
 }
 blockquote p:first-child:before {
-    content: '“'; 
+    content: '“';
     font-family: sans-serif;
     font-size:4em;
     line-height:0.1em;
@@ -263,6 +259,20 @@ article li:before {
     padding:0.25em;
     margin:0 0.5em;
 }
+article ol {
+    counter-reset:li
+}
+article ol li:before {
+    content: counter(li);
+    counter-increment: li;
+    width:0.5em;
+    margin:0.5em 0;
+    padding:0.1em 0.6em;
+}
+article ol li:nth-child(n+10):before {
+    padding:0.2em 0.33em 0.2em 0.27em;
+    width:1.1em;
+}
 article li p {
    display:inline-block;
    max-width: 90%;
@@ -271,7 +281,7 @@ article li p {
 }
 
 .center {
-    text-align:center;   
+    text-align:center;
 }
 .center a {
     border:none;
@@ -291,18 +301,18 @@ time {
     display:inline-block;
     line-height:1.5;
     background:#309090;
-    border:1px solid #359D9D;   
+    border:1px solid #359D9D;
     box-shadow: inset 0 0 5px rgba(51,51,51,0.5), 0 2px 5px rgba(51,51,51,0.5);
 }
 .day, .year {
     top:0.45em;
-    z-index:30; 
+    z-index:30;
     position:relative;
 }
 .month {
-    margin: 0 -0.75em;  
+    margin: 0 -0.75em;
     border:1px solid #359D9D;
-    background:#49DCDC;    
+    background:#49DCDC;
     z-index:40;
     position:relative;
 }
@@ -322,7 +332,7 @@ time {
     left: 0;
 }
 .month:after {
-    border-width: 0 0 0.5em 0.5em;    
+    border-width: 0 0 0.5em 0.5em;
     border-left-color: #1B5050;
     right: 0;
 }
@@ -333,9 +343,9 @@ time {
     z-index:30;
     position: absolute;
     border-style: solid;
-    border-color: #49DCDC;   
+    border-color: #49DCDC;
     top: -0.35em;
-    border-width: 1.21em;    
+    border-width: 1.21em;
 }
 .year:after {
     border-right-color: transparent;
@@ -344,7 +354,7 @@ time {
 .day:before {
     border-left-color: transparent;
     left: -1.9em;
-}                                  
+}
 .day:after, .year:before {
     content: '';
     z-index:25;
@@ -355,7 +365,7 @@ time {
     border-color: transparent;
 }
 .day:after {
-    border-width: 0 0 0.5em 0.5em;    
+    border-width: 0 0 0.5em 0.5em;
     border-left-color: #1B5050;
     left: -0.05em;
 
