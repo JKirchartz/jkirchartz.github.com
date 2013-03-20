@@ -73,7 +73,7 @@ html](http://stackoverflow.com/a/1732454/276250).
 * [rextester.com](http://rextester.com/)
 * [regexp.quaxio.com/ (linter)](http://regexp.quaxio.com/)
 * [htaccess.madewithlove.be](http://htaccess.madewithlove.be/)
-
+* [txt2re.com](http://www.txt2re.com/)
 
 ##cdn
 include a library into your sandbox
