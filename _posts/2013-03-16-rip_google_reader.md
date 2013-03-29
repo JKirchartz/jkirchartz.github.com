@@ -6,14 +6,14 @@ tags: Google, Tools, Reader, Article
 
 [Google unceremoniously killed Reader](http://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html). 
 It was fun while it lasted, but you knew it was going to happen. 
-I've been using Reader to keep up with my feeds for a long time; sometimes ignore them for weeks, but still skim for the best. 
+I've been using Reader to keep up with my feeds for a long time; sometimes ignore them for weeks, but still skimiming for the best. 
 The closure was hardly the hardest part. 
 That respect does to when Google originally decided to start damaging Reader with a redesign in late 2011. 
-This redesign brought in the new google black bar, and partially replaced the [social aspect](http://www.buzzfeed.com/robf4/googles-lost-social-network) with Google Plus. 
-Up until then you could share articles with your friends, only if they actually wanted to see them.
-I was great for discovering things from new perspectives, and for trading the best feeds to follow But G+ never really filled the gap. 
+This redesign brought in the new Google black bar, and partially replaced the [social aspect](http://www.buzzfeed.com/robf4/googles-lost-social-network) with Google Plus. 
+Up until then you could share articles with your friends, if they actually wanted to see them.
+It was great for discovering things from new perspectives, and for trading the best feeds to follow But G+ never really filled the gap. 
 It was a separate entity and integration into Reader went out the window with this announcement.
-Google Plus won't be filling in any gaps either.
+Google Plus won't be filling in any other gaps either.
 
 The major losses here are in [China &amp; Iran](http://www.techdirt.com/articles/20130314/08462522321/unintended-consequences-google-reader-shutdown-losing-key-tool-to-get-around-censored-internet-iran-china.shtml)
 where it was being used to circumvent oppressive regime's policies, so I can hardly compare my plight.

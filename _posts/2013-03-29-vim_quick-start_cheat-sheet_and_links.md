@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VIM quick-start &amp; links"
+title: "VIM quick-start/cheat-sheet &amp; links"
 published: false
 tags:
 - tutorial
@@ -15,7 +15,7 @@ With vim Your fingers never have to leave the keyboard to command great power. T
 and a Command mode. By default you start in command mode, here you can move around the document, search, and do a fair bit of editing quickly. Insert mode is designed for adding (and removing) text, it's just like a normal text
 editor.
 
-Quick Start
+Quick Start/Cheat Sheet
 -----------
 
 ###From the Command Line
@@ -39,6 +39,8 @@ Quick Start
     * `h` move left one character
     * `l` move right one character
     * to move to line 88 hit `88G` or `88gg`
+    * move to the begining of a file hit `gg`
+    * move to the end of the file hit `G`
     * hitting `%` while the cursor is on a bracket like `[({})]` will find the matching bracket
 * to delete a character hit `x`
 * to cut a line hit `dd`
@@ -58,6 +60,7 @@ Quick Start
 
 ###VIM tips
 * If the file is owned by root and you opened it as another user, you can escalate privileges and save with `:w !sudo tee %`
+* the delimiter when using `:s` doesn't have to be `\` you can try `%` or `_` if you want to avoid fences like in `:s/\/usr\/local\//\/opt\//`
 
 
 Going Further
