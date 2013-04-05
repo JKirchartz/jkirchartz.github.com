@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "VIM quick-start/cheat-sheet &amp; links"
-published: false
 tags:
 - tutorial
 ---
@@ -23,11 +22,12 @@ Quick Start/Cheat Sheet
 * type "vim" or "vi" into the command line to create a new file
 * type "vim /path/to/file.name" to open an existing file. 
 * to open multiple files list them like `vim file1.txt file2.sh`
-    * you can switch between open files with the command `:bn`
+    * you can switch to the next open file with the command `:bn`
 
 ###Working in VIM
 
-* hit "i" to switch from command mode to input mode 
+* hit "i" to switch from command mode to input mode
+* hit "v" to switch from command mode to visual mode
 * hit "esc" to switch back to command mode
 
 ###VIM Commands
@@ -51,7 +51,7 @@ Quick Start/Cheat Sheet
 * press `P` to pase before the current line
 * to delete from the cursor to the end of the line hit `d$`
 * to delete from the cursor to the beginning of the line hit `d0`
-* in command mode to search for `apple` type `/apple`
+* in command mode to search for `apple` type `/apple` and hit enter
     * to look for the next occurance hit `n`
 * in command mode to find and replace the first occurance type `:s/original/replacement/`
     * when searching you can use regular expressions
@@ -61,7 +61,10 @@ Quick Start/Cheat Sheet
 ###VIM tips
 * If the file is owned by root and you opened it as another user, you can escalate privileges and save with `:w !sudo tee %`
 * the delimiter when using `:s` doesn't have to be `\` you can try `%` or `_` if you want to avoid fences like in `:s/\/usr\/local\//\/opt\//`
-
+* You can store a cursor location in a mark, vim allows 26 of these, you can set a mark with command `m` followed by a letter like `ma`
+    * you can move to a line containing a mark using the `'` (single quote) command `'a` moves to the line containing the mark labeled `a`
+    * you can move to the exact location of the mark using the ``` (backquote) command ``a` moves to the mark labeled `a`
+    * these are "movements" that can be combined with other statements like `d`a` to cut text from the cursor's location to the mark labeled `a`
 
 Going Further
 ------------
@@ -69,12 +72,14 @@ Vim is highly customizable, you can set shortcuts and preferences in the `.vimrc
 There are a [ton of plugins (aka scripts)](http://www.vim.org/scripts/) available too. They're easy to manage with other scripts
 like [Pathogen](https://github.com/tpope/vim-pathogen) or [Vundle](https://github.com/gmarik/vundle). 
 
-If you want to get a headstart, my [dotfiles are available on github](https://github.com/jkirchartz/dotfiles)
+If you want to get a headstart, my [dotfiles are available on github](https://github.com/jkirchartz/dotfiles), but there are a lot of people 
+doing that lately, for example there's a very nice VIM Distribution named [Janus](https://github.com/carlhuda/janus) that's worth a look.
 
 Links
 ------------
 * [VIM docs](http://www.vim.org/docs.php) 
 * [VIM Cheat-sheet](http://michael.peopleofhonoronly.com/vim/)
+* [VIM Keyboard Cheat-sheet](http://walking-without-crutches.heroku.com/image/images/vi-vim-cheat-sheet.png)
 * [Leaning Vim the Pragmatic Way](http://jrmiii.com/2009/03/06/learning-vim-the-pragmatic-way.html)
 * [VIM Regex](http://vimregex.com/)
 * [Vim Tips Wiki](http://vim.wikia.com/wiki/Vim_Tips_Wiki)
@@ -83,4 +88,5 @@ Links
 * [VI Cheat Sheet](http://www.lagmonster.org/docs/vi.html)
 * [Learning Vi & Vim editors (O'Reilly)](http://www.amazon.com/gp/product/059652983X)
 * [Download Vim](http://www.vim.org/download.php)
+* [Stack Overflow Question: What is your most productive shortcut with Vim?](http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118)
 
