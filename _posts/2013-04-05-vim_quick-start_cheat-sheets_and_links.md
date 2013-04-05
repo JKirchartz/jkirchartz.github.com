@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "VIM quick-start/cheat-sheet &amp; links"
-published: false
 tags:
 - tutorial
 ---
@@ -23,7 +22,7 @@ Quick Start/Cheat Sheet
 * type "vim" or "vi" into the command line to create a new file
 * type "vim /path/to/file.name" to open an existing file. 
 * to open multiple files list them like `vim file1.txt file2.sh`
-    * you can switch to the next open file with the command `:bn`
+    1. you can switch to the next open file with the command `:bn`
 
 ###Working in VIM
 
@@ -35,27 +34,27 @@ Quick Start/Cheat Sheet
 * type ":wq" or "ZZ" to save and quit
 * type ":q!" to quit without saving
 * moving the cursor
-    * `j` move down one line
-    * `k` move up one line
-    * `h` move left one character
-    * `l` move right one character
-    * to move to line 88 hit `88G` or `88gg`
-    * move to the begining of a file hit `gg`
-    * move to the end of the file hit `G`
-    * hitting `%` while the cursor is on a bracket like `[({})]` will find the matching bracket
+    1. `j` move down one line
+    1. `k` move up one line
+    1. `h` move left one character
+    1. `l` move right one character
+    1. to move to line 88 hit `88G` or `88gg`
+    1. move to the begining of a file hit `gg`
+    1. move to the end of the file hit `G`
+    1. hitting `%` while the cursor is on a bracket like `[({})]` will find the matching bracket
 * to delete a character hit `x`
 * to cut a line hit `dd`
 * to copy a line hit `yy`
 * to cut or copy multiple lines put a number before the command like `5dd`
-    * you can put a number before most commands to repeat them X many times.
+    1. you can put a number before most commands to repeat them X many times.
 * press `p` to paste after the current line
 * press `P` to pase before the current line
 * to delete from the cursor to the end of the line hit `d$`
 * to delete from the cursor to the beginning of the line hit `d0`
 * in command mode to search for `apple` type `/apple` and hit enter
-    * to look for the next occurance hit `n`
+    1. to look for the next occurance hit `n`
 * in command mode to find and replace the first occurance type `:s/original/replacement/`
-    * when searching you can use regular expressions
+    1. when searching you can use regular expressions
 * in command mode to find and replace all occurances type `:s/original/replacement/g`
 
 
@@ -63,9 +62,9 @@ Quick Start/Cheat Sheet
 * If the file is owned by root and you opened it as another user, you can escalate privileges and save with `:w !sudo tee %`
 * the delimiter when using `:s` doesn't have to be `\` you can try `%` or `_` if you want to avoid fences like in `:s/\/usr\/local\//\/opt\//`
 * You can store a cursor location in a mark, vim allows 26 of these, you can set a mark with command `m` followed by a letter like `ma`
-    * you can move to a line containing a mark using the `'` (single quote) command `'a` moves to the line containing the mark labeled `a`
-    * you can move to the exact location of the mark using the ``` (backquote) command ``a` moves to the mark labeled `a`
-    * these are "movements" that can be combined with other statements like `d`a` to cut text from the cursor's location to the mark labeled `a`
+    1. you can move to a line containing a mark using the `'` (single quote) command `'a` moves to the line containing the mark labeled `a`
+    1. you can move to the exact location of the mark using the ``` (backquote) command ``a` moves to the mark labeled `a`
+    1. these are "movements" that can be combined with other statements like `d`a` to cut text from the cursor's location to the mark labeled `a`
 
 Going Further
 ------------
