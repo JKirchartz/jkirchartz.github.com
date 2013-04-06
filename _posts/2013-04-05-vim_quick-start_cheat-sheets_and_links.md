@@ -63,8 +63,8 @@ Quick Start/Cheat Sheet
 * <p>the delimiter when using `:s` doesn't have to be `\` you can try `%` or `_` if you want to avoid fences like in `:s/\/usr\/local\//\/opt\//`
 * <p>You can store a cursor location in a mark, vim allows 26 of these, you can set a mark with command `m` followed by a letter like `ma`
     * <p>you can move to a line containing a mark using the `'` (single quote) command `'a` moves to the line containing the mark labeled `a`
-    * <p>you can move to the exact location of the mark using the ``` (backquote) command ``a` moves to the mark labeled `a`
-    * <p>these are "movements" that can be combined with other statements like `d`a` to cut text from the cursor's location to the mark labeled `a`
+    * <p>you can move to the exact location of the mark using the <code>`</code> (backquote) command <code>`a</code> moves to the mark labeled `a`
+    * <p>these are "movements" that can be combined with other statements like <code>d`a</code> to cut text from the cursor's location to the mark labeled `a`
 
 Going Further
 ------------
