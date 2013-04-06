@@ -17,6 +17,7 @@ Video was recorded on green-screen with a variety of actors, celebrities, patien
 My time spent working on this project was quite enjoyable, but also daunting because of the sheer volume of videos to be created (over 1,000) and the detail put into most of the edits.
 
 Programs Used:
+
 * Adobe Premier CS3
 * Adobe Photoshop CS3
 * Adobe After Effects CS3

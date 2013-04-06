@@ -18,7 +18,7 @@ going around, but it seems like they move quite slowly.
  I received the box code-named [_Baltimore
 Bazaar_](http://tgimboej.org/Box_Code:_Baltimore_Bazaar) a few days ago &
 busted it open immediately; nothing really caught my eye in there, a few
-motors, a batter charger and a bunch of small components EVERYWHERE. I had to
+motors, a battery charger and a bunch of small components EVERYWHERE. I had to
 pick a bunch of capacitors and screws out of one of the motors I decided to
 play with, but there was nothing in there I really wanted or needed.
 
