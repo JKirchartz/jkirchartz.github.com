@@ -6,10 +6,7 @@ tags:
 - article
 --- 
 
-[![](http://1.bp.blogspot.com/_KHL6Vvj96Eo/TOgBB40umBI/AAAAAAAAAoQ/0J81Xv-pjJY
-/s400/SDC10649.jpg)](http://1.bp.blogspot.com/_KHL6Vvj96Eo/TOgBB40umBI/AAAAAAA
-AAoQ/0J81Xv-pjJY/s1600/SDC10649.jpg)
-
+![](http://i.imgur.com/N7zS1ug.jpg)
 
 
 If you didn't know [The Great Internet Migratory Box Of Electronics
