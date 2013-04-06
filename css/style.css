@@ -76,9 +76,10 @@ a:hover {
 
 article, .archive {
     background: #dee;
-    border-radius:0.2em;
+    border-radius:0.05em;
     margin: 0.5em 0;
     padding: 0 0 1em 0;
+    box-shadow: 0 0 0.5em 0.5em #dee;
 }
 
 h1, h2, h3 { margin:0 0.75rem; }
@@ -244,20 +245,20 @@ blockquote p:last-child:after {
     vertical-align:-0.6em;
     font-weight: bold;
 }
-article ul, p {
+p {
     padding:0.5em 0.75em;
 }
 article li {
     margin:0.5em 0;
 }
-article li:before {
+article ul li:before {
     display:inline-block;
     content: " ";
     background:#B0E0E0;
     border:1px solid #000;
     border-radius:1em;
     padding:0.25em;
-    margin:0 0.5em;
+    margin: 0 0 0 -0.4em;
 }
 article ol {
     counter-reset:li
@@ -265,14 +266,8 @@ article ol {
 article ol li:before {
     content: counter(li);
     counter-increment: li;
-    width:0.5em;
-    margin:0.5em 0;
-    padding:0.1em 0.6em;
 }
-article ol li:nth-child(n+10):before {
-    padding:0.2em 0.33em 0.2em 0.27em;
-    width:1.1em;
-}
+article ol li:nth-child(n+10):before {}
 article li p {
    display:inline-block;
    max-width: 90%;
