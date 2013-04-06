@@ -18,9 +18,9 @@ My time spent working on this project was quite enjoyable, but also daunting bec
 
 Programs Used:
 
-* Adobe Premier CS3
-* Adobe Photoshop CS3
-* Adobe After Effects CS3
-* Adobe Flash CS3
-* Sorenson Spark
+* <p>Adobe Premier CS3
+* <p>Adobe Photoshop CS3
+* <p>Adobe After Effects CS3
+* <p>Adobe Flash CS3
+* <p>Sorenson Spark
 

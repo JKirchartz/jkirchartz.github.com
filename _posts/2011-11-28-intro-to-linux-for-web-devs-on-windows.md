@@ -52,11 +52,11 @@ could try there too.
 
 Here's a quick reference of commands for moving around:
 
-* `pwd` = display current directory path (Print Working Directory)
+* <p>`pwd` = display current directory path (Print Working Directory)
 
-* `ls` = list files, you can add flags to see more info on each file, I like to use `ls -alF` (LiSt) 
+* <p>`ls` = list files, you can add flags to see more info on each file, I like to use `ls -alF` (LiSt) 
 
-* `cd` = change directory, use `cd ../` to move up one directory, or `cd /var/www/html` to move to an entirely different directory (Change Directory)
+* <p>`cd` = change directory, use `cd ../` to move up one directory, or `cd /var/www/html` to move to an entirely different directory (Change Directory)
 
 for more on these, check the wikipedia pages for
 [cd](http://en.wikipedia.org/wiki/Cd_\(command\)),
@@ -94,13 +94,13 @@ it the same.
 
 Here's a few nano commands that are useful:
 
-* `ctrl+k` = cut, you can cut out multiple lines by hitting this repeatedly.
+* <p>`ctrl+k` = cut, you can cut out multiple lines by hitting this repeatedly.
 
-* `ctrl+u` = uncut, you can re-insert cutout lines by hitting this repeatedly.
+* <p>`ctrl+u` = uncut, you can re-insert cutout lines by hitting this repeatedly.
 
-* `ctrl+/` = goto line #
+* <p>`ctrl+/` = goto line #
 
-* `ctrl+w` = search for a word or phrase, there are a few options here, 'M-R' is a regex search, try hitting `esc+r` to use this (M stand for Meta-key, so try the Apple key or Windows key if esc doesn't work).
+* <p>`ctrl+w` = search for a word or phrase, there are a few options here, 'M-R' is a regex search, try hitting `esc+r` to use this (M stand for Meta-key, so try the Apple key or Windows key if esc doesn't work).
 
 Nano's UI shows options you can use to translate keystrokes you should know
 that `^` is the control key and `M` is the escape key.

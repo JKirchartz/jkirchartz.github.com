@@ -10,11 +10,10 @@ Here we go, at it again... with a new plugin called fish-menu... heavily based o
 
 I've modified the code in many ways, adding a few features such as:
 
-  * [hoverIntent](http://cherne.net/brian/resources/jquery.hoverIntent.html) Support
-  * Drop-down textual marker, such as »
-  * Miniaturization, helps speed download  
-
-  * No jQuery UI, helps reduce HTTP requests
+  * <p>[hoverIntent](http://cherne.net/brian/resources/jquery.hoverIntent.html) Support
+  * <p>Drop-down textual marker, such as »
+  * <p>Miniaturization, helps speed download  
+  * <p>No jQuery UI, helps reduce HTTP requests
 
 Use is as easy as the original potato menu, by simply using nested unordered
 lists, like this:
