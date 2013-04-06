@@ -21,6 +21,7 @@ where it was being used to circumvent oppressive regime's policies, so I can har
 So now to fill this new hole in my life, there were a few solutions offered as replacements that I tried.
 
 * [Pulse](http://pulse.me)
+
    It's ok, you can only import reader feeds from the app, not the website, which forced me to make some room on my phone. 
    Sadly I had to add each feed individually to new or existing pages, I couldn't just reuse the folders from Reader.
    And that's where I found my other problem, you can only have so many feeds on a page; Resulting in pages like "Dev2" and "Dev3".
@@ -29,12 +30,14 @@ So now to fill this new hole in my life, there were a few solutions offered as r
    It'd be great if all your content had a descriptive picture, unfortunely most of what I read doesn't.
    If you love Windows 8 Metro, you'll like Pulse.
 * [Prismatic](http://getprismatic.com)
+
    You can connect your Reader account here by signing up or signing in with Google.
    However that's not quite obvious, and is more of a lucky happenstance for connecting your Google account.
    Unfortunately again you have to add your interests or favorite sites manually.
    Prismatic isn't an RSS reader, it's an article suggestion tool, based on interests in your feed. 
    The social ascpect is cool, and there's always a ton of interesting content, but this isn't a feed reader.
 * [Feedly](http://www.feedly.com/)
+
    Amazing feed reader, similar keyboard shortcuts to Reader, and other features are close.
    The Title's view is almost exactly like Reader's compact view, which is my favorite.
    There's phone apps, browser apps, and web access here, so you can always read your feed.
