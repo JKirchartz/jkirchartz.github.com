@@ -9,18 +9,19 @@ If you've been [following me](http://twitter.com/jkirchartz) for a while, you mi
 it's very clean. There's nothing there to get in your way, except your own limitations, and those limitations can be
 destroyed through practice. Havn't tried vim yet? What are you waiting for?
 
-Vim is a text editor written by Bram Moolenaar and first released publicly in 1991. It is commonly found on unix-based operating systems. VIM is based off an older text editor, vi, and it's name is an acronym for Vi-Improved.
+Vim is a text editor written by Bram Moolenaar and first released publicly in 1991. 
+It is commonly found on unix-based operating systems. 
+VIM is based off an older text editor, vi, and it's name is an acronym for Vi-Improved.
 With vim Your fingers never have to leave the keyboard to command great power. The learning curve is a little steep but you can very quickly pick up new skills as you need them. The basic premise is that there is an Input mode
 and a Command mode. By default you start in command mode, here you can move around the document, search, and do a fair bit of editing quickly. Insert mode is designed for adding (and removing) text, it's just like a normal text
 editor.
 
-Quick Start/Cheat Sheet
------------
+##Quick Start/Cheat Sheet
 
 ###From the Command Line
 
-* <p>type "vim" or "vi" into the command line to create a new file
-* <p>type "vim /path/to/file.name" to open an existing file. 
+* <p>type "vim" into the command line to create a new untitled file
+* <p>type "vim /path/to/file.name" to open an existing file. (if the file doesn't exist, this creates it)
 * <p>to open multiple files list them like `vim file1.txt file2.sh`
     * <p>you can switch to the next open file with the command `:bn`
 
@@ -41,7 +42,7 @@ Quick Start/Cheat Sheet
     * <p>to move to line 88 hit `88G` or `88gg`
     * <p>move to the begining of a file hit `gg`
     * <p>move to the end of the file hit `G`
-    * <p>hitting `%` while the cursor is on a bracket like `[({})]` will find the matching bracket
+    * <p>hitting `%` while the cursor is on a bracket like `\[\(\{\}\)\]` will find the matching bracket
 * <p>to delete a character hit `x`
 * <p>to cut a line hit `dd`
 * <p>to copy a line hit `yy`
@@ -59,15 +60,18 @@ Quick Start/Cheat Sheet
 
 
 ###VIM tips
-* <p>If the file is owned by root and you opened it as another user, you can escalate privileges and save with `:w !sudo tee %`
+* <p>If the file is owned by root and you opened it as another user, you can escalate privileges and save with `:w \!sudo tee %`
 * <p>the delimiter when using `:s` doesn't have to be `/` you can try `%` or `\_` if you want to avoid fences like in `:s/\\/usr\\/local\\//\\/opt\\//`
 * <p>You can store a cursor location in a mark, vim allows 26 of these, you can set a mark with command `m` followed by a letter like `ma`
     * <p>you can move to a line containing a mark using the `'` (single quote) command `'a` moves to the line containing the mark labeled `a`
     * <p>you can move to the exact location of the mark using the `\`` (backquote) command `\`a` moves to the mark labeled `a`
     * <p>these are "movements" that can be combined with other statements like `d\`a` to cut text from the cursor's location to the mark labeled `a`
+* <p>You can make macros with the `q` command, 
+    * <p>hit `qa` to create a macro named `a`, vim should show a record indicator, hit `q` again to stop recording
+    * <p>hit `@a` to execute the macro named `a`, you can execute the command multiple times in the standard way `23@a` will repeat it 23 times.
 
-Going Further
-------------
+##Going Further
+
 Vim is highly customizable, you can set shortcuts and preferences in the `.vimrc` file, usually located in your home directory.
 There are a [ton of plugins (aka scripts)](http://www.vim.org/scripts/) available too. They're easy to manage with other scripts
 like [Pathogen](https://github.com/tpope/vim-pathogen) or [Vundle](https://github.com/gmarik/vundle). 
@@ -75,8 +79,8 @@ like [Pathogen](https://github.com/tpope/vim-pathogen) or [Vundle](https://githu
 If you want to get a headstart, my [dotfiles are available on github](https://github.com/jkirchartz/dotfiles), but there are a lot of people 
 doing that lately, for example there's a very nice VIM Distribution named [Janus](https://github.com/carlhuda/janus) that's worth a look.
 
-Links
-------------
+##Links
+
 * <p>[VIM docs](http://www.vim.org/docs.php) 
 * <p>[VIM Cheat-sheet](http://michael.peopleofhonoronly.com/vim/)
 * <p>[VIM Keyboard Cheat-sheet](http://walking-without-crutches.heroku.com/image/images/vi-vim-cheat-sheet.png)
