@@ -42,7 +42,7 @@ editor.
     * <p>to move to line 88 hit `88G` or `88gg`
     * <p>move to the begining of a file hit `gg`
     * <p>move to the end of the file hit `G`
-    * <p>hitting `%` while the cursor is on a bracket like `\[\(\{\}\)\]` will find the matching bracket
+    * <p>hitting `%` while the cursor is on a bracket like `[({})]` will find the matching bracket
 * <p>to delete a character hit `x`
 * <p>to cut a line hit `dd`
 * <p>to copy a line hit `yy`
@@ -67,7 +67,7 @@ editor.
     * <p>you can move to the exact location of the mark using the `\`` (backquote) command `\`a` moves to the mark labeled `a`
     * <p>these are "movements" that can be combined with other statements like `d\`a` to cut text from the cursor's location to the mark labeled `a`
 * <p>You can make macros with the `q` command, 
-    * <p>hit `qa` to create a macro named `a`, vim should show a record indicator, hit `q` again to stop recording
+    * <p>hit `qa` to create a macro named `a` (should show a record indicator) enter a series of commands and  hit `q` again to stop recording.
     * <p>hit `@a` to execute the macro named `a`, you can execute the command multiple times in the standard way `23@a` will repeat it 23 times.
 
 ##Going Further
