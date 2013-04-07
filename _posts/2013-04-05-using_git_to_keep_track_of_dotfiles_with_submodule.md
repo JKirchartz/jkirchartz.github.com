@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Using git to keep track of dotfiles? Try submodule
+title: "Using git to keep track of dotfiles? Try submodule"
 published: false
 tags:
-- git
+- article
 ---
 
 ##VIM &amp; pathogen

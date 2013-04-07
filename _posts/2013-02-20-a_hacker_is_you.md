@@ -2,7 +2,7 @@
 layout: post
 title: A Hacker is You
 published: false
-tags:
+tags: article
 ---
 
 http://countercomplex.blogspot.com/2011/06/we-need-pan-hacker-movement.html
