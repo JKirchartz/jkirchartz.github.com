@@ -23,7 +23,7 @@ editor.
 * <p>type "vim" into the command line to create a new untitled file
 * <p>type "vim /path/to/file.name" to open an existing file. (if the file doesn't exist, this creates it)
 * <p>to open multiple files list them like `vim file1.txt file2.sh`
-    * <p>you can switch to the next open file with the command `:bn`
+    * <p>you can switch to the next open file with the command `:bn`, or the previous one with `:bp`
 
 ###Working in VIM
 
