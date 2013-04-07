@@ -32,6 +32,7 @@ editor.
 * <p>hit "esc" to switch back to command mode
 
 ###VIM Commands
+
 * <p>type ":wq" or "ZZ" to save and quit
 * <p>type ":q!" to quit without saving
 * <p>moving the cursor
@@ -60,6 +61,7 @@ editor.
 
 
 ###VIM tips
+
 * <p>If the file is owned by root and you opened it as another user, you can escalate privileges and save with `:w !sudo tee %`
 * <p>the delimiter when using `:s` doesn't have to be `/` you can try `%` or `_` if you want to avoid fences like in `:s/\/usr\/local\/bin/\/common\/bin/` you can use `:s#/user/local/bin#/common/bin#`
 * <p>You can store a cursor location in a mark, vim allows 26 of these, you can set a mark with command `m` followed by a letter like `ma`
