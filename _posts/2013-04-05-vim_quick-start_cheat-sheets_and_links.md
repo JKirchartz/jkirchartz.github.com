@@ -54,14 +54,14 @@ editor.
 * <p>to delete from the cursor to the beginning of the line hit `d0`
 * <p>in command mode to search for `apple` type `/apple` and hit enter
     * <p>to look for the next occurance hit `n`
-* <p>in command mode to find and replace the first occurance type `:s/original/replacement/`
+* <p>in command mode to find and replace all occurances in a line type `:s/original/replacement/g`
     * <p>when searching you can use regular expressions
-* <p>in command mode to find and replace all occurances type `:s/original/replacement/g`
+* <p>in command mode to find and replace all occurances in a file type `:%s/original/replacement/g`
 
 
 ###VIM tips
-* <p>If the file is owned by root and you opened it as another user, you can escalate privileges and save with `:w \!sudo tee %`
-* <p>the delimiter when using `:s` doesn't have to be `/` you can try `%` or `\_` if you want to avoid fences like in `:s/\\/usr\\/local\\//\\/opt\\//`
+* <p>If the file is owned by root and you opened it as another user, you can escalate privileges and save with `:w !sudo tee %`
+* <p>the delimiter when using `:s` doesn't have to be `/` you can try `%` or `_` if you want to avoid fences like in `:s/\/usr\/local\/bin/\/common\/bin/` you can use `:s#/user/local/bin#/common/bin#`
 * <p>You can store a cursor location in a mark, vim allows 26 of these, you can set a mark with command `m` followed by a letter like `ma`
     * <p>you can move to a line containing a mark using the `'` (single quote) command `'a` moves to the line containing the mark labeled `a`
     * <p>you can move to the exact location of the mark using the `\`` (backquote) command `\`a` moves to the mark labeled `a`
