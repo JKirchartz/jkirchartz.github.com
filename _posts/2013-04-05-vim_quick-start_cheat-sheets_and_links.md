@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VIM quick-start/cheat-sheet &amp; links"
+title: "VIM quick-start, cheat-sheet, and links"
 tags:
 - tutorial
 ---
