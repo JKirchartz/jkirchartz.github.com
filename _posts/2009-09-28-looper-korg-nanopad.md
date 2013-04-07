@@ -53,7 +53,7 @@ Alright, here's the setup:
    * <p>set one button to control the "Multi-Purpose Transport Button" (MPTB from now on) (it should show record at first, but will switch to play & overdub)
 
 
-[![](http://3.bp.blogspot.com/_KHL6Vvj96Eo/SsERS0B4EfI/AAAAAAAAAjU/pHS-fROSGsc/s320/screenshot.jpg)](http://3.bp.blogspot.com/_KHL6Vvj96Eo/SsERS0B4EfI/AAAAAAAAAjU/pHS-fROSGsc/s1600-h/screenshot.jpg)
+[![Ableton Live Screenshot](http://3.bp.blogspot.com/_KHL6Vvj96Eo/SsERS0B4EfI/AAAAAAAAAjU/pHS-fROSGsc/s320/screenshot.jpg)](http://3.bp.blogspot.com/_KHL6Vvj96Eo/SsERS0B4EfI/AAAAAAAAAjU/pHS-fROSGsc/s1600-h/screenshot.jpg)
 
 
 Now you're good to go. Hit the button you asigned to send & then tap the MPTB

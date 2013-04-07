@@ -21,32 +21,32 @@ and this is the code needed for this example:
     <script src="jquery.letterpress.js" type="text/javascript"></script>
     <style>
         .all {
-	    font-family:Helvetica, Arial, Sans;
-	}
-	h1 {
-	    background:#2bf;
-	}
-	h2 {
-	    background:#f2b;
-	}
-	h3 {
-	    background:#b2f;
-	}
+        font-family:Helvetica, Arial, Sans;
+    }
+    h1 {
+        background:#2bf;
+    }
+    h2 {
+        background:#f2b;
+    }
+    h3 {
+        background:#b2f;
+    }
     </style>
     <script type="text/javascript">
         $(document).ready(function(){
-	    $("h1").letterpress({color: '#000', highlight: '#0ff', topOffset: '1px', leftOffset: '1px'});
-	    $("h2").letterpress({color: '#000', highlight: '#f0f', leftOffset: '1px'});
-	    $("h3").letterpress({color: '#000', highlight: '#f6f'});
-	    $("h4").letterpress({topOffset: '2px', leftOffset: '2px'});
-	});
-	</script>
-	<div class="all">
-	    <h1>Lorem ipsum dolor sit amet</h1>
-	    <h2>Lorem ipsum dolor sit amet</h2>
-	    <h3>Lorem ipsum dolor sit amet</h3>
-	    <h4>Lorem ipsum dolor sit amet</h4>
-	</div>
+        $("h1").letterpress({color: '#000', highlight: '#0ff', topOffset: '1px', leftOffset: '1px'});
+        $("h2").letterpress({color: '#000', highlight: '#f0f', leftOffset: '1px'});
+        $("h3").letterpress({color: '#000', highlight: '#f6f'});
+        $("h4").letterpress({topOffset: '2px', leftOffset: '2px'});
+    });
+    </script>
+    <div class="all">
+        <h1>Lorem ipsum dolor sit amet</h1>
+        <h2>Lorem ipsum dolor sit amet</h2>
+        <h3>Lorem ipsum dolor sit amet</h3>
+        <h4>Lorem ipsum dolor sit amet</h4>
+    </div>
 {% endhighlight %}
 
 This is a CSS / Graphic effect that usually requires a bit of planning and is kind-of hard

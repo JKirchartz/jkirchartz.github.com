@@ -26,8 +26,8 @@ docs](http://the.earth.li/~sgtatham/putty/0.61/htmldoc/).
 
 ## Getting Around:
 
-On windows you can list folders and directories like `C:/Program Files/` or
-`C:\Program Files\`, on linux it's `/var/www/html` (for apache's default html
+On windows you can list folders and directories like `C:/Program Files/` or 
+`` C:\Program Files\ ``, on linux it's `/var/www/html` (for apache's default html
 directory), so linux is /-only, where windows doesn't care if you use / or \.
 
 Let's see where we are on the server, type in `pwd` at the command line (you

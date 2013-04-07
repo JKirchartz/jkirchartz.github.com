@@ -73,8 +73,8 @@ Alright let's see what's in that php file loaded as javascript:
     sIFR.activate(high_strung);  
       
     sIFR.replace(high_strung, {  
-    selector: 'h1, h2, h3,  .high_strung, #high_strung'  
-    ,css: [  
+    selector: 'h1, h2, h3,  .high_strung, #high_strung'
+    ,css: [
     '.sIFR-root {color:#000000;}'  
     ,'a {color:#000000; text-decoration: underline; font-weight:normal; }'  
     ,'a:link {color:#000000; text-decoration: underline; font-weight:normal; }'  

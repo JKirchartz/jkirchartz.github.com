@@ -36,12 +36,12 @@ And the Javascript
     }
     function s_s(f, s_f, e_f, delay) {
         return (function() {
-	    $(\'#slideshow\' + f).fadeOut();
-	    if (f == e_f) { f = s_f; } else { f = f + 1; }
-	    setTimeout("$(\'#slideshow" + f + "\').fadeIn();", 850);
-	    setTimeout(s_s(f, s_f, e_f, delay), delay + 850);
-	})
-	}
+        $(\'#slideshow\' + f).fadeOut();
+        if (f == e_f) { f = s_f; } else { f = f + 1; }
+        setTimeout("$(\'#slideshow" + f + "\').fadeIn();", 850);
+        setTimeout(s_s(f, s_f, e_f, delay), delay + 850);
+    })
+    }
 {% endhighlight %}
 
 I'm thinking about maybe making this a real jQuery Plugin, but like I said, I'm just switching from Prototype/Scriptaculous to jQuery; so it may be a while.
