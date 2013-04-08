@@ -6,9 +6,234 @@
         <atom:link href="http://jkirchartz.com/rss.xml" rel="self" type="application/rss+xml" />
         <description>Joel Kirchartz, pittsburgh-based web developer</description>
         <language>en-us</language>
-        <pubDate>Sun, 07 Apr 2013 23:26:51 -0400</pubDate>
-        <lastBuildDate>Sun, 07 Apr 2013 23:26:51 -0400</lastBuildDate>
+        <pubDate>Mon, 08 Apr 2013 08:45:09 -0400</pubDate>
+        <lastBuildDate>Mon, 08 Apr 2013 08:45:09 -0400</lastBuildDate>
 
+        
+        <item>
+            <title>VIM quick-start, cheat-sheet, and links</title>
+            <link>http://jkirchartz.com//2013/04/vim_quick_start_cheatsheet_and_links.html</link>
+            <pubDate>Fri, 05 Apr 2013 00:00:00 -0400</pubDate>
+            <author>JKirchartz@gmail.com (Joel Kirchartz)</author>
+            <guid>http://jkirchartz.com//2013/04/vim_quick_start_cheatsheet_and_links</guid>
+            <description>&lt;p&gt;If you’ve been &lt;a href=&quot;http://twitter.com/jkirchartz&quot;&gt;following me&lt;/a&gt; for a while, you might know my editor of choice is VIM,
+it’s very clean. There’s nothing there to get in your way, except your own limitations, and those limitations can be
+destroyed through practice. Havn’t tried vim yet? What are you waiting for?&lt;/p&gt;
+
+&lt;p&gt;Vim is a text editor written by Bram Moolenaar and first released publicly in 1991. 
+It is commonly found on unix-based operating systems. 
+VIM is based off an older text editor, vi, and it’s name is an acronym for Vi-Improved.
+With vim Your fingers never have to leave the keyboard to command great power. The learning curve is a little steep but you can very quickly pick up new skills as you need them. The basic premise is that there is an Input mode
+and a Command mode. By default you start in command mode, here you can move around the document, search, and do a fair bit of editing quickly. Insert mode is designed for adding (and removing) text, it’s just like a normal text
+editor.&lt;/p&gt;
+
+&lt;h2 id=&quot;quick-startcheat-sheet&quot;&gt;Quick Start/Cheat Sheet&lt;/h2&gt;
+
+&lt;h3 id=&quot;from-the-command-line&quot;&gt;From the Command Line&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;type &quot;vim&quot; into the command line to create a new untitled file
+&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;type &quot;vim /path/to/file.name&quot; to open an existing file. (if the file doesn't exist, this creates it)
+&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;to open multiple files list them like `vim file1.txt file2.sh`
+^
+  * &lt;p&gt;you can switch to the next open file with the command `:bn`, or the previous one with `:bp`
+
+&lt;/p&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;###Working in VIM&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;hit &quot;i&quot; to switch from command mode to input mode
+&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;hit &quot;v&quot; to switch from command mode to visual mode
+&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;hit &quot;esc&quot; to switch back to command mode
+
+&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;###VIM Commands&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;type &quot;:wq&quot; or &quot;ZZ&quot; to save and quit
+&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;type &quot;:q!&quot; to quit without saving
+&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;moving the cursor
+^
+  * &lt;p&gt;`j` move down one line
+  * &lt;p&gt;`k` move up one line
+  * &lt;p&gt;`h` move left one character
+  * &lt;p&gt;`l` move right one character
+  * &lt;p&gt;to move to line 88 hit `88G` or `88gg`
+  * &lt;p&gt;move to the begining of a file hit `gg`
+  * &lt;p&gt;move to the end of the file hit `G`
+  * &lt;p&gt;hitting `%` while the cursor is on a bracket like `[({})]` will find the matching bracket
+&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;to delete a character hit `x`
+&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;to cut a line hit `dd`
+&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;to copy a line hit `yy`
+&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;to cut or copy multiple lines put a number before the command like `5dd`
+^
+  * &lt;p&gt;you can put a number before most commands to repeat them X many times.
+&lt;/p&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;press `p` to paste after the current line
+&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;press `P` to pase before the current line
+&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;to delete from the cursor to the end of the line hit `d$`
+&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;to delete from the cursor to the beginning of the line hit `d0`
+&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;in command mode to search for `apple` type `/apple` and hit enter
+^
+  * &lt;p&gt;to look for the next occurance hit `n`
+&lt;/p&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;in command mode to find and replace all occurances in a line type `:s/original/replacement/g`
+^
+  * &lt;p&gt;when searching you can use regular expressions
+&lt;/p&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;in command mode to find and replace all occurances in a file type `:%s/original/replacement/g`
+
+
+&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;###VIM tips&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;If the file is owned by root and you opened it as another user, you can escalate privileges and save with `:w !sudo tee %`
+&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;the delimiter when using `:s` doesn't have to be `/` you can try `%` or `_` if you want to avoid fences like in `:s/\/usr\/local\/bin/\/common\/bin/` you can use `:s#/user/local/bin#/common/bin#`
+&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can store a cursor location in a mark, vim allows 26 of these, you can set a mark with command `m` followed by a letter like `ma`
+^
+  * &lt;p&gt;you can move to a line containing a mark using the `'` (single quote) command `'a` moves to the line containing the mark labeled `a`
+  * &lt;p&gt;you can move to the exact location of the mark using the `` ` `` (backquote) command `` `a `` moves to the mark labeled `a`
+  * &lt;p&gt;these are &quot;movements&quot; that can be combined with other statements like `` d`a `` to cut text from the cursor's location to the mark labeled `a`
+&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can make macros with the `q` command, 
+^
+  * &lt;p&gt;hit `qa` to create a macro named `a` (should show a record indicator) enter a series of commands and  hit `q` again to stop recording.
+  * &lt;p&gt;hit `@a` to execute the macro named `a`, you can execute the command multiple times in the standard way `23@a` will repeat it 23 times.
+
+&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;##Going Further&lt;/p&gt;
+
+&lt;p&gt;Vim is highly customizable, you can set shortcuts and preferences in the &lt;code&gt;.vimrc&lt;/code&gt; file, usually located in your home directory.
+There are a &lt;a href=&quot;http://www.vim.org/scripts/&quot;&gt;ton of plugins (aka scripts)&lt;/a&gt; available too. They’re easy to manage with other scripts
+like &lt;a href=&quot;https://github.com/tpope/vim-pathogen&quot;&gt;Pathogen&lt;/a&gt; or &lt;a href=&quot;https://github.com/gmarik/vundle&quot;&gt;Vundle&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;If you want to get a headstart, my &lt;a href=&quot;https://github.com/jkirchartz/dotfiles&quot;&gt;dotfiles are available on github&lt;/a&gt;, but there are a lot of people 
+doing that lately, for example there’s a very nice VIM Distribution named &lt;a href=&quot;https://github.com/carlhuda/janus&quot;&gt;Janus&lt;/a&gt; that’s worth a look.&lt;/p&gt;
+
+&lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[VIM docs](http://www.vim.org/docs.php) 
+&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[VIM Cheat-sheet](http://michael.peopleofhonoronly.com/vim/)
+&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[VIM Keyboard Cheat-sheet](http://walking-without-crutches.heroku.com/image/images/vi-vim-cheat-sheet.png)
+&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Leaning Vim the Pragmatic Way](http://jrmiii.com/2009/03/06/learning-vim-the-pragmatic-way.html)
+&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[VIM Regex](http://vimregex.com/)
+&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Vim Tips Wiki](http://vim.wikia.com/wiki/Vim_Tips_Wiki)
+&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Best of Vim Tips](http://zzapper.co.uk/vimtips.html)
+&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Vimbits](http://vimbits.com/)
+&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[VI Cheat Sheet](http://www.lagmonster.org/docs/vi.html)
+&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Learning Vi &amp;amp; Vim editors (O'Reilly)](http://www.amazon.com/gp/product/059652983X)
+&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Download Vim](http://www.vim.org/download.php)
+&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Stack Overflow Question: What is your most productive shortcut with Vim?](http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118)
+
+&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
         
         <item>
             <title>RIP Google Reader</title>
