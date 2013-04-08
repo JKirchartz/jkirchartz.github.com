@@ -19,11 +19,10 @@ editor.
 
 ###From the Command Line
 
-* <p>type "vim" into the command line to create a new untitled file
-* <p>type "vim /path/to/file.name" to open an existing file. (if the file doesn't exist, this creates it)
-* <p>to open multiple files list them like `vim file1.txt file2.sh`
-
-    * <p>you can switch to the next open file with the command `:bn`, or the previous one with `:bp`
+* <p>type "vim" into the command line to create a new untitled file</p>
+* <p>type "vim /path/to/file.name" to open an existing file. (if the file doesn't exist, this creates it)</p>
+* <p>to open multiple files list them like `vim file1.txt file2.sh`</p>
+    * <p>you can switch to the next open file with the command `:bn`, or the previous one with `:bp`</p>
 
 ###Working in VIM
 
@@ -35,42 +34,42 @@ editor.
 
 * <p>type ":wq" or "ZZ" to save and quit
 * <p>type ":q!" to quit without saving
-* <p>moving the cursor
-    * <p>`j` move down one line
-    * <p>`k` move up one line
-    * <p>`h` move left one character
-    * <p>`l` move right one character
-    * <p>to move to line 88 hit `88G` or `88gg`
-    * <p>move to the begining of a file hit `gg`
-    * <p>move to the end of the file hit `G`
-    * <p>hitting `%` while the cursor is on a bracket like `[({})]` will find the matching bracket
-* <p>to delete a character hit `x`
-* <p>to cut a line hit `dd`
-* <p>to copy a line hit `yy`
-* <p>to cut or copy multiple lines put a number before the command like `5dd`
-    * <p>you can put a number before most commands to repeat them X many times.
-* <p>press `p` to paste after the current line
-* <p>press `P` to pase before the current line
-* <p>to delete from the cursor to the end of the line hit `d$`
-* <p>to delete from the cursor to the beginning of the line hit `d0`
-* <p>in command mode to search for `apple` type `/apple` and hit enter
-    * <p>to look for the next occurance hit `n`
-* <p>in command mode to find and replace all occurances in a line type `:s/original/replacement/g`
-    * <p>when searching you can use regular expressions
-* <p>in command mode to find and replace all occurances in a file type `:%s/original/replacement/g`
+* <p>moving the cursor</p>
+    * <p>`j` move down one line</p>
+    * <p>`k` move up one line</p>
+    * <p>`h` move left one character</p>
+    * <p>`l` move right one character</p>
+    * <p>to move to line 88 hit `88G` or `88gg`</p>
+    * <p>move to the begining of a file hit `gg`</p>
+    * <p>move to the end of the file hit `G`</p>
+    * <p>hitting `%` while the cursor is on a bracket like `[({})]` will find the matching bracket</p>
+* <p>to delete a character hit `x`</p>
+* <p>to cut a line hit `dd`</p>
+* <p>to copy a line hit `yy`</p>
+* <p>to cut or copy multiple lines put a number before the command like `5dd`</p>
+    * <p>you can put a number before most commands to repeat them X many times.</p>
+* <p>press `p` to paste after the current line</p>
+* <p>press `P` to pase before the current line</p>
+* <p>to delete from the cursor to the end of the line hit `d$`</p>
+* <p>to delete from the cursor to the beginning of the line hit `d0`</p>
+* <p>in command mode to search for `apple` type `/apple` and hit enter</p>
+    * <p>to look for the next occurance hit `n`</p>
+* <p>in command mode to find and replace all occurances in a line type `:s/original/replacement/g`</p>
+    * <p>when searching you can use regular expressions</p>
+* <p>in command mode to find and replace all occurances in a file type `:%s/original/replacement/g`</p>
 
 
 ###VIM tips
 
-* <p>If the file is owned by root and you opened it as another user, you can escalate privileges and save with `:w !sudo tee %`
-* <p>the delimiter when using `:s` doesn't have to be `/` you can try `%` or `_` if you want to avoid fences like in `:s/\/usr\/local\/bin/\/common\/bin/` you can use `:s#/user/local/bin#/common/bin#`
-* <p>You can store a cursor location in a mark, vim allows 26 of these, you can set a mark with command `m` followed by a letter like `ma`
-    * <p>you can move to a line containing a mark using the `'` (single quote) command `'a` moves to the line containing the mark labeled `a`
-    * <p>you can move to the exact location of the mark using the `` ` `` (backquote) command `` `a `` moves to the mark labeled `a`
-    * <p>these are "movements" that can be combined with other statements like `` d`a `` to cut text from the cursor's location to the mark labeled `a`
-* <p>You can make macros with the `q` command, 
-    * <p>hit `qa` to create a macro named `a` (should show a record indicator) enter a series of commands and  hit `q` again to stop recording.
-    * <p>hit `@a` to execute the macro named `a`, you can execute the command multiple times in the standard way `23@a` will repeat it 23 times.
+* <p>If the file is owned by root and you opened it as another user, you can escalate privileges and save with `:w !sudo tee %`</p>
+* <p>the delimiter when using `:s` doesn't have to be `/` you can try `%` or `_` if you want to avoid fences like in `:s/\/usr\/local\/bin/\/common\/bin/` you can use `:s#/user/local/bin#/common/bin#`</p>
+* <p>You can store a cursor location in a mark, vim allows 26 of these, you can set a mark with command `m` followed by a letter like `ma`</p>
+    * <p>you can move to a line containing a mark using the `'` (single quote) command `'a` moves to the line containing the mark labeled `a`</p>
+    * <p>you can move to the exact location of the mark using the `` ` `` (backquote) command `` `a `` moves to the mark labeled `a`</p>
+    * <p>these are "movements" that can be combined with other statements like `` d`a `` to cut text from the cursor's location to the mark labeled `a`</p>
+* <p>You can make macros with the `q` command, </p>
+    * <p>hit `qa` to create a macro named `a` (should show a record indicator) enter a series of commands and  hit `q` again to stop recording.</p>
+    * <p>hit `@a` to execute the macro named `a`, you can execute the command multiple times in the standard way `23@a` will repeat it 23 times.</p>
 
 ##Going Further
 
@@ -85,14 +84,14 @@ doing that lately, for example there's a very nice VIM Distribution named [Janus
 
 * <p>[VIM docs](http://www.vim.org/docs.php) 
 * <p>[VIM Cheat-sheet](http://michael.peopleofhonoronly.com/vim/)
-* <p>[VIM Keyboard Cheat-sheet](http://walking-without-crutches.heroku.com/image/images/vi-vim-cheat-sheet.png)
-* <p>[Leaning Vim the Pragmatic Way](http://jrmiii.com/2009/03/06/learning-vim-the-pragmatic-way.html)
-* <p>[VIM Regex](http://vimregex.com/)
-* <p>[Vim Tips Wiki](http://vim.wikia.com/wiki/Vim_Tips_Wiki)
-* <p>[Best of Vim Tips](http://zzapper.co.uk/vimtips.html)
-* <p>[Vimbits](http://vimbits.com/)
-* <p>[VI Cheat Sheet](http://www.lagmonster.org/docs/vi.html)
-* <p>[Learning Vi & Vim editors (O'Reilly)](http://www.amazon.com/gp/product/059652983X)
-* <p>[Download Vim](http://www.vim.org/download.php)
-* <p>[Stack Overflow Question: What is your most productive shortcut with Vim?](http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118)
+* <p>[VIM Keyboard Cheat-sheet](http://walking-without-crutches.heroku.com/image/images/vi-vim-cheat-sheet.png)</p>
+* <p>[Leaning Vim the Pragmatic Way](http://jrmiii.com/2009/03/06/learning-vim-the-pragmatic-way.html)</p>
+* <p>[VIM Regex](http://vimregex.com/)</p>
+* <p>[Vim Tips Wiki](http://vim.wikia.com/wiki/Vim_Tips_Wiki)</p>
+* <p>[Best of Vim Tips](http://zzapper.co.uk/vimtips.html)</p>
+* <p>[Vimbits](http://vimbits.com/)</p>
+* <p>[VI Cheat Sheet](http://www.lagmonster.org/docs/vi.html)</p>
+* <p>[Learning Vi & Vim editors (O'Reilly)](http://www.amazon.com/gp/product/059652983X)</p>
+* <p>[Download Vim](http://www.vim.org/download.php)</p>
+* <p>[Stack Overflow Question: What is your most productive shortcut with Vim?](http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118)</p>
 
