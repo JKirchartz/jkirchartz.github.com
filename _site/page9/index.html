@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>  Joel Kirchartz - Web Developer n'at</title>
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" media="not print" href="/css/style.css" />
+        <link rel="stylesheet" media="only print" href="/css/print.css" />
+        <link rel="stylesheet" href="/css/syntax.css" />
+        <link href="/favicon2.ico" rel="icon" type="image/x-icon" />
+        <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    </head>
+    <body>
+
+        <div id="main" >
+            <header>
+                <h1><a href="/">JKirchartz</a></h1>
+                <span>Web Monkey n'at</span>
+                <nav role="navigation">
+                    <a href="/about.html">About</a>
+                    <a href="/archive.html">Archive</a>
+                    <a href="/demos/">Demos</a>
+                    <a href="http://research.jkirchartz.com">Research</a>
+                    <a href="/portfolio.html">Portfolio</a>
+                    <a href="/music.html">Music</a>
+                </nav>
+            </header>
+            
+<article>
+<h1 class="entry-title">
+    
+    
+        <a href="/2009/09/jquery-plugin-fish-menu.html">jQuery Plugin: Fish-Menu</a>
+    
+</h1>
+
+
+<p>Here we go, at it again… with a new plugin called fish-menu… heavily based on <a href="http://labs.makotokw.com/s/jquery/menu">jquery.ui.potato.menu</a> by <a href="http://makotokw.com/en/">Makoto_KW</a>   </p>
+
+<p>I’ve modified the code in many ways, adding a few features such as:</p>
+
+<ul>
+  <li>
+    <p>[hoverIntent](http://cherne.net/brian/resources/jquery.hoverIntent.html) Support
+</p>
+  </li>
+  <li>
+    <p>Drop-down textual marker, such as »
+</p>
+  </li>
+  <li>
+    <p>Miniaturization, helps speed download  
+</p>
+  </li>
+  <li>
+    <p>No jQuery UI, helps reduce HTTP requests
+
+</p>
+  </li>
+</ul>
+<p>Use is as easy as the original potato menu, by simply using nested unordered
+lists, like this:</p>
+
+<p>Liquid error: No such file or directory - posix_spawnp</p>
+
+<p>And then throwing some javascript/css at it like this:</p>
+
+<p>Liquid error: No such file or directory - posix_spawnp</p>
+
+<p>and Ka-Pow, drop-down jQuery menus in 2.66KB (minified)</p>
+
+<p>DOWNLOAD: <a href="http://jkirchartz-jquery-repository.googlecode.com/files/jquery.fish.menu.js">FULL</a> 
+<a href="http://jkirchartz-jquery-repository.googlecode.com/files/jquery.fish.menu-min.js">MINI</a> 
+<a href="http://jkirchartz-jquery-repository.googlecode.com/files/jquery.fish.css">CSS</a></p>
+
+<p>I have noticed a bug in ie6 (it exists in the original potato menu too) and I
+can’t really figure it out, the li’s in the sub-nav appear to float left, if
+anybody has any insight let me know (it’s not the pseudo-element bug)</p>
+
+
+
+
+<div class="center">
+    
+    <time datetime="2009-09-09T00:00:00-04:00">
+        <span class="day">
+            09
+        </span>
+        <span class="month">
+            Sep
+        </span>
+        <span class="year">
+            2009
+        </span>
+    </time>
+    
+</div>
+
+
+
+<div class="center"><a href="/2009/09/jquery-plugin-fish-menu.html#disqus_thread">[comments]</a></div>
+</article>
+
+<article>
+<h1 class="entry-title">
+    
+    
+        <a href="/2009/07/hacks-fontburner.html">Hacks: FontBurner</a>
+    
+</h1>
+
+
+<p>As you might have noticed <s>I've got</s> I had a couple crazy “non-standard” fonts
+from <a href="http://www.fontburner.com/">fontburner.com</a>. <a href="http://www.fontburner.com/">FontBurner</a> is a great tool for hosting <a href="http://www.mikeindustries.com/blog/sifr/">sIFR
+(scalable inman flash replacement)</a>
+flash files &amp; javascript to simply replace fonts &amp; text with a small flash
+file that displays it in the font of your choice. Currently fontburner has a
+limited set of options regarding color/spacing etc. but with a little
+ingenuity one is able to add this functionality themselves.</p>
+
+<p>First let us look at how FontBurner works. When you goto their site choose
+fonts, then which style of font to use. Once you’ve chosen a style you can
+easily navigate through all the different type-faces, right below each example
+is a ‘get the code’ button, which will give you this:</p>
+
+<p>Liquid error: No such file or directory - posix_spawnp</p>
+
+<p>Now you copy that code onto your page &amp; it will replace h1, h2, h3 tags and
+any dom element with a class or ID the same as the font-name.</p>
+
+<p>Ok, so now let’s do a little disection &amp; investigation…</p>
+
+<p>Liquid error: No such file or directory - posix_spawnp</p>
+
+<p>Basically does the CSS image-replacement technique</p>
+
+<p>Liquid error: No such file or directory - posix_spawnp</p>
+
+<p>Undoes the CSS image-replacement technique for print-only</p>
+
+<p>Liquid error: No such file or directory - posix_spawnp</p>
+
+<p>The sIFR code itself</p>
+
+<p>Liquid error: No such file or directory - posix_spawnp</p>
+
+<p>The motherload of hackability, this is where we will have our fun.</p>
+
+<p>Liquid error: No such file or directory - posix_spawnp</p>
+
+<p>Attribution, let’s leave this in there because they deserve some credit.</p>
+
+<p>Alright let’s see what’s in that php file loaded as javascript:</p>
+
+<p>Liquid error: No such file or directory - posix_spawnp</p>
+
+<p>Hey look, CSS… this is EXACTLY what we want, and editing this script will
+give us much more control &amp; options for fontburner. I suggest removing the h1,
+h2, and h3 tags from the selectors string in line 9 of this code, you probably
+shouldn’t put CSS on a tag itself unless you’re sure it’s neccessary. Now lets
+move down to that lovely CSS… here you can change the font color, text-
+decoration, underling, weight, but there is a lot more you can do, hack away. So
+now you can text-align and almost anything else in flash’s limited css.</p>
+
+<p>Now you might have some code that looks like this:</p>
+
+<p>Liquid error: No such file or directory - posix_spawnp</p>
+
+<p>And you will have khaki-colour center-aligned text with a non-standard font.</p>
+
+
+
+
+<div class="center">
+    
+    <time datetime="2009-07-30T00:00:00-04:00">
+        <span class="day">
+            30
+        </span>
+        <span class="month">
+            Jul
+        </span>
+        <span class="year">
+            2009
+        </span>
+    </time>
+    
+</div>
+
+
+
+<div class="center"><a href="/2009/07/hacks-fontburner.html#disqus_thread">[comments]</a></div>
+</article>
+
+<article>
+<h1 class="entry-title">
+    
+    
+        <a href="/2009/07/tips-walk-on-characters-green-screen.html">Tips: Walk-on Characters &amp; Green Screen</a>
+    
+</h1>
+
+
+<p>Keying – the process used to remove green-screen – is a relatively simple process now-a-days, pretty simply 
+pick the shade of green, and tweak a few numbers and you’re done; but sometimes there are issues…</p>
+
+<p>A Walk-on Character project just came across my desk, a spokes-person shot on green-screen to say the mission 
+statement of the site. But there's a problem, a big problem, the source footage is terrible, the spokes-person 
+is casting 4-6 different shadows depending on where they're standing, and to make matters worse the video is pixelated, and blurry.</p>
+
+<p>These issues individually cause problems when keying, combined the effects are HUGE, mainly because the system gets 
+confused as to where the line between the subject and the green-screen actually are, this can be easily avoided by 
+following a few simple guidelines.</p>
+
+<ol>
+  <li>
+    <p>Camera
+
+ This is perhaps the most important thing to a good green-screen shoot, you cannot pull out your old super-8 and get decent looking video to put online, you absolutely MUST use a professional or pro-sumer grade camera, so anything on sale at the local <a href="http://www.walmart.com/">big</a> <a href="http://target.com/">box</a> <a href="http://www.bjs.com/">store</a> is basically off-limits.
+</p>
+  </li>
+  <li>
+    <p>Lighting
+
+ Simply put, lighting is one of the most important things in videography, and for green-screen it's relatively easy. Just use the Layer Method. Each subject &amp; set of lights is a different layer (yes the green-screen counts as a subject) Here is an image of the most lighting set-up, just be sure to have no possibility of shadows ANYWHERE.
+ ![setup lights in layers](http://4.bp.blogspot.com/_KHL6Vvj96Eo/Sl4OmTM2n5I/AAAAAAAAAiU/6O0DKDwJ7bM/s320/Layers.png)
+</p>
+  </li>
+  <li>
+    <p>Camera Setup
+
+ While setting up the camera make sure you're positioned dead-on to the subject, and that the entire background is green-screen (some gaffers tape is exceptable, if it's blue or green) Make sure there are no 
+ lighting fixtures or wires viewable anywhere.
+
+ White-balance your camera with a big matte-finished white card where your subject will be, to ensure that nothing turns out tinted funny.
+</p>
+  </li>
+  <li>
+    <p>Wardrobe &amp; Make-up
+
+ You're going to need to pay attention to both of these very carefully if you're going to put somebody infront of a greenscreen &amp; expect them to look good coming out of the other side. 
+ Here are some very important tips:
+ * <p>No pin-stripes or similar patterns (They will produce a <a href="http://en.wikipedia.org/wiki/Moir%C3%A9_pattern">Moire Pattern</a>)
+ * <p>No Green (on greenscreen) No Blue (on bluescreen) not even in make-up
+ * <p>Nothing Shiny (Apply appropriate ammounts of powder to all exposed skin &amp; in the case of a whole-body shot, be wary of watches, glasses, jewelry, shoes etc.)
+ Reflections will cause big missing chunks of the subject. Always ask your talent to bring a few options of outfits, and if needed to wear contact lenses or memorize the script.
+
+</p></p></p></p>
+  </li>
+</ol>
+<p>With these simple steps you will get a high-quality source video to give to the editor, and they will be able to key out the background perfectly leaving you with a beautiful walk-on character for your site.</p>
+
+<p>For a more detailed explanation (aimed towords videographers) read <i><a href="http://www.film-and-video.com/broadcastvideoexamples-greenscreen.html">Down and Dirty Green Screen</a></i> by Walter Graff</p>
+
+<p>Before I sign-off, here’s another tip: If you’re going to use a walk-on character to pop up when somebody launches your page, i
+the video should be under 1 minute long so that it will load quickly when somebody visits the site.</p>
+
+
+
+
+<div class="center">
+    
+    <time datetime="2009-07-15T00:00:00-04:00">
+        <span class="day">
+            15
+        </span>
+        <span class="month">
+            Jul
+        </span>
+        <span class="year">
+            2009
+        </span>
+    </time>
+    
+</div>
+
+
+
+<div class="center"><a href="/2009/07/tips-walk-on-characters-green-screen.html#disqus_thread">[comments]</a></div>
+</article>
+
+
+<div class="pagination">
+    <span>
+        
+            
+                <a href="/page8" class="previous">&laquo;~</a>
+            
+        
+        [9/11]
+        
+            <a href="/page10" class="next ">~&raquo;</a>
+        
+        <br />
+        <a href="#main" title="back to top">&#9650;</a>
+    </span>
+</div>
+
+            <footer>
+                <ul class="social_media">
+                    <li><a href="http://www.linkedin.com/in/jkirchartz" title="connect with me on linkedin"><img src="/images/linkedin-48x48.png" alt="linkedin" /></a></li>
+                    <li><a href="http://stackoverflow.com/users/276250/jkirchartz" title="check my street cred on stackoverflow"><img src="/images/stackoverflow-48x48.png" alt="stackoverflow" /></a></li>
+                    <li><a href="http://twitter.com/JKirchartz" title="follow me on twitter"><img src="/images/twitter-48x48.png" alt="twitter" /></a></li>
+                    <li><a href="http://github.com/JKirchartz" title="checkout my github"><img src="/images/github-48x48.png" alt="github" /></a></li>
+                    <li><a href="http://i-am-cc.org/instagram/jkirchartz" title="scope my pics on instagram"><img src="/images/instagram-48x48.png" alt="instagram" /></a></li>
+                    <li><a href="http://soundcloud.com/jkirchartz" title="remix me on soundcloud"><img src="/images/soundcloud-48x48.png" alt="soundcloud" /></a></li>
+                    <li><a href="http://stash.jkirchartz.com/" title="tumble along on tumblr"><img src="/images/tumblr-48x48.png" alt="tumblr" /></a></li>
+                    <li><a href="&#x6D;&#97;&#x69;&#x6C;&#116;&#x6F;:&#x6D;e&#64;&#x6A;&#x6B;&#105;&#x72;&#99;&#x68;&#97;r&#x74;&#122;&#x2E;&#x63;&#x6F;&#109;" title="shoot me an email"><img src="/images/email-48x48.png" alt="email" /></a></li>
+                    <li><a href="http://feeds.feedburner.com/JoelKirchartz" title="subscribe to my feed" rel="alternate" type="application/rss+xml"><img src="/images/feed-48x48.png" alt="feed"/></a></li>
+                </ul><form id="search" action="/search.html">
+                    <input type="text" id="q" name="q" placeholder="search" />
+                    <button type="submit">&raquo;</button>
+                    <p><a href="http://coderwall.com/jkirchartz"><img alt="Endorse JKirchartz on Coderwall" src="http://api.coderwall.com/jkirchartz/endorsecount.png" /></a></p>
+                    <p>All original code presented under the <a rel="license" href="https://raw.github.com/JKirchartz/NPL/master/NPL.txt">NP Liscence</a>
+                        licence; all wrongs reserved.</p>
+                    <p>All original text and images are under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons 3.0</a> attribution licence.</p>
+                </form>
+            </footer>
+
+        </div>
+        <canvas id="canvas"></canvas>
+        <script src="/js/background.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            function loadScript(src){
+                var script = document.createElement('script');
+                script.type = 'text/javascript';
+                script.async = true;
+                script.src = src;
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(script, s);
+            }
+            WebFontConfig = { google: { families: [ 'Enriqueta::latin' ] } };
+            var _gaq = _gaq || [],
+                protocol = document.location.protocol;
+            _gaq.push(['_setAccount', 'UA-21180085-1']);
+            _gaq.push(['_trackPageview']);
+
+            loadScript(('https:' == protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js');
+            loadScript(('https:' == protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js');
+            loadScript("//api.flattr.com/js/0.6/load.js?mode=auto&uid=jkirchartz&category=text");
+        </script>
+    </body>
+</html>
