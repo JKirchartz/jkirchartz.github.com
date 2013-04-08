@@ -6,8 +6,8 @@
         <atom:link href="http://jkirchartz.com/rss.xml" rel="self" type="application/rss+xml" />
         <description>Joel Kirchartz, pittsburgh-based web developer</description>
         <language>en-us</language>
-        <pubDate>Mon, 08 Apr 2013 08:45:09 -0400</pubDate>
-        <lastBuildDate>Mon, 08 Apr 2013 08:45:09 -0400</lastBuildDate>
+        <pubDate>Mon, 08 Apr 2013 15:41:19 -0400</pubDate>
+        <lastBuildDate>Mon, 08 Apr 2013 15:41:19 -0400</lastBuildDate>
 
         
         <item>
@@ -16,222 +16,138 @@
             <pubDate>Fri, 05 Apr 2013 00:00:00 -0400</pubDate>
             <author>JKirchartz@gmail.com (Joel Kirchartz)</author>
             <guid>http://jkirchartz.com//2013/04/vim_quick_start_cheatsheet_and_links</guid>
-            <description>&lt;p&gt;If you’ve been &lt;a href=&quot;http://twitter.com/jkirchartz&quot;&gt;following me&lt;/a&gt; for a while, you might know my editor of choice is VIM,
-it’s very clean. There’s nothing there to get in your way, except your own limitations, and those limitations can be
-destroyed through practice. Havn’t tried vim yet? What are you waiting for?&lt;/p&gt;
+            <description>&lt;p&gt;If you've been &lt;a href=&quot;http://twitter.com/jkirchartz&quot;&gt;following me&lt;/a&gt; for a while, you might know my editor of choice is VIM,
+it's very clean. There's nothing there to get in your way, except your own limitations, and those limitations can be
+destroyed through practice. Havn't tried vim yet? What are you waiting for?&lt;/p&gt;
 
-&lt;p&gt;Vim is a text editor written by Bram Moolenaar and first released publicly in 1991. 
-It is commonly found on unix-based operating systems. 
-VIM is based off an older text editor, vi, and it’s name is an acronym for Vi-Improved.
+&lt;p&gt;Vim is a text editor written by Bram Moolenaar and first released publicly in 1991.
+It is commonly found on unix-based operating systems.
+VIM is based off an older text editor, vi, and it's name is an acronym for Vi-Improved.
 With vim Your fingers never have to leave the keyboard to command great power. The learning curve is a little steep but you can very quickly pick up new skills as you need them. The basic premise is that there is an Input mode
-and a Command mode. By default you start in command mode, here you can move around the document, search, and do a fair bit of editing quickly. Insert mode is designed for adding (and removing) text, it’s just like a normal text
+and a Command mode. By default you start in command mode, here you can move around the document, search, and do a fair bit of editing quickly. Insert mode is designed for adding (and removing) text, it's just like a normal text
 editor.&lt;/p&gt;
 
-&lt;h2 id=&quot;quick-startcheat-sheet&quot;&gt;Quick Start/Cheat Sheet&lt;/h2&gt;
+&lt;h2&gt;Quick Start/Cheat Sheet&lt;/h2&gt;
 
-&lt;h3 id=&quot;from-the-command-line&quot;&gt;From the Command Line&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;type &quot;vim&quot; into the command line to create a new untitled file
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;type &quot;vim /path/to/file.name&quot; to open an existing file. (if the file doesn't exist, this creates it)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;to open multiple files list them like `vim file1.txt file2.sh`
-^
-  * &lt;p&gt;you can switch to the next open file with the command `:bn`, or the previous one with `:bp`
-
-&lt;/p&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;###Working in VIM&lt;/p&gt;
+&lt;h3&gt;From the Command Line&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;hit &quot;i&quot; to switch from command mode to input mode
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;hit &quot;v&quot; to switch from command mode to visual mode
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;hit &quot;esc&quot; to switch back to command mode
-
-&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;###VIM Commands&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;type &quot;vim&quot; into the command line to create a new untitled file&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;type &quot;vim /path/to/file.name&quot; to open an existing file. (if the file doesn't exist, this creates it)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;to open multiple files list them like &lt;code&gt;vim file1.txt file2.sh&lt;/code&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;type &quot;:wq&quot; or &quot;ZZ&quot; to save and quit
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;type &quot;:q!&quot; to quit without saving
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;moving the cursor
-^
-  * &lt;p&gt;`j` move down one line
-  * &lt;p&gt;`k` move up one line
-  * &lt;p&gt;`h` move left one character
-  * &lt;p&gt;`l` move right one character
-  * &lt;p&gt;to move to line 88 hit `88G` or `88gg`
-  * &lt;p&gt;move to the begining of a file hit `gg`
-  * &lt;p&gt;move to the end of the file hit `G`
-  * &lt;p&gt;hitting `%` while the cursor is on a bracket like `[({})]` will find the matching bracket
-&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;to delete a character hit `x`
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;to cut a line hit `dd`
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;to copy a line hit `yy`
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;to cut or copy multiple lines put a number before the command like `5dd`
-^
-  * &lt;p&gt;you can put a number before most commands to repeat them X many times.
-&lt;/p&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;press `p` to paste after the current line
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;press `P` to pase before the current line
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;to delete from the cursor to the end of the line hit `d$`
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;to delete from the cursor to the beginning of the line hit `d0`
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;in command mode to search for `apple` type `/apple` and hit enter
-^
-  * &lt;p&gt;to look for the next occurance hit `n`
-&lt;/p&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;in command mode to find and replace all occurances in a line type `:s/original/replacement/g`
-^
-  * &lt;p&gt;when searching you can use regular expressions
-&lt;/p&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;in command mode to find and replace all occurances in a file type `:%s/original/replacement/g`
-
-
-&lt;/p&gt;
-  &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;you can switch to the next open file with the command &lt;code&gt;:bn&lt;/code&gt;, or the previous one with &lt;code&gt;:bp&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;###VIM tips&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;Working in VIM&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;If the file is owned by root and you opened it as another user, you can escalate privileges and save with `:w !sudo tee %`
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;the delimiter when using `:s` doesn't have to be `/` you can try `%` or `_` if you want to avoid fences like in `:s/\/usr\/local\/bin/\/common\/bin/` you can use `:s#/user/local/bin#/common/bin#`
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;You can store a cursor location in a mark, vim allows 26 of these, you can set a mark with command `m` followed by a letter like `ma`
-^
-  * &lt;p&gt;you can move to a line containing a mark using the `'` (single quote) command `'a` moves to the line containing the mark labeled `a`
-  * &lt;p&gt;you can move to the exact location of the mark using the `` ` `` (backquote) command `` `a `` moves to the mark labeled `a`
-  * &lt;p&gt;these are &quot;movements&quot; that can be combined with other statements like `` d`a `` to cut text from the cursor's location to the mark labeled `a`
-&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;You can make macros with the `q` command, 
-^
-  * &lt;p&gt;hit `qa` to create a macro named `a` (should show a record indicator) enter a series of commands and  hit `q` again to stop recording.
-  * &lt;p&gt;hit `@a` to execute the macro named `a`, you can execute the command multiple times in the standard way `23@a` will repeat it 23 times.
-
-&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
-  &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;hit &quot;i&quot; to switch from command mode to input mode&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;hit &quot;v&quot; to switch from command mode to visual mode&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;hit &quot;esc&quot; to switch back to command mode&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;##Going Further&lt;/p&gt;
+
+
+&lt;h3&gt;VIM Commands&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;type &quot;:wq&quot; or &quot;ZZ&quot; to save and quit&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;type &quot;:q!&quot; to quit without saving&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;moving the cursor&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;j&lt;/code&gt; move down one line&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;k&lt;/code&gt; move up one line&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;h&lt;/code&gt; move left one character&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;l&lt;/code&gt; move right one character&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;to move to line 88 hit &lt;code&gt;88G&lt;/code&gt; or &lt;code&gt;88gg&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;move to the begining of a file hit &lt;code&gt;gg&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;move to the end of the file hit &lt;code&gt;G&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;hitting &lt;code&gt;%&lt;/code&gt; while the cursor is on a bracket like &lt;code&gt;[({})]&lt;/code&gt; will find the matching bracket&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;to delete a character hit &lt;code&gt;x&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;to cut a line hit &lt;code&gt;dd&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;to copy a line hit &lt;code&gt;yy&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;to cut or copy multiple lines put a number before the command like &lt;code&gt;5dd&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;you can put a number before most commands to repeat them X many times.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;press &lt;code&gt;p&lt;/code&gt; to paste after the current line&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;press &lt;code&gt;P&lt;/code&gt; to pase before the current line&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;to delete from the cursor to the end of the line hit &lt;code&gt;d$&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;to delete from the cursor to the beginning of the line hit &lt;code&gt;d0&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;in command mode to search for &lt;code&gt;apple&lt;/code&gt; type &lt;code&gt;/apple&lt;/code&gt; and hit enter&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;to look for the next occurance hit &lt;code&gt;n&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;in command mode to find and replace all occurances in a line type &lt;code&gt;:s/original/replacement/g&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;when searching you can use regular expressions&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;in command mode to find and replace all occurances in a file type &lt;code&gt;:%s/original/replacement/g&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;VIM tips&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If the file is owned by root and you opened it as another user, you can escalate privileges and save with &lt;code&gt;:w !sudo tee %&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;the delimiter when using &lt;code&gt;:s&lt;/code&gt; doesn't have to be &lt;code&gt;/&lt;/code&gt; you can try &lt;code&gt;%&lt;/code&gt; or &lt;code&gt;_&lt;/code&gt; if you want to avoid fences like in &lt;code&gt;:s/\/usr\/local\/bin/\/common\/bin/&lt;/code&gt; you can use &lt;code&gt;:s#/user/local/bin#/common/bin#&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You can store a cursor location in a mark, vim allows 26 of these, you can set a mark with command &lt;code&gt;m&lt;/code&gt; followed by a letter like &lt;code&gt;ma&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;you can move to a line containing a mark using the &lt;code&gt;'&lt;/code&gt; (single quote) command &lt;code&gt;'a&lt;/code&gt; moves to the line containing the mark labeled &lt;code&gt;a&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;you can move to the exact location of the mark using the &lt;code&gt;`&lt;/code&gt; (backquote) command &lt;code&gt;`a&lt;/code&gt; moves to the mark labeled &lt;code&gt;a&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;these are &quot;movements&quot; that can be combined with other statements like &lt;code&gt;d`a&lt;/code&gt; to cut text from the cursor's location to the mark labeled &lt;code&gt;a&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You can make macros with the &lt;code&gt;q&lt;/code&gt; command, &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;hit &lt;code&gt;qa&lt;/code&gt; to create a macro named &lt;code&gt;a&lt;/code&gt; (should show a record indicator) enter a series of commands and  hit &lt;code&gt;q&lt;/code&gt; again to stop recording.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;hit &lt;code&gt;@a&lt;/code&gt; to execute the macro named &lt;code&gt;a&lt;/code&gt;, you can execute the command multiple times in the standard way &lt;code&gt;23@a&lt;/code&gt; will repeat it 23 times.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;Going Further&lt;/h2&gt;
 
 &lt;p&gt;Vim is highly customizable, you can set shortcuts and preferences in the &lt;code&gt;.vimrc&lt;/code&gt; file, usually located in your home directory.
-There are a &lt;a href=&quot;http://www.vim.org/scripts/&quot;&gt;ton of plugins (aka scripts)&lt;/a&gt; available too. They’re easy to manage with other scripts
-like &lt;a href=&quot;https://github.com/tpope/vim-pathogen&quot;&gt;Pathogen&lt;/a&gt; or &lt;a href=&quot;https://github.com/gmarik/vundle&quot;&gt;Vundle&lt;/a&gt;. &lt;/p&gt;
+There are a &lt;a href=&quot;http://www.vim.org/scripts/&quot;&gt;ton of plugins (aka scripts)&lt;/a&gt; available too. They're easy to manage with other scripts
+like &lt;a href=&quot;https://github.com/tpope/vim-pathogen&quot;&gt;Pathogen&lt;/a&gt; or &lt;a href=&quot;https://github.com/gmarik/vundle&quot;&gt;Vundle&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;If you want to get a headstart, my &lt;a href=&quot;https://github.com/jkirchartz/dotfiles&quot;&gt;dotfiles are available on github&lt;/a&gt;, but there are a lot of people 
-doing that lately, for example there’s a very nice VIM Distribution named &lt;a href=&quot;https://github.com/carlhuda/janus&quot;&gt;Janus&lt;/a&gt; that’s worth a look.&lt;/p&gt;
+&lt;p&gt;If you want to get a headstart, my &lt;a href=&quot;https://github.com/jkirchartz/dotfiles&quot;&gt;dotfiles are available on github&lt;/a&gt;, but there are a lot of people
+doing that lately, for example there's a very nice VIM Distribution named &lt;a href=&quot;https://github.com/carlhuda/janus&quot;&gt;Janus&lt;/a&gt; that's worth a look.&lt;/p&gt;
 
-&lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
+&lt;h2&gt;Links&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[VIM docs](http://www.vim.org/docs.php) 
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[VIM Cheat-sheet](http://michael.peopleofhonoronly.com/vim/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[VIM Keyboard Cheat-sheet](http://walking-without-crutches.heroku.com/image/images/vi-vim-cheat-sheet.png)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Leaning Vim the Pragmatic Way](http://jrmiii.com/2009/03/06/learning-vim-the-pragmatic-way.html)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[VIM Regex](http://vimregex.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Vim Tips Wiki](http://vim.wikia.com/wiki/Vim_Tips_Wiki)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Best of Vim Tips](http://zzapper.co.uk/vimtips.html)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Vimbits](http://vimbits.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[VI Cheat Sheet](http://www.lagmonster.org/docs/vi.html)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Learning Vi &amp;amp; Vim editors (O'Reilly)](http://www.amazon.com/gp/product/059652983X)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Download Vim](http://www.vim.org/download.php)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[Stack Overflow Question: What is your most productive shortcut with Vim?](http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118)
-
-&lt;/p&gt;
-  &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.vim.org/docs.php&quot;&gt;VIM docs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://michael.peopleofhonoronly.com/vim/&quot;&gt;VIM Cheat-sheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://walking-without-crutches.heroku.com/image/images/vi-vim-cheat-sheet.png&quot;&gt;VIM Keyboard Cheat-sheet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://jrmiii.com/2009/03/06/learning-vim-the-pragmatic-way.html&quot;&gt;Leaning Vim the Pragmatic Way&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://vimregex.com/&quot;&gt;VIM Regex&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://vim.wikia.com/wiki/Vim_Tips_Wiki&quot;&gt;Vim Tips Wiki&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zzapper.co.uk/vimtips.html&quot;&gt;Best of Vim Tips&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://vimbits.com/&quot;&gt;Vimbits&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.lagmonster.org/docs/vi.html&quot;&gt;VI Cheat Sheet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.amazon.com/gp/product/059652983X&quot;&gt;Learning Vi &amp;amp; Vim editors (O'Reilly)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.vim.org/download.php&quot;&gt;Download Vim&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118&quot;&gt;Stack Overflow Question: What is your most productive shortcut with Vim?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 </description>
         </item>
         
@@ -241,55 +157,49 @@ doing that lately, for example there’s a very nice VIM Distribution named &lt;
             <pubDate>Sat, 16 Mar 2013 00:00:00 -0400</pubDate>
             <author>JKirchartz@gmail.com (Joel Kirchartz)</author>
             <guid>http://jkirchartz.com//2013/03/rip_google_reader</guid>
-            <description>&lt;p&gt;&lt;a href=&quot;http://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html&quot;&gt;Google unceremoniously killed Reader&lt;/a&gt;. 
-It was fun while it lasted, but you knew it was going to happen. 
-I’ve been using Reader to keep up with my feeds for a long time; sometimes ignore them for weeks, but still skimiming for the best. 
-The closure was hardly the hardest part. 
-That respect does to when Google originally decided to start damaging Reader with a redesign in late 2011. 
-This redesign brought in the new Google black bar, and partially replaced the &lt;a href=&quot;http://www.buzzfeed.com/robf4/googles-lost-social-network&quot;&gt;social aspect&lt;/a&gt; with Google Plus. 
+            <description>&lt;p&gt;&lt;a href=&quot;http://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html&quot;&gt;Google unceremoniously killed Reader&lt;/a&gt;.
+It was fun while it lasted, but you knew it was going to happen.
+I've been using Reader to keep up with my feeds for a long time; sometimes ignore them for weeks, but still skimiming for the best.
+The closure was hardly the hardest part.
+That respect does to when Google originally decided to start damaging Reader with a redesign in late 2011.
+This redesign brought in the new Google black bar, and partially replaced the &lt;a href=&quot;http://www.buzzfeed.com/robf4/googles-lost-social-network&quot;&gt;social aspect&lt;/a&gt; with Google Plus.
 Up until then you could share articles with your friends, if they actually wanted to see them.
-It was great for discovering things from new perspectives, and for trading the best feeds to follow But G+ never really filled the gap. 
+It was great for discovering things from new perspectives, and for trading the best feeds to follow But G+ never really filled the gap.
 It was a separate entity and integration into Reader went out the window with this announcement.
-Google Plus won’t be filling in any other gaps either.&lt;/p&gt;
+Google Plus won't be filling in any other gaps either.&lt;/p&gt;
 
 &lt;p&gt;The major losses here are in &lt;a href=&quot;http://www.techdirt.com/articles/20130314/08462522321/unintended-consequences-google-reader-shutdown-losing-key-tool-to-get-around-censored-internet-iran-china.shtml&quot;&gt;China &amp;amp; Iran&lt;/a&gt;
-where it was being used to circumvent oppressive regime’s policies, so I can hardly compare my plight.&lt;/p&gt;
+where it was being used to circumvent oppressive regime's policies, so I can hardly compare my plight.&lt;/p&gt;
 
 &lt;p&gt;So now to fill this new hole in my life, there were a few solutions offered as replacements that I tried.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://pulse.me&quot;&gt;Pulse&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://pulse.me&quot;&gt;Pulse&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;It’s ok, you can only import reader feeds from the app, not the website, which forced me to make some room on my phone. 
- Sadly I had to add each feed individually to new or existing pages, I couldn’t just reuse the folders from Reader.
- And that’s where I found my other problem, you can only have so many feeds on a page; Resulting in pages like “Dev2” and “Dev3”.
- The interface here expects an image to give you the title over, and each feed is given it’s own line and only shows a few articles each. 
- I just want one feed where I can see it all, and this isn’t it. 
- It’d be great if all your content had a descriptive picture, unfortunely most of what I read doesn’t.
- If you love Windows 8 Metro, you’ll like Pulse.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://getprismatic.com&quot;&gt;Prismatic&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; It's ok, you can only import reader feeds from the app, not the website, which forced me to make some room on my phone.
+ Sadly I had to add each feed individually to new or existing pages, I couldn't just reuse the folders from Reader.
+ And that's where I found my other problem, you can only have so many feeds on a page; Resulting in pages like &quot;Dev2&quot; and &quot;Dev3&quot;.
+ The interface here expects an image to give you the title over, and each feed is given it's own line and only shows a few articles each.
+ I just want one feed where I can see it all, and this isn't it.
+ It'd be great if all your content had a descriptive picture, unfortunely most of what I read doesn't.
+ If you love Windows 8 Metro, you'll like Pulse.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://getprismatic.com&quot;&gt;Prismatic&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;You can connect your Reader account here by signing up or signing in with Google.
- However that’s not quite obvious, and is more of a lucky happenstance for connecting your Google account.
+&lt;p&gt; You can connect your Reader account here by signing up or signing in with Google.
+ However that's not quite obvious, and is more of a lucky happenstance for connecting your Google account.
  Unfortunately again you have to add your interests or favorite sites manually.
- Prismatic isn’t an RSS reader, it’s an article suggestion tool, based on interests in your feed. 
- The social ascpect is cool, and there’s always a ton of interesting content, but this isn’t a feed reader.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://www.feedly.com/&quot;&gt;Feedly&lt;/a&gt;&lt;/p&gt;
+ Prismatic isn't an RSS reader, it's an article suggestion tool, based on interests in your feed.
+ The social ascpect is cool, and there's always a ton of interesting content, but this isn't a feed reader.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.feedly.com/&quot;&gt;Feedly&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;Amazing feed reader, similar keyboard shortcuts to Reader, and other features are close.
- The Title’s view is almost exactly like Reader’s compact view, which is my favorite.
- There’s phone apps, browser apps, and web access here, so you can always read your feed.
- This is nearly a drop-in replacement for Google Reader, and it imports your feeds automatically, like a good app should.&lt;/p&gt;
-  &lt;/li&gt;
+&lt;p&gt; Amazing feed reader, similar keyboard shortcuts to Reader, and other features are close.
+ The Title's view is almost exactly like Reader's compact view, which is my favorite.
+ There's phone apps, browser apps, and web access here, so you can always read your feed.
+ This is nearly a drop-in replacement for Google Reader, and it imports your feeds automatically, like a good app should.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I think I’ve found my man here with Feedly, I’m really enjoying it and the learning curve from Reader is nearly non-existent.&lt;/p&gt;
 
+&lt;p&gt;I think I've found my man here with Feedly, I'm really enjoying it and the learning curve from Reader is nearly non-existent.&lt;/p&gt;
 </description>
         </item>
         
@@ -299,37 +209,34 @@ where it was being used to circumvent oppressive regime’s policies, so I can h
             <pubDate>Sat, 01 Dec 2012 00:00:00 -0500</pubDate>
             <author>JKirchartz@gmail.com (Joel Kirchartz)</author>
             <guid>http://jkirchartz.com//2012/12/why-i-stopped-designing-in-photoshop</guid>
-            <description>&lt;p&gt;When I was learning design I was glued to photoshop. 
+            <description>&lt;p&gt;When I was learning design I was glued to photoshop.
 Touching every filter and tool, researching customisation and automation.
 Working hard to improve my skills, and learning all the tricks and &lt;a href=&quot;http://photoshopetiquette.com&quot;&gt;etiquette&lt;/a&gt;, but it was hogging my time.
-It was all fluff, web browsers don’t care about your layer-naming scheme or how well you use smart objects.
+It was all fluff, web browsers don't care about your layer-naming scheme or how well you use smart objects.
 The web is open, free, and unpredictable; Photoshop is none of those things.
-It’s a monolith of photo manipulation and drawing tools, it exists purely for creating and improving stunning images.
-It’s not a web devlopment tool, it’s a graphics tool, and you should always use the right tool for the task at hand.&lt;/p&gt;
+It's a monolith of photo manipulation and drawing tools, it exists purely for creating and improving stunning images.
+It's not a web devlopment tool, it's a graphics tool, and you should always use the right tool for the task at hand.&lt;/p&gt;
 
-&lt;h2 id=&quot;px&quot;&gt;PX&lt;/h2&gt;
+&lt;h2&gt;PX&lt;/h2&gt;
 
-&lt;p&gt;Everything you do in Photoshop has to be pixel-perfect, snapping to the pixel grid ensures jpegs are crisp and don’t have any jagged edges or odd artifacts. 
+&lt;p&gt;Everything you do in Photoshop has to be pixel-perfect, snapping to the pixel grid ensures jpegs are crisp and don't have any jagged edges or odd artifacts.
 Only one small problem: on the web, &lt;a href=&quot;http://jkirchartz.com/2012/07/there-is-no-such-thing-as-pixel-perfect.html&quot;&gt;there is no such thing as pixel perfect&lt;/a&gt;.
-There’s just no telling what a pixel will be on the end-user’s screen. 
-When using viewed at smaller resolutions set pixel values don’t change, so if you have a combined total of &lt;code&gt;960px&lt;/code&gt; of margins, padding, and images on a &lt;code&gt;320px&lt;/code&gt; wide screen you’re not giving the user the best experience.
-There’s another bug when using IE6-8, if you set your font with a pixel height it won’t resize like modern browsers and this hurts your site’s accessability.&lt;/p&gt;
+There's just no telling what a pixel will be on the end-user's screen.
+When using viewed at smaller resolutions set pixel values don't change, so if you have a combined total of &lt;code&gt;960px&lt;/code&gt; of margins, padding, and images on a &lt;code&gt;320px&lt;/code&gt; wide screen you're not giving the user the best experience.
+There's another bug when using IE6-8, if you set your font with a pixel height it won't resize like modern browsers and this hurts your site's accessability.&lt;/p&gt;
 
-&lt;h2 id=&quot;mockups&quot;&gt;Mockups&lt;/h2&gt;
+&lt;h2&gt;Mockups&lt;/h2&gt;
 
-&lt;p&gt;Sometimes mockups are neccessary, but I don’t use them often. 
-It’s much faster to prototype instead and it gives you a great head start to the final product. 
-Clients love seeing progress, and if you let them play with the minimum viable product they feel much more involved in the process. 
-This also allows them to give you feedback quicker, spot mistakes, and ask questions — all valuable time savers. &lt;/p&gt;
+&lt;p&gt;Sometimes mockups are neccessary, but I don't use them often.
+It's much faster to prototype instead and it gives you a great head start to the final product.
+Clients love seeing progress, and if you let them play with the minimum viable product they feel much more involved in the process.
+This also allows them to give you feedback quicker, spot mistakes, and ask questions &amp;mdash; all valuable time savers.&lt;/p&gt;
 
-&lt;h2 id=&quot;dont-take-my-word-for-it&quot;&gt;Don’t take my word for it&lt;/h2&gt;
+&lt;h2&gt;Don't take my word for it&lt;/h2&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;A PSD/PNG should be nothing more than an idea of a website. It should give clues and a direction to the build, but ultimately should not be treated as a final design. Following PSDs to the pixel will lead to ill-considered code, and code is your final product, not an image. For example, if your PSD uses three shades of very similar blue, the build should pick and honour just one. There is no point repeating similar declarations in your CSS when a happy middle-ground is more efficient, easier and quicker. A PSD is a clue, not a contract.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;blockquote&gt;&lt;p&gt;A PSD/PNG should be nothing more than an idea of a website. It should give clues and a direction to the build, but ultimately should not be treated as a final design. Following PSDs to the pixel will lead to ill-considered code, and code is your final product, not an image. For example, if your PSD uses three shades of very similar blue, the build should pick and honour just one. There is no point repeating similar declarations in your CSS when a happy middle-ground is more efficient, easier and quicker. A PSD is a clue, not a contract.&lt;/p&gt;&lt;/blockquote&gt;
 
-&lt;p&gt;— &lt;a href=&quot;http://the-pastry-box-project.net/harry-roberts/2012-november-20/&quot;&gt;Harry Roberts&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;&amp;mdash; &lt;a href=&quot;http://the-pastry-box-project.net/harry-roberts/2012-november-20/&quot;&gt;Harry Roberts&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         
@@ -339,19 +246,19 @@ This also allows them to give you feedback quicker, spot mistakes, and ask quest
             <pubDate>Mon, 29 Oct 2012 00:00:00 -0400</pubDate>
             <author>JKirchartz@gmail.com (Joel Kirchartz)</author>
             <guid>http://jkirchartz.com//2012/10/hello-github-goodbye-blogger</guid>
-            <description>&lt;p&gt;I’ve always been an early adopter and when blogs were just becoming a thing Blogger was one of the first companies doing it, how else would they get such a great URL?
+            <description>&lt;p&gt;I've always been an early adopter and when blogs were just becoming a thing Blogger was one of the first companies doing it, how else would they get such a great URL?
 For a time I was fine with the way blogging worked, but now I am disappointed. Enough so to leave.&lt;/p&gt;
 
-&lt;p&gt;A constant problem for me has been a lack of documentation for the templating. It’s a special xml format that they haven’t 
+&lt;p&gt;A constant problem for me has been a lack of documentation for the templating. It's a special xml format that they haven't
 disclosed in any way leaving the developers completely in the dark, forcing them to reverse engineer it.
-Another problem I’ve had is that their text editor seems to add html unreliably, it’s been difficult to style posts without being certain of their structure.
+Another problem I've had is that their text editor seems to add html unreliably, it's been difficult to style posts without being certain of their structure.
 I had hopes that the Google acquisition or their subsequent redesign would resolve this, but I was left wanting.&lt;/p&gt;
 
-&lt;p&gt;I’ve been in the process of recreating and redesigning this blog using markdown and jekyll to host it on github. I’m pretty excited to use VIM and such a simple
+&lt;p&gt;I've been in the process of recreating and redesigning this blog using markdown and jekyll to host it on github. I'm pretty excited to use VIM and such a simple
 markup system to write. The minimal experience, comfort, and confidence in my tools will definitely help me focus. Also the Liquid templates are well documented
 and easy to use. This allows much greater customization, and an all around better experience.&lt;/p&gt;
 
-&lt;p&gt;It’s taken me two months of squeezing this in between other projects and launches, (the draft for this post was written 8-29-12) and I’m now proud to present to you my new site.&lt;/p&gt;
+&lt;p&gt;It's taken me two months of squeezing this in between other projects and launches, (the draft for this post was written 8-29-12) and I'm now proud to present to you my new site.&lt;/p&gt;
 </description>
         </item>
         
@@ -361,22 +268,22 @@ and easy to use. This allows much greater customization, and an all around bette
             <pubDate>Thu, 12 Jul 2012 00:00:00 -0400</pubDate>
             <author>JKirchartz@gmail.com (Joel Kirchartz)</author>
             <guid>http://jkirchartz.com//2012/07/there-is-no-such-thing-as-pixel-perfect</guid>
-            <description>&lt;p&gt;There, I said it. Now get the phrase out of your head, it doesn’t exist, please stop trying. 
-Far too often you’ll hear some paraphrasing of the complaint “But it doesn’t look like it did in Photoshop” &lt;/p&gt;
+            <description>&lt;p&gt;There, I said it. Now get the phrase out of your head, it doesn't exist, please stop trying.
+Far too often you'll hear some paraphrasing of the complaint &quot;But it doesn't look like it did in Photoshop&quot;&lt;/p&gt;
 
-&lt;h2 id=&quot;well-why-not&quot;&gt;Well, Why not?&lt;/h2&gt;
+&lt;h2&gt;Well, Why not?&lt;/h2&gt;
 
-&lt;p&gt;For starters, a web browser &lt;strong&gt;isn’t&lt;/strong&gt; Photoshop; but pixel-perfect design is
+&lt;p&gt;For starters, a web browser &lt;strong&gt;isn't&lt;/strong&gt; Photoshop; but pixel-perfect design is
 still unattainable. I mean what &lt;em&gt;is&lt;/em&gt; a
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Pixel&quot;&gt;pixel&lt;/a&gt;? splitting the word “pix-el” is
-short for Picture Element, the smallest unit of a picture. Chances are you’re
-reading this on a computer, it’s monitor probably has square pixels; but look
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Pixel&quot;&gt;pixel&lt;/a&gt;? splitting the word &quot;pix-el&quot; is
+short for Picture Element, the smallest unit of a picture. Chances are you're
+reading this on a computer, it's monitor probably has square pixels; but look
 closely at your TV and you might see rectangular pixels, magnify your
-newspaper and you’ll find round ones. If you happen to have a newer MacBook /
+newspaper and you'll find round ones. If you happen to have a newer MacBook /
 iPhone / iPad, they use the amazing &lt;a href=&quot;http://www.apple.com/iphone/features/retina-display.html&quot;&gt;Retina
 display&lt;/a&gt; which packs
 4 pixels in the place of 1. This unit of measurement is vastly different in
-every format, and we haven’t even left the sofa.&lt;/p&gt;
+every format, and we haven't even left the sofa.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Pixel_geometry_01_Pengo.jpg/600px-Pixel_geometry_01_Pengo.jpg&quot;&gt;&lt;img src=&quot;http://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Pixel_geometry_01_Pengo.jpg/600px-Pixel_geometry_01_Pengo.jpg&quot; alt=&quot;Close-up of different pixels&quot; /&gt; &lt;/a&gt;&lt;/p&gt;
 
@@ -384,7 +291,8 @@ every format, and we haven’t even left the sofa.&lt;/p&gt;
 (each set of 3 colors is a pixel) &lt;a href=&quot;https://en.wikipedia.org/wiki/File:Pixel_geometry_01_Pengo.jpg&quot;&gt;[source]&lt;/a&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;moving-the-web-forward&quot;&gt;Moving the Web Forward&lt;/h2&gt;
+
+&lt;h2&gt;Moving the Web Forward&lt;/h2&gt;
 
 &lt;p&gt;In our current market place, there are hundreds of web-ready devices and
 smartphones (and &lt;a href=&quot;http://www.gizmag.com/go/1132/&quot;&gt;refrigerators&lt;/a&gt;) that are
@@ -399,43 +307,38 @@ handsets&quot; /&gt; &lt;/a&gt;&lt;/p&gt;
 &lt;a href=&quot;http://www.carrypad.com/2012/02/08/report-android-handset-screens-growing-over-time-5-screens-the-norm-by-end-of-2013-where-will-it-stop/&quot;&gt;(source)&lt;/a&gt;
 &lt;/div&gt;
 
+
 &lt;p&gt;This graph is just screen dimensions for Android phones! Nevermind the completely proprietary nature of &lt;a href=&quot;http://www.phonescoop.com/glossary/term.php?gid=310&quot;&gt;feature
 phones&lt;/a&gt; and the world of
 tablets. You have absolutely no control over the screen dimensions your client
-is using, or what resolution they’re running, because of this there is no way
+is using, or what resolution they're running, because of this there is no way
 to do a pixel-perfect design that looks &lt;em&gt;good&lt;/em&gt; everywhere. If you try prepare
 to spend your resources on &lt;a href=&quot;https://www.youtube.com/watch?v=Pk7yqlTMvp8&quot;&gt;herding
 cats&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;dont-take-my-word-for-it&quot;&gt;Don’t take my word for it&lt;/h2&gt;
+&lt;h2&gt;Don't take my word for it&lt;/h2&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;For me, “ideal” on the web isn’t about pixel-perfection anymore, but about
+&lt;blockquote&gt;&lt;p&gt;For me, “ideal” on the web isn’t about pixel-perfection anymore, but about
 seeking the most pragmatic approach to balancing different kinds of content
-with an ever-increasing number of screen sizes and resolutions. &lt;/p&gt;
-&lt;/blockquote&gt;
+with an ever-increasing number of screen sizes and resolutions.&lt;/p&gt;&lt;/blockquote&gt;
 
-&lt;p&gt;— &lt;a href=&quot;http://trentwalton.com/2012/06/19/fluid-type/&quot;&gt;Trent Walton&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;mdash; &lt;a href=&quot;http://trentwalton.com/2012/06/19/fluid-type/&quot;&gt;Trent Walton&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;A pixel is not a pixel. There are different kind of pixels: CSS pixels, density independent pixels and device pixels. &lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;blockquote&gt;&lt;p&gt;A pixel is not a pixel. There are different kind of pixels: CSS pixels, density independent pixels and device pixels.&lt;/p&gt;&lt;/blockquote&gt;
 
-&lt;p&gt;— &lt;a href=&quot;http://twitter.com/smashingmag/status/253785972377010176&quot;&gt;Peter-Paul Koch&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;mdash; &lt;a href=&quot;http://twitter.com/smashingmag/status/253785972377010176&quot;&gt;Peter-Paul Koch&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;The important thing to keep in mind is that we need to stop thinking about the web in pixels and think about it more in views and how our designs will be displayed in these different views.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;blockquote&gt;&lt;p&gt;The important thing to keep in mind is that we need to stop thinking about the web in pixels and think about it more in views and how our designs will be displayed in these different views.&lt;/p&gt;&lt;/blockquote&gt;
 
-&lt;p&gt;— &lt;a href=&quot;http://tympanus.net/codrops/2012/10/30/becoming-device-agnostic/&quot;&gt;Patrick Cox&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;mdash; &lt;a href=&quot;http://tympanus.net/codrops/2012/10/30/becoming-device-agnostic/&quot;&gt;Patrick Cox&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;whats-the-solution&quot;&gt;What’s the solution?&lt;/h2&gt;
+&lt;h2&gt;What's the solution?&lt;/h2&gt;
 
-&lt;p&gt;It’s just not possible to plan for every single device, so you’ll just have to
+&lt;p&gt;It's just not possible to plan for every single device, so you'll just have to
 embrace uncertainty. &lt;a href=&quot;http://www.alistapart.com/articles/responsive-web-design/&quot;&gt;Responsive design&lt;/a&gt; will help adapt, but it has its
 &lt;a href=&quot;http://www.webdesignshock.com/responsive-design-problems/&quot;&gt;problems&lt;/a&gt;, you
 could also make a separate mobile site (and you &lt;em&gt;could&lt;/em&gt; make that responsive),
-mix solutions until you find what works for you and your client. There’s more
+mix solutions until you find what works for you and your client. There's more
 planning and experimentation in developing for the web today than there was a
 decade ago, and who knows what the future will bring. Technology is there to
 help, even if it does complicate things sometimes.&lt;/p&gt;
@@ -450,271 +353,121 @@ help, even if it does complicate things sometimes.&lt;/p&gt;
             <pubDate>Wed, 06 Jun 2012 00:00:00 -0400</pubDate>
             <author>JKirchartz@gmail.com (Joel Kirchartz)</author>
             <guid>http://jkirchartz.com//2012/06/rocking-stackoverflow-sites-to</guid>
-            <description>&lt;p&gt;&lt;a href=&quot;http://stackoverflow.com/&quot;&gt;StackOverflow&lt;/a&gt; is an awesome community, devs 
-helping devs become better devs, it’s nice. More often than not, solving these 
-problems will require setting up a test somewhere, for javascript that’s easy 
-just use &lt;a href=&quot;http://jsfiddle.net/&quot;&gt;jsfiddle&lt;/a&gt;, but other languages you might have 
-some work to do. I often hear my fellow dev’s asking “Is there a JSFiddle for…”
-almost any programing language. Well, friend, here’s my list of sites and sandboxes
+            <description>&lt;p&gt;&lt;a href=&quot;http://stackoverflow.com/&quot;&gt;StackOverflow&lt;/a&gt; is an awesome community, devs
+helping devs become better devs, it's nice. More often than not, solving these
+problems will require setting up a test somewhere, for javascript that's easy
+just use &lt;a href=&quot;http://jsfiddle.net/&quot;&gt;jsfiddle&lt;/a&gt;, but other languages you might have
+some work to do. I often hear my fellow dev's asking &quot;Is there a JSFiddle for&amp;hellip;&quot;
+almost any programing language. Well, friend, here's my list of sites and sandboxes
 that make troubleshooting all sorts of code a lot easier:&lt;/p&gt;
 
-&lt;h2 id=&quot;server-side--programming-languages&quot;&gt;server-side / programming languages&lt;/h2&gt;
+&lt;h2&gt;server-side / programming languages&lt;/h2&gt;
+
 &lt;p&gt;some of these cover multiple languages&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[codepad.org](http://codepad.org/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[ideone.com](http://ideone.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[codepad.viper-7.com](http://codepad.viper-7.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[pythonfiddle.com](http://pythonfiddle.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[compilr.com](http://compilr.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[onlinecompiler.net](http://www.onlinecompiler.net/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[dpriver.com/pp/sqlformat.htm](http://www.dpriver.com/pp/sqlformat.htm)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[sqlfiddle.com](http://sqlfiddle.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[coderun.com/ide](http://www.coderun.com/ide/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[c9.io](http://c9.io/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[repl.it](http://repl.it/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[wonderfl.net](http://wonderfl.net/)
-
-
-&lt;/p&gt;
-  &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://codepad.org/&quot;&gt;codepad.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://ideone.com/&quot;&gt;ideone.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://codepad.viper-7.com/&quot;&gt;codepad.viper-7.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://pythonfiddle.com/&quot;&gt;pythonfiddle.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://compilr.com/&quot;&gt;compilr.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.onlinecompiler.net/&quot;&gt;onlinecompiler.net&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.dpriver.com/pp/sqlformat.htm&quot;&gt;dpriver.com/pp/sqlformat.htm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://sqlfiddle.com/&quot;&gt;sqlfiddle.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.coderun.com/ide/&quot;&gt;coderun.com/ide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://c9.io/&quot;&gt;c9.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://repl.it/&quot;&gt;repl.it&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://wonderfl.net/&quot;&gt;wonderfl.net&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;##javascript / html / css&lt;/p&gt;
+
+
+&lt;h2&gt;javascript / html / css&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[jsfiddle.net](http://jsfiddle.net/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[jsbin.com](http://jsbin.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[pastehtml.com](http://pastehtml.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[tinkerbin.com](http://tinkerbin.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[jsdo.it](http://jsdo.it/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[dabblet.com](http://dabblet.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[cssdesk.com](http://cssdesk.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[akshell.com](http://www.akshell.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rendera.heroku.com](http://rendera.heroku.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[fiddlesalad.com](http://fiddlesalad.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[codepen.io](http://codepen.io/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[htmlinstant.com](http://www.htmlinstant.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[scratchpad.io](http://scratchpad.io/)
-
-&lt;/p&gt;
-  &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://jsfiddle.net/&quot;&gt;jsfiddle.net&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://jsbin.com/&quot;&gt;jsbin.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://pastehtml.com/&quot;&gt;pastehtml.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://tinkerbin.com/&quot;&gt;tinkerbin.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://jsdo.it/&quot;&gt;jsdo.it&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://dabblet.com/&quot;&gt;dabblet.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://cssdesk.com/&quot;&gt;cssdesk.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.akshell.com/&quot;&gt;akshell.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://rendera.heroku.com/&quot;&gt;rendera.heroku.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://fiddlesalad.com/&quot;&gt;fiddlesalad.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://codepen.io/&quot;&gt;codepen.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.htmlinstant.com/&quot;&gt;htmlinstant.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://scratchpad.io/&quot;&gt;scratchpad.io&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;##validators / cleaners&lt;/p&gt;
+
+
+&lt;h2&gt;validators / cleaners&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[jshint.com](http://jshint.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[jslint.com](http://jslint.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[jsonlint.com](http://jsonlint.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[jsbeautifier.org](http://jsbeautifier.org/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[cleancss.com](http://cleancss.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[dirtymarkup.com](http://www.dirtymarkup.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[validator.w3.org](http://validator.w3.org/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[jigsaw.w3.org/css-validator](http://jigsaw.w3.org/css-validator/)
-
-
-&lt;/p&gt;
-  &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://jshint.com/&quot;&gt;jshint.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://jslint.com/&quot;&gt;jslint.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://jsonlint.com/&quot;&gt;jsonlint.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://jsbeautifier.org/&quot;&gt;jsbeautifier.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://cleancss.com/&quot;&gt;cleancss.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.dirtymarkup.com/&quot;&gt;dirtymarkup.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://validator.w3.org/&quot;&gt;validator.w3.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://jigsaw.w3.org/css-validator/&quot;&gt;jigsaw.w3.org/css-validator&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;##regex
-mod_redirect &amp;amp; just about anything else, just &lt;a href=&quot;http://stackoverflow.com/a/1732454/276250&quot;&gt;don’t parse
+
+
+&lt;h2&gt;regex&lt;/h2&gt;
+
+&lt;p&gt;mod_redirect &amp;amp; just about anything else, just &lt;a href=&quot;http://stackoverflow.com/a/1732454/276250&quot;&gt;don't parse
 html&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rentzsch.github.com/JSRegexTeststand](http://rentzsch.github.com/JSRegexTeststand/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[regexplanet.com](http://www.regexplanet.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[regextester.com](http://www.regextester.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[regexr.com](http://regexr.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rextester.com](http://rextester.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[regexp.quaxio.com/ (linter)](http://regexp.quaxio.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[htaccess.madewithlove.be](http://htaccess.madewithlove.be/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[txt2re.com](http://www.txt2re.com/)
-
-&lt;/p&gt;
-  &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://rentzsch.github.com/JSRegexTeststand/&quot;&gt;rentzsch.github.com/JSRegexTeststand&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.regexplanet.com/&quot;&gt;regexplanet.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.regextester.com/&quot;&gt;regextester.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://regexr.com/&quot;&gt;regexr.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://rextester.com/&quot;&gt;rextester.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://regexp.quaxio.com/&quot;&gt;regexp.quaxio.com/ (linter)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://htaccess.madewithlove.be/&quot;&gt;htaccess.madewithlove.be&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.txt2re.com/&quot;&gt;txt2re.com&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;##cdn
-include a library into your sandbox&lt;/p&gt;
+
+
+&lt;h2&gt;cdn&lt;/h2&gt;
+
+&lt;p&gt;include a library into your sandbox&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[cdnjs.com](http://cdnjs.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[asp.net/ajaxlibrary/cdn.ashx](http://www.asp.net/ajaxlibrary/cdn.ashx)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[developers.google.com/speed/libraries/devguide](http://developers.google.com/speed/libraries/devguide)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[code.createjs.com](http://code.createjs.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[jsdelivr.com](http://www.jsdelivr.com/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[cdn.tl](http://www.cdn.tl/)
-
-&lt;/p&gt;
-  &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://cdnjs.com/&quot;&gt;cdnjs.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.asp.net/ajaxlibrary/cdn.ashx&quot;&gt;asp.net/ajaxlibrary/cdn.ashx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://developers.google.com/speed/libraries/devguide&quot;&gt;developers.google.com/speed/libraries/devguide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://code.createjs.com/&quot;&gt;code.createjs.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.jsdelivr.com/&quot;&gt;jsdelivr.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.cdn.tl/&quot;&gt;cdn.tl&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;##other
-these don’t really &lt;em&gt;do&lt;/em&gt; anything, but they help you make your knowledge a
+
+
+&lt;h2&gt;other&lt;/h2&gt;
+
+&lt;p&gt;these don't really &lt;em&gt;do&lt;/em&gt; anything, but they help you make your knowledge a
 little more transferable, or explains some important concept&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[httpstatus.es](http://httpstatus.es/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[hyperpolyglot.org](http://hyperpolyglot.org/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[rosettacode.org](http://rosettacode.org/)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[whathaveyoutried.com](http://whathaveyoutried.com)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[sscce.org (Short, Self Contained, Correct Example)](http://sscce.org/)
-
-
-&lt;/p&gt;
-  &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://httpstatus.es/&quot;&gt;httpstatus.es&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://hyperpolyglot.org/&quot;&gt;hyperpolyglot.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://rosettacode.org/&quot;&gt;rosettacode.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://whathaveyoutried.com&quot;&gt;whathaveyoutried.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://sscce.org/&quot;&gt;sscce.org (Short, Self Contained, Correct Example)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Ivan Zuzak has compiled another list of online tools that might be helpful, check out &lt;a href=&quot;http://ivanzuzak.info/2012/11/18/the-web-engineers-online-toolbox.html&quot;&gt;The Web engineer’s online toolbox&lt;/a&gt;.&lt;/p&gt;
+
+
+&lt;p&gt;Ivan Zuzak has compiled another list of online tools that might be helpful, check out &lt;a href=&quot;http://ivanzuzak.info/2012/11/18/the-web-engineers-online-toolbox.html&quot;&gt;The Web engineer's online toolbox&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;update 2:&lt;/strong&gt; added cdn, if anybody wants to add to the list drop me a line, if
-there’s enough interest I’ll make a repo to keep it updated in the future ;)&lt;/p&gt;
+there's enough interest I'll make a repo to keep it updated in the future ;)&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;update 3:&lt;/strong&gt; My blog now runs on Jekyll on Github, to add to the list fork &amp;amp; make a pull request! 
-or you can still contact me…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;update 3:&lt;/strong&gt; My blog now runs on Jekyll on Github, to add to the list fork &amp;amp; make a pull request!
+or you can still contact me&amp;hellip;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;update 4:&lt;/strong&gt; cleaned up a bit, added some things, I don’t think I’ll add a comment here every time, but hey.&lt;/p&gt;
-
+&lt;p&gt;&lt;strong&gt;update 4:&lt;/strong&gt; cleaned up a bit, added some things, I don't think I'll add a comment here every time, but hey.&lt;/p&gt;
 </description>
         </item>
         
@@ -724,14 +477,13 @@ or you can still contact me…&lt;/p&gt;
             <pubDate>Thu, 17 May 2012 00:00:00 -0400</pubDate>
             <author>JKirchartz@gmail.com (Joel Kirchartz)</author>
             <guid>http://jkirchartz.com//2012/05/staying-on-top-of-web-technology</guid>
-            <description>&lt;p&gt;&lt;em&gt;I wrote this piece in October of 2011 for the &lt;a href=&quot;http://blog.songwhale.com/post/11316955561/webtechnology&quot;&gt;Songwhale Blog&lt;/a&gt;, re-posting it here for prosperity.&lt;/em&gt;  &lt;/p&gt;
+            <description>&lt;p&gt;&lt;em&gt;I wrote this piece in October of 2011 for the &lt;a href=&quot;http://blog.songwhale.com/post/11316955561/webtechnology&quot;&gt;Songwhale Blog&lt;/a&gt;, re-posting it here for prosperity.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;The times they are a-changin’. Every day our technology becomes more advanced
 as we push into the future; it wasn’t too long ago that yahoo looked like
 &lt;a href=&quot;http://www.topdesignmag.com/wp-content/uploads/2011/06/118.jpg&quot;&gt;this&lt;/a&gt; and
 an &lt;a href=&quot;http://www.ipodhistory.com/ipod-first-generation/&quot;&gt;iPod&lt;/a&gt; held 512mb, five
-years before that NewsWeek &lt;a href=&quot;http://www.thedailybeast.com/newsweek/1995/02/26/the-internet-
-bah.html&quot;&gt;published an
+years before that NewsWeek &lt;a href=&quot;http://www.thedailybeast.com/newsweek/1995/02/26/the-internet-%0Abah.html&quot;&gt;published an
 article&lt;/a&gt; skeptical that anyone would choose to read electronic publications.
 The future is coming, and if you want to fight it we’ll read your comments 15
 years later and laugh hysterically. The web has proven itself to be a living
@@ -753,8 +505,7 @@ selection of articles from &lt;a href=&quot;http://news.ycombinator.com/&quot;&g
 one covers the web, as well as software and hardware news and other topics of
 interest to computer geeks. There are many more newsletters out there worth
 reading though, so if your inbox is screaming “Feed Me!” you should check out
-&lt;a href=&quot;http://www.smashingmagazine.com/2011/07/15/email-newsletters-
-worth-subscribing-to/&quot;&gt;this list&lt;/a&gt; at Smashing Magazine.&lt;/p&gt;
+&lt;a href=&quot;http://www.smashingmagazine.com/2011/07/15/email-newsletters-%0Aworth-subscribing-to/&quot;&gt;this list&lt;/a&gt; at Smashing Magazine.&lt;/p&gt;
 
 &lt;p&gt;If newsletters are not your thing, or not enough &lt;a href=&quot;http://www.alistapart.com/&quot;&gt;A List
 Apart&lt;/a&gt; and &lt;a href=&quot;http://www.smashingmagazine.com/&quot;&gt;Smashing
@@ -789,31 +540,31 @@ making assumptions…&lt;/p&gt;
             <guid>http://jkirchartz.com//2011/12/project-bamp-festival-of-homes-mobile</guid>
             <description>&lt;p&gt;&lt;a href=&quot;http://2.bp.blogspot.com/--9bknh6sbAA/Ttke0KomNGI/AAAAAAAAAz0/On-M0zfzX5U/s1600/BAMP-screenshots_01.jpg&quot;&gt;&lt;img src=&quot;http://2.bp.blogspot.com/--9bknh6sbAA/Ttke0KomNGI/AAAAAAAAAz0/On-M0zfzX5U/s320/BAMP-screenshots_01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Here’s the &lt;a href=&quot;http://www.pghhomebuilders.com/&quot;&gt;Builders Association in the Metropolitan
+&lt;p&gt;Here's the &lt;a href=&quot;http://www.pghhomebuilders.com/&quot;&gt;Builders Association in the Metropolitan
 Pittsburgh&lt;/a&gt; Festival of Homes mobile site at
 &lt;a href=&quot;http://bamp.songwhale.com&quot;&gt;bamp.songwhale.com&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This little humdinger has a back end written with
-&lt;a href=&quot;http://python.org/&quot;&gt;python&lt;/a&gt;/&lt;a href=&quot;https://www.djangoproject.com/&quot;&gt;django&lt;/a&gt;, I’m
+&lt;a href=&quot;http://python.org/&quot;&gt;python&lt;/a&gt;/&lt;a href=&quot;https://www.djangoproject.com/&quot;&gt;django&lt;/a&gt;, I'm
 also using &lt;a href=&quot;http://code.google.com/p/geopy/&quot;&gt;geopy&lt;/a&gt; to assist in calculating
 distances for the map. The front end uses &lt;a href=&quot;http://code.google.com/apis/maps/documentation/javascript/&quot;&gt;Google Maps
 APIv3&lt;/a&gt; HTML5 and
-CSS3. Django’s built-in admin back end made data-entry a breeze, although I
+CSS3. Django's built-in admin back end made data-entry a breeze, although I
 wish it had built-in table alteration, changing your models is a pain in the
-butt, I didn’t want to figure out &lt;a href=&quot;http://south.aeracode.org/&quot;&gt;South&lt;/a&gt; with
+butt, I didn't want to figure out &lt;a href=&quot;http://south.aeracode.org/&quot;&gt;South&lt;/a&gt; with
 very little data to migrate.&lt;/p&gt;
 
-&lt;p&gt;This was my first time running an &lt;a href=&quot;http://nginx.org/&quot;&gt;nginx&lt;/a&gt; server, it’s a
+&lt;p&gt;This was my first time running an &lt;a href=&quot;http://nginx.org/&quot;&gt;nginx&lt;/a&gt; server, it's a
 big difference from apache. The configs are a lot cleaner, definitely more
 like python than markup. The &lt;a href=&quot;http://projects.unbit.it/uwsgi/&quot;&gt;uwsgi&lt;/a&gt; was used
-to run python and since it’s packaged with nginx setup was a breeze. The
-Database was in postgres, although I could’ve used
+to run python and since it's packaged with nginx setup was a breeze. The
+Database was in postgres, although I could've used
 &lt;a href=&quot;http://postgis.refractions.net/&quot;&gt;postGIS&lt;/a&gt; to do the distance calculations and
 bypass geopy, I was already in too deep to change it. This is a pretty nice
 stack.&lt;/p&gt;
 
 &lt;p&gt;I kept the design minimal and fluid to support the widest array of browsers.
-Django’s templating is awesome, you can do a lot with it without getting in
+Django's templating is awesome, you can do a lot with it without getting in
 the way of your html.&lt;/p&gt;
 </description>
         </item>
@@ -824,143 +575,119 @@ the way of your html.&lt;/p&gt;
             <pubDate>Mon, 28 Nov 2011 00:00:00 -0500</pubDate>
             <author>JKirchartz@gmail.com (Joel Kirchartz)</author>
             <guid>http://jkirchartz.com//2011/11/intro-to-linux-for-web-devs-on-windows</guid>
-            <description>&lt;p&gt;I’ve been spending a lot of time using the linux CLI lately, and I know it can
+            <description>&lt;p&gt;I've been spending a lot of time using the linux CLI lately, and I know it can
 seem difficult at first. When I started with computers everything ran off the
 CLI and nobody got all freaked out, that was back before color monitors, now
-we have color monitors in our pockets so don’t worry, it’s not that hard, you
+we have color monitors in our pockets so don't worry, it's not that hard, you
 can do this.&lt;/p&gt;
 
-&lt;h2 id=&quot;logging-in&quot;&gt;Logging In:&lt;/h2&gt;
+&lt;h2&gt;Logging In:&lt;/h2&gt;
 
-&lt;p&gt;To remotely access a server you’ll need a telnet/ssh client, for windows
+&lt;p&gt;To remotely access a server you'll need a telnet/ssh client, for windows
 &lt;a href=&quot;http://www.putty.org/&quot;&gt;PuTTY&lt;/a&gt; is a good choice , so &lt;a href=&quot;http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html&quot;&gt;download &amp;amp; install
 PuTTY&lt;/a&gt;.  When
-you open putty you’ll see a space for your host name or IP address for the
-server you’re going to access,  input the relevant information and hit open at
-the bottom of the window. You’ll be promped for your username &amp;amp; password when
-PuTTY connects. Now take a deep breath, you’re in a linux CLI, huzzah!&lt;/p&gt;
+you open putty you'll see a space for your host name or IP address for the
+server you're going to access,  input the relevant information and hit open at
+the bottom of the window. You'll be promped for your username &amp;amp; password when
+PuTTY connects. Now take a deep breath, you're in a linux CLI, huzzah!&lt;/p&gt;
 
 &lt;p&gt;To learn more about PuTTY check &lt;a href=&quot;http://the.earth.li/~sgtatham/putty/0.61/htmldoc/&quot;&gt;the PuTTY
 docs&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;getting-around&quot;&gt;Getting Around:&lt;/h2&gt;
+&lt;h2&gt;Getting Around:&lt;/h2&gt;
 
-&lt;p&gt;On windows you can list folders and directories like &lt;code&gt;C:/Program Files/&lt;/code&gt; or 
-&lt;code&gt;C:\Program Files\&lt;/code&gt;, on linux it’s &lt;code&gt;/var/www/html&lt;/code&gt; (for apache’s default html
-directory), so linux is /-only, where windows doesn’t care if you use / or .&lt;/p&gt;
+&lt;p&gt;On windows you can list folders and directories like &lt;code&gt;C:/Program Files/&lt;/code&gt; or
+&lt;code&gt;C:\Program Files\&lt;/code&gt;, on linux it's &lt;code&gt;/var/www/html&lt;/code&gt; (for apache's default html
+directory), so linux is /-only, where windows doesn't care if you use / or .&lt;/p&gt;
 
-&lt;p&gt;Let’s see where we are on the server, type in &lt;code&gt;pwd&lt;/code&gt; at the command line (you
+&lt;p&gt;Let's see where we are on the server, type in &lt;code&gt;pwd&lt;/code&gt; at the command line (you
 should see /home/ or /root/).&lt;/p&gt;
 
 &lt;p&gt;To see what files are in this folder type &lt;code&gt;ls&lt;/code&gt;, this will print out columns of
 files in the current directory, but if you want to see more details you can
 add to this command with flags, &lt;code&gt;ls -a&lt;/code&gt; will list all files, &lt;code&gt;ls -l&lt;/code&gt; will list
 details about the files, you can mix these flags like &lt;code&gt;ls -al&lt;/code&gt; to list details
-for all files. You’ll notice a .. and a . directory, In linux the path to the
+for all files. You'll notice a .. and a . directory, In linux the path to the
 current directory is &lt;code&gt;./&lt;/code&gt; and the path to the parent directory is &lt;code&gt;../&lt;/code&gt; Not
 much fun being stuck in one place huh?&lt;/p&gt;
 
-&lt;p&gt;Here’s the last command in this section &lt;code&gt;cd&lt;/code&gt; just typing in &lt;code&gt;cd&lt;/code&gt; will usually
+&lt;p&gt;Here's the last command in this section &lt;code&gt;cd&lt;/code&gt; just typing in &lt;code&gt;cd&lt;/code&gt; will usually
 take you to your home directory, which is where you currently are anyhow if
-you’ve been following along. cd is there to help you Change Directories, so to
+you've been following along. cd is there to help you Change Directories, so to
 move to the parent directory of your current folder you do &lt;code&gt;cd ../&lt;/code&gt; but you
-can move anywhere with this command as long as you know where you’re going. If
+can move anywhere with this command as long as you know where you're going. If
 this is an apache server try &lt;code&gt;cd /var/www/html&lt;/code&gt; to get to the default main
 directory for the files. Some servers keep this directory at &lt;code&gt;/sites&lt;/code&gt; so you
 could try there too.&lt;/p&gt;
 
-&lt;p&gt;Here’s a quick reference of commands for moving around:&lt;/p&gt;
+&lt;p&gt;Here's a quick reference of commands for moving around:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;`pwd` = display current directory path (Print Working Directory)
-
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;`ls` = list files, you can add flags to see more info on each file, I like to use `ls -alF` (LiSt) 
-
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;`cd` = change directory, use `cd ../` to move up one directory, or `cd /var/www/html` to move to an entirely different directory (Change Directory)
-
-&lt;/p&gt;
-  &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;pwd&lt;/code&gt; = display current directory path (Print Working Directory)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;ls&lt;/code&gt; = list files, you can add flags to see more info on each file, I like to use &lt;code&gt;ls -alF&lt;/code&gt; (LiSt)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;cd&lt;/code&gt; = change directory, use &lt;code&gt;cd ../&lt;/code&gt; to move up one directory, or &lt;code&gt;cd /var/www/html&lt;/code&gt; to move to an entirely different directory (Change Directory)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+
 &lt;p&gt;for more on these, check the wikipedia pages for
-&lt;a href=&quot;http://en.wikipedia.org/wiki/Cd_\(command\)&quot;&gt;cd&lt;/a&gt;,
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Cd_(command)&quot;&gt;cd&lt;/a&gt;,
 &lt;a href=&quot;http://en.wikipedia.org/wiki/Ls&quot;&gt;ls&lt;/a&gt;, and
 &lt;a href=&quot;http://en.wikipedia.org/wiki/Pwd&quot;&gt;pwd&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;editing-text-based-files&quot;&gt;Editing Text-based files:&lt;/h2&gt;
+&lt;h2&gt;Editing Text-based files:&lt;/h2&gt;
 
-&lt;p&gt;My favorite is VIM, so to try it out simply type &lt;code&gt;vim&lt;/code&gt; into the
-command line to create a new file and lets go. Notice that typing isn’t
+&lt;p&gt;&lt;a href=&quot;/2013/04/vim_quick_start_cheatsheet_and_links.html&quot;&gt;My favorite is VIM&lt;/a&gt;, so to try it out simply type &lt;code&gt;vim&lt;/code&gt; into the
+command line to create a new file and lets go. Notice that typing isn't
 changing anything? yeah, vim has input mode and command mode, and you start in
 command mode. So hit &lt;code&gt;i&lt;/code&gt; to switch from command mode to input mode and you can
 finally start typing, to get back to control mode hit &lt;code&gt;esc&lt;/code&gt;, and to save and
 quit (from command mode) use &lt;code&gt;:wq&lt;/code&gt;; to quit immediately without saving use
-&lt;code&gt;:q!&lt;/code&gt;. Vim is super powerful but this switching thing is radically different than most windows-based 
+&lt;code&gt;:q!&lt;/code&gt;. Vim is super powerful but this switching thing is radically different than most windows-based
 text editors. The &lt;a href=&quot;http://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/&quot;&gt;learning curve is steep&lt;/a&gt;, but worth it.
-There have been books written about using VIM, it’s a
+There have been books written about using VIM, it's a
 huge entity unto itself to &lt;a href=&quot;http://www.vim.org/docs.php&quot;&gt;learn more about VIM&lt;/a&gt;
 try &lt;a href=&quot;http://www.vim.org/docs.php&quot;&gt;their docs&lt;/a&gt; or check out this nice &lt;a href=&quot;http://michael.peopleofhonoronly.com/vim/&quot;&gt;VIM
 Cheat-sheet&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Lets use something simpler for now: &lt;a href=&quot;http://www.nano-editor.org/&quot;&gt;nano&lt;/a&gt;. type
-in &lt;code&gt;nano&lt;/code&gt; at the command line to open a new file, start typing you’re already
-in input mode, and there’s a UI so it tells you what commands are available,
-but there’s much more than meets the eye. To open an existing file use &lt;code&gt;nano
+in &lt;code&gt;nano&lt;/code&gt; at the command line to open a new file, start typing you're already
+in input mode, and there's a UI so it tells you what commands are available,
+but there's much more than meets the eye. To open an existing file use &lt;code&gt;nano
 filename.ext&lt;/code&gt; at the command line&lt;/p&gt;
 
-&lt;p&gt;Unlike VIM nano doesn’t have code-highlighting by default so to set this up
+&lt;p&gt;Unlike VIM nano doesn't have code-highlighting by default so to set this up
 you have to edit &lt;code&gt;/etc/nanorc&lt;/code&gt;, so type &lt;code&gt;nano /etc/nanorc&lt;/code&gt; at the command line
-the section we’re looking for starts on line 240, so hit &lt;code&gt;ctrl+/&lt;/code&gt; and type
-&lt;code&gt;240&lt;/code&gt; hit enter and you’ll see a list of nanorc files, erase the # before each
+the section we're looking for starts on line 240, so hit &lt;code&gt;ctrl+/&lt;/code&gt; and type
+&lt;code&gt;240&lt;/code&gt; hit enter and you'll see a list of nanorc files, erase the # before each
 one you want code highlight for, then hit &lt;code&gt;ctrl+x&lt;/code&gt; it prompts you to save
 changes, hit &lt;code&gt;Y&lt;/code&gt;, then it prompts for the file name just hit &lt;code&gt;Enter&lt;/code&gt; to keep
 it the same.&lt;/p&gt;
 
-&lt;p&gt;Here’s a few nano commands that are useful:&lt;/p&gt;
+&lt;p&gt;Here's a few nano commands that are useful:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;`ctrl+k` = cut, you can cut out multiple lines by hitting this repeatedly.
-
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;`ctrl+u` = uncut, you can re-insert cutout lines by hitting this repeatedly.
-
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;`ctrl+/` = goto line #
-
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;`ctrl+w` = search for a word or phrase, there are a few options here, 'M-R' is a regex search, try hitting `esc+r` to use this (M stand for Meta-key, so try the Apple key or Windows key if esc doesn't work).
-
-&lt;/p&gt;
-  &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;ctrl+k&lt;/code&gt; = cut, you can cut out multiple lines by hitting this repeatedly.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;ctrl+u&lt;/code&gt; = uncut, you can re-insert cutout lines by hitting this repeatedly.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;ctrl+/&lt;/code&gt; = goto line #&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;ctrl+w&lt;/code&gt; = search for a word or phrase, there are a few options here, 'M-R' is a regex search, try hitting &lt;code&gt;esc+r&lt;/code&gt; to use this (M stand for Meta-key, so try the Apple key or Windows key if esc doesn't work).&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Nano’s UI shows options you can use to translate keystrokes you should know
+
+
+&lt;p&gt;Nano's UI shows options you can use to translate keystrokes you should know
 that &lt;code&gt;^&lt;/code&gt; is the control key and &lt;code&gt;M&lt;/code&gt; is the escape key.&lt;/p&gt;
 
 &lt;p&gt;For more information on nano, read &lt;a href=&quot;http://www.nano-editor.org/dist/v2.2/nano.html&quot;&gt;the Nano docs&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;moving-copying-renaming-and-deleting-files&quot;&gt;Moving, Copying, Renaming, and Deleting files:&lt;/h2&gt;
+&lt;h2&gt;Moving, Copying, Renaming, and Deleting files:&lt;/h2&gt;
 
-&lt;p&gt;Sometimes things are in the wrong place, or you don’t want to overwrite a file
+&lt;p&gt;Sometimes things are in the wrong place, or you don't want to overwrite a file
 to test out something, so how the heck do you move or copy or rename or delete
 files!? The commands are mv, cp, and rm.&lt;/p&gt;
 
 &lt;p&gt;Moving a file is &lt;code&gt;mv path/to/file/location/name.ext
-/path/to/new/location/name.ext&lt;/code&gt; if you’re currently in the directory with your
+/path/to/new/location/name.ext&lt;/code&gt; if you're currently in the directory with your
 file use &lt;code&gt;mv file.ext /path/to/wherever/your/putting/it/file.ext&lt;/code&gt; you just
-got to know where you’re moving the file to, to move it up a directory use &lt;code&gt;mv
+got to know where you're moving the file to, to move it up a directory use &lt;code&gt;mv
 file.ext ../&lt;/code&gt;, multiple files are easy too &lt;code&gt;mv file1 file2 ~/&lt;/code&gt; would move
 those files to your home directory.&lt;/p&gt;
 
@@ -969,17 +696,17 @@ the file to a new directory, you can even copy a directory with &lt;code&gt;cp
 /dir/to/copy/ ~/new/dir/&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Deleting files can be done with &lt;code&gt;rm file.ext&lt;/code&gt; you can delete a directory and
-it’s content with the recursive flag &lt;code&gt;rm -r&lt;/code&gt;, and the flag to force a deletion is &lt;code&gt;-f&lt;/code&gt; but be
+it's content with the recursive flag &lt;code&gt;rm -r&lt;/code&gt;, and the flag to force a deletion is &lt;code&gt;-f&lt;/code&gt; but be
 careful, &lt;code&gt;rm -rf /&lt;/code&gt; can delete the whole root directory and totally screw up
-the server. Most platforms and admins protect against this but it’s better to
+the server. Most platforms and admins protect against this but it's better to
 be safe than sorry.&lt;/p&gt;
 
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion:&lt;/h2&gt;
+&lt;h2&gt;Conclusion:&lt;/h2&gt;
 
-&lt;p&gt;The Command line can be intimidating at first, but don’t fear it’s power. It
+&lt;p&gt;The Command line can be intimidating at first, but don't fear it's power. It
 can be a very helpful tool. For more information check out
-&lt;a href=&quot;http://linuxcommand.org/&quot;&gt;http://linuxcommand.org/&lt;/a&gt;, &lt;a href=&quot;http://www.tuxfiles.org/linuxhelp/cli.html&quot;&gt;TuxFiles’ intro to the
-Linux CLI&lt;/a&gt; and &lt;a href=&quot;http://www.hypexr.org/bash_tutorial.php&quot;&gt;Hypexr’s Bash
+&lt;a href=&quot;http://linuxcommand.org/&quot;&gt;http://linuxcommand.org/&lt;/a&gt;, &lt;a href=&quot;http://www.tuxfiles.org/linuxhelp/cli.html&quot;&gt;TuxFiles' intro to the
+Linux CLI&lt;/a&gt; and &lt;a href=&quot;http://www.hypexr.org/bash_tutorial.php&quot;&gt;Hypexr's Bash
 Tutorial&lt;/a&gt;. You can also add a linux
 shell to your windows machine wth &lt;a href=&quot;http://www.cygwin.com/&quot;&gt;cygwin&lt;/a&gt; or lightweight
 alternative &lt;a href=&quot;https://github.com/bmatzelle/gow/wiki/&quot;&gt;gow&lt;/a&gt;&lt;/p&gt;
@@ -992,24 +719,26 @@ alternative &lt;a href=&quot;https://github.com/bmatzelle/gow/wiki/&quot;&gt;gow
             <pubDate>Sat, 26 Nov 2011 00:00:00 -0500</pubDate>
             <author>JKirchartz@gmail.com (Joel Kirchartz)</author>
             <guid>http://jkirchartz.com//2011/11/notepad</guid>
-            <description>&lt;p&gt;Here’s a little html5 notepad using &lt;a href=&quot;http://caniuse.com/#namevalue-storage&quot;&gt;localStorage&lt;/a&gt;. &lt;a href=&quot;http://jkirchartz.com/demos/HTML5notepad.html&quot;&gt;View Demo&lt;/a&gt;&lt;/p&gt;
+            <description>&lt;p&gt;Here's a little html5 notepad using &lt;a href=&quot;http://caniuse.com/#namevalue-storage&quot;&gt;localStorage&lt;/a&gt;. &lt;a href=&quot;http://jkirchartz.com/demos/HTML5notepad.html&quot;&gt;View Demo&lt;/a&gt;&lt;/p&gt;
 
 &lt;script src=&quot;https://gist.github.com/1394920.js?file=html5%20notepad&quot;&gt;
 &lt;/script&gt;
 
+
 &lt;p&gt;line 28 &amp;amp; 30 handle saving and retrieving the
-&lt;a href=&quot;http://en.wikipedia.org/wiki/Web_Storage&quot;&gt;localStorage&lt;/a&gt; data, It’s supported
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Web_Storage&quot;&gt;localStorage&lt;/a&gt; data, It's supported
 on ie8+ as well as all modern browsers. Works on Android &amp;amp; iPhone too. Lines
 32-34 call the save function in 3 different ways to ensure your information is
 saved automagically (I get a little paranoid like that) Line 5 &amp;amp; lines 20-23
-ensure this works on older browsers, but we don’t really need most of it so
+ensure this works on older browsers, but we don't really need most of it so
 really we could minimize this down to&lt;/p&gt;
 
 &lt;script src=&quot;https://gist.github.com/1394920.js?file=html5notepad-small&quot;&gt;
 &lt;/script&gt;
 
+
 &lt;p&gt;Which is short enough to be in bookmarklet territory, unfortunately
-localStorage doesn’t work with the local file protocol, &lt;a href=&quot;http://dev.w3.org/html5/webstorage/#the-localstorage-attribute&quot;&gt;the
+localStorage doesn't work with the local file protocol, &lt;a href=&quot;http://dev.w3.org/html5/webstorage/#the-localstorage-attribute&quot;&gt;the
 spec&lt;/a&gt; says it
 needs a scheme/host/port to work for security reasons.&lt;/p&gt;
 
@@ -1023,17 +752,18 @@ needs a scheme/host/port to work for security reasons.&lt;/p&gt;
             <pubDate>Tue, 04 Oct 2011 00:00:00 -0400</pubDate>
             <author>JKirchartz@gmail.com (Joel Kirchartz)</author>
             <guid>http://jkirchartz.com//2011/10/jquery-type-effect-plugin</guid>
-            <description>&lt;p&gt;Let’s kick it old-school, with the absolute CLASSIC typewriter effect. I couldn’t 
-find a decent jQuery version of this effect that worked, so I pluginified some vintage 
+            <description>&lt;p&gt;Let's kick it old-school, with the absolute CLASSIC typewriter effect. I couldn't
+find a decent jQuery version of this effect that worked, so I pluginified some vintage
 javascript.&lt;/p&gt;
 
 &lt;iframe style=&quot;width: 95%; height: 300px&quot; src=&quot;http://jsfiddle.net/JKirchartz/JEpWV/embedded/&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot;&gt;
 &lt;/iframe&gt;
 
-&lt;p&gt;One little “bug” here is that I’m not handling any dom elements, so the raw
-html code is displayed while it’s writing, but as soon as it’s written the dom
+
+&lt;p&gt;One little &quot;bug&quot; here is that I'm not handling any dom elements, so the raw
+html code is displayed while it's writing, but as soon as it's written the dom
 handles it as elements, you could pre-parse the html and write the elements
-wholesale but that’s far beyond the scope of this simple solution.&lt;/p&gt;
+wholesale but that's far beyond the scope of this simple solution.&lt;/p&gt;
 
 &lt;p&gt;If you wanna see the whole shebang check the &lt;a href=&quot;http://jsfiddle.net/JKirchartz/JEpWV/&quot;&gt;jsfiddle&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -1045,24 +775,26 @@ wholesale but that’s far beyond the scope of this simple solution.&lt;/p&gt;
             <pubDate>Wed, 21 Sep 2011 00:00:00 -0400</pubDate>
             <author>JKirchartz@gmail.com (Joel Kirchartz)</author>
             <guid>http://jkirchartz.com//2011/09/better-mobile-redirect</guid>
-            <description>&lt;p&gt;Here is a simple reusable javascript redirect that uses the &lt;a href=&quot;http://www.sixapart.jp/docs/tech/mobile_link_discovery_en.html&quot;&gt;Mobile Link Discovery Spec&lt;/a&gt; 
+            <description>&lt;p&gt;Here is a simple reusable javascript redirect that uses the &lt;a href=&quot;http://www.sixapart.jp/docs/tech/mobile_link_discovery_en.html&quot;&gt;Mobile Link Discovery Spec&lt;/a&gt;
 which describes a link tag that tells the browser where to find an Alternate for Hand-Held devices: &lt;code&gt;&amp;lt;link href=&quot;&amp;lt; Mobile URI &amp;gt;&quot; media=&quot;handheld&quot; rel=&quot;alternate&quot;&amp;gt;&lt;/code&gt;.
-The script is detecting user-agents, which is “evil” but Not every site needs or wants the 
-whole &lt;a href=&quot;http://www.alistapart.com/articles/responsive-web-design/&quot;&gt;Responsive Design&lt;/a&gt; bundle, 
-and that has &lt;a href=&quot;http://www.webdesignshock.com/responsive-design-problems/&quot;&gt;it’s problems&lt;/a&gt;. 
-Sometimes you just gotta redirect, try using the link tag with the script below:  &lt;/p&gt;
+The script is detecting user-agents, which is &quot;evil&quot; but Not every site needs or wants the
+whole &lt;a href=&quot;http://www.alistapart.com/articles/responsive-web-design/&quot;&gt;Responsive Design&lt;/a&gt; bundle,
+and that has &lt;a href=&quot;http://www.webdesignshock.com/responsive-design-problems/&quot;&gt;it's problems&lt;/a&gt;.
+Sometimes you just gotta redirect, try using the link tag with the script below:&lt;/p&gt;
 
 &lt;script src=&quot;https://gist.github.com/1232304.js?file=redirect.js&quot;&gt;
 &lt;/script&gt;
 
-&lt;p&gt;Then you’d have html like this:&lt;/p&gt;
+
+&lt;p&gt;Then you'd have html like this:&lt;/p&gt;
 
 &lt;script src=&quot;https://gist.github.com/1232304.js?file=test.html&quot;&gt;
 &lt;/script&gt;
 
-&lt;p&gt;And away you go… I’m only testing for iPhone, iPad, Android, Blackberry, and WebOs. They run
-the market right now so I don’t feel too bad for leaving out the fray, if
-you’re logging your visitors user agents you can tweak the regex as needed.&lt;/p&gt;
+
+&lt;p&gt;And away you go... I'm only testing for iPhone, iPad, Android, Blackberry, and WebOs. They run
+the market right now so I don't feel too bad for leaving out the fray, if
+you're logging your visitors user agents you can tweak the regex as needed.&lt;/p&gt;
 </description>
         </item>
         
@@ -1075,11 +807,12 @@ you’re logging your visitors user agents you can tweak the regex as needed.&lt
             <description>&lt;iframe width=&quot;95%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F821003&amp;amp;show_artwork=true&quot;&gt;
 &lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://soundcloud.com/jkirchartz/sets/bhajis-loops&quot;&gt;Bhajis Loops&lt;/a&gt; by &lt;a href=&quot;http://soundcloud.com/jkirchartz&quot;&gt;jkirchartz&lt;/a&gt;  &lt;/p&gt;
 
-&lt;p&gt;Here’s a collection of samples, doodles, runs, and maybe a few songs I made
+&lt;p&gt;&lt;a href=&quot;http://soundcloud.com/jkirchartz/sets/bhajis-loops&quot;&gt;Bhajis Loops&lt;/a&gt; by &lt;a href=&quot;http://soundcloud.com/jkirchartz&quot;&gt;jkirchartz&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here's a collection of samples, doodles, runs, and maybe a few songs I made
 using &lt;a href=&quot;http://www.chocopoolp.com/&quot;&gt;Bhajis Loops&lt;/a&gt;, export to &lt;code&gt;*.wav&lt;/code&gt;, on an old
-Palm Tungsten E2 they’re CC-licensed so please feel free to
+Palm Tungsten E2 they're CC-licensed so please feel free to
 sample &amp;amp; chop them as you see fit.&lt;/p&gt;
 </description>
         </item>
@@ -1090,19 +823,21 @@ sample &amp;amp; chop them as you see fit.&lt;/p&gt;
             <pubDate>Mon, 04 Apr 2011 00:00:00 -0400</pubDate>
             <author>JKirchartz@gmail.com (Joel Kirchartz)</author>
             <guid>http://jkirchartz.com//2011/04/xuijs-for-mobile-development-2</guid>
-            <description>&lt;p&gt;I recently stared playing with &lt;a href=&quot;http://xuijs.com/&quot;&gt;xui.js&lt;/a&gt; it’s a really nice library targeted to mobile devices, 
-and it’s based on JQuery. I’d really like to stick with jQuery but jQuery Mobile is actually more like jQueryUI 
-for mobile and I’m not into making everything on the mobile web look like native iPhone (because if users wanted 
-that UI they’d buy an iPhone!)  &lt;/p&gt;
+            <description>&lt;p&gt;I recently stared playing with &lt;a href=&quot;http://xuijs.com/&quot;&gt;xui.js&lt;/a&gt; it's a really nice library targeted to mobile devices,
+and it's based on JQuery. I'd really like to stick with jQuery but jQuery Mobile is actually more like jQueryUI
+for mobile and I'm not into making everything on the mobile web look like native iPhone (because if users wanted
+that UI they'd buy an iPhone!)&lt;/p&gt;
 
 &lt;p&gt;The thing with switching between xui and jQuery is that all the functions
-aren’t there. Fortunately you can extend XUIjs! I was porting &lt;a href=&quot;http://www.i-marco.nl/weblog/jquery-accordion-menu/&quot;&gt;Marco van
-Hylckama Vlieg’s Simple jQuery Accordion&lt;/a&gt; and needed jQuery’s next and is function (I ended up
+aren't there. Fortunately you can extend XUIjs! I was porting &lt;a href=&quot;http://www.i-marco.nl/weblog/jquery-accordion-menu/&quot;&gt;Marco van
+Hylckama Vlieg's Simple jQuery Accordion&lt;/a&gt; and needed jQuery's next and is function (I ended up
 simplifying the code to do without the IS, but it might be useful to you)
-Here’s the extensions:&lt;/p&gt;
+Here's the extensions:&lt;/p&gt;
 
 &lt;script src=&quot;https://gist.github.com/901715.js&quot;&gt; 
 &lt;/script&gt;
+
+
 
 </description>
         </item>
@@ -1113,21 +848,22 @@ Here’s the extensions:&lt;/p&gt;
             <pubDate>Fri, 19 Nov 2010 00:00:00 -0500</pubDate>
             <author>JKirchartz@gmail.com (Joel Kirchartz)</author>
             <guid>http://jkirchartz.com//2010/11/python-html-to-css</guid>
-            <description>&lt;p&gt;I surely couldn’t have been the first to think of this, but wouldn’t it be great if you could write your HTML, 
-then convert it to CSS? Yeah, I know they’re not really the same, but the CSS has to be attached to something. 
-Why not pull it out and have a skeleton CSS file made for you? This short python script will read in HTML, and 
-spit out all the CSS selectors it can find. I plan on adding this to a larger project, so it’s just a funtion and the call.&lt;/p&gt;
+            <description>&lt;p&gt;I surely couldn't have been the first to think of this, but wouldn't it be great if you could write your HTML,
+then convert it to CSS? Yeah, I know they're not really the same, but the CSS has to be attached to something.
+Why not pull it out and have a skeleton CSS file made for you? This short python script will read in HTML, and
+spit out all the CSS selectors it can find. I plan on adding this to a larger project, so it's just a funtion and the call.&lt;/p&gt;
 
 &lt;script src=&quot;https://gist.github.com/1118350.js&quot;&gt; 
 &lt;/script&gt;
 
-&lt;p&gt;I’m using regex to get rid of everything that &lt;em&gt;isn’t&lt;/em&gt; HTML, then &lt;a href=&quot;http://www.crummy.com/software/BeautifulSoup/&quot;&gt;BeautifulSoup&lt;/a&gt; to parse the HTML into tags, ids, and classes. 
-I then remove duplicates by converting the list to a set and back, sort the lists, and add the appropriate CSS selector and brackets. 
-Then it writes the CSS to a file. This last line runs the function, the first argument is the input HTML file, and the second is the 
-output CSS file. You’ll have to change this to reflect your desired filenames.&lt;/p&gt;
 
-&lt;p&gt;I’m sure there are a few things I can do to optimize this, or at least reduce the line count, but I’m new to python 
-so I’ll save that for another day. Like I said I plan to add this to a larger project so I’m going to take out the 
+&lt;p&gt;I'm using regex to get rid of everything that &lt;em&gt;isn't&lt;/em&gt; HTML, then &lt;a href=&quot;http://www.crummy.com/software/BeautifulSoup/&quot;&gt;BeautifulSoup&lt;/a&gt; to parse the HTML into tags, ids, and classes.
+I then remove duplicates by converting the list to a set and back, sort the lists, and add the appropriate CSS selector and brackets.
+Then it writes the CSS to a file. This last line runs the function, the first argument is the input HTML file, and the second is the
+output CSS file. You'll have to change this to reflect your desired filenames.&lt;/p&gt;
+
+&lt;p&gt;I'm sure there are a few things I can do to optimize this, or at least reduce the line count, but I'm new to python
+so I'll save that for another day. Like I said I plan to add this to a larger project so I'm going to take out the
 file I/O for that and just feed in strings; but until then, enjoy!&lt;/p&gt;
 </description>
         </item>
@@ -1140,27 +876,27 @@ file I/O for that and just feed in strings; but until then, enjoy!&lt;/p&gt;
             <guid>http://jkirchartz.com//2010/11/great-internet-migratory-box-of</guid>
             <description>&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/N7zS1ug.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;If you didn’t know &lt;a href=&quot;http://tgimboej.org/&quot;&gt;The Great Internet Migratory Box Of Electronics
+&lt;p&gt;If you didn't know &lt;a href=&quot;http://tgimboej.org/&quot;&gt;The Great Internet Migratory Box Of Electronics
 Junk&lt;/a&gt; is a project that allows hackers &amp;amp; makers to share
-some electronics/components with each other. There’s a ton of these things
+some electronics/components with each other. There's a ton of these things
 going around, but it seems like they move quite slowly.&lt;/p&gt;
 
-&lt;p&gt;I received the box code-named &lt;a href=&quot;http://tgimboej.org/Box_Code:_Baltimore_Bazaar&quot;&gt;&lt;em&gt;Baltimore
+&lt;p&gt; I received the box code-named &lt;a href=&quot;http://tgimboej.org/Box_Code:_Baltimore_Bazaar&quot;&gt;&lt;em&gt;Baltimore
 Bazaar&lt;/em&gt;&lt;/a&gt; a few days ago &amp;amp;
 busted it open immediately; nothing really caught my eye in there, a few
 motors, a battery charger and a bunch of small components EVERYWHERE. I had to
 pick a bunch of capacitors and screws out of one of the motors I decided to
 play with, but there was nothing in there I really wanted or needed.&lt;/p&gt;
 
-&lt;p&gt;I took a 2GB SD card out (I’m planning on adding the &lt;a href=&quot;http://hbc.hackmii.com/&quot;&gt;Homebrew
+&lt;p&gt;I took a 2GB SD card out (I'm planning on adding the &lt;a href=&quot;http://hbc.hackmii.com/&quot;&gt;Homebrew
 Channel&lt;/a&gt; to my Wii), and replaced it with a couple
 old-school RCA transistors, a small geared motor, a 20Q game (needs a new
 battery), and a few ICs. I think I saw somewhere that you could hack the 20Q
-device, I’m sure somebody can find a use for it.&lt;/p&gt;
+device, I'm sure somebody can find a use for it.&lt;/p&gt;
 
 &lt;p&gt;Hopefully I get another box sometime in the future, it was fun trying to
 figure out what everything is. Perhaps the next one will be more useful to me;
-maybe I’ll even split it, I’ve certainly got enough junk!&lt;/p&gt;
+maybe I'll even split it, I've certainly got enough junk!&lt;/p&gt;
 </description>
         </item>
         
@@ -1172,13 +908,13 @@ maybe I’ll even split it, I’ve certainly got enough junk!&lt;/p&gt;
             <guid>http://jkirchartz.com//2010/10/border-radius-toy</guid>
             <description>&lt;p&gt;&lt;a href=&quot;http://3.bp.blogspot.com/_KHL6Vvj96Eo/TKi5woZN7jI/AAAAAAAAAoA/hewVyI7JzKA/s1600/BorderRadiusToy.png&quot;&gt;&lt;img src=&quot;http://3.bp.blogspot.com/_KHL6Vvj96Eo/TKi5woZN7jI/AAAAAAAAAoA/hewVyI7JzKA/s320/BorderRadiusToy.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;This is my CSS3 Border-Radius Toy, it’s kind of a rip-off of a rip-off of
+&lt;p&gt;This is my CSS3 Border-Radius Toy, it's kind of a rip-off of a rip-off of
 &lt;a href=&quot;http://borderradius.com/&quot;&gt;BorderRadius.com&lt;/a&gt; — which allows you to input the
 radius for all 4 corners — the primary objective is to help create a box with
 rounded corners &amp;amp; output the code for it. Unlike BorderRadius.com &lt;a href=&quot;http://jkirchartz.com/demos/Border_Radius_Toy.html&quot;&gt;Border
 Radius Toy&lt;/a&gt; allows you to
 play with the final shape, changing each parameter in the CSS3 and ultimately
-creating more complex shapes. It’s a simple single-page toy, written with
+creating more complex shapes. It's a simple single-page toy, written with
 &lt;a href=&quot;http://en.wikipedia.org/wiki/HTML5&quot;&gt;HTML5&lt;/a&gt;, &lt;a href=&quot;http://www.css3.info/&quot;&gt;CSS3&lt;/a&gt;,
 &lt;a href=&quot;http://jquery.com/&quot;&gt;JQuery&lt;/a&gt; &amp;amp; &lt;a href=&quot;http://jqueryui.com/&quot;&gt;JQueryUI&lt;/a&gt;.&lt;/p&gt;
 
@@ -1193,19 +929,15 @@ on &lt;a href=&quot;http://github.com/&quot;&gt;GitHub&lt;/a&gt;, or you can &lt
             <pubDate>Wed, 23 Jun 2010 00:00:00 -0400</pubDate>
             <author>JKirchartz@gmail.com (Joel Kirchartz)</author>
             <guid>http://jkirchartz.com//2010/06/project-big-island-toyota</guid>
-            <description>&lt;p&gt;Big Island Toyota has always been a little ahead of the curve on social media, They’re involved with their community, and they use their website pro-actively. Here are 2 requested projects from them.  &lt;/p&gt;
+            <description>&lt;p&gt;Big Island Toyota has always been a little ahead of the curve on social media, They're involved with their community, and they use their website pro-actively. Here are 2 requested projects from them.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://3.bp.blogspot.com/_KHL6Vvj96Eo/TCIjEZzRhMI/AAAAAAAA
-AnY/pdikNRZkRK0/s1600/youtube.jpg&quot;&gt;&lt;img src=&quot;http://3.bp.blogspot.com/_KHL6Vvj96Eo/TCIjEZzRhMI/AAAAAAAAAnY/pdikNRZkRK0
-/s320/youtube.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://3.bp.blogspot.com/_KHL6Vvj96Eo/TCIjEZzRhMI/AAAAAAAA%0AAnY/pdikNRZkRK0/s1600/youtube.jpg&quot;&gt;&lt;img src=&quot;http://3.bp.blogspot.com/_KHL6Vvj96Eo/TCIjEZzRhMI/AAAAAAAAAnY/pdikNRZkRK0%0A/s320/youtube.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Here is the &lt;a href=&quot;http://bigislandtoyota.com/youtube.cfm&quot;&gt;YouTube page&lt;/a&gt; from their
 website. This was made with Coldfusion &amp;amp; JQuery. The Coldfusion parses their
 YouTube RSS feed, JQuery is used to show each video in a simple LightBox.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://4.bp.blogspot.com/_KHL6Vvj96Eo/TCIlu0tMtWI/AAAAAA
-AAAng/x7Qqq6tWwuM/s1600/auto-blog.jpg&quot;&gt;&lt;img src=&quot;http://4.bp.blogspot.com/_KHL6Vvj96Eo/TCIlu0tMtWI/AAAAAAAAAng/x7Qqq6tWwuM
-/s320/auto-blog.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://4.bp.blogspot.com/_KHL6Vvj96Eo/TCIlu0tMtWI/AAAAAA%0AAAAng/x7Qqq6tWwuM/s1600/auto-blog.jpg&quot;&gt;&lt;img src=&quot;http://4.bp.blogspot.com/_KHL6Vvj96Eo/TCIlu0tMtWI/AAAAAAAAAng/x7Qqq6tWwuM%0A/s320/auto-blog.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;They also requested a &lt;a href=&quot;http://bigislandtoyota.com/Auto_Blog.cfm&quot;&gt;blog&lt;/a&gt;, which
 I developed with ColdFusion &amp;amp; SQL. The front-end is a standard Content-
@@ -1223,26 +955,24 @@ no longer have the access I need to find it.&lt;/p&gt;
             <pubDate>Mon, 24 May 2010 00:00:00 -0400</pubDate>
             <author>JKirchartz@gmail.com (Joel Kirchartz)</author>
             <guid>http://jkirchartz.com//2010/05/jquery-plugin-update-letterpress2</guid>
-            <description>&lt;p&gt;A While back I coded a plugin to apply the letterpress effect, since then I’ve decided
-that css’s text-shadow property was a better way to go, but some browsers don’t support
-text-shadow *cough* IE *cough* this is a slight mod to check for IE &amp;amp; apply the letterpress 
-plugin to them, and use text-shadow on browsers that support it.  &lt;/p&gt;
+            <description>&lt;p&gt;A While back I coded a plugin to apply the letterpress effect, since then I've decided
+that css's text-shadow property was a better way to go, but some browsers don't support
+text-shadow *cough* IE *cough* this is a slight mod to check for IE &amp;amp; apply the letterpress
+plugin to them, and use text-shadow on browsers that support it.&lt;/p&gt;
 
-&lt;p&gt;Here’s what it looks like:&lt;/p&gt;
+&lt;p&gt;Here's what it looks like:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://3.bp.blogspot.com/_KHL6Vvj96Eo/Slz
-i8kMa0oI/AAAAAAAAAiM/g4mhv-ePzYs/s1600-h/letterpresser_screenshot.gif&quot;&gt;&lt;img src=&quot;http://3.bp.blogspot.com/_KHL6Vvj96Eo/Slzi8kMa0oI/AAAAAAAAAiM/g4mhv-ePzYs
-/s400/letterpresser_screenshot.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://3.bp.blogspot.com/_KHL6Vvj96Eo/Slz%0Ai8kMa0oI/AAAAAAAAAiM/g4mhv-ePzYs/s1600-h/letterpresser_screenshot.gif&quot;&gt;&lt;img src=&quot;http://3.bp.blogspot.com/_KHL6Vvj96Eo/Slzi8kMa0oI/AAAAAAAAAiM/g4mhv-ePzYs%0A/s400/letterpresser_screenshot.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;and this is the code needed for this example:&lt;/p&gt;
 
-&lt;p&gt;Liquid error: No such file or directory - posix_spawnp    &lt;/p&gt;
+&lt;p&gt;Liquid error: No such file or directory - posix_spawnp&lt;/p&gt;
 
 &lt;p&gt;This is a CSS / Graphic effect that usually requires a bit of planning and is
 kind-of hard to throw into dynamic content, or content you have no control
 over the markup of. No extra tags, or css required. No duplicate text needed.&lt;/p&gt;
 
-&lt;p&gt;Here’s the basics:&lt;/p&gt;
+&lt;p&gt;Here's the basics:&lt;/p&gt;
 
 &lt;p&gt;Liquid error: No such file or directory - posix_spawnp&lt;/p&gt;
 
@@ -1266,9 +996,7 @@ over the markup of. No extra tags, or css required. No duplicate text needed.&lt
             <pubDate>Tue, 11 May 2010 00:00:00 -0400</pubDate>
             <author>JKirchartz@gmail.com (Joel Kirchartz)</author>
             <guid>http://jkirchartz.com//2010/05/vegas</guid>
-            <description>&lt;p&gt;&lt;a href=&quot;http://lh4.ggpht.com/_KHL6Vvj96Eo/S-lDymw8gDI/AAAAAAAAAnQ/2kjZRn
-5b3Vg/race2vegas.jpg&quot;&gt;&lt;img src=&quot;http://lh4.ggpht.com/_KHL6Vvj96Eo/S-lDymw8gDI/AAAAAAAAAnQ/2kjZRn5b3Vg/rac
-e2vegas.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+            <description>&lt;p&gt;&lt;a href=&quot;http://lh4.ggpht.com/_KHL6Vvj96Eo/S-lDymw8gDI/AAAAAAAAAnQ/2kjZRn%0A5b3Vg/race2vegas.jpg&quot;&gt;&lt;img src=&quot;http://lh4.ggpht.com/_KHL6Vvj96Eo/S-lDymw8gDI/AAAAAAAAAnQ/2kjZRn5b3Vg/rac%0Ae2vegas.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://baierl.com/&quot;&gt;Baierl Automotive&lt;/a&gt; and &lt;a href=&quot;http://markitgroupmedia.blogspot.com/&quot;&gt;MarkIT
 Group&lt;/a&gt; developed the idea for a
@@ -1292,11 +1020,9 @@ yourself at &lt;a href=&quot;http://baierlrace2vegas.com/&quot;&gt;baierlrace2ve
             <pubDate>Thu, 22 Apr 2010 00:00:00 -0400</pubDate>
             <author>JKirchartz@gmail.com (Joel Kirchartz)</author>
             <guid>http://jkirchartz.com//2010/04/project-automotive-search-tool-api</guid>
-            <description>&lt;p&gt;&lt;a href=&quot;http://4.bp.blogspot.com/_KHL6Vvj96Eo/S9BO9Tb4O
-iI/AAAAAAAAAmg/8f4G1X9wIxY/s1600/Mobile_Screenshots.jpg&quot;&gt;&lt;img src=&quot;http://4.bp.blogspot.com/_KHL6Vvj96Eo/S9BO9Tb4OiI/AAAAAAAAAmg/8f4G1X9wIxY
-/s320/Mobile_Screenshots.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+            <description>&lt;p&gt;&lt;a href=&quot;http://4.bp.blogspot.com/_KHL6Vvj96Eo/S9BO9Tb4O%0AiI/AAAAAAAAAmg/8f4G1X9wIxY/s1600/Mobile_Screenshots.jpg&quot;&gt;&lt;img src=&quot;http://4.bp.blogspot.com/_KHL6Vvj96Eo/S9BO9Tb4OiI/AAAAAAAAAmg/8f4G1X9wIxY%0A/s320/Mobile_Screenshots.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Here is a template I created for use on car dealership mobile sites. It’s a
+&lt;p&gt;Here is a template I created for use on car dealership mobile sites. It's a
 minimalist design, made to work on the widest variety of software/firmware
 possible. This template was developed to launch quickly, if the dealer had an
 existing site, it was simply a the flick of the switch to launch. To maximize
@@ -1315,24 +1041,23 @@ phone.&lt;/p&gt;
             <pubDate>Thu, 01 Apr 2010 00:00:00 -0400</pubDate>
             <author>JKirchartz@gmail.com (Joel Kirchartz)</author>
             <guid>http://jkirchartz.com//2010/04/new-plugin-stupify</guid>
-            <description>&lt;p&gt;Here’s a quickly little plugin’ tool, that I know people will find very useful. It’s called Clickify, and it’s an answer to a problem a lot of people are concerned about. Too often has somebody asked “How will users know where to click?” now we have your answer, Clickify automatically adds the text “(click here!)” to every “hyperlink” within a page, so that there will be no confusion as to where to click to visit a link.  &lt;/p&gt;
+            <description>&lt;p&gt;Here's a quickly little plugin' tool, that I know people will find very useful. It's called Clickify, and it's an answer to a problem a lot of people are concerned about. Too often has somebody asked &quot;How will users know where to click?&quot; now we have your answer, Clickify automatically adds the text &quot;(click here!)&quot; to every &quot;hyperlink&quot; within a page, so that there will be no confusion as to where to click to visit a link.&lt;/p&gt;
 
-&lt;p&gt;I’m sure that people are actually very confused whenever text becomes blue and
+&lt;p&gt;I'm sure that people are actually very confused whenever text becomes blue and
 underlined, even more so when it changes their cursor to a hand. These new
-“Links” as their colloquially called are so new and bewildering that some
+&quot;Links&quot; as their colloquially called are so new and bewildering that some
 users obviously need some assistance in understanding them.&lt;/p&gt;
 
-&lt;p&gt;Here’s the source code:&lt;/p&gt;
+&lt;p&gt;Here's the source code:&lt;/p&gt;
 
-&lt;p&gt;Liquid error: No such file or directory - posix_spawnp    &lt;/p&gt;
+&lt;p&gt;Liquid error: No such file or directory - posix_spawnp&lt;/p&gt;
 
-&lt;p&gt;And it’s simple to use! Just add &lt;code&gt;&amp;lt;script&amp;gt;$(function(){$.clickify()});&amp;lt;/script&amp;gt;&lt;/code&gt;
-to your page and you’re good to go!&lt;/p&gt;
+&lt;p&gt;And it's simple to use! Just add &lt;code&gt;&amp;lt;script&amp;gt;$(function(){$.clickify()});&amp;lt;/script&amp;gt;&lt;/code&gt;
+to your page and you're good to go!&lt;/p&gt;
 
 &lt;p&gt;for more on the subject visit:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://www.goodusability.co.uk/2009/01/dont-say-click-here-on-link-
-text/&quot;&gt;Good Usability’s &lt;em&gt;Don’t say click here on link text&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.goodusability.co.uk/2009/01/dont-say-click-here-on-link-%0Atext/&quot;&gt;Good Usability's &lt;em&gt;Don't say click here on link text&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         
@@ -1342,47 +1067,38 @@ text/&quot;&gt;Good Usability’s &lt;em&gt;Don’t say click here on link text&
             <pubDate>Tue, 29 Dec 2009 00:00:00 -0500</pubDate>
             <author>JKirchartz@gmail.com (Joel Kirchartz)</author>
             <guid>http://jkirchartz.com//2009/12/jpeg-exif-metadata-removal</guid>
-            <description>&lt;p&gt;Image Optimization is a fun game, trying to get just the right compression ratio to balance file size and appearance. There are a ton of tricks out there, but as a Photoshop user you generally end up with some pretty big files that are just small images. Today I had an icon, 71x30px that was 40.1kb after I resized it from a larger jpeg that was 38kb.  &lt;/p&gt;
+            <description>&lt;p&gt;Image Optimization is a fun game, trying to get just the right compression ratio to balance file size and appearance. There are a ton of tricks out there, but as a Photoshop user you generally end up with some pretty big files that are just small images. Today I had an icon, 71x30px that was 40.1kb after I resized it from a larger jpeg that was 38kb.&lt;/p&gt;
 
 &lt;p&gt;Where does all this extra data come from? Metadata. Cameras throw it in,
-&lt;a href=&quot;http://flickr.com/&quot;&gt;flickr&lt;/a&gt; reads it and shows the setting your 
-&lt;a href=&quot;http://www.usa.canon.com/consumer/controller?act=ProductCatIndex1Act&amp;amp;fcategoryid=1
-01&quot;&gt;Cannon&lt;/a&gt; used to get that photo. Photoshop throws some junk in too. The real evil
+&lt;a href=&quot;http://flickr.com/&quot;&gt;flickr&lt;/a&gt; reads it and shows the setting your
+&lt;a href=&quot;http://www.usa.canon.com/consumer/controller?act=ProductCatIndex1Act&amp;amp;fcategoryid=1%0A01&quot;&gt;Cannon&lt;/a&gt; used to get that photo. Photoshop throws some junk in too. The real evil
 is thumbnails, &lt;a href=&quot;http://en.wikipedia.org/wiki/Catherine_Schwartz&quot;&gt;Cat Schwartz&lt;/a&gt;
-had a bit of a &lt;a href=&quot;http://graphicssoft.about.com/b/2003/07/26/techtvs-cat-schwartz-exposed-is-photoshop-to-blame.htm&quot;&gt;scandal&lt;/a&gt; 
+had a bit of a &lt;a href=&quot;http://graphicssoft.about.com/b/2003/07/26/techtvs-cat-schwartz-exposed-is-photoshop-to-blame.htm&quot;&gt;scandal&lt;/a&gt;
 6 years ago with thumbnails of
 un-cropped photos in the metadata that were, shall we say, not suitable for work. These
-thumbnails can almost DOUBLE your file size. It’s just part and parcel of
+thumbnails can almost DOUBLE your file size. It's just part and parcel of
 &lt;a href=&quot;http://en.wikipedia.org/wiki/Exchangeable_image_file_format&quot;&gt;EXIF&lt;/a&gt; (the
 Exchangeable Image File format) standard, a bunch of useful data that takes up
-a bunch of space, and isn’t important to the end user.&lt;/p&gt;
+a bunch of space, and isn't important to the end user.&lt;/p&gt;
 
 &lt;p&gt;How do you get rid of EXIF? On OSX you could use &lt;a href=&quot;http://imageoptim.pornel.net/&quot;&gt;Image
 Optim&lt;/a&gt;, which is totally sweet, if you own a
 mac. On a PC you run into a bunch of poorly written, virus laden, scam-ware
-programs that may or may not work. Fortunately for us, there’s an &lt;a href=&quot;http://en.wikipedia.org/wiki/Open_Source&quot;&gt;Open
-Source&lt;/a&gt; community. So we’ll do this
+programs that may or may not work. Fortunately for us, there's an &lt;a href=&quot;http://en.wikipedia.org/wiki/Open_Source&quot;&gt;Open
+Source&lt;/a&gt; community. So we'll do this
 with some &lt;a href=&quot;http://en.wikipedia.org/wiki/Free_and_open_source_software&quot;&gt;FOSS&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Create a folder for all your image files (which you should do anyhow)&lt;/li&gt;
-  &lt;li&gt;
-    &lt;table&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td&gt;download JHEAD to that folder (&lt;a href=&quot;http://www.sentex.net/~mwandel/jhead/jhead.exe&quot;&gt;jhead.exe&lt;/a&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&quot;http://www.sentex.net/~mwandel/jhead/&quot;&gt;main page&lt;/a&gt;)&lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Create .BAT file (plain text renamed to .BAT) containing
+&lt;li&gt;Create a folder for all your image files (which you should do anyhow)&lt;/li&gt;
+&lt;li&gt;download JHEAD to that folder (&lt;a href=&quot;http://www.sentex.net/~mwandel/jhead/jhead.exe&quot;&gt;jhead.exe&lt;/a&gt; | &lt;a href=&quot;http://www.sentex.net/~mwandel/jhead/&quot;&gt;main page&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Create .BAT file (plain text renamed to .BAT) containing
   Liquid error: No such file or directory - posix_spawnp&lt;/li&gt;
-  &lt;li&gt;Run it.&lt;/li&gt;
+&lt;li&gt;Run it.&lt;/li&gt;
 &lt;/ol&gt;
 
+
 &lt;p&gt;What this does is strip out any EXIF and other metadata in the files in that
-folder. Just does away with anything that isn’t purely essential for a jpeg to
+folder. Just does away with anything that isn't purely essential for a jpeg to
 be an image, thus saving quite a bit on file size, bandwidth, and hopefully
 some embarrassment.&lt;/p&gt;
 </description>
@@ -1397,6 +1113,7 @@ some embarrassment.&lt;/p&gt;
             <description>&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/7qpUFDoNBHs&quot; frameborder=&quot;0&quot;&gt;
 &lt;/iframe&gt;
 
+
 &lt;p&gt;The music of &lt;a href=&quot;http://www.yoavmusic.com/&quot;&gt;Yoav&lt;/a&gt; is heavily loop based, due to
 the fact that every sound is either produced by his guitar or his voice. To
 accomplish this he has several looping delay pedals; In some of &lt;a href=&quot;http://www.youtube.com/user/Yoavmusic&quot;&gt;his videos on
@@ -1406,10 +1123,10 @@ to play with because you can loop and overdub anything placed into the input,
 then improvise over the loop creating nearly any sound possible. Recently
 &lt;a href=&quot;http://www.keyboardmag.com/&quot;&gt;Keyboard Magazine&lt;/a&gt; ran a 2-part article on using
 multiple loopers with live, but their instructions are a little unclear unless
-you’re familiar with Live.&lt;/p&gt;
+you're familiar with Live.&lt;/p&gt;
 
-&lt;p&gt;Over the weekend I’ve experimented and played around a lot and produced this
-Live 8 set, and nanoPAD preset. I don’t suggest using the nanoPAD with your
+&lt;p&gt;Over the weekend I've experimented and played around a lot and produced this
+Live 8 set, and nanoPAD preset. I don't suggest using the nanoPAD with your
 feet, but for beatboxing in the style of
 &lt;a href=&quot;http://www.youtube.com/watch?v=2XryzjprNqE&quot;&gt;BeardyMan&lt;/a&gt; this will get you
 there. To get instructions, tips, and download the Live set w/ nanoPAD preset,
@@ -1418,60 +1135,45 @@ please continue reading.&lt;/p&gt;
 &lt;p&gt;The software needed is:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Ableton Live 8
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Korg Control Editor
-
-&lt;/p&gt;
-  &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ableton Live 8&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Korg Control Editor&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Alright, here’s the setup:&lt;/p&gt;
+
+
+&lt;p&gt;Alright, here's the setup:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Create 1 audio track (ctrl + t) &amp;amp; arm it for recording.
+&lt;li&gt;&lt;p&gt;&lt;p&gt;Create 1 audio track (ctrl + t) &amp;amp; arm it for recording.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;p&gt;Create up to 6 return tracks (ctrl + alt + t)&lt;/p&gt;
 
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Create up to 6 return tracks (ctrl + alt + t)
-^
- * &lt;p&gt;sometimes the returns don't show up, so switch to arrange view &amp;amp; click the arrow next to one and they should all show up in the session view
-
-&lt;/p&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;In each return track place a looper
-
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;For each looper the setup is:
-^
- * &lt;p&gt;Quantization: none
- * &lt;p&gt;Song Control: none
- * &lt;p&gt;Tempo Control: none
- * &lt;p&gt;Input -&amp;gt; Output: none
- * &lt;p&gt;Optionally you could set the first looper's tempo control to &quot;Set &amp;amp; Follow Song Tempo&quot; and every other track to &quot;Follow Song Tempo&quot;, then record your beat into the first looper.
-
-&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Setup the Midi map: open the MIDI map mode
-^
- * &lt;p&gt;set one button to turn up the send on the audio rack
- * &lt;p&gt;set one button to control the &quot;Multi-Purpose Transport Button&quot; (MPTB from now on) (it should show record at first, but will switch to play &amp;amp; overdub)
-
-
-&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
-  &lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;sometimes the returns don't show up, so switch to arrange view &amp;amp; click the arrow next to one and they should all show up in the session view&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;p&gt;In each return track place a looper&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;p&gt;For each looper the setup is:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Quantization: none&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Song Control: none&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Tempo Control: none&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Input -&gt; Output: none&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Optionally you could set the first looper's tempo control to &quot;Set &amp;amp; Follow Song Tempo&quot; and every other track to &quot;Follow Song Tempo&quot;, then record your beat into the first looper.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;p&gt;Setup the Midi map: open the MIDI map mode&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;set one button to turn up the send on the audio rack&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;set one button to control the &quot;Multi-Purpose Transport Button&quot; (MPTB from now on) (it should show record at first, but will switch to play &amp;amp; overdub)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
 &lt;p&gt;&lt;a href=&quot;http://3.bp.blogspot.com/_KHL6Vvj96Eo/SsERS0B4EfI/AAAAAAAAAjU/pHS-fROSGsc/s1600-h/screenshot.jpg&quot;&gt;&lt;img src=&quot;http://3.bp.blogspot.com/_KHL6Vvj96Eo/SsERS0B4EfI/AAAAAAAAAjU/pHS-fROSGsc/s320/screenshot.jpg&quot; alt=&quot;Ableton Live Screenshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Now you’re good to go. Hit the button you asigned to send &amp;amp; then tap the MPTB
+&lt;p&gt;Now you're good to go. Hit the button you asigned to send &amp;amp; then tap the MPTB
 button to start recording, do something awesome, then tap the MPTB button
 again to switch from recording to playing. To overdub tap the MPTB button and
 lay something down but I suggest tapping off the send and switching to your
@@ -1481,7 +1183,7 @@ Repeat.&lt;/p&gt;
 &lt;p&gt;Double tapping on the MPTB will stop the looper, and holding down the MPTB for
 2 seconds will clear the recording, freeing up a loop for future use.&lt;/p&gt;
 
-&lt;p&gt;If you want to grab my looper setup &amp;amp; live set it’s right here:&lt;/p&gt;
+&lt;p&gt;If you want to grab my looper setup &amp;amp; live set it's right here:&lt;/p&gt;
 
 &lt;p&gt;download:
 &lt;a href=&quot;http://rewiredforsoundblogger.googlecode.com/files/6loops.rar&quot;&gt;6loops.rar&lt;/a&gt;&lt;/p&gt;
@@ -1494,7 +1196,7 @@ Repeat.&lt;/p&gt;
             <pubDate>Thu, 17 Sep 2009 00:00:00 -0400</pubDate>
             <author>JKirchartz@gmail.com (Joel Kirchartz)</author>
             <guid>http://jkirchartz.com//2009/09/jquery-extension-fixpng</guid>
-            <description>&lt;p&gt;PNGs and IE6, sounds like a recipe for trouble. Well you could always use the lovely &lt;a href=&quot;http://www.dillerdesign.com/experiment/DD_belatedPNG/&quot;&gt;DD_belatedPNG&lt;/a&gt; but to call it you need to add a class to each element containing a png. Adding a class is fine unless you have user-generated content &amp;amp; no control over the back end, and they like to use semi-transparent PNGs. So today I cobbled together a little jQuery extention to search through and find all PNGs (in images, and backgrounds) and add a class to their container, then call DD_belatedPNG… probably not the most elegant solution, but a solution none the less.  &lt;/p&gt;
+            <description>&lt;p&gt;PNGs and IE6, sounds like a recipe for trouble. Well you could always use the lovely &lt;a href=&quot;http://www.dillerdesign.com/experiment/DD_belatedPNG/&quot;&gt;DD_belatedPNG&lt;/a&gt; but to call it you need to add a class to each element containing a png. Adding a class is fine unless you have user-generated content &amp;amp; no control over the back end, and they like to use semi-transparent PNGs. So today I cobbled together a little jQuery extention to search through and find all PNGs (in images, and backgrounds) and add a class to their container, then call DD_belatedPNG... probably not the most elegant solution, but a solution none the less.&lt;/p&gt;
 
 &lt;p&gt;Liquid error: No such file or directory - posix_spawnp&lt;/p&gt;
 </description>
@@ -1506,29 +1208,18 @@ Repeat.&lt;/p&gt;
             <pubDate>Wed, 09 Sep 2009 00:00:00 -0400</pubDate>
             <author>JKirchartz@gmail.com (Joel Kirchartz)</author>
             <guid>http://jkirchartz.com//2009/09/jquery-plugin-fish-menu</guid>
-            <description>&lt;p&gt;Here we go, at it again… with a new plugin called fish-menu… heavily based on &lt;a href=&quot;http://labs.makotokw.com/s/jquery/menu&quot;&gt;jquery.ui.potato.menu&lt;/a&gt; by &lt;a href=&quot;http://makotokw.com/en/&quot;&gt;Makoto_KW&lt;/a&gt;   &lt;/p&gt;
+            <description>&lt;p&gt;Here we go, at it again... with a new plugin called fish-menu... heavily based on &lt;a href=&quot;http://labs.makotokw.com/s/jquery/menu&quot;&gt;jquery.ui.potato.menu&lt;/a&gt; by &lt;a href=&quot;http://makotokw.com/en/&quot;&gt;Makoto_KW&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;I’ve modified the code in many ways, adding a few features such as:&lt;/p&gt;
+&lt;p&gt;I've modified the code in many ways, adding a few features such as:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;[hoverIntent](http://cherne.net/brian/resources/jquery.hoverIntent.html) Support
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Drop-down textual marker, such as »
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Miniaturization, helps speed download  
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;No jQuery UI, helps reduce HTTP requests
-
-&lt;/p&gt;
-  &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://cherne.net/brian/resources/jquery.hoverIntent.html&quot;&gt;hoverIntent&lt;/a&gt; Support&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Drop-down textual marker, such as »&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Miniaturization, helps speed download&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;No jQuery UI, helps reduce HTTP requests&lt;/li&gt;
 &lt;/ul&gt;
+
+
 &lt;p&gt;Use is as easy as the original potato menu, by simply using nested unordered
 lists, like this:&lt;/p&gt;
 
@@ -1540,14 +1231,13 @@ lists, like this:&lt;/p&gt;
 
 &lt;p&gt;and Ka-Pow, drop-down jQuery menus in 2.66KB (minified)&lt;/p&gt;
 
-&lt;p&gt;DOWNLOAD: &lt;a href=&quot;http://jkirchartz-jquery-repository.googlecode.com/files/jquery.fish.menu.js&quot;&gt;FULL&lt;/a&gt; 
-&lt;a href=&quot;http://jkirchartz-jquery-repository.googlecode.com/files/jquery.fish.menu-min.js&quot;&gt;MINI&lt;/a&gt; 
+&lt;p&gt;DOWNLOAD: &lt;a href=&quot;http://jkirchartz-jquery-repository.googlecode.com/files/jquery.fish.menu.js&quot;&gt;FULL&lt;/a&gt;
+&lt;a href=&quot;http://jkirchartz-jquery-repository.googlecode.com/files/jquery.fish.menu-min.js&quot;&gt;MINI&lt;/a&gt;
 &lt;a href=&quot;http://jkirchartz-jquery-repository.googlecode.com/files/jquery.fish.css&quot;&gt;CSS&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I have noticed a bug in ie6 (it exists in the original potato menu too) and I
-can’t really figure it out, the li’s in the sub-nav appear to float left, if
-anybody has any insight let me know (it’s not the pseudo-element bug)&lt;/p&gt;
-
+can't really figure it out, the li's in the sub-nav appear to float left, if
+anybody has any insight let me know (it's not the pseudo-element bug)&lt;/p&gt;
 </description>
         </item>
         
@@ -1557,7 +1247,7 @@ anybody has any insight let me know (it’s not the pseudo-element bug)&lt;/p&gt
             <pubDate>Thu, 30 Jul 2009 00:00:00 -0400</pubDate>
             <author>JKirchartz@gmail.com (Joel Kirchartz)</author>
             <guid>http://jkirchartz.com//2009/07/hacks-fontburner</guid>
-            <description>&lt;p&gt;As you might have noticed &lt;s&gt;I've got&lt;/s&gt; I had a couple crazy “non-standard” fonts
+            <description>&lt;p&gt;As you might have noticed &lt;s&gt;I've got&lt;/s&gt; I had a couple crazy &quot;non-standard&quot; fonts
 from &lt;a href=&quot;http://www.fontburner.com/&quot;&gt;fontburner.com&lt;/a&gt;. &lt;a href=&quot;http://www.fontburner.com/&quot;&gt;FontBurner&lt;/a&gt; is a great tool for hosting &lt;a href=&quot;http://www.mikeindustries.com/blog/sifr/&quot;&gt;sIFR
 (scalable inman flash replacement)&lt;/a&gt;
 flash files &amp;amp; javascript to simply replace fonts &amp;amp; text with a small flash
@@ -1566,16 +1256,16 @@ limited set of options regarding color/spacing etc. but with a little
 ingenuity one is able to add this functionality themselves.&lt;/p&gt;
 
 &lt;p&gt;First let us look at how FontBurner works. When you goto their site choose
-fonts, then which style of font to use. Once you’ve chosen a style you can
+fonts, then which style of font to use. Once you've chosen a style you can
 easily navigate through all the different type-faces, right below each example
-is a ‘get the code’ button, which will give you this:&lt;/p&gt;
+is a 'get the code' button, which will give you this:&lt;/p&gt;
 
 &lt;p&gt;Liquid error: No such file or directory - posix_spawnp&lt;/p&gt;
 
 &lt;p&gt;Now you copy that code onto your page &amp;amp; it will replace h1, h2, h3 tags and
 any dom element with a class or ID the same as the font-name.&lt;/p&gt;
 
-&lt;p&gt;Ok, so now let’s do a little disection &amp;amp; investigation…&lt;/p&gt;
+&lt;p&gt;Ok, so now let's do a little disection &amp;amp; investigation...&lt;/p&gt;
 
 &lt;p&gt;Liquid error: No such file or directory - posix_spawnp&lt;/p&gt;
 
@@ -1595,26 +1285,25 @@ any dom element with a class or ID the same as the font-name.&lt;/p&gt;
 
 &lt;p&gt;Liquid error: No such file or directory - posix_spawnp&lt;/p&gt;
 
-&lt;p&gt;Attribution, let’s leave this in there because they deserve some credit.&lt;/p&gt;
+&lt;p&gt;Attribution, let's leave this in there because they deserve some credit.&lt;/p&gt;
 
-&lt;p&gt;Alright let’s see what’s in that php file loaded as javascript:&lt;/p&gt;
+&lt;p&gt;Alright let's see what's in that php file loaded as javascript:&lt;/p&gt;
 
 &lt;p&gt;Liquid error: No such file or directory - posix_spawnp&lt;/p&gt;
 
-&lt;p&gt;Hey look, CSS… this is EXACTLY what we want, and editing this script will
+&lt;p&gt;Hey look, CSS... this is EXACTLY what we want, and editing this script will
 give us much more control &amp;amp; options for fontburner. I suggest removing the h1,
 h2, and h3 tags from the selectors string in line 9 of this code, you probably
-shouldn’t put CSS on a tag itself unless you’re sure it’s neccessary. Now lets
-move down to that lovely CSS… here you can change the font color, text-
+shouldn't put CSS on a tag itself unless you're sure it's neccessary. Now lets
+move down to that lovely CSS... here you can change the font color, text-
 decoration, underling, weight, but there is a lot more you can do, hack away. So
-now you can text-align and almost anything else in flash’s limited css.&lt;/p&gt;
+now you can text-align and almost anything else in flash's limited css.&lt;/p&gt;
 
 &lt;p&gt;Now you might have some code that looks like this:&lt;/p&gt;
 
 &lt;p&gt;Liquid error: No such file or directory - posix_spawnp&lt;/p&gt;
 
 &lt;p&gt;And you will have khaki-colour center-aligned text with a non-standard font.&lt;/p&gt;
-
 </description>
         </item>
         
@@ -1624,60 +1313,52 @@ now you can text-align and almost anything else in flash’s limited css.&lt;/p&
             <pubDate>Wed, 15 Jul 2009 00:00:00 -0400</pubDate>
             <author>JKirchartz@gmail.com (Joel Kirchartz)</author>
             <guid>http://jkirchartz.com//2009/07/tips-walk-on-characters-green-screen</guid>
-            <description>&lt;p&gt;Keying – the process used to remove green-screen – is a relatively simple process now-a-days, pretty simply 
-pick the shade of green, and tweak a few numbers and you’re done; but sometimes there are issues…&lt;/p&gt;
+            <description>&lt;p&gt;Keying -- the process used to remove green-screen -- is a relatively simple process now-a-days, pretty simply
+pick the shade of green, and tweak a few numbers and you're done; but sometimes there are issues...&lt;/p&gt;
 
-&lt;p&gt;A Walk-on Character project just came across my desk, a spokes-person shot on green-screen to say the mission 
-statement of the site. But there's a problem, a big problem, the source footage is terrible, the spokes-person 
-is casting 4-6 different shadows depending on where they're standing, and to make matters worse the video is pixelated, and blurry.&lt;/p&gt;
+&lt;p&gt;A Walk-on Character project just came across my desk, a spokes-person shot on green-screen to say the mission
+statement of the site. But there\'s a problem, a big problem, the source footage is terrible, the spokes-person
+is casting 4-6 different shadows depending on where they\'re standing, and to make matters worse the video is pixelated, and blurry.&lt;/p&gt;
 
-&lt;p&gt;These issues individually cause problems when keying, combined the effects are HUGE, mainly because the system gets 
-confused as to where the line between the subject and the green-screen actually are, this can be easily avoided by 
+&lt;p&gt;These issues individually cause problems when keying, combined the effects are HUGE, mainly because the system gets
+confused as to where the line between the subject and the green-screen actually are, this can be easily avoided by
 following a few simple guidelines.&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Camera
+&lt;li&gt;&lt;p&gt;&lt;p&gt;Camera&lt;/p&gt;
 
- This is perhaps the most important thing to a good green-screen shoot, you cannot pull out your old super-8 and get decent looking video to put online, you absolutely MUST use a professional or pro-sumer grade camera, so anything on sale at the local &lt;a href=&quot;http://www.walmart.com/&quot;&gt;big&lt;/a&gt; &lt;a href=&quot;http://target.com/&quot;&gt;box&lt;/a&gt; &lt;a href=&quot;http://www.bjs.com/&quot;&gt;store&lt;/a&gt; is basically off-limits.
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Lighting
+&lt;p&gt; This is perhaps the most important thing to a good green-screen shoot, you cannot pull out your old super-8 and get decent looking video to put online, you absolutely MUST use a professional or pro-sumer grade camera, so anything on sale at the local &lt;a href=&quot;http://www.walmart.com/&quot;&gt;big&lt;/a&gt; &lt;a href=&quot;http://target.com/&quot;&gt;box&lt;/a&gt; &lt;a href=&quot;http://www.bjs.com/&quot;&gt;store&lt;/a&gt; is basically off-limits.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;p&gt;Lighting&lt;/p&gt;
 
- Simply put, lighting is one of the most important things in videography, and for green-screen it's relatively easy. Just use the Layer Method. Each subject &amp;amp; set of lights is a different layer (yes the green-screen counts as a subject) Here is an image of the most lighting set-up, just be sure to have no possibility of shadows ANYWHERE.
- ![setup lights in layers](http://4.bp.blogspot.com/_KHL6Vvj96Eo/Sl4OmTM2n5I/AAAAAAAAAiU/6O0DKDwJ7bM/s320/Layers.png)
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Camera Setup
+&lt;p&gt; Simply put, lighting is one of the most important things in videography, and for green-screen it's relatively easy. Just use the Layer Method. Each subject &amp;amp; set of lights is a different layer (yes the green-screen counts as a subject) Here is an image of the most lighting set-up, just be sure to have no possibility of shadows ANYWHERE.
+ &lt;img src=&quot;http://4.bp.blogspot.com/_KHL6Vvj96Eo/Sl4OmTM2n5I/AAAAAAAAAiU/6O0DKDwJ7bM/s320/Layers.png&quot; alt=&quot;setup lights in layers&quot; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;p&gt;Camera Setup&lt;/p&gt;
 
- While setting up the camera make sure you're positioned dead-on to the subject, and that the entire background is green-screen (some gaffers tape is exceptable, if it's blue or green) Make sure there are no 
- lighting fixtures or wires viewable anywhere.
+&lt;p&gt; While setting up the camera make sure you're positioned dead-on to the subject, and that the entire background is green-screen (some gaffers tape is exceptable, if it's blue or green) Make sure there are no
+ lighting fixtures or wires viewable anywhere.&lt;/p&gt;
 
- White-balance your camera with a big matte-finished white card where your subject will be, to ensure that nothing turns out tinted funny.
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Wardrobe &amp;amp; Make-up
+&lt;p&gt; White-balance your camera with a big matte-finished white card where your subject will be, to ensure that nothing turns out tinted funny.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;p&gt;Wardrobe &amp;amp; Make-up&lt;/p&gt;
 
- You're going to need to pay attention to both of these very carefully if you're going to put somebody infront of a greenscreen &amp;amp; expect them to look good coming out of the other side. 
- Here are some very important tips:
- * &lt;p&gt;No pin-stripes or similar patterns (They will produce a &lt;a href=&quot;http://en.wikipedia.org/wiki/Moir%C3%A9_pattern&quot;&gt;Moire Pattern&lt;/a&gt;)
- * &lt;p&gt;No Green (on greenscreen) No Blue (on bluescreen) not even in make-up
- * &lt;p&gt;Nothing Shiny (Apply appropriate ammounts of powder to all exposed skin &amp;amp; in the case of a whole-body shot, be wary of watches, glasses, jewelry, shoes etc.)
- Reflections will cause big missing chunks of the subject. Always ask your talent to bring a few options of outfits, and if needed to wear contact lenses or memorize the script.
+&lt;p&gt; You're going to need to pay attention to both of these very carefully if you're going to put somebody infront of a greenscreen &amp;amp; expect them to look good coming out of the other side.
+ Here are some very important tips:&lt;/p&gt;
 
-&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
-  &lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;No pin-stripes or similar patterns (They will produce a &lt;a href=&quot;http://en.wikipedia.org/wiki/Moir%C3%A9_pattern&quot;&gt;Moire Pattern&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;No Green (on greenscreen) No Blue (on bluescreen) not even in make-up&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nothing Shiny (Apply appropriate ammounts of powder to all exposed skin &amp;amp; in the case of a whole-body shot, be wary of watches, glasses, jewelry, shoes etc.)
+Reflections will cause big missing chunks of the subject. Always ask your talent to bring a few options of outfits, and if needed to wear contact lenses or memorize the script.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
+
+
 &lt;p&gt;With these simple steps you will get a high-quality source video to give to the editor, and they will be able to key out the background perfectly leaving you with a beautiful walk-on character for your site.&lt;/p&gt;
 
 &lt;p&gt;For a more detailed explanation (aimed towords videographers) read &lt;i&gt;&lt;a href=&quot;http://www.film-and-video.com/broadcastvideoexamples-greenscreen.html&quot;&gt;Down and Dirty Green Screen&lt;/a&gt;&lt;/i&gt; by Walter Graff&lt;/p&gt;
 
-&lt;p&gt;Before I sign-off, here’s another tip: If you’re going to use a walk-on character to pop up when somebody launches your page, i
+&lt;p&gt;Before I sign-off, here's another tip: If you're going to use a walk-on character to pop up when somebody launches your page, i
 the video should be under 1 minute long so that it will load quickly when somebody visits the site.&lt;/p&gt;
-
 </description>
         </item>
         
@@ -1689,7 +1370,7 @@ the video should be under 1 minute long so that it will load quickly when somebo
             <guid>http://jkirchartz.com//2009/07/jquery-plugin-letterpresser</guid>
             <description>&lt;p&gt;This plugin adds the Letterpress style to any assigned tag.&lt;/p&gt;
 
-&lt;p&gt;Here’s what it looks like:&lt;/p&gt;
+&lt;p&gt;Here's what it looks like:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://3.bp.blogspot.com/_KHL6Vvj96Eo/Slzi8kMa0oI/AAAAAAAAAiM/g4mhv-ePzYs/s1600-h/letterpresser_screenshot.gif&quot;&gt;
 &lt;img src=&quot;http://3.bp.blogspot.com/_KHL6Vvj96Eo/Slzi8kMa0oI/AAAAAAAAAiM/g4mhv-ePzYs/s400/letterpresser_screenshot.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1699,10 +1380,10 @@ the video should be under 1 minute long so that it will load quickly when somebo
 &lt;p&gt;Liquid error: No such file or directory - posix_spawnp&lt;/p&gt;
 
 &lt;p&gt;This is a CSS / Graphic effect that usually requires a bit of planning and is kind-of hard
-to throw into dynamic content, or content you have no control over the markup of. No extra 
+to throw into dynamic content, or content you have no control over the markup of. No extra
 tags, or css required. No duplicate text needed.&lt;/p&gt;
 
-&lt;p&gt;Here’s the basics:&lt;/p&gt;
+&lt;p&gt;Here's the basics:&lt;/p&gt;
 
 &lt;p&gt;Liquid error: No such file or directory - posix_spawnp&lt;/p&gt;
 
@@ -1715,7 +1396,6 @@ tags, or css required. No duplicate text needed.&lt;/p&gt;
 &lt;p&gt;Liquid error: No such file or directory - posix_spawnp&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://jkirchartz-jquery-repository.googlecode.com/files/jquery.letterpresser.js&quot;&gt;Download the JS here&lt;/a&gt;&lt;/p&gt;
-
 </description>
         </item>
         
@@ -1727,8 +1407,8 @@ tags, or css required. No duplicate text needed.&lt;/p&gt;
             <guid>http://jkirchartz.com//2009/07/simple-jquery-div-slideshow</guid>
             <description>&lt;p&gt;&lt;strong&gt;UPDATE: This code has been updated, please see &lt;a href=&quot;http://www.jkirchartz.com/2011/11/code-simple-jquery-div-slideshow-20.html&quot;&gt;Simple JQuery Div Slideshow 2.0&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Here’s a super-simple DIV slideshow with JQuery based on one for prototype/scriptaculous, it can be found &lt;a href=&quot;http://snippets.dzone.com/posts/show/1068&quot;&gt;here&lt;/a&gt;. The beauty is that it can contain anything 
-a div can. I’ve been using it for just a single image link, but you can put anything in there. Here’s the HTML:&lt;/p&gt;
+&lt;p&gt;Here's a super-simple DIV slideshow with JQuery based on one for prototype/scriptaculous, it can be found &lt;a href=&quot;http://snippets.dzone.com/posts/show/1068&quot;&gt;here&lt;/a&gt;. The beauty is that it can contain anything
+a div can. I've been using it for just a single image link, but you can put anything in there. Here's the HTML:&lt;/p&gt;
 
 &lt;p&gt;Liquid error: No such file or directory - posix_spawnp&lt;/p&gt;
 
@@ -1736,7 +1416,7 @@ a div can. I’ve been using it for just a single image link, but you can put an
 
 &lt;p&gt;Liquid error: No such file or directory - posix_spawnp&lt;/p&gt;
 
-&lt;p&gt;I’m thinking about maybe making this a real jQuery Plugin, but like I said, I’m just switching from Prototype/Scriptaculous to jQuery; so it may be a while.
+&lt;p&gt;I'm thinking about maybe making this a real jQuery Plugin, but like I said, I'm just switching from Prototype/Scriptaculous to jQuery; so it may be a while.
 &lt;strong&gt;UPDATE: This code has been updated, please see &lt;a href=&quot;http://www.jkirchartz.com/2011/11/code-simple-jquery-div-slideshow-20.html&quot;&gt;Simple JQuery Div Slideshow 2.0&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
         </item>
@@ -1747,30 +1427,29 @@ a div can. I’ve been using it for just a single image link, but you can put an
             <pubDate>Fri, 19 Jun 2009 00:00:00 -0400</pubDate>
             <author>JKirchartz@gmail.com (Joel Kirchartz)</author>
             <guid>http://jkirchartz.com//2009/06/opinion-protaculous-to-jquery</guid>
-            <description>&lt;p&gt;Last night I went to my local &lt;a href=&quot;http://pitcfug.org/&quot;&gt;CFUG&lt;/a&gt; meeting, to 
-hear &lt;a href=&quot;http://www.adrocknaphobia.com/&quot;&gt;Adam Lehman&lt;/a&gt; from Adobe talk 
-about the new Flash Platform &amp;amp; Coldfusion Products. A lot of it was 
+            <description>&lt;p&gt;Last night I went to my local &lt;a href=&quot;http://pitcfug.org/&quot;&gt;CFUG&lt;/a&gt; meeting, to
+hear &lt;a href=&quot;http://www.adrocknaphobia.com/&quot;&gt;Adam Lehman&lt;/a&gt; from Adobe talk
+about the new Flash Platform &amp;amp; Coldfusion Products. A lot of it was
 mouth-watering displays of computational power and speed optimization on behalf of
-the server &amp;amp; speedier compile times in the new Flash Builder. &lt;/p&gt;
+the server &amp;amp; speedier compile times in the new Flash Builder.&lt;/p&gt;
 
-&lt;p&gt;He also talked about how Coldfusion is continuing with ExtJS, which to use with 
-Prototype/Scriptaculous you’d need to completely rewrite your code. BUT with ExtJS
-works with JQuery out of the box, and that’s probably a good thing.&lt;/p&gt;
+&lt;p&gt;He also talked about how Coldfusion is continuing with ExtJS, which to use with
+Prototype/Scriptaculous you'd need to completely rewrite your code. BUT with ExtJS
+works with JQuery out of the box, and that's probably a good thing.&lt;/p&gt;
 
-&lt;p&gt;For a while I’ve been a Prototype/Scriptaculous lover, and also an Adobe fan. To 
-see Adobe supporting JQuery kinda hurts, but I’m starting to think that adobe has
-the right idea. JQuery is ‘packable’ meaning that the 120Kb library can be 
-compacted down to 56Kb, unlike Prototype whose size is 128Kb, and cannot be 
-packed any smaller. Prototype also requires Scriptaculous for effects (another 
-4Kb) pushing the required file-size to 132Kb, which is a lot for some of the 
-things I’m doing (Which is basically Modal Windows, Slide-shows &amp;amp; Accordions.)&lt;/p&gt;
+&lt;p&gt;For a while I've been a Prototype/Scriptaculous lover, and also an Adobe fan. To
+see Adobe supporting JQuery kinda hurts, but I'm starting to think that adobe has
+the right idea. JQuery is 'packable' meaning that the 120Kb library can be
+compacted down to 56Kb, unlike Prototype whose size is 128Kb, and cannot be
+packed any smaller. Prototype also requires Scriptaculous for effects (another
+4Kb) pushing the required file-size to 132Kb, which is a lot for some of the
+things I'm doing (Which is basically Modal Windows, Slide-shows &amp;amp; Accordions.)&lt;/p&gt;
 
-&lt;p&gt;So why was I so adamant about Protaculous? Mostly because I took the trouble to 
-learn how to use it well. But the Disadvantages are starting to out-weight the 
+&lt;p&gt;So why was I so adamant about Protaculous? Mostly because I took the trouble to
+learn how to use it well. But the Disadvantages are starting to out-weight the
 learning curve.&lt;/p&gt;
 
 &lt;p&gt;Time to start Re-Writing Code&lt;/p&gt;
-
 </description>
         </item>
         
@@ -1782,7 +1461,7 @@ learning curve.&lt;/p&gt;
             <guid>http://jkirchartz.com//2009/06/project-medrespond-cancer-clinical</guid>
             <description>&lt;p&gt;&lt;img src=&quot;http://4.bp.blogspot.com/_KHL6Vvj96Eo/S9BXOuh79ZI/AAAAAAAAAmw/o_6l5ElnYyk/s320/medRespond.png&quot; alt=&quot;Cancer Clinical Trials screenshot&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I worked for MedRespond for a short time; During which I created all the broadcast-graphics, and videos for their Cancer Clinical Trials Project for UPMC. &lt;/p&gt;
+&lt;p&gt;I worked for MedRespond for a short time; During which I created all the broadcast-graphics, and videos for their Cancer Clinical Trials Project for UPMC.&lt;/p&gt;
 
 &lt;p&gt;My task was to Record, Edit, and add Graphics to hundreds of videos to be used with their AI-based question &amp;amp; answer engine.&lt;/p&gt;
 
@@ -1793,28 +1472,13 @@ learning curve.&lt;/p&gt;
 &lt;p&gt;Programs Used:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Adobe Premier CS3
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Adobe Photoshop CS3
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Adobe After Effects CS3
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Adobe Flash CS3
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Sorenson Spark
-
-&lt;/p&gt;
-  &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Adobe Premier CS3&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Adobe Photoshop CS3&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Adobe After Effects CS3&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Adobe Flash CS3&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Sorenson Spark&lt;/li&gt;
 &lt;/ul&gt;
+
 </description>
         </item>
         
@@ -1824,25 +1488,24 @@ learning curve.&lt;/p&gt;
             <pubDate>Wed, 28 Jan 2009 00:00:00 -0500</pubDate>
             <author>JKirchartz@gmail.com (Joel Kirchartz)</author>
             <guid>http://jkirchartz.com//2009/01/how-to-style-list-component-with-as3</guid>
-            <description>&lt;p&gt;Back in the good ol’ days to style the list component’s over state it was just:&lt;/p&gt;
+            <description>&lt;p&gt;Back in the good ol' days to style the list component's over state it was just:&lt;/p&gt;
 
 &lt;p&gt;Liquid error: No such file or directory - posix_spawnp&lt;/p&gt;
 
 &lt;p&gt;But flash had to become more OOP-like, and EMCA-like so that went out the window
-… After playing for several hours with the setStyle, setRendererStyle, and any 
-other class/command with Style in the name I finally figured out the new secret 
-that Adobe doesn’t really let on in it’s help files, or on LiveDocs.
-Without further ado, the code to style a list component’s over state is:&lt;/p&gt;
+&amp;hellip; After playing for several hours with the setStyle, setRendererStyle, and any
+other class/command with Style in the name I finally figured out the new secret
+that Adobe doesn't really let on in it's help files, or on LiveDocs.
+Without further ado, the code to style a list component's over state is:&lt;/p&gt;
 
 &lt;p&gt;Liquid error: No such file or directory - posix_spawnp&lt;/p&gt;
 
-&lt;p&gt;You can also use Sprite, and Shape in place of the movie clip so… after a few 
-nights of pulling my hair out, I found it … and sure, it’s cool to be able to draw 
-anything into that background with the drawing API, but it sucks that instead of just 
-changing a setting, you’ve gotta do all that.&lt;/p&gt;
+&lt;p&gt;You can also use Sprite, and Shape in place of the movie clip so&amp;hellip; after a few
+nights of pulling my hair out, I found it &amp;hellip; and sure, it's cool to be able to draw
+anything into that background with the drawing API, but it sucks that instead of just
+changing a setting, you've gotta do all that.&lt;/p&gt;
 
 &lt;p&gt;I hope this helps somebody else out there.&lt;/p&gt;
-
 </description>
         </item>
         

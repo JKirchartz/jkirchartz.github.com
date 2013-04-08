@@ -34,24 +34,26 @@
 </h1>
 
 
-<p>Here’s a little html5 notepad using <a href="http://caniuse.com/#namevalue-storage">localStorage</a>. <a href="http://jkirchartz.com/demos/HTML5notepad.html">View Demo</a></p>
+<p>Here's a little html5 notepad using <a href="http://caniuse.com/#namevalue-storage">localStorage</a>. <a href="http://jkirchartz.com/demos/HTML5notepad.html">View Demo</a></p>
 
 <script src="https://gist.github.com/1394920.js?file=html5%20notepad">
 </script>
 
+
 <p>line 28 &amp; 30 handle saving and retrieving the
-<a href="http://en.wikipedia.org/wiki/Web_Storage">localStorage</a> data, It’s supported
+<a href="http://en.wikipedia.org/wiki/Web_Storage">localStorage</a> data, It's supported
 on ie8+ as well as all modern browsers. Works on Android &amp; iPhone too. Lines
 32-34 call the save function in 3 different ways to ensure your information is
 saved automagically (I get a little paranoid like that) Line 5 &amp; lines 20-23
-ensure this works on older browsers, but we don’t really need most of it so
+ensure this works on older browsers, but we don't really need most of it so
 really we could minimize this down to</p>
 
 <script src="https://gist.github.com/1394920.js?file=html5notepad-small">
 </script>
 
+
 <p>Which is short enough to be in bookmarklet territory, unfortunately
-localStorage doesn’t work with the local file protocol, <a href="http://dev.w3.org/html5/webstorage/#the-localstorage-attribute">the
+localStorage doesn't work with the local file protocol, <a href="http://dev.w3.org/html5/webstorage/#the-localstorage-attribute">the
 spec</a> says it
 needs a scheme/host/port to work for security reasons.</p>
 

@@ -36,31 +36,31 @@
 
 <p><a href="http://2.bp.blogspot.com/--9bknh6sbAA/Ttke0KomNGI/AAAAAAAAAz0/On-M0zfzX5U/s1600/BAMP-screenshots_01.jpg"><img src="http://2.bp.blogspot.com/--9bknh6sbAA/Ttke0KomNGI/AAAAAAAAAz0/On-M0zfzX5U/s320/BAMP-screenshots_01.jpg" alt="" /></a></p>
 
-<p>Here’s the <a href="http://www.pghhomebuilders.com/">Builders Association in the Metropolitan
+<p>Here's the <a href="http://www.pghhomebuilders.com/">Builders Association in the Metropolitan
 Pittsburgh</a> Festival of Homes mobile site at
 <a href="http://bamp.songwhale.com">bamp.songwhale.com</a></p>
 
 <p>This little humdinger has a back end written with
-<a href="http://python.org/">python</a>/<a href="https://www.djangoproject.com/">django</a>, I’m
+<a href="http://python.org/">python</a>/<a href="https://www.djangoproject.com/">django</a>, I'm
 also using <a href="http://code.google.com/p/geopy/">geopy</a> to assist in calculating
 distances for the map. The front end uses <a href="http://code.google.com/apis/maps/documentation/javascript/">Google Maps
 APIv3</a> HTML5 and
-CSS3. Django’s built-in admin back end made data-entry a breeze, although I
+CSS3. Django's built-in admin back end made data-entry a breeze, although I
 wish it had built-in table alteration, changing your models is a pain in the
-butt, I didn’t want to figure out <a href="http://south.aeracode.org/">South</a> with
+butt, I didn't want to figure out <a href="http://south.aeracode.org/">South</a> with
 very little data to migrate.</p>
 
-<p>This was my first time running an <a href="http://nginx.org/">nginx</a> server, it’s a
+<p>This was my first time running an <a href="http://nginx.org/">nginx</a> server, it's a
 big difference from apache. The configs are a lot cleaner, definitely more
 like python than markup. The <a href="http://projects.unbit.it/uwsgi/">uwsgi</a> was used
-to run python and since it’s packaged with nginx setup was a breeze. The
-Database was in postgres, although I could’ve used
+to run python and since it's packaged with nginx setup was a breeze. The
+Database was in postgres, although I could've used
 <a href="http://postgis.refractions.net/">postGIS</a> to do the distance calculations and
 bypass geopy, I was already in too deep to change it. This is a pretty nice
 stack.</p>
 
 <p>I kept the design minimal and fluid to support the widest array of browsers.
-Django’s templating is awesome, you can do a lot with it without getting in
+Django's templating is awesome, you can do a lot with it without getting in
 the way of your html.</p>
 
 

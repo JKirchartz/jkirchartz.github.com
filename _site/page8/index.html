@@ -35,24 +35,23 @@
 </h1>
 
 
-<p>Here’s a quickly little plugin’ tool, that I know people will find very useful. It’s called Clickify, and it’s an answer to a problem a lot of people are concerned about. Too often has somebody asked “How will users know where to click?” now we have your answer, Clickify automatically adds the text “(click here!)” to every “hyperlink” within a page, so that there will be no confusion as to where to click to visit a link.  </p>
+<p>Here's a quickly little plugin' tool, that I know people will find very useful. It's called Clickify, and it's an answer to a problem a lot of people are concerned about. Too often has somebody asked "How will users know where to click?" now we have your answer, Clickify automatically adds the text "(click here!)" to every "hyperlink" within a page, so that there will be no confusion as to where to click to visit a link.</p>
 
-<p>I’m sure that people are actually very confused whenever text becomes blue and
+<p>I'm sure that people are actually very confused whenever text becomes blue and
 underlined, even more so when it changes their cursor to a hand. These new
-“Links” as their colloquially called are so new and bewildering that some
+"Links" as their colloquially called are so new and bewildering that some
 users obviously need some assistance in understanding them.</p>
 
-<p>Here’s the source code:</p>
+<p>Here's the source code:</p>
 
-<p>Liquid error: No such file or directory - posix_spawnp    </p>
+<p>Liquid error: No such file or directory - posix_spawnp</p>
 
-<p>And it’s simple to use! Just add <code>&lt;script&gt;$(function(){$.clickify()});&lt;/script&gt;</code>
-to your page and you’re good to go!</p>
+<p>And it's simple to use! Just add <code>&lt;script&gt;$(function(){$.clickify()});&lt;/script&gt;</code>
+to your page and you're good to go!</p>
 
 <p>for more on the subject visit:</p>
 
-<p><a href="http://www.goodusability.co.uk/2009/01/dont-say-click-here-on-link-
-text/">Good Usability’s <em>Don’t say click here on link text</em></a></p>
+<p><a href="http://www.goodusability.co.uk/2009/01/dont-say-click-here-on-link-%0Atext/">Good Usability's <em>Don't say click here on link text</em></a></p>
 
 
 
@@ -86,47 +85,38 @@ text/">Good Usability’s <em>Don’t say click here on link text</em></a></p>
 </h1>
 
 
-<p>Image Optimization is a fun game, trying to get just the right compression ratio to balance file size and appearance. There are a ton of tricks out there, but as a Photoshop user you generally end up with some pretty big files that are just small images. Today I had an icon, 71x30px that was 40.1kb after I resized it from a larger jpeg that was 38kb.  </p>
+<p>Image Optimization is a fun game, trying to get just the right compression ratio to balance file size and appearance. There are a ton of tricks out there, but as a Photoshop user you generally end up with some pretty big files that are just small images. Today I had an icon, 71x30px that was 40.1kb after I resized it from a larger jpeg that was 38kb.</p>
 
 <p>Where does all this extra data come from? Metadata. Cameras throw it in,
-<a href="http://flickr.com/">flickr</a> reads it and shows the setting your 
-<a href="http://www.usa.canon.com/consumer/controller?act=ProductCatIndex1Act&amp;fcategoryid=1
-01">Cannon</a> used to get that photo. Photoshop throws some junk in too. The real evil
+<a href="http://flickr.com/">flickr</a> reads it and shows the setting your
+<a href="http://www.usa.canon.com/consumer/controller?act=ProductCatIndex1Act&amp;fcategoryid=1%0A01">Cannon</a> used to get that photo. Photoshop throws some junk in too. The real evil
 is thumbnails, <a href="http://en.wikipedia.org/wiki/Catherine_Schwartz">Cat Schwartz</a>
-had a bit of a <a href="http://graphicssoft.about.com/b/2003/07/26/techtvs-cat-schwartz-exposed-is-photoshop-to-blame.htm">scandal</a> 
+had a bit of a <a href="http://graphicssoft.about.com/b/2003/07/26/techtvs-cat-schwartz-exposed-is-photoshop-to-blame.htm">scandal</a>
 6 years ago with thumbnails of
 un-cropped photos in the metadata that were, shall we say, not suitable for work. These
-thumbnails can almost DOUBLE your file size. It’s just part and parcel of
+thumbnails can almost DOUBLE your file size. It's just part and parcel of
 <a href="http://en.wikipedia.org/wiki/Exchangeable_image_file_format">EXIF</a> (the
 Exchangeable Image File format) standard, a bunch of useful data that takes up
-a bunch of space, and isn’t important to the end user.</p>
+a bunch of space, and isn't important to the end user.</p>
 
 <p>How do you get rid of EXIF? On OSX you could use <a href="http://imageoptim.pornel.net/">Image
 Optim</a>, which is totally sweet, if you own a
 mac. On a PC you run into a bunch of poorly written, virus laden, scam-ware
-programs that may or may not work. Fortunately for us, there’s an <a href="http://en.wikipedia.org/wiki/Open_Source">Open
-Source</a> community. So we’ll do this
+programs that may or may not work. Fortunately for us, there's an <a href="http://en.wikipedia.org/wiki/Open_Source">Open
+Source</a> community. So we'll do this
 with some <a href="http://en.wikipedia.org/wiki/Free_and_open_source_software">FOSS</a>.</p>
 
 <ol>
-  <li>Create a folder for all your image files (which you should do anyhow)</li>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td>download JHEAD to that folder (<a href="http://www.sentex.net/~mwandel/jhead/jhead.exe">jhead.exe</a></td>
-          <td><a href="http://www.sentex.net/~mwandel/jhead/">main page</a>)</td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
-  <li>Create .BAT file (plain text renamed to .BAT) containing
+<li>Create a folder for all your image files (which you should do anyhow)</li>
+<li>download JHEAD to that folder (<a href="http://www.sentex.net/~mwandel/jhead/jhead.exe">jhead.exe</a> | <a href="http://www.sentex.net/~mwandel/jhead/">main page</a>)</li>
+<li>Create .BAT file (plain text renamed to .BAT) containing
   Liquid error: No such file or directory - posix_spawnp</li>
-  <li>Run it.</li>
+<li>Run it.</li>
 </ol>
 
+
 <p>What this does is strip out any EXIF and other metadata in the files in that
-folder. Just does away with anything that isn’t purely essential for a jpeg to
+folder. Just does away with anything that isn't purely essential for a jpeg to
 be an image, thus saving quite a bit on file size, bandwidth, and hopefully
 some embarrassment.</p>
 
@@ -165,6 +155,7 @@ some embarrassment.</p>
 <iframe width="420" height="315" src="http://www.youtube.com/embed/7qpUFDoNBHs" frameborder="0">
 </iframe>
 
+
 <p>The music of <a href="http://www.yoavmusic.com/">Yoav</a> is heavily loop based, due to
 the fact that every sound is either produced by his guitar or his voice. To
 accomplish this he has several looping delay pedals; In some of <a href="http://www.youtube.com/user/Yoavmusic">his videos on
@@ -174,10 +165,10 @@ to play with because you can loop and overdub anything placed into the input,
 then improvise over the loop creating nearly any sound possible. Recently
 <a href="http://www.keyboardmag.com/">Keyboard Magazine</a> ran a 2-part article on using
 multiple loopers with live, but their instructions are a little unclear unless
-you’re familiar with Live.</p>
+you're familiar with Live.</p>
 
-<p>Over the weekend I’ve experimented and played around a lot and produced this
-Live 8 set, and nanoPAD preset. I don’t suggest using the nanoPAD with your
+<p>Over the weekend I've experimented and played around a lot and produced this
+Live 8 set, and nanoPAD preset. I don't suggest using the nanoPAD with your
 feet, but for beatboxing in the style of
 <a href="http://www.youtube.com/watch?v=2XryzjprNqE">BeardyMan</a> this will get you
 there. To get instructions, tips, and download the Live set w/ nanoPAD preset,
@@ -186,60 +177,45 @@ please continue reading.</p>
 <p>The software needed is:</p>
 
 <ul>
-  <li>
-    <p>Ableton Live 8
-</p>
-  </li>
-  <li>
-    <p>Korg Control Editor
-
-</p>
-  </li>
+<li><p>Ableton Live 8</li>
+<li><p>Korg Control Editor</li>
 </ul>
-<p>Alright, here’s the setup:</p>
+
+
+<p>Alright, here's the setup:</p>
 
 <ul>
-  <li>
-    <p>Create 1 audio track (ctrl + t) &amp; arm it for recording.
+<li><p><p>Create 1 audio track (ctrl + t) &amp; arm it for recording.</p></li>
+<li><p><p>Create up to 6 return tracks (ctrl + alt + t)</p>
 
-</p>
-  </li>
-  <li>
-    <p>Create up to 6 return tracks (ctrl + alt + t)
-^
- * <p>sometimes the returns don't show up, so switch to arrange view &amp; click the arrow next to one and they should all show up in the session view
-
-</p></p>
-  </li>
-  <li>
-    <p>In each return track place a looper
-
-</p>
-  </li>
-  <li>
-    <p>For each looper the setup is:
-^
- * <p>Quantization: none
- * <p>Song Control: none
- * <p>Tempo Control: none
- * <p>Input -&gt; Output: none
- * <p>Optionally you could set the first looper's tempo control to "Set &amp; Follow Song Tempo" and every other track to "Follow Song Tempo", then record your beat into the first looper.
-
-</p></p></p></p></p></p>
-  </li>
-  <li>
-    <p>Setup the Midi map: open the MIDI map mode
-^
- * <p>set one button to turn up the send on the audio rack
- * <p>set one button to control the "Multi-Purpose Transport Button" (MPTB from now on) (it should show record at first, but will switch to play &amp; overdub)
-
-
-</p></p></p>
-  </li>
+<ul>
+<li><p>sometimes the returns don't show up, so switch to arrange view &amp; click the arrow next to one and they should all show up in the session view</li>
 </ul>
+</li>
+<li><p><p>In each return track place a looper</p></li>
+<li><p><p>For each looper the setup is:</p>
+
+<ul>
+<li><p>Quantization: none</li>
+<li><p>Song Control: none</li>
+<li><p>Tempo Control: none</li>
+<li><p>Input -> Output: none</li>
+<li><p>Optionally you could set the first looper's tempo control to "Set &amp; Follow Song Tempo" and every other track to "Follow Song Tempo", then record your beat into the first looper.</li>
+</ul>
+</li>
+<li><p><p>Setup the Midi map: open the MIDI map mode</p>
+
+<ul>
+<li><p>set one button to turn up the send on the audio rack</li>
+<li><p>set one button to control the "Multi-Purpose Transport Button" (MPTB from now on) (it should show record at first, but will switch to play &amp; overdub)</li>
+</ul>
+</li>
+</ul>
+
+
 <p><a href="http://3.bp.blogspot.com/_KHL6Vvj96Eo/SsERS0B4EfI/AAAAAAAAAjU/pHS-fROSGsc/s1600-h/screenshot.jpg"><img src="http://3.bp.blogspot.com/_KHL6Vvj96Eo/SsERS0B4EfI/AAAAAAAAAjU/pHS-fROSGsc/s320/screenshot.jpg" alt="Ableton Live Screenshot" /></a></p>
 
-<p>Now you’re good to go. Hit the button you asigned to send &amp; then tap the MPTB
+<p>Now you're good to go. Hit the button you asigned to send &amp; then tap the MPTB
 button to start recording, do something awesome, then tap the MPTB button
 again to switch from recording to playing. To overdub tap the MPTB button and
 lay something down but I suggest tapping off the send and switching to your
@@ -249,7 +225,7 @@ Repeat.</p>
 <p>Double tapping on the MPTB will stop the looper, and holding down the MPTB for
 2 seconds will clear the recording, freeing up a loop for future use.</p>
 
-<p>If you want to grab my looper setup &amp; live set it’s right here:</p>
+<p>If you want to grab my looper setup &amp; live set it's right here:</p>
 
 <p>download:
 <a href="http://rewiredforsoundblogger.googlecode.com/files/6loops.rar">6loops.rar</a></p>

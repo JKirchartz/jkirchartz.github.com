@@ -37,31 +37,31 @@
 
 <p><a href="http://2.bp.blogspot.com/--9bknh6sbAA/Ttke0KomNGI/AAAAAAAAAz0/On-M0zfzX5U/s1600/BAMP-screenshots_01.jpg"><img src="http://2.bp.blogspot.com/--9bknh6sbAA/Ttke0KomNGI/AAAAAAAAAz0/On-M0zfzX5U/s320/BAMP-screenshots_01.jpg" alt="" /></a></p>
 
-<p>Here’s the <a href="http://www.pghhomebuilders.com/">Builders Association in the Metropolitan
+<p>Here's the <a href="http://www.pghhomebuilders.com/">Builders Association in the Metropolitan
 Pittsburgh</a> Festival of Homes mobile site at
 <a href="http://bamp.songwhale.com">bamp.songwhale.com</a></p>
 
 <p>This little humdinger has a back end written with
-<a href="http://python.org/">python</a>/<a href="https://www.djangoproject.com/">django</a>, I’m
+<a href="http://python.org/">python</a>/<a href="https://www.djangoproject.com/">django</a>, I'm
 also using <a href="http://code.google.com/p/geopy/">geopy</a> to assist in calculating
 distances for the map. The front end uses <a href="http://code.google.com/apis/maps/documentation/javascript/">Google Maps
 APIv3</a> HTML5 and
-CSS3. Django’s built-in admin back end made data-entry a breeze, although I
+CSS3. Django's built-in admin back end made data-entry a breeze, although I
 wish it had built-in table alteration, changing your models is a pain in the
-butt, I didn’t want to figure out <a href="http://south.aeracode.org/">South</a> with
+butt, I didn't want to figure out <a href="http://south.aeracode.org/">South</a> with
 very little data to migrate.</p>
 
-<p>This was my first time running an <a href="http://nginx.org/">nginx</a> server, it’s a
+<p>This was my first time running an <a href="http://nginx.org/">nginx</a> server, it's a
 big difference from apache. The configs are a lot cleaner, definitely more
 like python than markup. The <a href="http://projects.unbit.it/uwsgi/">uwsgi</a> was used
-to run python and since it’s packaged with nginx setup was a breeze. The
-Database was in postgres, although I could’ve used
+to run python and since it's packaged with nginx setup was a breeze. The
+Database was in postgres, although I could've used
 <a href="http://postgis.refractions.net/">postGIS</a> to do the distance calculations and
 bypass geopy, I was already in too deep to change it. This is a pretty nice
 stack.</p>
 
 <p>I kept the design minimal and fluid to support the widest array of browsers.
-Django’s templating is awesome, you can do a lot with it without getting in
+Django's templating is awesome, you can do a lot with it without getting in
 the way of your html.</p>
 
 
@@ -96,24 +96,26 @@ the way of your html.</p>
 </h1>
 
 
-<p>Here’s a little html5 notepad using <a href="http://caniuse.com/#namevalue-storage">localStorage</a>. <a href="http://jkirchartz.com/demos/HTML5notepad.html">View Demo</a></p>
+<p>Here's a little html5 notepad using <a href="http://caniuse.com/#namevalue-storage">localStorage</a>. <a href="http://jkirchartz.com/demos/HTML5notepad.html">View Demo</a></p>
 
 <script src="https://gist.github.com/1394920.js?file=html5%20notepad">
 </script>
 
+
 <p>line 28 &amp; 30 handle saving and retrieving the
-<a href="http://en.wikipedia.org/wiki/Web_Storage">localStorage</a> data, It’s supported
+<a href="http://en.wikipedia.org/wiki/Web_Storage">localStorage</a> data, It's supported
 on ie8+ as well as all modern browsers. Works on Android &amp; iPhone too. Lines
 32-34 call the save function in 3 different ways to ensure your information is
 saved automagically (I get a little paranoid like that) Line 5 &amp; lines 20-23
-ensure this works on older browsers, but we don’t really need most of it so
+ensure this works on older browsers, but we don't really need most of it so
 really we could minimize this down to</p>
 
 <script src="https://gist.github.com/1394920.js?file=html5notepad-small">
 </script>
 
+
 <p>Which is short enough to be in bookmarklet territory, unfortunately
-localStorage doesn’t work with the local file protocol, <a href="http://dev.w3.org/html5/webstorage/#the-localstorage-attribute">the
+localStorage doesn't work with the local file protocol, <a href="http://dev.w3.org/html5/webstorage/#the-localstorage-attribute">the
 spec</a> says it
 needs a scheme/host/port to work for security reasons.</p>
 
@@ -153,13 +155,13 @@ needs a scheme/host/port to work for security reasons.</p>
 
 <p><a href="http://3.bp.blogspot.com/_KHL6Vvj96Eo/TKi5woZN7jI/AAAAAAAAAoA/hewVyI7JzKA/s1600/BorderRadiusToy.png"><img src="http://3.bp.blogspot.com/_KHL6Vvj96Eo/TKi5woZN7jI/AAAAAAAAAoA/hewVyI7JzKA/s320/BorderRadiusToy.png" alt="" /></a></p>
 
-<p>This is my CSS3 Border-Radius Toy, it’s kind of a rip-off of a rip-off of
+<p>This is my CSS3 Border-Radius Toy, it's kind of a rip-off of a rip-off of
 <a href="http://borderradius.com/">BorderRadius.com</a> — which allows you to input the
 radius for all 4 corners — the primary objective is to help create a box with
 rounded corners &amp; output the code for it. Unlike BorderRadius.com <a href="http://jkirchartz.com/demos/Border_Radius_Toy.html">Border
 Radius Toy</a> allows you to
 play with the final shape, changing each parameter in the CSS3 and ultimately
-creating more complex shapes. It’s a simple single-page toy, written with
+creating more complex shapes. It's a simple single-page toy, written with
 <a href="http://en.wikipedia.org/wiki/HTML5">HTML5</a>, <a href="http://www.css3.info/">CSS3</a>,
 <a href="http://jquery.com/">JQuery</a> &amp; <a href="http://jqueryui.com/">JQueryUI</a>.</p>
 
@@ -198,19 +200,15 @@ on <a href="http://github.com/">GitHub</a>, or you can <a href="http://jkirchart
 </h1>
 
 
-<p>Big Island Toyota has always been a little ahead of the curve on social media, They’re involved with their community, and they use their website pro-actively. Here are 2 requested projects from them.  </p>
+<p>Big Island Toyota has always been a little ahead of the curve on social media, They're involved with their community, and they use their website pro-actively. Here are 2 requested projects from them.</p>
 
-<p><a href="http://3.bp.blogspot.com/_KHL6Vvj96Eo/TCIjEZzRhMI/AAAAAAAA
-AnY/pdikNRZkRK0/s1600/youtube.jpg"><img src="http://3.bp.blogspot.com/_KHL6Vvj96Eo/TCIjEZzRhMI/AAAAAAAAAnY/pdikNRZkRK0
-/s320/youtube.jpg" alt="" /></a></p>
+<p><a href="http://3.bp.blogspot.com/_KHL6Vvj96Eo/TCIjEZzRhMI/AAAAAAAA%0AAnY/pdikNRZkRK0/s1600/youtube.jpg"><img src="http://3.bp.blogspot.com/_KHL6Vvj96Eo/TCIjEZzRhMI/AAAAAAAAAnY/pdikNRZkRK0%0A/s320/youtube.jpg" alt="" /></a></p>
 
 <p>Here is the <a href="http://bigislandtoyota.com/youtube.cfm">YouTube page</a> from their
 website. This was made with Coldfusion &amp; JQuery. The Coldfusion parses their
 YouTube RSS feed, JQuery is used to show each video in a simple LightBox.</p>
 
-<p><a href="http://4.bp.blogspot.com/_KHL6Vvj96Eo/TCIlu0tMtWI/AAAAAA
-AAAng/x7Qqq6tWwuM/s1600/auto-blog.jpg"><img src="http://4.bp.blogspot.com/_KHL6Vvj96Eo/TCIlu0tMtWI/AAAAAAAAAng/x7Qqq6tWwuM
-/s320/auto-blog.jpg" alt="" /></a></p>
+<p><a href="http://4.bp.blogspot.com/_KHL6Vvj96Eo/TCIlu0tMtWI/AAAAAA%0AAAAng/x7Qqq6tWwuM/s1600/auto-blog.jpg"><img src="http://4.bp.blogspot.com/_KHL6Vvj96Eo/TCIlu0tMtWI/AAAAAAAAAng/x7Qqq6tWwuM%0A/s320/auto-blog.jpg" alt="" /></a></p>
 
 <p>They also requested a <a href="http://bigislandtoyota.com/Auto_Blog.cfm">blog</a>, which
 I developed with ColdFusion &amp; SQL. The front-end is a standard Content-
@@ -252,9 +250,7 @@ no longer have the access I need to find it.</p>
 </h1>
 
 
-<p><a href="http://lh4.ggpht.com/_KHL6Vvj96Eo/S-lDymw8gDI/AAAAAAAAAnQ/2kjZRn
-5b3Vg/race2vegas.jpg"><img src="http://lh4.ggpht.com/_KHL6Vvj96Eo/S-lDymw8gDI/AAAAAAAAAnQ/2kjZRn5b3Vg/rac
-e2vegas.jpg" alt="" /></a></p>
+<p><a href="http://lh4.ggpht.com/_KHL6Vvj96Eo/S-lDymw8gDI/AAAAAAAAAnQ/2kjZRn%0A5b3Vg/race2vegas.jpg"><img src="http://lh4.ggpht.com/_KHL6Vvj96Eo/S-lDymw8gDI/AAAAAAAAAnQ/2kjZRn5b3Vg/rac%0Ae2vegas.jpg" alt="" /></a></p>
 
 <p><a href="http://baierl.com/">Baierl Automotive</a> and <a href="http://markitgroupmedia.blogspot.com/">MarkIT
 Group</a> developed the idea for a
@@ -302,11 +298,9 @@ yourself at <a href="http://baierlrace2vegas.com/">baierlrace2vegas.com</a></p>
 </h1>
 
 
-<p><a href="http://4.bp.blogspot.com/_KHL6Vvj96Eo/S9BO9Tb4O
-iI/AAAAAAAAAmg/8f4G1X9wIxY/s1600/Mobile_Screenshots.jpg"><img src="http://4.bp.blogspot.com/_KHL6Vvj96Eo/S9BO9Tb4OiI/AAAAAAAAAmg/8f4G1X9wIxY
-/s320/Mobile_Screenshots.jpg" alt="" /></a></p>
+<p><a href="http://4.bp.blogspot.com/_KHL6Vvj96Eo/S9BO9Tb4O%0AiI/AAAAAAAAAmg/8f4G1X9wIxY/s1600/Mobile_Screenshots.jpg"><img src="http://4.bp.blogspot.com/_KHL6Vvj96Eo/S9BO9Tb4OiI/AAAAAAAAAmg/8f4G1X9wIxY%0A/s320/Mobile_Screenshots.jpg" alt="" /></a></p>
 
-<p>Here is a template I created for use on car dealership mobile sites. It’s a
+<p>Here is a template I created for use on car dealership mobile sites. It's a
 minimalist design, made to work on the widest variety of software/firmware
 possible. This template was developed to launch quickly, if the dealer had an
 existing site, it was simply a the flick of the switch to launch. To maximize
@@ -351,7 +345,7 @@ phone.</p>
 
 <p><img src="http://4.bp.blogspot.com/_KHL6Vvj96Eo/S9BXOuh79ZI/AAAAAAAAAmw/o_6l5ElnYyk/s320/medRespond.png" alt="Cancer Clinical Trials screenshot" /></p>
 
-<p>I worked for MedRespond for a short time; During which I created all the broadcast-graphics, and videos for their Cancer Clinical Trials Project for UPMC. </p>
+<p>I worked for MedRespond for a short time; During which I created all the broadcast-graphics, and videos for their Cancer Clinical Trials Project for UPMC.</p>
 
 <p>My task was to Record, Edit, and add Graphics to hundreds of videos to be used with their AI-based question &amp; answer engine.</p>
 
@@ -362,28 +356,13 @@ phone.</p>
 <p>Programs Used:</p>
 
 <ul>
-  <li>
-    <p>Adobe Premier CS3
-</p>
-  </li>
-  <li>
-    <p>Adobe Photoshop CS3
-</p>
-  </li>
-  <li>
-    <p>Adobe After Effects CS3
-</p>
-  </li>
-  <li>
-    <p>Adobe Flash CS3
-</p>
-  </li>
-  <li>
-    <p>Sorenson Spark
-
-</p>
-  </li>
+<li><p>Adobe Premier CS3</li>
+<li><p>Adobe Photoshop CS3</li>
+<li><p>Adobe After Effects CS3</li>
+<li><p>Adobe Flash CS3</li>
+<li><p>Sorenson Spark</li>
 </ul>
+
 
 
 

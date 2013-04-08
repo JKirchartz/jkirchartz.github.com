@@ -35,24 +35,26 @@
 </h1>
 
 
-<p>Here’s a little html5 notepad using <a href="http://caniuse.com/#namevalue-storage">localStorage</a>. <a href="http://jkirchartz.com/demos/HTML5notepad.html">View Demo</a></p>
+<p>Here's a little html5 notepad using <a href="http://caniuse.com/#namevalue-storage">localStorage</a>. <a href="http://jkirchartz.com/demos/HTML5notepad.html">View Demo</a></p>
 
 <script src="https://gist.github.com/1394920.js?file=html5%20notepad">
 </script>
 
+
 <p>line 28 &amp; 30 handle saving and retrieving the
-<a href="http://en.wikipedia.org/wiki/Web_Storage">localStorage</a> data, It’s supported
+<a href="http://en.wikipedia.org/wiki/Web_Storage">localStorage</a> data, It's supported
 on ie8+ as well as all modern browsers. Works on Android &amp; iPhone too. Lines
 32-34 call the save function in 3 different ways to ensure your information is
 saved automagically (I get a little paranoid like that) Line 5 &amp; lines 20-23
-ensure this works on older browsers, but we don’t really need most of it so
+ensure this works on older browsers, but we don't really need most of it so
 really we could minimize this down to</p>
 
 <script src="https://gist.github.com/1394920.js?file=html5notepad-small">
 </script>
 
+
 <p>Which is short enough to be in bookmarklet territory, unfortunately
-localStorage doesn’t work with the local file protocol, <a href="http://dev.w3.org/html5/webstorage/#the-localstorage-attribute">the
+localStorage doesn't work with the local file protocol, <a href="http://dev.w3.org/html5/webstorage/#the-localstorage-attribute">the
 spec</a> says it
 needs a scheme/host/port to work for security reasons.</p>
 
@@ -90,17 +92,18 @@ needs a scheme/host/port to work for security reasons.</p>
 </h1>
 
 
-<p>Let’s kick it old-school, with the absolute CLASSIC typewriter effect. I couldn’t 
-find a decent jQuery version of this effect that worked, so I pluginified some vintage 
+<p>Let's kick it old-school, with the absolute CLASSIC typewriter effect. I couldn't
+find a decent jQuery version of this effect that worked, so I pluginified some vintage
 javascript.</p>
 
 <iframe style="width: 95%; height: 300px" src="http://jsfiddle.net/JKirchartz/JEpWV/embedded/" allowfullscreen="allowfullscreen" frameborder="0">
 </iframe>
 
-<p>One little “bug” here is that I’m not handling any dom elements, so the raw
-html code is displayed while it’s writing, but as soon as it’s written the dom
+
+<p>One little "bug" here is that I'm not handling any dom elements, so the raw
+html code is displayed while it's writing, but as soon as it's written the dom
 handles it as elements, you could pre-parse the html and write the elements
-wholesale but that’s far beyond the scope of this simple solution.</p>
+wholesale but that's far beyond the scope of this simple solution.</p>
 
 <p>If you wanna see the whole shebang check the <a href="http://jsfiddle.net/JKirchartz/JEpWV/">jsfiddle</a></p>
 
@@ -136,24 +139,26 @@ wholesale but that’s far beyond the scope of this simple solution.</p>
 </h1>
 
 
-<p>Here is a simple reusable javascript redirect that uses the <a href="http://www.sixapart.jp/docs/tech/mobile_link_discovery_en.html">Mobile Link Discovery Spec</a> 
+<p>Here is a simple reusable javascript redirect that uses the <a href="http://www.sixapart.jp/docs/tech/mobile_link_discovery_en.html">Mobile Link Discovery Spec</a>
 which describes a link tag that tells the browser where to find an Alternate for Hand-Held devices: <code>&lt;link href="&lt; Mobile URI &gt;" media="handheld" rel="alternate"&gt;</code>.
-The script is detecting user-agents, which is “evil” but Not every site needs or wants the 
-whole <a href="http://www.alistapart.com/articles/responsive-web-design/">Responsive Design</a> bundle, 
-and that has <a href="http://www.webdesignshock.com/responsive-design-problems/">it’s problems</a>. 
-Sometimes you just gotta redirect, try using the link tag with the script below:  </p>
+The script is detecting user-agents, which is "evil" but Not every site needs or wants the
+whole <a href="http://www.alistapart.com/articles/responsive-web-design/">Responsive Design</a> bundle,
+and that has <a href="http://www.webdesignshock.com/responsive-design-problems/">it's problems</a>.
+Sometimes you just gotta redirect, try using the link tag with the script below:</p>
 
 <script src="https://gist.github.com/1232304.js?file=redirect.js">
 </script>
 
-<p>Then you’d have html like this:</p>
+
+<p>Then you'd have html like this:</p>
 
 <script src="https://gist.github.com/1232304.js?file=test.html">
 </script>
 
-<p>And away you go… I’m only testing for iPhone, iPad, Android, Blackberry, and WebOs. They run
-the market right now so I don’t feel too bad for leaving out the fray, if
-you’re logging your visitors user agents you can tweak the regex as needed.</p>
+
+<p>And away you go... I'm only testing for iPhone, iPad, Android, Blackberry, and WebOs. They run
+the market right now so I don't feel too bad for leaving out the fray, if
+you're logging your visitors user agents you can tweak the regex as needed.</p>
 
 
 

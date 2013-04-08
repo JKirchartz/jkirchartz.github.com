@@ -38,11 +38,12 @@
 <iframe width="95%" height="450" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F821003&amp;show_artwork=true">
 </iframe>
 
-<p><a href="http://soundcloud.com/jkirchartz/sets/bhajis-loops">Bhajis Loops</a> by <a href="http://soundcloud.com/jkirchartz">jkirchartz</a>  </p>
 
-<p>Here’s a collection of samples, doodles, runs, and maybe a few songs I made
+<p><a href="http://soundcloud.com/jkirchartz/sets/bhajis-loops">Bhajis Loops</a> by <a href="http://soundcloud.com/jkirchartz">jkirchartz</a></p>
+
+<p>Here's a collection of samples, doodles, runs, and maybe a few songs I made
 using <a href="http://www.chocopoolp.com/">Bhajis Loops</a>, export to <code>*.wav</code>, on an old
-Palm Tungsten E2 they’re CC-licensed so please feel free to
+Palm Tungsten E2 they're CC-licensed so please feel free to
 sample &amp; chop them as you see fit.</p>
 
 
@@ -77,19 +78,21 @@ sample &amp; chop them as you see fit.</p>
 </h1>
 
 
-<p>I recently stared playing with <a href="http://xuijs.com/">xui.js</a> it’s a really nice library targeted to mobile devices, 
-and it’s based on JQuery. I’d really like to stick with jQuery but jQuery Mobile is actually more like jQueryUI 
-for mobile and I’m not into making everything on the mobile web look like native iPhone (because if users wanted 
-that UI they’d buy an iPhone!)  </p>
+<p>I recently stared playing with <a href="http://xuijs.com/">xui.js</a> it's a really nice library targeted to mobile devices,
+and it's based on JQuery. I'd really like to stick with jQuery but jQuery Mobile is actually more like jQueryUI
+for mobile and I'm not into making everything on the mobile web look like native iPhone (because if users wanted
+that UI they'd buy an iPhone!)</p>
 
 <p>The thing with switching between xui and jQuery is that all the functions
-aren’t there. Fortunately you can extend XUIjs! I was porting <a href="http://www.i-marco.nl/weblog/jquery-accordion-menu/">Marco van
-Hylckama Vlieg’s Simple jQuery Accordion</a> and needed jQuery’s next and is function (I ended up
+aren't there. Fortunately you can extend XUIjs! I was porting <a href="http://www.i-marco.nl/weblog/jquery-accordion-menu/">Marco van
+Hylckama Vlieg's Simple jQuery Accordion</a> and needed jQuery's next and is function (I ended up
 simplifying the code to do without the IS, but it might be useful to you)
-Here’s the extensions:</p>
+Here's the extensions:</p>
 
 <script src="https://gist.github.com/901715.js"> 
 </script>
+
+
 
 
 
@@ -124,21 +127,22 @@ Here’s the extensions:</p>
 </h1>
 
 
-<p>I surely couldn’t have been the first to think of this, but wouldn’t it be great if you could write your HTML, 
-then convert it to CSS? Yeah, I know they’re not really the same, but the CSS has to be attached to something. 
-Why not pull it out and have a skeleton CSS file made for you? This short python script will read in HTML, and 
-spit out all the CSS selectors it can find. I plan on adding this to a larger project, so it’s just a funtion and the call.</p>
+<p>I surely couldn't have been the first to think of this, but wouldn't it be great if you could write your HTML,
+then convert it to CSS? Yeah, I know they're not really the same, but the CSS has to be attached to something.
+Why not pull it out and have a skeleton CSS file made for you? This short python script will read in HTML, and
+spit out all the CSS selectors it can find. I plan on adding this to a larger project, so it's just a funtion and the call.</p>
 
 <script src="https://gist.github.com/1118350.js"> 
 </script>
 
-<p>I’m using regex to get rid of everything that <em>isn’t</em> HTML, then <a href="http://www.crummy.com/software/BeautifulSoup/">BeautifulSoup</a> to parse the HTML into tags, ids, and classes. 
-I then remove duplicates by converting the list to a set and back, sort the lists, and add the appropriate CSS selector and brackets. 
-Then it writes the CSS to a file. This last line runs the function, the first argument is the input HTML file, and the second is the 
-output CSS file. You’ll have to change this to reflect your desired filenames.</p>
 
-<p>I’m sure there are a few things I can do to optimize this, or at least reduce the line count, but I’m new to python 
-so I’ll save that for another day. Like I said I plan to add this to a larger project so I’m going to take out the 
+<p>I'm using regex to get rid of everything that <em>isn't</em> HTML, then <a href="http://www.crummy.com/software/BeautifulSoup/">BeautifulSoup</a> to parse the HTML into tags, ids, and classes.
+I then remove duplicates by converting the list to a set and back, sort the lists, and add the appropriate CSS selector and brackets.
+Then it writes the CSS to a file. This last line runs the function, the first argument is the input HTML file, and the second is the
+output CSS file. You'll have to change this to reflect your desired filenames.</p>
+
+<p>I'm sure there are a few things I can do to optimize this, or at least reduce the line count, but I'm new to python
+so I'll save that for another day. Like I said I plan to add this to a larger project so I'm going to take out the
 file I/O for that and just feed in strings; but until then, enjoy!</p>
 
 

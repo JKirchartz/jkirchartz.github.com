@@ -35,7 +35,7 @@
 </h1>
 
 
-<p>PNGs and IE6, sounds like a recipe for trouble. Well you could always use the lovely <a href="http://www.dillerdesign.com/experiment/DD_belatedPNG/">DD_belatedPNG</a> but to call it you need to add a class to each element containing a png. Adding a class is fine unless you have user-generated content &amp; no control over the back end, and they like to use semi-transparent PNGs. So today I cobbled together a little jQuery extention to search through and find all PNGs (in images, and backgrounds) and add a class to their container, then call DD_belatedPNG… probably not the most elegant solution, but a solution none the less.  </p>
+<p>PNGs and IE6, sounds like a recipe for trouble. Well you could always use the lovely <a href="http://www.dillerdesign.com/experiment/DD_belatedPNG/">DD_belatedPNG</a> but to call it you need to add a class to each element containing a png. Adding a class is fine unless you have user-generated content &amp; no control over the back end, and they like to use semi-transparent PNGs. So today I cobbled together a little jQuery extention to search through and find all PNGs (in images, and backgrounds) and add a class to their container, then call DD_belatedPNG... probably not the most elegant solution, but a solution none the less.</p>
 
 <p>Liquid error: No such file or directory - posix_spawnp</p>
 
@@ -71,29 +71,18 @@
 </h1>
 
 
-<p>Here we go, at it again… with a new plugin called fish-menu… heavily based on <a href="http://labs.makotokw.com/s/jquery/menu">jquery.ui.potato.menu</a> by <a href="http://makotokw.com/en/">Makoto_KW</a>   </p>
+<p>Here we go, at it again... with a new plugin called fish-menu... heavily based on <a href="http://labs.makotokw.com/s/jquery/menu">jquery.ui.potato.menu</a> by <a href="http://makotokw.com/en/">Makoto_KW</a></p>
 
-<p>I’ve modified the code in many ways, adding a few features such as:</p>
+<p>I've modified the code in many ways, adding a few features such as:</p>
 
 <ul>
-  <li>
-    <p>[hoverIntent](http://cherne.net/brian/resources/jquery.hoverIntent.html) Support
-</p>
-  </li>
-  <li>
-    <p>Drop-down textual marker, such as »
-</p>
-  </li>
-  <li>
-    <p>Miniaturization, helps speed download  
-</p>
-  </li>
-  <li>
-    <p>No jQuery UI, helps reduce HTTP requests
-
-</p>
-  </li>
+<li><p><a href="http://cherne.net/brian/resources/jquery.hoverIntent.html">hoverIntent</a> Support</li>
+<li><p>Drop-down textual marker, such as »</li>
+<li><p>Miniaturization, helps speed download</li>
+<li><p>No jQuery UI, helps reduce HTTP requests</li>
 </ul>
+
+
 <p>Use is as easy as the original potato menu, by simply using nested unordered
 lists, like this:</p>
 
@@ -105,14 +94,13 @@ lists, like this:</p>
 
 <p>and Ka-Pow, drop-down jQuery menus in 2.66KB (minified)</p>
 
-<p>DOWNLOAD: <a href="http://jkirchartz-jquery-repository.googlecode.com/files/jquery.fish.menu.js">FULL</a> 
-<a href="http://jkirchartz-jquery-repository.googlecode.com/files/jquery.fish.menu-min.js">MINI</a> 
+<p>DOWNLOAD: <a href="http://jkirchartz-jquery-repository.googlecode.com/files/jquery.fish.menu.js">FULL</a>
+<a href="http://jkirchartz-jquery-repository.googlecode.com/files/jquery.fish.menu-min.js">MINI</a>
 <a href="http://jkirchartz-jquery-repository.googlecode.com/files/jquery.fish.css">CSS</a></p>
 
 <p>I have noticed a bug in ie6 (it exists in the original potato menu too) and I
-can’t really figure it out, the li’s in the sub-nav appear to float left, if
-anybody has any insight let me know (it’s not the pseudo-element bug)</p>
-
+can't really figure it out, the li's in the sub-nav appear to float left, if
+anybody has any insight let me know (it's not the pseudo-element bug)</p>
 
 
 
@@ -146,7 +134,7 @@ anybody has any insight let me know (it’s not the pseudo-element bug)</p>
 </h1>
 
 
-<p>As you might have noticed <s>I've got</s> I had a couple crazy “non-standard” fonts
+<p>As you might have noticed <s>I've got</s> I had a couple crazy "non-standard" fonts
 from <a href="http://www.fontburner.com/">fontburner.com</a>. <a href="http://www.fontburner.com/">FontBurner</a> is a great tool for hosting <a href="http://www.mikeindustries.com/blog/sifr/">sIFR
 (scalable inman flash replacement)</a>
 flash files &amp; javascript to simply replace fonts &amp; text with a small flash
@@ -155,16 +143,16 @@ limited set of options regarding color/spacing etc. but with a little
 ingenuity one is able to add this functionality themselves.</p>
 
 <p>First let us look at how FontBurner works. When you goto their site choose
-fonts, then which style of font to use. Once you’ve chosen a style you can
+fonts, then which style of font to use. Once you've chosen a style you can
 easily navigate through all the different type-faces, right below each example
-is a ‘get the code’ button, which will give you this:</p>
+is a 'get the code' button, which will give you this:</p>
 
 <p>Liquid error: No such file or directory - posix_spawnp</p>
 
 <p>Now you copy that code onto your page &amp; it will replace h1, h2, h3 tags and
 any dom element with a class or ID the same as the font-name.</p>
 
-<p>Ok, so now let’s do a little disection &amp; investigation…</p>
+<p>Ok, so now let's do a little disection &amp; investigation...</p>
 
 <p>Liquid error: No such file or directory - posix_spawnp</p>
 
@@ -184,26 +172,25 @@ any dom element with a class or ID the same as the font-name.</p>
 
 <p>Liquid error: No such file or directory - posix_spawnp</p>
 
-<p>Attribution, let’s leave this in there because they deserve some credit.</p>
+<p>Attribution, let's leave this in there because they deserve some credit.</p>
 
-<p>Alright let’s see what’s in that php file loaded as javascript:</p>
+<p>Alright let's see what's in that php file loaded as javascript:</p>
 
 <p>Liquid error: No such file or directory - posix_spawnp</p>
 
-<p>Hey look, CSS… this is EXACTLY what we want, and editing this script will
+<p>Hey look, CSS... this is EXACTLY what we want, and editing this script will
 give us much more control &amp; options for fontburner. I suggest removing the h1,
 h2, and h3 tags from the selectors string in line 9 of this code, you probably
-shouldn’t put CSS on a tag itself unless you’re sure it’s neccessary. Now lets
-move down to that lovely CSS… here you can change the font color, text-
+shouldn't put CSS on a tag itself unless you're sure it's neccessary. Now lets
+move down to that lovely CSS... here you can change the font color, text-
 decoration, underling, weight, but there is a lot more you can do, hack away. So
-now you can text-align and almost anything else in flash’s limited css.</p>
+now you can text-align and almost anything else in flash's limited css.</p>
 
 <p>Now you might have some code that looks like this:</p>
 
 <p>Liquid error: No such file or directory - posix_spawnp</p>
 
 <p>And you will have khaki-colour center-aligned text with a non-standard font.</p>
-
 
 
 

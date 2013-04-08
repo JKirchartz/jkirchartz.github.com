@@ -34,7 +34,7 @@
 </h1>
 
 
-<p>As you might have noticed <s>I've got</s> I had a couple crazy “non-standard” fonts
+<p>As you might have noticed <s>I've got</s> I had a couple crazy "non-standard" fonts
 from <a href="http://www.fontburner.com/">fontburner.com</a>. <a href="http://www.fontburner.com/">FontBurner</a> is a great tool for hosting <a href="http://www.mikeindustries.com/blog/sifr/">sIFR
 (scalable inman flash replacement)</a>
 flash files &amp; javascript to simply replace fonts &amp; text with a small flash
@@ -43,16 +43,16 @@ limited set of options regarding color/spacing etc. but with a little
 ingenuity one is able to add this functionality themselves.</p>
 
 <p>First let us look at how FontBurner works. When you goto their site choose
-fonts, then which style of font to use. Once you’ve chosen a style you can
+fonts, then which style of font to use. Once you've chosen a style you can
 easily navigate through all the different type-faces, right below each example
-is a ‘get the code’ button, which will give you this:</p>
+is a 'get the code' button, which will give you this:</p>
 
 <p>Liquid error: No such file or directory - posix_spawnp</p>
 
 <p>Now you copy that code onto your page &amp; it will replace h1, h2, h3 tags and
 any dom element with a class or ID the same as the font-name.</p>
 
-<p>Ok, so now let’s do a little disection &amp; investigation…</p>
+<p>Ok, so now let's do a little disection &amp; investigation...</p>
 
 <p>Liquid error: No such file or directory - posix_spawnp</p>
 
@@ -72,26 +72,25 @@ any dom element with a class or ID the same as the font-name.</p>
 
 <p>Liquid error: No such file or directory - posix_spawnp</p>
 
-<p>Attribution, let’s leave this in there because they deserve some credit.</p>
+<p>Attribution, let's leave this in there because they deserve some credit.</p>
 
-<p>Alright let’s see what’s in that php file loaded as javascript:</p>
+<p>Alright let's see what's in that php file loaded as javascript:</p>
 
 <p>Liquid error: No such file or directory - posix_spawnp</p>
 
-<p>Hey look, CSS… this is EXACTLY what we want, and editing this script will
+<p>Hey look, CSS... this is EXACTLY what we want, and editing this script will
 give us much more control &amp; options for fontburner. I suggest removing the h1,
 h2, and h3 tags from the selectors string in line 9 of this code, you probably
-shouldn’t put CSS on a tag itself unless you’re sure it’s neccessary. Now lets
-move down to that lovely CSS… here you can change the font color, text-
+shouldn't put CSS on a tag itself unless you're sure it's neccessary. Now lets
+move down to that lovely CSS... here you can change the font color, text-
 decoration, underling, weight, but there is a lot more you can do, hack away. So
-now you can text-align and almost anything else in flash’s limited css.</p>
+now you can text-align and almost anything else in flash's limited css.</p>
 
 <p>Now you might have some code that looks like this:</p>
 
 <p>Liquid error: No such file or directory - posix_spawnp</p>
 
 <p>And you will have khaki-colour center-aligned text with a non-standard font.</p>
-
 
 
 

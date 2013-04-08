@@ -51,11 +51,11 @@ could try there too.
 
 Here's a quick reference of commands for moving around:
 
-* <p>`pwd` = display current directory path (Print Working Directory)
+* `pwd` = display current directory path (Print Working Directory)
 
-* <p>`ls` = list files, you can add flags to see more info on each file, I like to use `ls -alF` (LiSt) 
+* `ls` = list files, you can add flags to see more info on each file, I like to use `ls -alF` (LiSt) 
 
-* <p>`cd` = change directory, use `cd ../` to move up one directory, or `cd /var/www/html` to move to an entirely different directory (Change Directory)
+* `cd` = change directory, use `cd ../` to move up one directory, or `cd /var/www/html` to move to an entirely different directory (Change Directory)
 
 for more on these, check the wikipedia pages for
 [cd](http://en.wikipedia.org/wiki/Cd_\(command\)),
@@ -64,7 +64,7 @@ for more on these, check the wikipedia pages for
 
 ## Editing Text-based files:
 
-My favorite is VIM, so to try it out simply type `vim` into the
+[My favorite is VIM](/2013/04/vim_quick_start_cheatsheet_and_links.html), so to try it out simply type `vim` into the
 command line to create a new file and lets go. Notice that typing isn't
 changing anything? yeah, vim has input mode and command mode, and you start in
 command mode. So hit `i` to switch from command mode to input mode and you can
@@ -93,13 +93,13 @@ it the same.
 
 Here's a few nano commands that are useful:
 
-* <p>`ctrl+k` = cut, you can cut out multiple lines by hitting this repeatedly.
+* `ctrl+k` = cut, you can cut out multiple lines by hitting this repeatedly.
 
-* <p>`ctrl+u` = uncut, you can re-insert cutout lines by hitting this repeatedly.
+* `ctrl+u` = uncut, you can re-insert cutout lines by hitting this repeatedly.
 
-* <p>`ctrl+/` = goto line #
+* `ctrl+/` = goto line #
 
-* <p>`ctrl+w` = search for a word or phrase, there are a few options here, 'M-R' is a regex search, try hitting `esc+r` to use this (M stand for Meta-key, so try the Apple key or Windows key if esc doesn't work).
+* `ctrl+w` = search for a word or phrase, there are a few options here, 'M-R' is a regex search, try hitting `esc+r` to use this (M stand for Meta-key, so try the Apple key or Windows key if esc doesn't work).
 
 Nano's UI shows options you can use to translate keystrokes you should know
 that `^` is the control key and `M` is the escape key.
