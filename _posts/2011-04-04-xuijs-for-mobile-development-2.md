@@ -1,9 +1,8 @@
---- 
-layout: post 
-title: "XUIjs for Mobile Development + 2 extensions" 
-tags:
-- javascript
---- 
+---
+layout: post
+title: "XUIjs for Mobile Development + 2 extensions"
+tags: javascript
+---
 
 I recently stared playing with [xui.js](http://xuijs.com/) it's a really nice library targeted to mobile devices, 
 and it's based on JQuery. I'd really like to stick with jQuery but jQuery Mobile is actually more like jQueryUI 

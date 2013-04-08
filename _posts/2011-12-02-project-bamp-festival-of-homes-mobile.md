@@ -1,9 +1,8 @@
---- 
-layout: post 
-title: "Project: BAMP Festival of Homes mobile site" 
-tags:
-- portfolio
---- 
+---
+layout: post
+title: "Project: BAMP Festival of Homes mobile site"
+tags: portfolio
+---
 
 [![](http://2.bp.blogspot.com/--9bknh6sbAA/Ttke0KomNGI/AAAAAAAAAz0/On-M0zfzX5U/s320/BAMP-screenshots_01.jpg)](http://2.bp.blogspot.com/--9bknh6sbAA/Ttke0KomNGI/AAAAAAAAAz0/On-M0zfzX5U/s1600/BAMP-screenshots_01.jpg)
 

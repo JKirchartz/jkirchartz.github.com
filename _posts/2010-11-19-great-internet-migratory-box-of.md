@@ -1,10 +1,8 @@
---- 
-layout: post 
-title: The Great Internet Migratory Box Of Electronics Junk 
-tags:
-- hacks
-- article
---- 
+---
+layout: post
+title: The Great Internet Migratory Box Of Electronics Junk
+tags: hacks article
+---
 
 ![](http://i.imgur.com/N7zS1ug.jpg)
 

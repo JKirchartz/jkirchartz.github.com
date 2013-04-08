@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Medrespond - Cancer Clinical Trials
-tags:
-- portfolio
+tags: portfolio
 ---
 
 ![Cancer Clinical Trials screenshot](http://4.bp.blogspot.com/_KHL6Vvj96Eo/S9BXOuh79ZI/AAAAAAAAAmw/o_6l5ElnYyk/s320/medRespond.png)

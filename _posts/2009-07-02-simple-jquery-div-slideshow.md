@@ -1,9 +1,7 @@
 ---
 layout: post
 title: "Code: Simple JQuery Div Slideshow"
-tags:
-- Javascript
-- jQuery
+tags: Javascript jQuery
 ---
 
 **UPDATE: This code has been updated, please see [Simple JQuery Div Slideshow 2.0](http://www.jkirchartz.com/2011/11/code-simple-jquery-div-slideshow-20.html)**

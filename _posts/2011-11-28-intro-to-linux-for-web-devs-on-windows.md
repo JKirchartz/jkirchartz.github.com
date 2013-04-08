@@ -1,9 +1,8 @@
---- 
-layout: post 
-title: Intro to Linux for Web Devs on Windows 
-tags:
-- tutorial
---- 
+---
+layout: post
+title: Intro to Linux for Web Devs on Windows
+tags: tutorial
+---
 
 I've been spending a lot of time using the linux CLI lately, and I know it can
 seem difficult at first. When I started with computers everything ran off the
@@ -14,11 +13,11 @@ can do this.
 ## Logging In:
 
 To remotely access a server you'll need a telnet/ssh client, for windows
-[PuTTY](http://www.putty.org/) is a good choice , so [download & install
+[PuTTY](http://www.putty.org/) is a good choice , so [download &amp; install
 PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html).  When
 you open putty you'll see a space for your host name or IP address for the
 server you're going to access,  input the relevant information and hit open at
-the bottom of the window. You'll be promped for your username & password when
+the bottom of the window. You'll be promped for your username &amp; password when
 PuTTY connects. Now take a deep breath, you're in a linux CLI, huzzah!
 
 To learn more about PuTTY check [the PuTTY

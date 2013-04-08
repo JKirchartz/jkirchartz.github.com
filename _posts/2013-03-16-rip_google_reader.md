@@ -1,7 +1,7 @@
 ---
 layout: post
 title: RIP Google Reader
-tags: Google, Tools, Reader, Article
+tags: Google Tools Reader Article
 ---
 
 [Google unceremoniously killed Reader](http://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html). 

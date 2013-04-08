@@ -1,10 +1,9 @@
---- 
-layout: post 
-title: Better Mobile Redirect 
-tags:
-- html
-- javascript
---- 
+---
+layout: post
+title: Better Mobile Redirect
+tags: html javascript
+---
+
 
 Here is a simple reusable javascript redirect that uses the [Mobile Link Discovery Spec](http://www.sixapart.jp/docs/tech/mobile_link_discovery_en.html) 
 which describes a link tag that tells the browser where to find an Alternate for Hand-Held devices: `<link href="< Mobile URI >" media="handheld" rel="alternate">`.

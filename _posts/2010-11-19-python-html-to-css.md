@@ -1,8 +1,7 @@
---- 
-layout: post 
+---
+layout: post
 title: "Python - HTML to CSS"
-tags:
-- python
+tags: python
 ---
 
 I surely couldn't have been the first to think of this, but wouldn't it be great if you could write your HTML, 

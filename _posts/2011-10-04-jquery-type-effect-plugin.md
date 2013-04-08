@@ -1,15 +1,13 @@
---- 
-layout: post 
-title: jQuery type effect plugin 
-tags:
-- jQuery
-- plugin
---- 
+---
+layout: post
+title: jQuery type effect plugin
+tags: jQuery plugin
+---
 
 Let's kick it old-school, with the absolute CLASSIC typewriter effect. I couldn't 
 find a decent jQuery version of this effect that worked, so I pluginified some vintage 
 javascript.
- 
+
 <iframe style="width: 95%; height: 300px" src="http://jsfiddle.net/JKirchartz/JEpWV/embedded/" allowfullscreen="allowfullscreen" frameborder="0">
 </iframe>
 

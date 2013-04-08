@@ -1,9 +1,8 @@
---- 
-layout: post 
-title: Staying on Top of Web Technology 
-tags:
-- article
---- 
+---
+layout: post
+title: Staying on Top of Web Technology
+tags: article
+---
 
 _I wrote this piece in October of 2011 for the [Songwhale Blog](http://blog.songwhale.com/post/11316955561/webtechnology), re-posting it here for prosperity._  
 

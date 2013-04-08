@@ -1,18 +1,14 @@
 ---
 layout: post
 title: "Rocking StackOverflow: Sites to Troubleshoot Code in Your Browser"
-tags:
-- article
-- html
-- javascript
-- regex
+tags: article html javascript regex
 ---
 
 [StackOverflow](http://stackoverflow.com/) is an awesome community, devs 
 helping devs become better devs, it's nice. More often than not, solving these 
 problems will require setting up a test somewhere, for javascript that's easy 
 just use [jsfiddle](http://jsfiddle.net/), but other languages you might have 
-some work to do. I often hear my fellow dev's asking "Is there a JSFiddle for..."
+some work to do. I often hear my fellow dev's asking "Is there a JSFiddle for&hellip;"
 almost any programing language. Well, friend, here's my list of sites and sandboxes
 that make troubleshooting all sorts of code a lot easier:
 

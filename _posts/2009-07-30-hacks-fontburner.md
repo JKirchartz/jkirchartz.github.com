@@ -1,9 +1,7 @@
 --- 
 title: "Hacks: FontBurner" 
 layout: post 
-tags:
-- css
-- hack
+tags: css hack
 --- 
 
 As you might have noticed <s>I've got</s> I had a couple crazy "non-standard" fonts

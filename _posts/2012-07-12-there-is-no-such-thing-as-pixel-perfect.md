@@ -1,9 +1,8 @@
---- 
-layout: post 
-title: "There is no such thing as pixel-perfect web design" 
-tags:
-- article
---- 
+---
+layout: post
+title: "There is no such thing as pixel-perfect web design"
+tags: article
+---
 
 There, I said it. Now get the phrase out of your head, it doesn't exist, please stop trying. 
 Far too often you'll hear some paraphrasing of the complaint "But it doesn't look like it did in Photoshop" 
@@ -39,7 +38,7 @@ the screen dimensions on these devices vary greatly. As time passes this
 fragmentation problem will probably only get worse.
 
 
-[ ![graph showing trend of growing screen sizes on Android
+[![graph showing trend of growing screen sizes on Android
 handsets](http://www.carrypad.com/files/2012/02/android-handset-screen-sizes-over-time.png) ](http://www.carrypad.com/files/2012/02/android-handset-screen-sizes-over-time.png)
 
 <div class="img-metadata">

@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Opinion: Protaculous to JQuery"
-tags:
-- article 
+tags: article
 ---
 
 Last night I went to my local <a href="http://pitcfug.org/">CFUG</a> meeting, to 

@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Hello Github, Goodbye Blogger
-tags:
-- article
+title: "Hello Github, Goodbye Blogger"
+tags: article
 ---
 
 

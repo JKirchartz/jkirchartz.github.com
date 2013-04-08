@@ -1,9 +1,8 @@
---- 
-layout: post 
-title: "Project: Big Island Toyota" 
-tags:
-- portfolio
---- 
+---
+layout: post
+title: "Project: Big Island Toyota"
+tags: portfolio
+---
 
 Big Island Toyota has always been a little ahead of the curve on social media, They're involved with their community, and they use their website pro-actively. Here are 2 requested projects from them.  
 

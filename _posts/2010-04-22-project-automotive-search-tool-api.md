@@ -1,9 +1,8 @@
---- 
-title: "Project: Automotive Mobile site template." 
-layout: post 
-tags:
-- portfolio
---- 
+---
+title: "Project: Automotive Mobile site template."
+layout: post
+tags: portfolio
+---
 
 [![](http://4.bp.blogspot.com/_KHL6Vvj96Eo/S9BO9Tb4OiI/AAAAAAAAAmg/8f4G1X9wIxY
 /s320/Mobile_Screenshots.jpg)](http://4.bp.blogspot.com/_KHL6Vvj96Eo/S9BO9Tb4O
