@@ -83,7 +83,7 @@ doing that lately, for example there's a very nice VIM Distribution named [Janus
 ##Links
 
 * [VIM docs](http://www.vim.org/docs.php)
-* VIM Cheat-sheet](http://michael.peopleofhonoronly.com/vim/)
+* [VIM Cheat-sheet](http://michael.peopleofhonoronly.com/vim/)
 * [VIM Keyboard Cheat-sheet](http://walking-without-crutches.heroku.com/image/images/vi-vim-cheat-sheet.png)
 * [Leaning Vim the Pragmatic Way](http://jrmiii.com/2009/03/06/learning-vim-the-pragmatic-way.html)
 * [VIM Regex](http://vimregex.com/)
