@@ -237,7 +237,7 @@ blockquote p:last-child:after {
     vertical-align:-0.6em;
     font-weight: bold;
 }
-p {
+article li, p {
     padding:0.5em 0.75em;
 }
 article ul ul {
@@ -250,23 +250,25 @@ article ul li:before {
     border:1px solid #000;
     border-radius:1em;
     padding:0.25em;
-    margin: 0 0.5em 0 -1em;
+    margin: 0 0.5em 0 -1.1em;
 }
 article ol {
     counter-reset:li
 }
 article ol li:before {
-    content: counter(li);
+    content: counter(li)".";
     counter-increment: li;
+    margin: 0 0.5em 0 -1.1em;
+    font-size:0.8em;
 }
-article ol li:nth-child(n+10):before {}
+article ol li:nth-child(n+10):before {
+    margin: 0 0.5em 0 -1.6em;
+}
+
 article li p {
    display:inline-block;
    vertical-align:top;
    padding:0;
-}
-article li {
-   padding: 0 0.85em 0.5em;
 }
 
 .center {
