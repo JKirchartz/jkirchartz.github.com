@@ -250,7 +250,7 @@ article ul li:before {
     border:1px solid #000;
     border-radius:1em;
     padding:0.25em;
-    margin: 0 -0.5em 0 -0.2em;
+    margin: 0 0.5em 0 -1em;
 }
 article ol {
     counter-reset:li
