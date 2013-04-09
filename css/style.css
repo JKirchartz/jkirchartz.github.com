@@ -240,6 +240,9 @@ blockquote p:last-child:after {
 article li, p {
     padding:0.5em 0.75em;
 }
+article li li:last-child {
+    padding-bottom:0;
+}
 article ul ul {
     margin:0 1em;
 }
