@@ -141,14 +141,9 @@ footer ul {
     width:60%;
     display:inline-block;
 }
-#search {
+#license {
     width:40%;
     display:inline-block;
-}
-#search input, #search button {
-    line-height:2;
-    font-size:1em;
-    border-radius:0.5em;
 }
 a[href='#main']{
     display: block;
@@ -173,10 +168,11 @@ a[href='#main']:hover {
 }
 .pagination span {
     display:inline-block;
-    border:2px #309090 solid;
-    background:#b0e0e0;
+    background:#dee;
     padding:0.5em;
-    border-radius: 0.5em;
+    border-radius: 100%;
+    margin: 0 0 4em 0;
+    box-shadow:0 0 0.5em 0.5em #dee;
 }
 p img {
     display:block;
@@ -390,11 +386,13 @@ time {
 }
 footer {
     background:#DEE;
-    border-radius:0.5em;
+    box-shadow:0 0 0.5em 0.5em #dee;
     font-size: 0.65em;
     text-align: center;
     margin:1em 0;
     padding:0.5em;
+    position:relative;
+    z-index:5;
 }
 footer li {
     display:inline; /* for IE */

@@ -61,9 +61,6 @@ some of these cover multiple languages
 mod_redirect &amp; just about anything else, just [don't parse
 html](http://stackoverflow.com/a/1732454/276250).
 
-* <rticle li > p {
-       padding:0;
-}
 * [rentzsch.github.com/JSRegexTeststand](http://rentzsch.github.com/JSRegexTeststand/)
 * [regexplanet.com](http://www.regexplanet.com/)
 * [regextester.com](http://www.regextester.com/)
