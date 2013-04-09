@@ -263,6 +263,9 @@ article ol li:nth-child(n+10):before {}
 article li p {
    display:inline-block;
    vertical-align:top;
+   padding:0;
+}
+article p {
    padding: 0 0.85em 0.5em;
 }
 
