@@ -39,10 +39,10 @@ editor.
     * `k` move up one line
     * `h` move left one character
     * `l` move right one character
-    * to move to line 88 hit `88G` or `88gg`
-    * move to the begining of a file hit `gg`
-    * move to the end of the file hit `G`
-    * hitting `%` while the cursor is on a bracket like `[({})]` will find the matching bracket
+* to move to line 88 hit `88G` or `88gg`
+* move to the begining of a file hit `gg`
+* move to the end of the file hit `G`
+* hitting `%` while the cursor is on a bracket like `[({})]` will find the matching bracket
 * to delete a character hit `x`
 * to cut a line hit `dd`
 * to copy a line hit `yy`
