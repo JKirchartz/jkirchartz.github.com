@@ -4,7 +4,6 @@ title: "Hello Github, Goodbye Blogger"
 tags: article
 ---
 
-
 I've always been an early adopter and when blogs were just becoming a thing Blogger was one of the first companies doing it, how else would they get such a great URL?
 For a time I was fine with the way blogging worked, but now I am disappointed. Enough so to leave.
 

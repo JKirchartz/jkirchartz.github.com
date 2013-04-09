@@ -1,8 +1,8 @@
---- 
-title: "Hacks: FontBurner" 
-layout: post 
+---
+title: "Hacks: FontBurner"
+layout: post
 tags: css hack
---- 
+---
 
 As you might have noticed <s>I've got</s> I had a couple crazy "non-standard" fonts
 from [fontburner.com](http://www.fontburner.com/). [FontBurner](http://www.fontburner.com/) is a great tool for hosting [sIFR
@@ -17,7 +17,7 @@ fonts, then which style of font to use. Once you've chosen a style you can
 easily navigate through all the different type-faces, right below each example
 is a 'get the code' button, which will give you this:
 
-{% highlight html %}    
+{% highlight html %}
     <link rel="stylesheet" href="http://www.fontburner.com/css/fontburner.css" type="text/css" media="screen" /> 
     <link rel="stylesheet" href="http://www.fontburner.com/css/fontburner_print.css" type="text/css" media="print" /> 
     <script src="http://www.fontburner.com/fontburner.js" type="text/javascript"></script> 
