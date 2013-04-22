@@ -48,7 +48,8 @@ a {
 
 a:hover {
     color: #31277C;
-    border-bottom:1px solid #369;
+    padding-bottom:0.05em;
+    box-shadow:0 0.4em 0.3em -0.3em rgba(66,66,66,0.75);
 }
 
 #canvas {
@@ -129,6 +130,7 @@ nav a {
 nav a:hover {
     color:#130f30;
     text-shadow: 0px 0px 5px #FFF;
+    box-shadow:0 0.4em 0.3em -0.3em rgba(66,66,66,0.75);
     background-position: 0 0;
     padding:0.5em;
     text-decoration:none;
@@ -136,14 +138,6 @@ nav a:hover {
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-}
-footer ul {
-    width:60%;
-    display:inline-block;
-}
-#license {
-    width:40%;
-    display:inline-block;
 }
 a[href='#main']{
     display: block;
@@ -394,6 +388,27 @@ footer {
     position:relative;
     z-index:5;
 }
+footer #social_media {
+    width:60%;
+    display:inline-block;
+}
+footer #license {
+    width:40%;
+    display:inline-block;
+}
+footer #affiliations {
+   border:1px solid #3f3f3f;
+   border-radius:0.5em;
+   background:#fff;
+   display:table;
+   margin:0 auto;
+}
+footer #affiliations li {
+   padding:0.5em;
+   display:table-cell;
+   vertical-align:middle;
+   text-align:center;
+}
 footer li {
     display:inline; /* for IE */
     display:inline-block;
@@ -401,9 +416,16 @@ footer li {
     min-width: 50px;
     text-align:center;
 }
-ul.social_media a {
+footer ul li a, footer ul li a:hover {
     border:none;
     text-decoration:none;
+    box-shadow: none;
+}
+footer ul li a:hover img {
+    box-shadow:0 0.4em 0.3em -0.3em rgba(66,66,66,0.75);
+}
+footer a[href='http://www.alrdesign.com/dam.html'] img {
+   padding:0.8em 0;
 }
 @media all and (max-width: 35em) {
     header span {

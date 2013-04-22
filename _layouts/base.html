@@ -28,7 +28,7 @@
             {{ content }}
         </div>
             <footer>
-                <ul class="social_media">
+                <ul id="social_media">
                     <li><a href="http://www.linkedin.com/in/jkirchartz" title="connect with me on linkedin"><img src="/images/linkedin-48x48.png" alt="linkedin" /></a></li>
                     <li><a href="http://stackoverflow.com/users/276250/jkirchartz" title="check my street cred on stackoverflow"><img src="/images/stackoverflow-48x48.png" alt="stackoverflow" /></a></li>
                     <li><a href="http://twitter.com/JKirchartz" title="follow me on twitter"><img src="/images/twitter-48x48.png" alt="twitter" /></a></li>
@@ -44,11 +44,24 @@
                         licence; all wrongs reserved.</p>
                     <p>All original text and images are under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons 3.0</a> attribution licence.</p>
                 </div>
+                <ul id="affiliations">
+                    <li><a href="http://internetdefenseleague.org"><img src="/images/IDL_badge.png" alt="Member of The Internet Defense League" /></a></li>
+                    <li><a href="http://www.alrdesign.com/dam.html"><img src="/images/DAM_badge.gif" alt="Designers Against Monoculture" /></a></li>
+                </ul>
             </footer>
 
         <canvas id="canvas"></canvas>
         <script src="/js/background.js" type="text/javascript"></script>
         <script type="text/javascript">
+            window._idl = {};
+            _idl.variant = "banner";
+            (function() {
+                var idl = document.createElement('script');
+                idl.type = 'text/javascript';
+                idl.async = true;
+                idl.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'members.internetdefenseleague.org/include/?url=' + (_idl.url || '') + '&campaign=' + (_idl.campaign || '') + '&variant=' + (_idl.variant || 'banner');
+                document.getElementsByTagName('body')[0].appendChild(idl);
+            })();
             function loadScript(src){
                 var script = document.createElement('script');
                 script.type = 'text/javascript';
