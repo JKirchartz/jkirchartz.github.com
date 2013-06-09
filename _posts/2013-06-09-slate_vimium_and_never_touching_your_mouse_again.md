@@ -10,14 +10,14 @@ Well, it may not be *that* bad, but I'm sick of it. So I decided to do something
 
 I split my time almost equally been my editor and my browser, why not use the same keyboard shortcuts?
 Enter [Vimium](http://vimium.github.io), a customizable Google Chrome extension that gives you vim-like control over your browser.
-All the commands are spot on, even `G` and `gg` scroll you to the bottom or top of the page, respectively.
+All the commands are spot on, `G` and `gg` scroll you to the bottom or top of the page, respectively.
 Hitting `f` will display a character next to all the links on a page, hitting that letter opens the associated link.
 A quick `gs` will allow you to view source, easier to remember than `opt+cmd+U` (`Ctrl+U` on windows, lucky bastards.)
 Even marks work as expected!
 
 So now I can browse without the cursor, how can I manage windows?
 `Cmd+tab` is woefully under-powered, and windows has Aero; why not improve both?
-[Slate](https://github.com/jigish/slate) does just that, and improves on both by offering configuration, and tons of options.
+[Slate](https://github.com/jigish/slate) does just that by offering custom configuration and tons of options.
 By [default](https://github.com/jigish/slate/blob/master/Slate/default.slate) Slate is easy to use, but via custom configuration
 you can tweak your way to the perfect environment. I've done everything I could come up with to
 [my Slate config](https://github.com/JKirchartz/dotfiles/blob/master/slate) to make it work more
