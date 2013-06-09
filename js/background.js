@@ -200,7 +200,9 @@ function boxBlurCanvasRGBA( id, top_x, top_y, width, height, radius, iterations 
 var canvas = document.getElementById("canvas"),
     ctx = canvas.getContext('2d'),
     colors = ["#b0e0e0","#309090","#130f30"],
-    savedData = new Image(),
+    savedData = document.createElement('img'),
+    //chrome has a recorded issue with this :\
+    //savedData = new Image(),
     fadein = 0;
 
 for (var i = 0; i < 60; i++) {
