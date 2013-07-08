@@ -42,7 +42,8 @@ So now to fill this new hole in my life, there were a few solutions offered as r
    The Title's view is almost exactly like Reader's compact view, which is my favorite.
    There's phone apps, browser apps, and web access here, so you can always read your feed.
    This is nearly a drop-in replacement for Google Reader, and it imports your feeds automatically, like a good app should.
-*[Digg Reader](https://digg.com/reader/) &amp; [Yoleo](http://yoleoreader.com/)
+* [Digg Reader](https://digg.com/reader/) &amp; [Yoleo](http://yoleoreader.com/)
+
    Keyboard shortcuts, side panel with a list of folders and subscriptions. The only real difference is layout, Yoleo has a right side-bar that contains a different view on your feed data.
    Neither of them had more features than that or anything truly unique. They were both very similar to Feedly, easy to connect your reader data, but ultimately reader clones.
 
