@@ -34,4 +34,5 @@ There's only 12 notes in the western musical scale, yet everything from Mozart t
 builds upon the past for the betterment of the future. We can all prosper if we let information flow freely.
 
 There are only so many ways to cut a shirt, just as there are only so many ways to write a program. 
+Why hold onto your baby forever? Once it matures, set it free to the world.
 

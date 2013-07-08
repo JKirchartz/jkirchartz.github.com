@@ -49,7 +49,7 @@ So now to fill this new hole in my life, there were a few solutions offered as r
 
 
 I think I've found my man here with Feedly, I'm really enjoying it and the learning curve from Reader is nearly non-existent.
-Digg reader is a close second, their styling is nice and open making it a joy to read. 
+Digg reader is a close second; their styling is nice and open, making it a joy to read. 
 
 Ultimately though I'm becoming disenfranchised with RSS feeds.
 They just pile up too much, and all serve the mentality of "you can't miss a thing." 
