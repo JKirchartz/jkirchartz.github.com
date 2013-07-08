@@ -38,10 +38,19 @@ So now to fill this new hole in my life, there were a few solutions offered as r
    The social ascpect is cool, and there's always a ton of interesting content, but this isn't a feed reader.
 * [Feedly](http://www.feedly.com/)
 
-   Amazing feed reader, similar keyboard shortcuts to Reader, and other features are close.
+   A very close Reader clone. Keyboard shortcuts are similar, and other features are too.
    The Title's view is almost exactly like Reader's compact view, which is my favorite.
    There's phone apps, browser apps, and web access here, so you can always read your feed.
    This is nearly a drop-in replacement for Google Reader, and it imports your feeds automatically, like a good app should.
+*[Digg Reader](https://digg.com/reader/) &amp; [Yoleo](http://yoleoreader.com/)
+   Keyboard shortcuts, side panel with a list of folders and subscriptions. The only real difference is layout, Yoleo has a right side-bar that contains a different view on your feed data.
+   Neither of them had more features than that or anything truly unique. They were both very similar to Feedly, easy to connect your reader data, but ultimately reader clones.
+
 
 I think I've found my man here with Feedly, I'm really enjoying it and the learning curve from Reader is nearly non-existent.
+Digg reader is a close second, their styling is nice and open making it a joy to read. 
 
+Ultimately though I'm becoming disenfranchised with RSS feeds.
+They just pile up too much, and all serve the mentality of "you can't miss a thing." 
+I'm generally "behind" by at least 1000 posts, but I'd say at least 90% of them aren't worth actually looking at.
+There's got to be a better way, but for now I'm not seeing a ready-made product that combats this pile-up.
