@@ -90,6 +90,8 @@ little more transferable, or explains some important concept
 * [rosettacode.org](http://rosettacode.org/)
 * [whathaveyoutried.com](http://whathaveyoutried.com)
 * [sscce.org (Short, Self Contained, Correct Example)](http://sscce.org/)
+* [TheToolbox.cc](http://thetoolbox.cc/) (app aggregator)
+
 
 
 Ivan Zuzak has compiled another list of online tools that might be helpful, check out [The Web engineer's online toolbox](http://ivanzuzak.info/2012/11/18/the-web-engineers-online-toolbox.html).
