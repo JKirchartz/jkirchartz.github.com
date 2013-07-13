@@ -36,20 +36,20 @@ So now to fill this new hole in my life, there were a few solutions offered as r
    Unfortunately again you have to add your interests or favorite sites manually.
    Prismatic isn't an RSS reader, it's an article suggestion tool, based on interests in your feed. 
    The social ascpect is cool, and there's always a ton of interesting content, but this isn't a feed reader.
-* [Feedly](http://www.feedly.com/)
+* [Feedly](http://www.feedly.com/) &amp; [Feedspot](http://www.feedspot.com)
 
-   A very close Reader clone. Keyboard shortcuts are similar, and other features are too.
-   The Title's view is almost exactly like Reader's compact view, which is my favorite.
-   There's phone apps, browser apps, and web access here, so you can always read your feed.
-   This is nearly a drop-in replacement for Google Reader, and it imports your feeds automatically, like a good app should.
+   A very close Reader clones. Keyboard shortcuts are similar, and other features are too.
+   Customizable views, they even have one like Reader's compact view, which is my favorite.
+   This is nearly a drop-in replacement for Google Reader, and it imports your feeds automatically.
 * [Digg Reader](https://digg.com/reader/) &amp; [Yoleo](http://yoleoreader.com/)
 
    Keyboard shortcuts, side panel with a list of folders and subscriptions. The only real difference is layout, Yoleo has a right side-bar that contains a different view on your feed data.
    Neither of them had more features than that or anything truly unique. They were both very similar to Feedly, easy to connect your reader data, but ultimately reader clones.
 
 
-I think I've found my man here with Feedly, I'm really enjoying it and the learning curve from Reader is nearly non-existent.
-Digg reader is a close second; their styling is nice and open, making it a joy to read. 
+Feedly &amp; Feedspot clearly come out on top for being drop-in replacements, 
+although Digg reader is a close second, because their styling is nice and open, 
+making it a joy to read. 
 
 Ultimately though I'm becoming disenfranchised with RSS feeds.
 They just pile up too much, and all serve the mentality of "you can't miss a thing." 
