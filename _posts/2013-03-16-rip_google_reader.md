@@ -38,7 +38,7 @@ So now to fill this new hole in my life, there were a few solutions offered as r
    The social ascpect is cool, and there's always a ton of interesting content, but this isn't a feed reader.
 * [Feedly](http://www.feedly.com/) &amp; [Feedspot](http://www.feedspot.com)
 
-   A very close Reader clones. Keyboard shortcuts are similar, and other features are too.
+   Two very good Reader clones. Keyboard shortcuts are similar, and other features are too.
    Customizable views, they even have one like Reader's compact view, which is my favorite.
    This is nearly a drop-in replacement for Google Reader, and it imports your feeds automatically.
 * [Digg Reader](https://digg.com/reader/) &amp; [Yoleo](http://yoleoreader.com/)
