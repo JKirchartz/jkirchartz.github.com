@@ -83,7 +83,8 @@ include a library into your sandbox
 
 ##other
 these don't really _do_ anything, but they help you make your knowledge a
-little more transferable, or explains some important concept
+little more transferable, or explains some important concept, or they just don't
+fit into the above categories...
 
 * [httpstatus.es](http://httpstatus.es/)
 * [hyperpolyglot.org](http://hyperpolyglot.org/)
@@ -91,6 +92,7 @@ little more transferable, or explains some important concept
 * [whathaveyoutried.com](http://whathaveyoutried.com)
 * [sscce.org (Short, Self Contained, Correct Example)](http://sscce.org/)
 * [TheToolbox.cc](http://thetoolbox.cc/) (app aggregator)
+* [How to Ask Questions the Smart Way](http://catb.org/~esr/faqs/smart-questions.html)
 
 
 
