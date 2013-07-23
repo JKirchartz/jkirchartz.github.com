@@ -91,6 +91,7 @@ doing that lately, for example there's a very nice VIM Distribution named [Janus
 * [Vim Tips Wiki](http://vim.wikia.com/wiki/Vim_Tips_Wiki)
 * [Zzapper's Best of Vim Tips](http://zzapper.co.uk/vimtips.html)
 * [Secrets of the Vim Ninja](http://bencrowder.net/files/vim-fu/)
+* [Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)
 * [Vimbits](http://vimbits.com/)
 * [VI Cheat Sheet](http://www.lagmonster.org/docs/vi.html)
 * [Learning Vi & Vim editors (O'Reilly)](http://www.amazon.com/gp/product/059652983X)
