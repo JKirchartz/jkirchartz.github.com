@@ -77,21 +77,28 @@ Vim is highly customizable, you can set shortcuts and preferences in the `.vimrc
 There are a [ton of plugins (aka scripts)](http://www.vim.org/scripts/) available too. They're easy to manage with other scripts
 like [Pathogen](https://github.com/tpope/vim-pathogen) or [Vundle](https://github.com/gmarik/vundle). 
 
-If you want to get a headstart, my [dotfiles are available on github](https://github.com/jkirchartz/dotfiles), but there are a lot of people 
+If you want to get a headstart, my [dotfiles are available on github](https://github.com/jkirchartz/dotfiles), but there are a lot of people
 doing that lately, for example there's a very nice VIM Distribution named [Janus](https://github.com/carlhuda/janus) that's worth a look.
 
 ##Links
 
+* [Vim Interactive Tutorial](http://www.openvim.com/tutorial.html) (try it now!)
 * [VIM docs](http://www.vim.org/docs.php)
 * [VIM Cheat-sheet](http://michael.peopleofhonoronly.com/vim/)
 * [VIM Keyboard Cheat-sheet](http://walking-without-crutches.heroku.com/image/images/vi-vim-cheat-sheet.png)
 * [Leaning Vim the Pragmatic Way](http://jrmiii.com/2009/03/06/learning-vim-the-pragmatic-way.html)
 * [VIM Regex](http://vimregex.com/)
 * [Vim Tips Wiki](http://vim.wikia.com/wiki/Vim_Tips_Wiki)
-* [Best of Vim Tips](http://zzapper.co.uk/vimtips.html)
+* [Zzapper's Best of Vim Tips](http://zzapper.co.uk/vimtips.html)
+* [Secrets of the Vim Ninja](http://bencrowder.net/files/vim-fu/)
 * [Vimbits](http://vimbits.com/)
 * [VI Cheat Sheet](http://www.lagmonster.org/docs/vi.html)
 * [Learning Vi & Vim editors (O'Reilly)](http://www.amazon.com/gp/product/059652983X)
 * [Download Vim](http://www.vim.org/download.php)
 * [Stack Overflow Question: What is your most productive shortcut with Vim?](http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118)
-
+* [Derek Wyatt's Vim Video Tutorials](http://www.derekwyatt.org/vim/vim-tutorial-videos/)
+* [Vimcasts](http://vimcasts.org/)
+* [usevim](http://usevim.com/)
+* [VIM Adventures](http://vim-adventures.com/) (Learn VIM playing an RPG)
+* [vimgolf](http://vimgolf.com/) (find the shortest way to complete the challenges)
+* [shortcutFoo](https://www.shortcutfoo.com/) (Drills to learn your tools better)
