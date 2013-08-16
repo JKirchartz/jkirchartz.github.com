@@ -69,10 +69,10 @@ a:hover {
 
 article, .archive {
     background: #dee;
-    border-radius:0.05em;
+    border-radius:0.15em;
     margin: 5em 0;
     padding: 1em;
-    box-shadow: 0 0 0.5em 0.5em #dee;
+    box-shadow: 0.2em 0.2em 0.5em 0.1em #344;
 }
 
 h1, h2, h3 { margin:0 0.75rem; }
@@ -106,6 +106,7 @@ header h1 a:hover {
     text-decoration:none;
     color:#FFF;
     border:none;
+    box-shadow:none;
 }
 header span {
     font-style:italic;
@@ -135,7 +136,7 @@ nav a {
 }
 nav a:hover {
     color:#130f30;
-    text-shadow: 0px 0px 5px #FFF;
+    text-shadow: 0px 0px 0.1em #b0e0e0;
     box-shadow:0 0.4em 0.3em -0.3em rgba(66,66,66,0.75);
     background-position: 0 0;
     padding:0.5em;
@@ -172,7 +173,7 @@ a[href='#main']:hover {
     padding:0.5em;
     border-radius: 100%;
     margin: 0 0 4em 0;
-    box-shadow:0 0 0.5em 0.5em #dee;
+    box-shadow: 0.2em 0.2em 0.5em 0.1em #344;
 }
 p img {
     display:block;
@@ -386,7 +387,7 @@ time {
 }
 footer {
     background:#DEE;
-    box-shadow:0 0 0.5em 0.5em #dee;
+    box-shadow: 0.2em 0.2em 0.5em 0.1em #344;
     font-size: 0.65em;
     text-align: center;
     margin:1em 0;
