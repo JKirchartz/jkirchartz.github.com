@@ -158,6 +158,7 @@ a[href='#main']{
 a[href='#main']:hover {
     color:#EEE;
     background:#333;
+    padding:0;
 }
 .pagination {
     text-align:center;
