@@ -17,7 +17,7 @@ It's not a web devlopment tool, it's a graphics tool, and you should always use 
 Everything you do in Photoshop has to be pixel-perfect, snapping to the pixel grid ensures jpegs are crisp and don't have any jagged edges or odd artifacts. 
 Only one small problem: on the web, [there is no such thing as pixel perfect](http://jkirchartz.com/2012/07/there-is-no-such-thing-as-pixel-perfect.html).
 There's just no telling what a pixel will be on the end-user's screen. 
-When using viewed at smaller resolutions set pixel values don't change, so if you have a combined total of `960px` of margins, padding, and images on a `320px` wide screen you're not giving the user the best experience.
+When viewed at smaller resolutions set pixel values don't change, so if you have a combined total of `960px` of margins, padding, and images on a `320px` wide screen you're not giving the user the best experience.
 There's another bug when using IE6-8, if you set your font with a pixel height it won't resize like modern browsers and this hurts your site's accessability.
 
 ##Mockups
@@ -32,4 +32,10 @@ This also allows them to give you feedback quicker, spot mistakes, and ask quest
 >A PSD/PNG should be nothing more than an idea of a website. It should give clues and a direction to the build, but ultimately should not be treated as a final design. Following PSDs to the pixel will lead to ill-considered code, and code is your final product, not an image. For example, if your PSD uses three shades of very similar blue, the build should pick and honour just one. There is no point repeating similar declarations in your CSS when a happy middle-ground is more efficient, easier and quicker. A PSD is a clue, not a contract.
 
 &mdash; [Harry Roberts](http://the-pastry-box-project.net/harry-roberts/2012-november-20/)
+
+>Throughout my career, I’ve watched immensely talented designers waste a shitload of time creating fully fleshed-out comps of what a website could look like. Pixels get pushed, details are sweated, pages are printed out, hung on walls, and presented to clients. Clients squawk their feedback, then designers act on it. They repeat this dance until everyone is content (or until nobody gives a shit anymore, which happens more often than you’d think). Only then do those pristine comps get handed (more like shoved) over to developers to build.
+>
+>It’s an increasingly-pathetic process that makes less and less sense in this multi-device age. I’m not making a case for ditching Photoshop altogether and designing solely in the browser (where are the blend modes in Chrome dev tools again?) but rather better understanding how we use Photoshop in modern web design
+
+&mdash; [Brad Frost](http://bradfrostweb.com/blog/post/the-post-psd-era/)
 
