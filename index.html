@@ -29,11 +29,12 @@ layout: base
         <a id="toTop" href="#main" title="back to top">&#9650;</a>
         <script>
              var toTop = document.getElementById('toTop');
-             toTop.onclick = function(){
+             toTop.onclick = function(e){
+                 e.preventDefault();
                  function scroller(){ 
                      window.scrollBy(0,-10); 
                      if(window.pageYOffset === 0){
-                        clearInterval(repeater);
+                         clearInterval(repeater);
                      }
                  }
                  var repeater = setInterval(scroller,10);
