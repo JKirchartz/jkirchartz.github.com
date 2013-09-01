@@ -26,6 +26,18 @@ layout: base
             &nbsp;&nbsp;
         {% endif %}
         <br />
-        <a href="#main" title="back to top">&#9650;</a>
+        <a id="toTop" href="#main" title="back to top">&#9650;</a>
+        <script>
+             var toTop = document.getElementById('toTop');
+             toTop.onclick = function(){
+                 function scroller(){ 
+                     window.scrollBy(0,-10); 
+                     if(window.pageYOffset === 0){
+                        clearInterval(repeater);
+                     }
+                 }
+                 var repeater = setInterval(scroller,10);
+             }
+        </script>
     </span>
 </div>
