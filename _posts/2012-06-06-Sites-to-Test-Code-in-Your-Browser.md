@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Rocking StackOverflow: Sites to Troubleshoot Code in Your Browser"
-permalink: "/2012/06/Sites-to-Troubleshoot-Code-in-Your-Browser.html"
 tags: article html javascript regex
 ---
 
