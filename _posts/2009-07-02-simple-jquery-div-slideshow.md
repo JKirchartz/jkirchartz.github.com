@@ -41,7 +41,9 @@ And the Javascript
 {% endhighlight %}
 
 I chose 850 as a delay offset on the fade-in because it meshes well with jquery's default timing.
-You can fiddle with the numbers as you see fit.
+You can fiddle with the numbers as you see fit. Here's what it looks like
+
+<iframe width="100%" height="350" src="http://jsfiddle.net/JKirchartz/CcWgv/embedded/result,css/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 If you need more power, check out Malsup's [Cycle](http://www.malsup.com/jquery/cycle/) plugin.
 
