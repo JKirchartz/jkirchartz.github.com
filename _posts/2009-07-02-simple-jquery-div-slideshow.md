@@ -30,7 +30,7 @@ And the Javascript
     }
     function slideshow(frame, start, end, delay) {
         return (function() {
-        $(\'#slideshow\' + f).fadeOut();
+        $('#slideshow' + frame).fadeOut();
         if (frame == end) { frame = start; } else { frame += 1; }
         setTimeout(function(){$('#slideshow' + frame ).fadeIn();}, 850);
         setTimeout(slideshow(frame, start, end, delay), delay + 850);
@@ -40,5 +40,8 @@ And the Javascript
     startSlides(1, 4, 5000);
 {% endhighlight %}
 
-You can fiddle with the numbers as you see fit. Enjoy.
+I chose 850 as a delay offset on the fade-in because it meshes well with jquery's default timing.
+You can fiddle with the numbers as you see fit.
+
+If you need more power, check out Malsup's [Cycle](http://www.malsup.com/jquery/cycle/) plugin.
 
