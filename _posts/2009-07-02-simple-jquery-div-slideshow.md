@@ -26,17 +26,19 @@ And the Javascript
 
 {% highlight javascript %}
     function startSlides(start, end, delay) {
-        setTimeout(s_s(start,start,end, delay), delay);
+        setTimeout(slideshow(start,start,end, delay), delay);
     }
-    function s_s(frame, start, end, delay) {
+    function slideshow(frame, start, end, delay) {
         return (function() {
         $(\'#slideshow\' + f).fadeOut();
         if (frame == end) { frame = start; } else { frame += 1; }
         setTimeout(function(){$('#slideshow" + frame + ').fadeIn();}, 850);
-        setTimeout(s_s(frame, start, end, delay), delay + 850);
+        setTimeout(slideshow(frame, start, end, delay), delay + 850);
     })
     }
     // usage: startSlides(first frame, end frame, delay time);
     startSlides(1, 4, 5000);
 {% endhighlight %}
+
+You can fiddle with the numbers as you see fit. Enjoy.
 
