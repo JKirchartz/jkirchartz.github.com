@@ -32,7 +32,7 @@ And the Javascript
         return (function() {
         $(\'#slideshow\' + f).fadeOut();
         if (frame == end) { frame = start; } else { frame += 1; }
-        setTimeout(function(){$('#slideshow" + frame + ').fadeIn();}, 850);
+        setTimeout(function(){$('#slideshow' + frame ).fadeIn();}, 850);
         setTimeout(slideshow(frame, start, end, delay), delay + 850);
     })
     }
