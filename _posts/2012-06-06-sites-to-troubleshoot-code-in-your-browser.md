@@ -21,6 +21,7 @@ some of these cover multiple languages
 * [ideone.com](http://ideone.com/)
 * [codepad.viper-7.com](http://codepad.viper-7.com/)
 * [pythonfiddle.com](http://pythonfiddle.com/)
+* [phpfiddle.com](http://phpfiddle.com/)
 * [compilr.com](http://compilr.com/)
 * [onlinecompiler.net](http://www.onlinecompiler.net/)
 * [dpriver.com/pp/sqlformat.htm](http://www.dpriver.com/pp/sqlformat.htm)
