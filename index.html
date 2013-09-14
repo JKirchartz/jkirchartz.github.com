@@ -14,14 +14,14 @@ layout: base
             {% if paginator.previous_page == 1 %}
                 <a href="/">&laquo;~</a>
             {% else %}
-                <a href="/page{{paginator.previous_page}}" class="previous">&laquo;~</a>
+                <a href="/page{{paginator.previous_page}}" rel="prev" title="previous">&laquo;~</a>
             {% endif %}
         {% else %}
             &nbsp;&nbsp;
         {% endif %}
         [{{paginator.page}}/{{paginator.total_pages}}]
         {% if paginator.next_page %}
-            <a href="/page{{paginator.next_page}}" class="next ">~&raquo;</a>
+            <a href="/page{{paginator.next_page}}" rel="next " title="next">~&raquo;</a>
         {% else %}
             &nbsp;&nbsp;
         {% endif %}
