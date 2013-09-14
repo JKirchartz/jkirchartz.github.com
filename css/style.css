@@ -146,30 +146,34 @@ nav a:hover {
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
-a[href='#main']{
-    display: block;
+.pagination {
+    text-align:center;
+    font-size:1.3em;
+    line-height:2.5;
+}
+.pagination a, .pagination span {
+    display:inline-block;
+    background:#dee;
+    border-radius: 100%;
+    margin: 0 0 4em 0;
+    box-shadow: 0.2em 0.2em 0.5em 0.1em #344;
+}
+.pagination a {
     margin: 0 auto;
     height: 2em;
     width: 2em;
     border-radius: 1.5em;
     line-height: 2em;
     border: 1px solid #333;
+    text-decoration:none;
+    border:none;
 }
-a[href='#main']:hover {
+.pagination a:hover {
     color:#EEE;
     background:#333;
     padding:0;
 }
-.pagination {
-    text-align:center;
-    font-size:1.3em;
-}
-.pagination a {
-    text-decoration:none;
-    border:none;
-}
 .pagination span {
-    display:inline-block;
     background:#dee;
     padding:0.5em;
     border-radius: 100%;

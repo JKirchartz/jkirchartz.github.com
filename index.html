@@ -9,24 +9,19 @@ layout: base
 {% endfor %}
 
 <div class="pagination">
-    <span>
+        <a id="toTop" href="#main" title="back to top">&#9650;</a>
+        <br/>
         {% if paginator.previous_page %}
             {% if paginator.previous_page == 1 %}
-                <a href="/">&laquo;~</a>
+                <a href="/" rel="prev" title="previous">&#9664;</a>
             {% else %}
                 <a href="/page{{paginator.previous_page}}" rel="prev" title="previous">&#9664;</a>
             {% endif %}
-        {% else %}
-            &nbsp;&nbsp;
         {% endif %}
-        [{{paginator.page}}/{{paginator.total_pages}}]
+        <span>{{paginator.page}} of {{paginator.total_pages}}</span>
         {% if paginator.next_page %}
             <a href="/page{{paginator.next_page}}" rel="next " title="next">&#9654;</a>
-        {% else %}
-            &nbsp;&nbsp;
         {% endif %}
-        <br />
-        <a id="toTop" href="#main" title="back to top">&#9650;</a>
         <script>
              var toTop = document.getElementById('toTop');
              toTop.onclick = function(e){
@@ -40,5 +35,4 @@ layout: base
                  var repeater = setInterval(scroller,5);
              }
         </script>
-    </span>
 </div>
