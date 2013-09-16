@@ -1,14 +1,14 @@
 <div class="share_buttons" style="display:none">
-    {% if page.title %}
-        <a class="twitter" href="http://twitter.com/intent/tweet?url=http%3A%2F%2Fjkirchartz.com{{ page.url }}&text={{ page.title }}&via=jkirchartz" target="_blank" ><img src="/images/twitter-48x48.png" alt="twitter" /></a>
-        <a class="facebook" href="http://facebook.com/sharer.php?u=http%3A%2F%2Fjkirchartz.com{{ page.url }}" target="_blank" ><img src="/images/facebook-48x48.png" alt="facebook" /></a>
-        <a class="google" href="https://plus.google.com/share?url=http%3A%2F%2Fjkirchartz.com{{ page.url }}" target="_blank" ><img src="/images/google+-48x48.png" alt="google+" /><a>
-        <a class="email" href="mailto:?subject={{ page.title }}&body=http%3A%2F%2Fjkirchartz.com{{ page.url }}" target="_blank"><img src="/images/twitter-48x48.png" alt="twitter" /></a>
+    {% if page.title | uri_escape %}
+    <a class="twitter" href="http://twitter.com/intent/tweet?url=http%3A%2F%2Fjkirchartz.com{{ page.url | uri_escape }}&text={{ page.title | uri_escape }}&via={{ twitter }}" target="_blank" ><img src="/images/twitter-48x48.png" alt="twitter" /></a>
+        <a class="facebook" href="http://facebook.com/sharer.php?u=http%3A%2F%2Fjkirchartz.com{{ page.url | uri_escape }}" target="_blank" ><img src="/images/facebook-48x48.png" alt="facebook" /></a>
+        <a class="google" href="https://plus.google.com/share?url=http%3A%2F%2Fjkirchartz.com{{ page.url | uri_escape }}" target="_blank" ><img src="/images/google+-48x48.png" alt="google+" /><a>
+        <a class="email" href="mailto:?subject={{ page.title | uri_escape }}&body=http%3A%2F%2Fjkirchartz.com{{ page.url | uri_escape }}" target="_blank"><img src="/images/twitter-48x48.png" alt="twitter" /></a>
     {% endif %}
-    {% if post.title %}
-        <a class="twitter" href="http://twitter.com/intent/tweet?url=http%3A%2F%2Fjkirchartz.com{{ post.url }}&text={{ post.title }}&via=jkirchartz" target="_blank" ><img src="/images/twitter-48x48.png" alt="twitter" /></a>
-        <a class="facebook" href="http://facebook.com/sharer.php?u=http%3A%2F%2Fjkirchartz.com{{ post.url }}" target="_blank" ><img src="/images/facebook-48x48.png" alt="facebook" /></a>
-        <a class="google" href="https://plus.google.com/share?url=http%3A%2F%2Fjkirchartz.com{{ post.url }}" target="_blank" ><img src="/images/google+-48x48.png" alt="google+" /></a>
-        <a class="email" href="mailto:?subject={{ post.title }}&body=http%3A%2F%2Fjkirchartz.com{{ post.url }}" target="_blank"><img src="/images/email-48x48.png" alt="email" /></a>
+    {% if post.title | uri_escape %}
+    <a class="twitter" href="http://twitter.com/intent/tweet?url=http%3A%2F%2Fjkirchartz.com{{ post.url | uri_escape }}&text={{ post.title | uri_escape }}&via={{ twitter }}" target="_blank" ><img src="/images/twitter-48x48.png" alt="twitter" /></a>
+        <a class="facebook" href="http://facebook.com/sharer.php?u=http%3A%2F%2Fjkirchartz.com{{ post.url | uri_escape }}" target="_blank" ><img src="/images/facebook-48x48.png" alt="facebook" /></a>
+        <a class="google" href="https://plus.google.com/share?url=http%3A%2F%2Fjkirchartz.com{{ post.url | uri_escape }}" target="_blank" ><img src="/images/google+-48x48.png" alt="google+" /></a>
+        <a class="email" href="mailto:?subject={{ post.title | uri_escape }}&body=http%3A%2F%2Fjkirchartz.com{{ post.url | uri_escape }}" target="_blank"><img src="/images/email-48x48.png" alt="email" /></a>
     {% endif %}
 </div>
