@@ -428,12 +428,12 @@ footer li {
     min-width: 50px;
     text-align:center;
 }
-footer ul li a, footer ul li a:hover {
+.share_buttons a, .share_buttons a:hover, footer ul li a, footer ul li a:hover {
     border:none;
     text-decoration:none;
     box-shadow: none;
 }
-footer ul li a:hover img {
+.share_buttons a:hover img, footer ul li a:hover img {
     box-shadow:0 0.4em 0.3em -0.3em rgba(66,66,66,0.75);
 }
 footer a[href='http://www.alrdesign.com/dam.html'] img {
