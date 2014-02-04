@@ -83,6 +83,19 @@ include a library into your sandbox
 * [jsdelivr.com](http://www.jsdelivr.com/)
 * [cdn.tl](http://www.cdn.tl/)
 
+##image placeholders
+no images yet want to show some?
+
+* [lorempixel.com](http://lorempixel.com/)
+* [fakeimg.pl](http://fakeimg.pl/)
+* [dummyimage.com](http://dummyimage.com/)
+* [placekitten.com](http://placekitten.com/)
+* [placehold.it](http://placehold.it/)
+* [imageplaceholder.com](http://imageplaceholder.com/)
+* [placebox.es](http://placebox.es/)
+* [flickholdr.com](http://flickholdr.com/)
+* [placedog.com](http://placedog.com/)
+
 ##other
 these don't really _do_ anything, but they help you make your knowledge a
 little more transferable, or explains some important concept, or they just don't
@@ -101,11 +114,6 @@ fit into the above categories...
 
 Ivan Zuzak has compiled another list of online tools that might be helpful, check out [The Web engineer's online toolbox](http://ivanzuzak.info/2012/11/18/the-web-engineers-online-toolbox.html).
 
-**update 2:** added cdn, if anybody wants to add to the list drop me a line, if
-there's enough interest I'll make a repo to keep it updated in the future ;)
-
 **update 3:** My blog now runs on Jekyll on Github, to add to the list fork &amp; make a pull request! 
 or you can still contact me&hellip;
-
-**update 4:** cleaned up a bit, added some things, I don't think I'll add a comment here every time, but hey.
 
