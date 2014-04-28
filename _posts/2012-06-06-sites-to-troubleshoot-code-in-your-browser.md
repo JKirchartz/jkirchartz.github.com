@@ -110,7 +110,7 @@ fit into the above categories...
 * [sscce.org (Short, Self Contained, Correct Example)](http://sscce.org/)
 * [TheToolbox.cc](http://thetoolbox.cc/) (app aggregator)
 * [How to Ask Questions the Smart Way](http://catb.org/~esr/faqs/smart-questions.html)
-* [Can I Use] (http://caniuse.com)
+* [Can I Use](http://caniuse.com)
 
 
 
