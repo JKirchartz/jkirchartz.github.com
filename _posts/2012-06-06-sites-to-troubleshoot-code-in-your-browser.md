@@ -64,6 +64,7 @@ some of these cover multiple languages
 mod_redirect &amp; just about anything else, just [don't parse
 html](http://stackoverflow.com/a/1732454/276250).
 
+* [regex101.com](http://regex101.com)
 * [rentzsch.github.com/JSRegexTeststand](http://rentzsch.github.com/JSRegexTeststand/)
 * [regexplanet.com](http://www.regexplanet.com/)
 * [regextester.com](http://www.regextester.com/)

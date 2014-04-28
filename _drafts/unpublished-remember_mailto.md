@@ -21,6 +21,7 @@ but the mailto protocol is more versatile than that, You can do `cc` and `bcc` a
     mailto:user@example.com,user2@example.com?cc=user3@example.com&bcc=user4@example.com
 
 Since this is a URI it has to be URI encoded so: `%20` for space, `%3F` for question mark, and so on...
+(AFAIK iPhone is the only device to have a problem with this- urls in the body shouldn't be url encoded)
 Also, a `To` address is completely unneccessary! You're not going to know who to send it to now, are ya?
 So it's a short hop to making something like this
 

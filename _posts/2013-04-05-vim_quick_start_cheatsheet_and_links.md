@@ -57,6 +57,7 @@ editor.
 * in command mode to find and replace all occurances in a line type `:s/original/replacement/g`
     * when searching you can use regular expressions
 * in command mode to find and replace all occurances in a file type `:%s/original/replacement/g`
+* for an interactive history of commands try `q:` (also does searched with `q\` or `q?`)
 
 
 ###VIM tips
