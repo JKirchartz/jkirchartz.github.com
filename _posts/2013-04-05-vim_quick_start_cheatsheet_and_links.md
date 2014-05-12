@@ -23,8 +23,12 @@ editor.
 * type "vim /path/to/file.name" to open an existing file. (if the file doesn't exist, this creates it)
 * to open multiple files list them like `vim file1.txt file2.sh`
     * you can switch to the next open file with the command `:bn`, or the previous one with `:bp`
+    * to open in a split window `vim -o file.type file2.type file3.type` (lower case "o" for horizontal, uppercase for vertical split)
+* open a file & jump to a particular line with `vim +10 file.type` for the 10th line (`+` alone will jump to the end of the file)
+* open a file & jump to a particular word or phrase with `vim -c "/searchstring" file.type` (you can execute other commands with the `-c` flag too)
+* find the differences between two files with `vim -d file.v1 file.v2` (this works like vimdiff)
 
-###Working in VIM
+###Working with VIM modes
 
 * hit "i" to switch from command mode to input mode
 * hit "v" to switch from command mode to visual mode
@@ -104,3 +108,4 @@ doing that lately, for example there's a very nice VIM Distribution named [Janus
 * [VIM Adventures](http://vim-adventures.com/) (Learn VIM playing an RPG)
 * [vimgolf](http://vimgolf.com/) (find the shortest way to complete the challenges)
 * [shortcutFoo](https://www.shortcutfoo.com/) (Drills to learn your tools better)
+* [frequently used vimdiff commands](http://stackoverflow.com/questions/5288875/vimdiff-what-are-the-most-frequently-used-commands-shortcuts-that-could-get-a-n)
