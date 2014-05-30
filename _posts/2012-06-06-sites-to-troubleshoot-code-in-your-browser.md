@@ -97,6 +97,9 @@ no images yet want to show some?
 * [placebox.es](http://placebox.es/)
 * [flickholdr.com](http://flickholdr.com/)
 * [placedog.com](http://placedog.com/)
+* [placecage.com](http://www.placecage.com/)
+* [fillmurray.com](http://www.fillmurray.com/)
+* [stevensegallery.com](http://www.stevensegallery.com/)
 
 ##other
 these don't really _do_ anything, but they help you make your knowledge a
