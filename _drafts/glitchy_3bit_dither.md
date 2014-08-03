@@ -24,7 +24,7 @@ I've also [colorized][15] it by rating each channel value of the pixel.
 
 #Things I've learned
 
-Since `imageData` is a [`Uint8ClampedArray`][19], a lot of this involves the new [Typed Arrays][20], which are so new they're practically undocumented, although that's slowly changing. They're part of teh WebGL spec, but are available in all modern browsers. 
+Since `imageData` is a [`Uint8ClampedArray`][19], a lot of this involves the new [Typed Arrays][20]. They're part of the WebGL spec, but should be available in all modern browsers. 
 This array holds all the data for every pixel in the image, however it's stores 8-bit values, channel-by-channel instead of pixel-by-pixel, that is to say `Uint8ClampedArray` stores the image data like `[R,G,B,A,R,G,B,A,R,G...]`.
 This means that to deal with this array, you're going to have to increment the loop by 4, and handle the channel-values each time like this
 
@@ -45,7 +45,10 @@ So Uint32Arrays store their data like `[RGBA, RGBA, RGBA, RGBA...`.
         Uint32Arr[i] = ~Uint32Arr[i] | 0xFF000000;
     }
 
-Here, a bitwise NOT (`~`) inverts the bits, and OR `|` applies a mask to keep the alpha channel at 100%. 
+Here, a bitwise NOT (`~`) inverts the bits, and OR `|` applies a mask to keep the alpha channel at 100%.
+
+While all the above is true for most computers, some larger unix machines and :w
+
 
 [1] http://jkirchartz.com/Glitchy3bitDither/
 [2] https://en.wikipedia.org/wiki/Glitch_art
