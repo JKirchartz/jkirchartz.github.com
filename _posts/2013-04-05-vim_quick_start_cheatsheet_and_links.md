@@ -92,6 +92,7 @@ doing that lately, for example there's a very nice VIM Distribution named [Janus
 * [VIM Cheat-sheet](http://michael.peopleofhonoronly.com/vim/)
 * [VIM Keyboard Cheat-sheet](http://walking-without-crutches.heroku.com/image/images/vi-vim-cheat-sheet.png)
 * [Leaning Vim the Pragmatic Way](http://jrmiii.com/2009/03/06/learning-vim-the-pragmatic-way.html)
+* [Learning Vim for People Who Think Things Like Vim Are Weird and Hard](http://csswizardry.com/2014/06/vim-for-people-who-think-things-like-vim-are-weird-and-hard/)
 * [VIM Regex](http://vimregex.com/)
 * [Vim Tips Wiki](http://vim.wikia.com/wiki/Vim_Tips_Wiki)
 * [Zzapper's Best of Vim Tips](http://zzapper.co.uk/vimtips.html)
