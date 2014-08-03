@@ -55,7 +55,7 @@ Here, a bitwise NOT (`~`) inverts the bits, and OR `|` applies a mask to keep th
 [6] http://rumblesan.com/
 [7] https://github.com/rumblesan/cuttr
 [8] http://errrord.tumblr.com/
-[9]
+[9] https://gist.github.com/JKirchartz/467ec9458d975659e33e
 [10] http://camanjs.com/
 [11] http://diveintohtml5.info/canvas.html
 [12] https://github.com/mncaudill/3bitdither
