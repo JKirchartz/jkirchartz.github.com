@@ -24,7 +24,7 @@ I've also [colorized][15] it by rating each channel value of the pixel.
 
 #Things I've learned
 
-Since `imageData` is a [`Uint8ClampedArray`][19], a lot of this involves the new [Typed Arrays][20]. They're part of the WebGL spec, but should be available in all modern browsers. 
+Since `imageData.data` is a [`Uint8ClampedArray`][19], one of the new [Typed Arrays][20] in javascript. They're part of the WebGL spec and should be available in most _modern_ browsers. 
 This array holds all the data for every pixel in the image, however it's stores 8-bit values, channel-by-channel instead of pixel-by-pixel, that is to say `Uint8ClampedArray` stores the image data like `[R,G,B,A,R,G,B,A,R,G...]`.
 This means that to deal with this array, you're going to have to increment the loop by 4, and handle the channel-values each time like this
 
@@ -46,8 +46,10 @@ So Uint32Arrays store their data like `[RGBA, RGBA, RGBA, RGBA...`.
     }
 
 Here, a bitwise NOT (`~`) inverts the bits, and OR `|` applies a mask to keep the alpha channel at 100%.
+You may also notice that I'm using the `imageData.data.buffer` to make a 32-bit view of the 8-bit data, this means that you don't have to set the data back into the array, because it passes through to the original variable naturally.
 
-While all the above is true for most computers, some larger unix machines and :w
+While all the above is true for most PC's and Macs which store data in Little [Endian][19], some other machines may use Big Endian notations, which would reverse the order of the data from RGBA to ABGR.
+
 
 
 [1] http://jkirchartz.com/Glitchy3bitDither/
@@ -68,3 +70,5 @@ While all the above is true for most computers, some larger unix machines and :w
 [16] https://github.com/JKirchartz/Glitchy3bitdither/blob/gh-pages/GlitchyDither.js#L410-L462
 [17]  https://github.com/JKirchartz/Glitchy3bitdither/blob/gh-pages/GlitchyDither.js#L464-L543
 [18]
+[19] https://en.wikipedia.org/wiki/Endianness
+[20]
