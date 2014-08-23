@@ -11,30 +11,28 @@ problems will require setting up a test somewhere, for javascript that's easy
 just use [jsfiddle](http://jsfiddle.net/), but other languages you might have 
 some work to do. I often hear my fellow dev's asking "Is there a JSFiddle for&hellip;"
 almost any programing language. Well, friend, here's my list of sites and sandboxes
-that make troubleshooting all sorts of code a lot easier:
+that make writing code with your browser all sorts of easier:
 
 
 ##server-side / programming languages
-some of these cover multiple languages
 
-* [codepad.org](http://codepad.org/)
-* [ideone.com](http://ideone.com/)
 * [codepad.viper-7.com](http://codepad.viper-7.com/)
 * [pythonfiddle.com](http://pythonfiddle.com/)
 * [phpfiddle.com](http://phpfiddle.com/)
-* [compilr.com](http://compilr.com/)
-* [onlinecompiler.net](http://www.onlinecompiler.net/)
+* [\*compilr.com](http://compilr.com/)
+* [\*onlinecompiler.net](http://www.onlinecompiler.net/)
 * [dpriver.com/pp/sqlformat.htm](http://www.dpriver.com/pp/sqlformat.htm)
 * [sqlfiddle.com](http://sqlfiddle.com/)
-* [coderun.com/ide](http://www.coderun.com/ide/)
-* [c9.io](http://c9.io/)
-* [repl.it](http://repl.it/)
+* [coderun.com/ide](http://www.coderun.com/ide/) (404'd)
+* [\*repl.it](http://repl.it/)
 * [wonderfl.net](http://wonderfl.net/)
 * [dotnetfiddle.net](http://dotnetfiddle.net/)
 
+\* these cover multiple languages
 
 ##javascript / html / css
 
+* [codepen.io](http://codepen.io/)
 * [jsfiddle.net](http://jsfiddle.net/)
 * [jsbin.com](http://jsbin.com/)
 * [pastehtml.com](http://pastehtml.com/)
@@ -45,7 +43,6 @@ some of these cover multiple languages
 * [akshell.com](http://www.akshell.com/)
 * [rendera.heroku.com](http://rendera.heroku.com/)
 * [fiddlesalad.com](http://fiddlesalad.com/)
-* [codepen.io](http://codepen.io/)
 * [htmlinstant.com](http://www.htmlinstant.com/)
 * [scratchpad.io](http://scratchpad.io/)
 
@@ -70,7 +67,7 @@ html](http://stackoverflow.com/a/1732454/276250).
 * [regextester.com](http://www.regextester.com/)
 * [regexr.com](http://regexr.com/)
 * [rextester.com](http://rextester.com/)
-* [regexp.quaxio.com/ (linter)](http://regexp.quaxio.com/)
+* [regexp.quaxio.com](http://regexp.quaxio.com/) (linter)
 * [htaccess.madewithlove.be](http://htaccess.madewithlove.be/)
 * [txt2re.com](http://www.txt2re.com/)
 * [2problems.com](http://2problems.com/)
@@ -101,10 +98,15 @@ no images yet want to show some?
 * [fillmurray.com](http://www.fillmurray.com/)
 * [stevensegallery.com](http://www.stevensegallery.com/)
 
+##IDEs
+
+* [codepad.org](http://codepad.org/)
+* [ideone.com](http://ideone.com/)
+* [c9.io](http://c9.io/)
+
+
 ##other
-these don't really _do_ anything, but they help you make your knowledge a
-little more transferable, or explains some important concept, or they just don't
-fit into the above categories...
+Other interesting things that don't fit above.
 
 * [httpstatus.es](http://httpstatus.es/)
 * [hyperpolyglot.org](http://hyperpolyglot.org/)
@@ -119,6 +121,5 @@ fit into the above categories...
 
 Ivan Zuzak has compiled another list of online tools that might be helpful, check out [The Web engineer's online toolbox](http://ivanzuzak.info/2012/11/18/the-web-engineers-online-toolbox.html).
 
-**update 3:** My blog now runs on Jekyll on Github, to add to the list fork &amp; make a pull request! 
-or you can still contact me&hellip;
+**update 3:** My blog now runs on Jekyll/Github, to add to the listi just fork &amp; make a pull request! 
 
