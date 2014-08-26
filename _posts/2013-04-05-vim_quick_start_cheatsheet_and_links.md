@@ -23,8 +23,12 @@ editor.
 * type "vim /path/to/file.name" to open an existing file. (if the file doesn't exist, this creates it)
 * to open multiple files list them like `vim file1.txt file2.sh`
     * you can switch to the next open file with the command `:bn`, or the previous one with `:bp`
+    * to open in a split window `vim -o file.type file2.type file3.type` (lower case "o" for horizontal, uppercase for vertical split)
+* open a file & jump to a particular line with `vim +10 file.type` for the 10th line (`+` alone will jump to the end of the file)
+* open a file & jump to a particular word or phrase with `vim -c "/searchstring" file.type` (you can execute other commands with the `-c` flag too)
+* find the differences between two files with `vim -d file.v1 file.v2` (this works like vimdiff)
 
-###Working in VIM
+###Working with VIM modes
 
 * hit "i" to switch from command mode to input mode
 * hit "v" to switch from command mode to visual mode
@@ -57,6 +61,7 @@ editor.
 * in command mode to find and replace all occurances in a line type `:s/original/replacement/g`
     * when searching you can use regular expressions
 * in command mode to find and replace all occurances in a file type `:%s/original/replacement/g`
+* for an interactive history of commands try `q:` (also does searched with `q\` or `q?`)
 
 
 ###VIM tips
@@ -87,6 +92,7 @@ doing that lately, for example there's a very nice VIM Distribution named [Janus
 * [VIM Cheat-sheet](http://michael.peopleofhonoronly.com/vim/)
 * [VIM Keyboard Cheat-sheet](http://walking-without-crutches.heroku.com/image/images/vi-vim-cheat-sheet.png)
 * [Leaning Vim the Pragmatic Way](http://jrmiii.com/2009/03/06/learning-vim-the-pragmatic-way.html)
+* [Learning Vim for People Who Think Things Like Vim Are Weird and Hard](http://csswizardry.com/2014/06/vim-for-people-who-think-things-like-vim-are-weird-and-hard/)
 * [VIM Regex](http://vimregex.com/)
 * [Vim Tips Wiki](http://vim.wikia.com/wiki/Vim_Tips_Wiki)
 * [Zzapper's Best of Vim Tips](http://zzapper.co.uk/vimtips.html)
@@ -103,3 +109,4 @@ doing that lately, for example there's a very nice VIM Distribution named [Janus
 * [VIM Adventures](http://vim-adventures.com/) (Learn VIM playing an RPG)
 * [vimgolf](http://vimgolf.com/) (find the shortest way to complete the challenges)
 * [shortcutFoo](https://www.shortcutfoo.com/) (Drills to learn your tools better)
+* [frequently used vimdiff commands](http://stackoverflow.com/questions/5288875/vimdiff-what-are-the-most-frequently-used-commands-shortcuts-that-could-get-a-n)
