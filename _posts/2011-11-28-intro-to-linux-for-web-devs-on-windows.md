@@ -127,9 +127,9 @@ be safe than sorry.
 ## Conclusion:
 
 The Command line can be intimidating at first, but don't fear it's power. It
-can be a very helpful tool. For more information check out
+can be a very helpful tool. For a more in-depth look read the [Ultimate Linux Guide For Windows Users](http://www.dedoimedo.com/computers/ultimate-linux-guide-for-windows-users.html), and for more information check out
 [http://linuxcommand.org/](http://linuxcommand.org/), [TuxFiles' intro to the
 Linux CLI](http://www.tuxfiles.org/linuxhelp/cli.html) and [Hypexr's Bash
 Tutorial](http://www.hypexr.org/bash_tutorial.php). You can also add a linux
-shell to your windows machine wth [cygwin](http://www.cygwin.com/) or lightweight
-alternative [gow](https://github.com/bmatzelle/gow/wiki/)
+shell to your windows machine with [cygwin](http://www.cygwin.com/), [mingw](http://www.mingw.org) \(this is what git-bash uses\) or lightweight
+alternative [gow](https://github.com/bmatzelle/gow/wiki/). If you'd like an excellent terminal emulator in a snap, try [Cmder](http://bliker.github.io/cmder/), it packages up [ConEmu](https://code.google.com/p/conemu-maximus5/) and a few other things with a nice config file to provide a beautiful environment.
