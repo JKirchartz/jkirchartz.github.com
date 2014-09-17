@@ -1,5 +1,6 @@
 ---
 title: Apocalypse Survival is Easy.
+published:false
 tags: portfolio, project, jquery, wikipedia
 ---
 

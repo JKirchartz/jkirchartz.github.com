@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Glitchy 3bit dither
+published:false
 tags: article, art, javascript, open source
 ---
 
