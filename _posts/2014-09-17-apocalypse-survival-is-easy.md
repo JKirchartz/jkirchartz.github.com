@@ -1,6 +1,5 @@
 ---
 title: Apocalypse Survival is Easy.
-published:false
 tags: portfolio, project, jquery, wikipedia
 ---
 
@@ -21,6 +20,6 @@ It stores this data locally for faster load-times in the future, this ensures th
 
 So, find out [how many apocalypses you have survived, today!][1], or [view the source on github][3]
 
-[1] /demos/How_Many_Apocalypses_Have_I_Survived.html
-[2] https://en.wikipedia.org/wiki/List_of_dates_predicted_for_apocalyptic_events
-[3] https://github.com/JKirchartz/demos/blob/gh-pages/How_Many_Apocalypses_Have_I_Survived.html
+[1]: /demos/How_Many_Apocalypses_Have_I_Survived.html
+[2]: https://en.wikipedia.org/wiki/List_of_dates_predicted_for_apocalyptic_events
+[3]: https://github.com/JKirchartz/demos/blob/gh-pages/How_Many_Apocalypses_Have_I_Survived.html

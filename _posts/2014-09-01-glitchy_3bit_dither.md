@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Glitchy 3bit dither
-published:false
 tags: article, art, javascript, open source
 ---
 
@@ -66,29 +65,29 @@ If you were making imaging software you'd probably want to account for that, but
 
 
 
-[1] http://jkirchartz.com/Glitchy3bitDither/
-[2] https://en.wikipedia.org/wiki/Glitch_art
-[3] http://scadglitchart.blogspot.com/2012/10/stallio-and-wordpad-effect-nancy-olivo.html
-[4] http://www.fizzpop.org.uk/blog/an-introduction-to-databending/
-[5] http://www.hellocatfood.com/databending-using-audacity/
-[6] http://rumblesan.com/
-[7] https://github.com/rumblesan/cuttr
-[8] http://errrord.tumblr.com/
-[9] https://gist.github.com/JKirchartz/467ec9458d975659e33e
-[10] http://camanjs.com/
-[11] http://diveintohtml5.info/canvas.html
-[12] https://github.com/mncaudill/3bitdither
-[13] https://github.com/jkirchartz/Glitchy3bitdither
-[14] https://github.com/JKirchartz/Glitchy3bitdither/blob/gh-pages/GlitchyDither.js#L397-L408
-[15] https://github.com/JKirchartz/Glitchy3bitdither/blob/gh-pages/GlitchyDither.js#L410-L420
-[16] https://github.com/JKirchartz/Glitchy3bitdither/blob/gh-pages/GlitchyDither.js#L422-L481
-[17]  https://github.com/JKirchartz/Glitchy3bitdither/blob/gh-pages/GlitchyDither.js#L561-L657
-[18]  https://github.com/JKirchartz/Glitchy3bitdither/blob/gh-pages/GlitchyDither.js#L697-L848
-[19] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray
-[20] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
-[21] https://en.wikipedia.org/wiki/Endianness
-[22] https://github.com/JKirchartz/Glitchy3bitdither/tree/node
-[23] http://jkirchartz.com/Glitchy3bitdither/index.html
-[24] http://jkirchartz.com/Glitchy3bitdither/glitch.html
-[25] http://jkirchartz.com/Glitchy3bitdither/GlitchCruiser.html
-[26] http://jkirchartz.com/Glitchy3bitdither/GlitchChooser.html
+[1]: http://jkirchartz.com/Glitchy3bitDither/
+[2]: https://en.wikipedia.org/wiki/Glitch_art
+[3]: http://scadglitchart.blogspot.com/2012/10/stallio-and-wordpad-effect-nancy-olivo.html
+[4]: http://www.fizzpop.org.uk/blog/an-introduction-to-databending/
+[5]: http://www.hellocatfood.com/databending-using-audacity/
+[6]: http://rumblesan.com/
+[7]: https://github.com/rumblesan/cuttr
+[8]: http://errrord.tumblr.com/
+[9]: https://gist.github.com/JKirchartz/467ec9458d975659e33e
+[10]: http://camanjs.com/
+[11]: http://diveintohtml5.info/canvas.html
+[12]: https://github.com/mncaudill/3bitdither
+[13]: https://github.com/jkirchartz/Glitchy3bitdither
+[14]: https://github.com/JKirchartz/Glitchy3bitdither/blob/gh-pages/GlitchyDither.js#L397-L408
+[15]: https://github.com/JKirchartz/Glitchy3bitdither/blob/gh-pages/GlitchyDither.js#L410-L420
+[16]: https://github.com/JKirchartz/Glitchy3bitdither/blob/gh-pages/GlitchyDither.js#L422-L481
+[17]:  https://github.com/JKirchartz/Glitchy3bitdither/blob/gh-pages/GlitchyDither.js#L561-L657
+[18]:  https://github.com/JKirchartz/Glitchy3bitdither/blob/gh-pages/GlitchyDither.js#L697-L848
+[19]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray
+[20]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+[21]: https://en.wikipedia.org/wiki/Endianness
+[22]: https://github.com/JKirchartz/Glitchy3bitdither/tree/node
+[23]: http://jkirchartz.com/Glitchy3bitdither/index.html
+[24]: http://jkirchartz.com/Glitchy3bitdither/glitch.html
+[25]: http://jkirchartz.com/Glitchy3bitdither/GlitchCruiser.html
+[26]: http://jkirchartz.com/Glitchy3bitdither/GlitchChooser.html
