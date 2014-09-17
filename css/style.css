@@ -207,6 +207,9 @@ ul.entries a:hover {
 img {
     max-width:100%;
 }
+article > img, article li > img, article p > img {
+    display:block;
+}
 div.img-metadata {
     text-align:center;
 }
