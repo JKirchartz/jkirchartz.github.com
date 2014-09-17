@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Glitchy 3bit dither
-tags: article, art, javascript, open source
+tags: portfolio article art javascript
 ---
 
 I'd like to officially introduce my latest pet project, [Glitchy 3bit Dither][1], A project I started to help me emulate [glitch art][2].
@@ -65,7 +65,7 @@ If you were making imaging software you'd probably want to account for that, but
 
 
 
-[1]: http://jkirchartz.com/Glitchy3bitDither/
+[1]: http://jkirchartz.com/Glitchy3bitdither/
 [2]: https://en.wikipedia.org/wiki/Glitch_art
 [3]: http://scadglitchart.blogspot.com/2012/10/stallio-and-wordpad-effect-nancy-olivo.html
 [4]: http://www.fizzpop.org.uk/blog/an-introduction-to-databending/
