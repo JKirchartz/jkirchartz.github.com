@@ -1,7 +1,7 @@
 permalink: /:year/:month/:title.html
 pygments: true
 safe: true
-paginate: 3
+paginate: 2
 markdown: rdiscount
 
 twitter: jkirchartz

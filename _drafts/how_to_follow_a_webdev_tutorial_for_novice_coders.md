@@ -12,7 +12,7 @@ following tutorials word-for-word gets you what's described in the tutorial, und
 #HTML
 First let's look at some HTML, HTML5 to be exact. 
 
-    <doctype html>
+    <!doctype html>
     <html>
         <head>
             <title>Hello, world!</title>
@@ -29,14 +29,13 @@ In HTML there's 2 types of elements - Block and Inline - [Block-level elements](
 
 
 
-in css . denotes a class - # an id - and a plain word is a tag - so div.class#id = <div class="class" id="id"> </div>
+in css `.` denotes a class - `#` an id - and a plain `word` is a tag - so `div.class#id` in your css file would target `<div class="class" id="id"> </div>` in your html file.
 
 CSS is cascading style sheet — so everything at the bottom of the file overrides things above it in the file
 
-an ID should be a unique selector - so there should only be one home ID on the whole page
+an ID should be a unique selector - so there should only be one `#home` ID on the whole page
 
-a class can be anything - so you can have as many .blue classes as you want
-and tags are the structure of your page - like an outline where <h1> - <h3> etc are headings and the <p> paragraphs between them
+a class can be anything - so you can have as many `.blue` classes as you want
 
 
 
