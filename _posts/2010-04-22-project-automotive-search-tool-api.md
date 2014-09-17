@@ -1,16 +1,14 @@
 ---
-title: "Project: Automotive Mobile site template."
+title: "Project: Automotive Search Tool &amp; API"
 layout: post
 tags: portfolio
 ---
 
-![](http://i.imgur.com/RZ5ljU2.jpg)
+![](http://i.imgur.com/Cy1zbsS.png)
 
-
-Here is a base-template I created for use on car dealership mobile sites. It's a
-minimalist design, made to work on the widest variety of software/firmware
-possible from your favorite flip-phone to a top-of-the-line blackberry. This template was developed to launch quickly, if the dealer had an
-existing site, it was simply a the flick of the switch to launch. To maximize
-compatibility there is no JavaScript used on this, since only 
-smartphones support it in a reasonable fashion. Every step through this project was fully optimized
-for load time on non-3G networks. 
+This was an interesting project that had a few iterations before it's current state. 
+Originally when the inventory database was imported, an XML file would be generated to fill in the select boxes, but it took up a good bit of time to write the file and drive space because it was enormous.
+Now this works with a simple Coldfusion API that I created to return JSON to populate the dependent select boxes.
+Using the API with stored procedures saves tons of time and disc space.
+The interactive front-end was made with the power of <a href="http://jquery.com/">JQuery</a>.
+You can try it yourself at <a href="http://wrightcars.com/">wrightcars.com</a>
