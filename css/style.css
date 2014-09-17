@@ -209,6 +209,7 @@ img {
 }
 article > img, article li > img, article p > img {
     display:block;
+    margin: 0 auto;
 }
 div.img-metadata {
     text-align:center;
@@ -257,8 +258,8 @@ article ul li:before {
     background:#B0E0E0;
     border:1px solid #000;
     border-radius:1em;
-    padding:0.25em;
-    margin: 0 0.5em 0 -1.1em;
+    padding:0.15em;
+    margin: 0 0.5em 0.1em -1.1em;
 }
 article ol {
     counter-reset:li
