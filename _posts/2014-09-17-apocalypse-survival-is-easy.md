@@ -1,4 +1,5 @@
 ---
+layout:post
 title: Apocalypse Survival is Easy.
 tags: portfolio jquery wikipedia
 ---
