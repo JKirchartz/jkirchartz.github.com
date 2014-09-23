@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 title: Apocalypse Survival is Easy.
 tags: portfolio jquery wikipedia
 ---
@@ -14,12 +14,12 @@ These sorts of predictions are often made, and sometimes become popular in some 
 Some people are unduly distressed when they find themselves soon to be facing the end of the universe as we know it in a massive cosmic event, so I've decided to try and quell their fears.
 Maybe knowing you've likely survived a dozen or more moments of universal doom will also give you solace, knowing that the next time the world faces the final judgement probably won't be the last.
 
-This single-page app fetches a JSON feed from wikipedia's [List of dates predicted for apocalyptic events][2] and parses out years, comparing them with the input year and tallying the number of failed predictions since then.
-It stores this data locally for faster load-times in the future, this ensures that whenever you visit the page it parses the latest available data as of your first visit.
-
 [![Apocalypse Survival](http://i.imgur.com/lkl8JL6.png)][1]
 
-So, find out [how many apocalypses you have survived, today!][1], or [view the source on github][3]
+This single-page app fetches a JSON feed from wikipedia's [List of dates predicted for apocalyptic events][2] and parses out years, comparing them with the input year and tallying the number of failed predictions since then.
+It stores this data locally on initial load, and loads it from the local
+
+So, find out [how many apocalypses you've survived, today!][1] or [view the source on github][3]
 
 [1]: /demos/How_Many_Apocalypses_Have_I_Survived.html
 [2]: https://en.wikipedia.org/wiki/List_of_dates_predicted_for_apocalyptic_events
