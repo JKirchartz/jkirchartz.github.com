@@ -4,13 +4,13 @@ title: Glitchy 3bit dither
 tags: portfolio article art javascript
 ---
 
-I'd like to officially introduce my latest pet project, [Glitchy 3bit Dither][1], A project I started to help me emulate [glitch art][2].
+I'd like to officially introduce my most ambitious pet project, [Glitchy 3bit Dither][1], it's an in-browser emulation of [glitch art][2] techniques.
 In the past I've tried my hand at circuit bending, creatively short-circuiting and modifying physical devices.
 I've even played with [more][3] [traditional][4] [glitches][5], but was inspired to create my own software to do so after seeing [rumblesan][6].
 His [cuttr][7] project glitches images found on tumblr and posts them to another [tumblog][8], .
 I quickly set out and created a [python script][9] using PIL to start glitching images from instagram. 
 I started writing the tumblr code, but I didn't like the lack of control, and I didn't really want to make a rumblesan clone.
-Besides, how can you create art without the artist's input? After seeing [caman.js][10], I knew I could do it in javascript, thanks to [canvas][11].
+Besides, how can you create art without the artist's input? After seeing [caman.js][10]\*, I knew I could do it in javascript, thanks to [canvas][11].
 During my research I found [3bitdither][12], forked it, and set out to [bend it to my will][13].
 
 # Glitches
@@ -23,7 +23,7 @@ I've also [colorized][15] it by rating each channel value of the pixel.
 3. [Slices][17] move chunks of pixel and channel values in interesting ways, sometimes shifting colors as well.
 4. [Sorts][18] Sort chunks of pixels in place, producing gradient-like stripes of colors within the image.
 
-This is a work in progress, so all of the code is subject to change; also I'm working on updating this to work with [node.js on a separate branch][22], so all the code will have to be adjusted for that anyhow.
+This is a work in progress, so all of the code is subject to change; also I'm working on updating this to work with [node.js on a separate branch][22]\*, so all the code will have to be adjusted for that anyhow.
 
 # Interface
 
@@ -31,7 +31,7 @@ There are 4 different pages here, each offering their own unique take on the tas
 
 1. [Demo][23] will run each function against the original image once
 2. [Glitch Only][24] will apply a random set of glitches to the original image several times
-3. [Glitch Cruiser][25] displays 8 optional glitches surrounding your original image, selecting a glitched image will replace your original image in the center and use the selected image to create 8 new glitches surrounding it. Selecting your original image in the center will apply the next 8 functions to the original image, selecting any of the 8 images surrounding it will replace the center image and apply 8 more functions ontop of the one you just selected, this way you can follow a path through your options or make no changes at all. ![Lena, and 8 possibilities](http://i.imgur.com/UFYhyOV.png)
+3. [Glitch Cruiser][25] When you upload an image it appears in the center surrounded by 8 glitchy alternatives. If one of these images suits your fancy, click on it and it will become the new source for the next round of glitches. If you do not like any of the suggested glitches, click on the center image, and you'll get the next 8 glitch options, but your source will not be changed. [Lena, and 8 possibilities](http://i.imgur.com/UFYhyOV.png)
 4. [Glitch Chooser][26] this allows you to select functions from a drop-down list to apply to an image, you can either apply a tranformation, or reset it to the way it was before, you can even reset it to the original image. Unliked Glitch Cruiser, you won't be able to see the results of a function before selecting it, but you can replace the latest image transformation again and again until you can see your desired results.
 
 # Technical Notes
@@ -63,7 +63,7 @@ You may also notice that I'm using the `imageData.data.buffer` to make a 32-bit 
 While all the above is true for most personal computers which store data in Little [Endian][21], some other machines may use Big Endian notations, which would reverse the order of the data from RGBA to ABGR.
 If you were making imaging software you'd probably want to account for that, but since the point of this project is to maim images it's only mildly important to ensure the alpha channel is applied correctly (or just set to 100%.)
 
-
+\* now that I'm planning to make this into a node-based tool, and eventually distribute it on NPM, I'm thinking I'd be better off making this an extension of [camanjs][10] because they've already got so much figured out. Also I think by that point a name change might be in order.
 
 [1]: http://jkirchartz.com/Glitchy3bitdither/
 [2]: https://en.wikipedia.org/wiki/Glitch_art

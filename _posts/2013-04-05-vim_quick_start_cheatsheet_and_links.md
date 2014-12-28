@@ -25,16 +25,17 @@ editor.
     * you can switch to the next open file with the command `:bn`, or the previous one with `:bp`
     * to open in a split window `vim -o file.type file2.type file3.type` (lower case "o" for horizontal, uppercase for vertical split)
 * open a file & jump to a particular line with `vim +10 file.type` for the 10th line (`+` alone will jump to the end of the file)
+* You can run vim functions directly from the command line `vim +FunctionName +qall` (`qall` tries to quit all, but refers to the user to accept or reject changes made with a standard `:w`/`q!`)
 * open a file & jump to a particular word or phrase with `vim -c "/searchstring" file.type` (you can execute other commands with the `-c` flag too)
 * find the differences between two files with `vim -d file.v1 file.v2` (this works like vimdiff)
 
-###Working with VIM modes
+##Working with VIM modes
 
 * hit "i" to switch from command mode to input mode
 * hit "v" to switch from command mode to visual mode
 * hit "esc" to switch back to command mode
 
-###VIM Commands
+###VIM Command/Normal-mode
 
 * type ":wq" or "ZZ" to save and quit
 * type ":q!" to quit without saving
@@ -46,6 +47,11 @@ editor.
 * to move to line 88 hit `88G` or `88gg`
 * move to the begining of a file hit `gg`
 * move to the end of the file hit `G`
+* move one word forward with `w`
+* move one word backward with `b`
+* move to the end of the line with `$`
+* move to the begining of the line with `0`
+* move to the first character of the line with `^`
 * hitting `%` while the cursor is on a bracket like `[({})]` will find the matching bracket
 * to delete a character hit `x`
 * to cut a line hit `dd`
@@ -54,8 +60,7 @@ editor.
     * you can put a number before most commands to repeat them X many times.
 * press `p` to paste after the current line
 * press `P` to pase before the current line
-* to delete from the cursor to the end of the line hit `d$`
-* to delete from the cursor to the beginning of the line hit `d0`
+* to delete from the cursor to the end of the line hit `d$`, for example, or any other movement key (wbhjkl...)
 * in command mode to search for `apple` type `/apple` and hit enter
     * to look for the next occurance hit `n`
 * in command mode to find and replace all occurances in a line type `:s/original/replacement/g`
@@ -63,11 +68,21 @@ editor.
 * in command mode to find and replace all occurances in a file type `:%s/original/replacement/g`
 * for an interactive history of commands try `q:` (also does searched with `q\` or `q?`)
 
+###VIM Input-mode
+
+I'm not sure how useful these are in gvim, but these should work if you're running in a terminal.
+
+* alt/meta+normal command usually works
+    * `alt+hjkl` offers the standard movements
+    * `alt+o` opens a new line below the current one
+    * `alt+A` appends to the end of the current line
+    * `alt+p` to paste
+    * `alt+R"` to paste from register `"`, for example, or use and other register.
 
 ###VIM tips
 
 * If the file is owned by root and you opened it as another user, you can escalate privileges and save with `:w !sudo tee %`
-* the delimiter when using `:s` doesn't have to be `/` you can try `%` or `_` if you want to avoid fences like in `:s/\/usr\/local\/bin/\/common\/bin/` you can use `:s#/user/local/bin#/common/bin#`
+* the delimiter when using `:s` doesn't have to be `/` you can try `%` or `\_` if you want to avoid fences like in `:s/\/usr\/local\/bin/\/common\/bin/` you can use `:s#/user/local/bin#/common/bin#`
 * You can store a cursor location in a mark, vim allows 26 of these, you can set a mark with command `m` followed by a letter like `ma`
     * you can move to a line containing a mark using the `'` (single quote) command `'a` moves to the line containing the mark labeled `a`
     * you can move to the exact location of the mark using the `` ` `` (backquote) command `` `a `` moves to the mark labeled `a`
@@ -75,12 +90,14 @@ editor.
 * You can make macros with the `q` command, 
     * hit `qa` to create a macro named `a` (should show a record indicator) enter a series of commands and  hit `q` again to stop recording.
     * hit `@a` to execute the macro named `a`, you can execute the command multiple times in the standard way `23@a` will repeat it 23 times.
+    * You can execute a register as a macro with `@A` for register `A`, for example, or use any other register.
+* You can execute a register as an ex command with `:@A` for register `A`, for example, or use any other register. 
 
 ##Going Further
 
 Vim is highly customizable, you can set shortcuts and preferences in the `.vimrc` file, usually located in your home directory.
 There are a [ton of plugins (aka scripts)](http://www.vim.org/scripts/) available too. They're easy to manage with other scripts
-like [Pathogen](https://github.com/tpope/vim-pathogen) or [Vundle](https://github.com/gmarik/vundle). 
+like [Pathogen](https://github.com/tpope/vim-pathogen) or [Vundle](https://github.com/gmarik/vundle). I just switch from pathogen to vundle because I was tired of mucking around with `git submodules` to keep my plugins up to date.
 
 If you want to get a headstart, my [dotfiles are available on github](https://github.com/jkirchartz/dotfiles), but there are a lot of people
 doing that lately, for example there's a very nice VIM Distribution named [Janus](https://github.com/carlhuda/janus) that's worth a look.
@@ -89,7 +106,8 @@ doing that lately, for example there's a very nice VIM Distribution named [Janus
 
 * [Vim Interactive Tutorial](http://www.openvim.com/tutorial.html) (try it now!)
 * [VIM docs](http://www.vim.org/docs.php)
-* [VIM Cheat-sheet](http://michael.peopleofhonoronly.com/vim/)
+* [Michael's VIM Cheat-sheet](http://michael.peopleofhonoronly.com/vim/)
+* [Kendall's VIM Cheat-sheet](http://www.angelwatt.com/coding/notes/vim-commands.html)
 * [VIM Keyboard Cheat-sheet](http://walking-without-crutches.heroku.com/image/images/vi-vim-cheat-sheet.png)
 * [Leaning Vim the Pragmatic Way](http://jrmiii.com/2009/03/06/learning-vim-the-pragmatic-way.html)
 * [Learning Vim for People Who Think Things Like Vim Are Weird and Hard](http://csswizardry.com/2014/06/vim-for-people-who-think-things-like-vim-are-weird-and-hard/)
