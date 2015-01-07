@@ -71,7 +71,9 @@ Also, "command mode" is often referred to as "normal mode," because for a lot of
 * in command mode to find and replace all occurances in a file type `:%s/original/replacement/g`
 * for an interactive history of commands use `q:`
 * for an interactive history of searches use `q/` or `q?`)
-* need more info? try `:help` there's a wealth of information there, you can get more details about the help command with `:help help`
+* need more info? try `:help` there's a wealth of information there
+    * you can get more details about the help command with `:help help`
+    * you can find an index of commands with `:help index`
 
 ###VIM Input-mode
 
@@ -88,8 +90,12 @@ I'm not sure how useful these are in gvim, but these should work if you're runni
 
 * If the file is owned by root and you opened it as another user, you can escalate privileges and save with `:w !sudo tee %`
 * the delimiter when using `:s` doesn't have to be `/` you can try `%` or `\_` if you want to avoid fences like in `:s/\/usr\/local\/bin/\/common\/bin/` you can use `:s#/user/local/bin#/common/bin#`
-* you can auto-indent with `=`, to autoindent an entire file use `gg=G` (could have "unexpected" results) or a sinle line `=l` note `l` is a movement key, so experiment with other movements
-* You can store a cursor location in a mark, vim allows 26 of these, you can set a mark with command `m` followed by a letter like `ma`
+* unless you set a `equalprg` in your vimrc, you can auto-indent with `=`
+    * to autoindent an entire file use `gg=G` (could have "unexpected" results) 
+    * to autoindent the current line `==` 
+    * to autoindent this line and the one after it is `=j` where `j` is a movement key
+    * if you select a section with visual mode you can indent just that selection with `=`
+* You can store a cursor location in a mark, you can set a mark with command `m` followed by a letter like `ma`, it accepts [A-Za-z] so you get 52 different marks.
     * you can move to a line containing a mark using the `'` (single quote) command `'a` moves to the line containing the mark labeled `a`
     * you can move to the exact location of the mark using the `` ` `` (backquote) command `` `a `` moves to the mark labeled `a`
     * these are "movements" that can be combined with other statements like `` d`a `` to cut text from the cursor's location to the mark labeled `a`
@@ -137,7 +143,7 @@ doing that lately, so look around. Also there's a very nice VIM Distribution nam
 * [shortcutFoo](https://www.shortcutfoo.com/) (Drills to learn your tools better)
 * [Stack Overflow Question: What is your most productive shortcut with Vim?](http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118)
 * [Stack Overflow Question: What are the most frequently used vimdiff commands?](http://stackoverflow.com/questions/5288875/vimdiff-what-are-the-most-frequently-used-commands-shortcuts-that-could-get-a-n)
-* [amix's awesome .vimrc](http://amix.dk/vim/vimrc.html) (a huge default vimrc file with lots of goodies)
+* [amix's .vimrc](http://amix.dk/vim/vimrc.html) (a huge default vimrc file with lots of goodies)
 * [vimrc generator](http://vimrcgenerator.appspot.com/) (makes a simple/minimal vimrc with a nice GUI)
 
 
