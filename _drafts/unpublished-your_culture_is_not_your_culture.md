@@ -17,6 +17,10 @@ togetherness is already facilitated by your office space.
 
 communication is too important to ignore.
 
+
+>> It has a ‘big vision’, and people forgot about the details, and forgot about admitting when they went wrong.
+
+
 http://www.microsoft.com/en-us/about
 http://www.amazon.com/Values-Careers-Homepage/b?ie=UTF8&node=239365011
 http://www.google.com/about/company/philosophy/
