@@ -1,35 +1,46 @@
 ---
 layout: post
 title: Remember Mailto?
-published: false
 tags: article
 ---
 
->"How do I send this to my Mom..." she asked herself scrolling up and down the page; "...I can tweet or add it to pinterest," she sighed in resignation as opening a new tab and navigating all the way to the compose pane in gmail.
+>"How do I send this to my Mom..." she asked herself scrolling up and down the page; "...I can tweet or add it to pinterest," she sighed in resignation, opened a new tab, wrote 'gmail.com' and navigated all the way to the compose pane.
 
-There's a bit of debate about what to include to share your pages, but often the simplest form is forgotten.
-It's not hard to send an email, the issue is that it requires a plugin or an external email app.
-If you don't have either it will open an email app that just happens to be on your computer but not associated to any email account
-which is extra annoying. Firefox, Opera, and Chrome are supposed to take you to your web/e-mail provider; looks like IE is the ugly duckling yet again...
+There's a bit of debate about what to include when you want users to share your pages, but often the simplest form is forgotten.
+It's not hard to send an email, but it could be easier. This used to require a plugin or an external email app.
+If you didn't have either it would open any email app that just happens to be on your computer but probably not associated to any email account,
+which is super annoying. Firefox, Opera, and Chrome all reportedly to take you to your web-based e-mail provider; as of right now it looks like IE is the ugly duckling, again, but I always have high hopes for the future (which it may already be)...
 
-Anyhow... Back in the day we'd use the `mailto:` URI scheme to let users send us emails (uphill, both ways!) We'd make a link like
+Anyhow... Back in the day we'd use the `mailto:` URI scheme to let users send us emails (uphill! both ways! while fighting mastodons!) We'd type (by hand! into the cave wall!) a link like
 
     <a href="mailto:webmaster@example.com?subject=Hello&body=I%20like%20your%20site">
 
-but the mailto protocol is more versatile than that, You can do `cc` and `bcc` and even have multiple recipients by separating addresses with commas.
+
+and clicking that opened a new email, to `webmaster@example.com` with the subject
+`Hello` and a body of `I like your site` but the mailto protocol is more versatile
+than that,there's `cc` and `bcc` and multiple recipients by separating addresses with commas.
 
     mailto:user@example.com,user2@example.com?cc=user3@example.com&bcc=user4@example.com
 
-Since this is a URI it has to be URI encoded so: `%20` for space, `%3F` for question mark, and so on...
-(AFAIK iPhone is the only device to have a problem with this- urls in the body shouldn't be url encoded)
-Also, a `To` address is completely unneccessary! You're not going to know who to send it to now, are ya?
-So it's a short hop to making something like this
+
+But that assumes you know who you want to send the emain `To` which is
+impossible, even for [Kreskin][0], good thing it's not necessary. The protocol
+alone will suffice, but you should probably include a link, the title, maybe a
+byline or blurb. Watch out though, this is a URI so it generally has to be
+URI encoded so: `%20` for space, `%3F` for question mark, and so on.
 
     mailto:?subject=I%20thought%20you%20would%20like%20this&body=http://example.com/some/page
 
-So there you have it, a butt-simple way to share a page via email.
 
+URIs are already URI encoded so you don't have to do anything special to those.
+You may want to generate this server-side or via Javascript because on some
+versions of iPhone, the encoding may show up in the mail app and be all ugly.
 
 ##links:
 * [RFC-6068](http://www.ietf.org/rfc/rfc6068.txt)
 * [mailto generator](http://www.mailto.co.uk/)
+
+P.S. If you like this article you can always [send me an
+email ;)](mailto:me@jkirchartz.com?subject=Thanks%20For%20Reminding%20Me%20About%20Mailto&body=Can%20I%20have%20your%20autograph)
+
+[0] http://en.wikipedia.org/wiki/Kreskin

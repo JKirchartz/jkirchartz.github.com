@@ -21,8 +21,8 @@ editor.
 
 * type "vim" into the command line to create a new untitled file
 * type "vim /path/to/file.name" to open an existing file. (if the file doesn't exist, this creates it)
-* to open multiple files list them like `vim file1.txt file2.sh`
-    * you can switch to the next open file with the command `:bn`, or the previous one with `:bp`
+* to open multiple files list them like `vim file1.txt file2.sh` they're placed into buffers
+    * you can switch to the next open file with the command `:bn`, or the previous one with `:bp`, to move to the next or previous buffer.
     * to open in a split window `vim -o file.type file2.type file3.type` (lower case "o" for horizontal, uppercase for vertical split)
 * open a file & jump to a particular line with `vim +10 file.type` for the 10th line (`+` alone will jump to the end of the file)
 * You can run vim functions directly from the command line `vim +FunctionName +qall` (`qall` tries to quit all, but refers to the user to accept or reject changes made with a standard `:w`/`q!`)
@@ -89,6 +89,7 @@ I'm not sure how useful these are in gvim, but these should work if you're runni
 ###VIM tips
 
 * If the file is owned by root and you opened it as another user, you can escalate privileges and save with `:w !sudo tee %`
+* You can insert a file below the cursor with `:r /path/to/file.txt` or if you don't supply a file it will insert the current file below the cursor.
 * the delimiter when using `:s` doesn't have to be `/` you can try `%` or `\_` if you want to avoid fences like in `:s/\/usr\/local\/bin/\/common\/bin/` you can use `:s#/user/local/bin#/common/bin#`
 * unless you set a `equalprg` in your vimrc, you can auto-indent with `=`
     * to autoindent an entire file use `gg=G` (could have "unexpected" results) 
