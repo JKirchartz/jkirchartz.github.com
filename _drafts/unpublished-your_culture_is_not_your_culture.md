@@ -24,7 +24,7 @@ participate.
 "Innovation," you better innovate - nobody wants a carbon copy, you need to bring
 your own special mojo to the table. At least innovate with your process, perfect
 the method behind making your core product, file down the sharp edges and reduce
-internal friction. Ambition isn't stress, it's trying harder and personal
+internal friction. Ambition isn't stress, it's trying harder and experiencing individual
 growth.
 
 >> It has a ‘big vision’, and people forgot about the details, and forgot about admitting when they went wrong.
