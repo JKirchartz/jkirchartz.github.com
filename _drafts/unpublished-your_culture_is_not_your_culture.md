@@ -7,18 +7,30 @@ tags: article
 
 You work hard brainstorming your company values, hours of meetings, days of
 discussion, and finally you come up with a handful of things that define who
-you are (as a corporate person.) But are these values really the same thing that
-drives your company's growth, allowing it to flourish and bloom?
+you are (as a corporate person.) A list of words or concepts, but like really
+good, and deep, and meaningful ones, man! It's one thing to pay lip service to
+values, point at a sign on the wall, and say "This is what We are!" It's quite
+another to live these values.
 
-It's one thing to pay lip service to values, point at a sign on the wall, and
-say "This is what We are!" It's quite another to live these values and actually
-work together. You can say "We Work Together" and not actually collaborate,
-togetherness is already facilitated by your office space.
+You can say you value "Togetherness" and "Teamwork" but what do you mean?
+You're together in the same room, or under the same roof, or at least have the
+same person signing all your checks. You work together as a team to acheive a
+common goal, that's the nature of having a job. But what's the use of being
+"together" on a "team" if there's deficient communication? Communication isn't
+just calling a meeting to recite sales numbers, or the latest roadmap update,
+it's a two-way street where every member of the team is offered a chance to
+participate.
 
-communication is too important to ignore.
-
+"Innovation," you better innovate - nobody wants a carbon copy, you need to bring
+your own special mojo to the table. At least innovate with your process, perfect
+the method behind making your core product, file down the sharp edges and reduce
+internal friction. Ambition isn't stress, it's trying harder and personal
+growth.
 
 >> It has a ‘big vision’, and people forgot about the details, and forgot about admitting when they went wrong.
+
+>> Do the have a real mission and culture or just hedonism and homogeneity? Do
+>> they invest in an individual's growth, or just increase productivity?
 
 
 http://www.microsoft.com/en-us/about
