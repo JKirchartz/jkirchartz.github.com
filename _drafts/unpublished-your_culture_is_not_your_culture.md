@@ -36,6 +36,7 @@ talents and personalities. You can try to hire based on 'fit' or some semblance
 of who you are and who your employees should be - but when cultural fit is a
 large portion of your hiring criteria you're only going to get one type of employee.
 
+
 > Do the have a real mission and culture or just hedonism and homogeneity? Do
 > they invest in an individual's growth, or just increase productivity?
 
@@ -44,6 +45,8 @@ large portion of your hiring criteria you're only going to get one type of emplo
 > It has a ‘big vision’, and people forgot about the details, and forgot about admitting when they went wrong.
 
 
+
+http://www.usatoday.com/story/news/nation/2015/04/16/army-survey-morale/24897455/
 
 
 http://www.microsoft.com/en-us/about
