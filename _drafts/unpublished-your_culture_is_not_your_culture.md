@@ -32,11 +32,10 @@ you're doing the same exact thing you did two years ago and getting the similar
 results, you're not growing and certainly not innovating.
 
 Startups have a tendency to drink a lot of their own koolaide. It's easy to
-start believing your own hype while running around trying to convince people to
-grant you press exposure and investment money, but sometimes you wind up
-convincing your self. Then when one of your employees comes along with an idea
-that clashes with your corporate mythos this becomes a personal affront to your
-story.
+start believing your marketing pitch while running around trying to convince people to
+grant you press exposure and investment money. Then when one of your employees
+comes along with an idea that clashes with your corporate mythos this becomes
+a personal affront to your story. Are you drunk on your own hype?
 
 Try as you might to dictate your culture though, it's probably not going to
 work. Your company's culture is a conglomerate of each employee's individual
