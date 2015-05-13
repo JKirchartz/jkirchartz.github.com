@@ -45,6 +45,7 @@ that make writing code with your browser all sorts of easier:
 * [fiddlesalad.com](http://fiddlesalad.com/)
 * [htmlinstant.com](http://www.htmlinstant.com/)
 * [scratchpad.io](http://scratchpad.io/)
+* [babeljs.io/repl](https://babeljs.io/repl/);
 
 ##validators / cleaners
 

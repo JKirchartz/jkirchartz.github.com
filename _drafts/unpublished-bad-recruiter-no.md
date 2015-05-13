@@ -19,3 +19,9 @@ Here's some annoying shit recruiters need to stop doing:
 2. sending job descriptions completely unrelated to your resume
 3. Calling you, going to voicemail, then calling you back (possibly without 
    leaving a message)
+
+
+recruiters that border on spambots: 
+apex systems inc
+cybercoders
+tekskills inc
