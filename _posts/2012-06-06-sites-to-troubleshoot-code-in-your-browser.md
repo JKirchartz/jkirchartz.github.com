@@ -30,6 +30,10 @@ that make writing code with your browser all sorts of easier:
 
 \* these cover multiple languages
 
+##shell
+* [explainshell.com](http://explainshell.com)
+* [shellcheck.net](http://shellcheck.net)
+
 ##javascript / html / css
 
 * [codepen.io](http://codepen.io/)
