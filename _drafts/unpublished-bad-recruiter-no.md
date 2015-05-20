@@ -21,7 +21,10 @@ Here's some annoying shit recruiters need to stop doing:
    leaving a message)
 
 
-recruiters that border on spambots: 
+recruiters that border on spambots:
 apex systems inc
 cybercoders
 tekskills inc
+amtex enterprises < this is one of the worst, emailing about jobs not even 
+related to the content of the resume, if there's any word-match between the 
+resume and the job description you get an email
