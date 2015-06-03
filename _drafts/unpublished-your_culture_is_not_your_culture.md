@@ -21,7 +21,10 @@ goal, but that's the nature of having a job. But what's the use of being "togeth
 on a "team" if you don't communicate? Communication isn't just calling a meeting
 to recite sales numbers and give the latest roadmap update, it's a two-way
 street where every member of the team is offered a chance to participate, and
-individual contributions are recognized and respected.
+individual contributions are recognized and respected. If your workflow involves
+QA and code-review (oh please, for the love of all that is holy, be doing code reviews)
+and some bad code gets pushed to production, your CTO shouldn't be running
+around looking for one dev to blame, because that's a systemic failure.
 
 You say value "Innovation," you better. Nobody wants a carbon copy, you need to bring
 your own special mojo to the table. If you haven't found what makes you special

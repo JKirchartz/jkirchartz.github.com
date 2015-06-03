@@ -67,10 +67,11 @@ mod_redirect &amp; just about anything else, just [don't parse
 html](http://stackoverflow.com/a/1732454/276250).
 
 * [regex101.com](http://regex101.com)
+* [regexr.com](http://regexr.com/)
+* [regexplained](https://leaverou.github.io/regexplained/)
 * [rentzsch.github.com/JSRegexTeststand](http://rentzsch.github.com/JSRegexTeststand/)
 * [regexplanet.com](http://www.regexplanet.com/)
 * [regextester.com](http://www.regextester.com/)
-* [regexr.com](http://regexr.com/)
 * [rextester.com](http://rextester.com/)
 * [regexp.quaxio.com](http://regexp.quaxio.com/) (linter)
 * [htaccess.madewithlove.be](http://htaccess.madewithlove.be/)
