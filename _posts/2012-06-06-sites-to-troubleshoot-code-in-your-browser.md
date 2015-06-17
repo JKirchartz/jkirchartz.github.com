@@ -68,7 +68,9 @@ html](http://stackoverflow.com/a/1732454/276250).
 
 * [regex101.com](http://regex101.com)
 * [regexr.com](http://regexr.com/)
+* [regviz.org](http://regviz.org/) (regex visualizer)
 * [regexplained](https://leaverou.github.io/regexplained/)
+* [pyregex.com](http://pyregex.com/)
 * [rentzsch.github.com/JSRegexTeststand](http://rentzsch.github.com/JSRegexTeststand/)
 * [regexplanet.com](http://www.regexplanet.com/)
 * [regextester.com](http://www.regextester.com/)
