@@ -125,6 +125,7 @@ doing that lately, so look around. Also there's a very nice VIM Distribution nam
 * [usevim](http://usevim.com/)
 * [Today I Learned: vim](http://tilvim.com/)
 * [vim awesome](http://vimawesome.com/)
+* [The Patient Vimmer](http://romainl.github.io/the-patient-vimmer/)
 * [Michael's VIM Cheat-sheet](http://michael.peopleofhonoronly.com/vim/)
 * [Kendall's VIM Cheat-sheet](http://www.angelwatt.com/coding/notes/vim-commands.html)
 * [VIM Keyboard Cheat-sheet](http://walking-without-crutches.heroku.com/image/images/vi-vim-cheat-sheet.png)
