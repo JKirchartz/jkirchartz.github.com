@@ -125,6 +125,7 @@ doing that lately, so look around. Also there's a very nice VIM Distribution nam
 * [usevim](http://usevim.com/)
 * [Today I Learned: vim](http://tilvim.com/)
 * [vim awesome](http://vimawesome.com/)
+* [The Patient Vimmer](http://romainl.github.io/the-patient-vimmer/)
 * [Michael's VIM Cheat-sheet](http://michael.peopleofhonoronly.com/vim/)
 * [Kendall's VIM Cheat-sheet](http://www.angelwatt.com/coding/notes/vim-commands.html)
 * [VIM Keyboard Cheat-sheet](http://walking-without-crutches.heroku.com/image/images/vi-vim-cheat-sheet.png)
@@ -144,7 +145,7 @@ doing that lately, so look around. Also there's a very nice VIM Distribution nam
 * [shortcutFoo](https://www.shortcutfoo.com/) (Drills to learn your tools better)
 * [Stack Overflow Question: What is your most productive shortcut with Vim?](http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118)
 * [Stack Overflow Question: What are the most frequently used vimdiff commands?](http://stackoverflow.com/questions/5288875/vimdiff-what-are-the-most-frequently-used-commands-shortcuts-that-could-get-a-n)
-* [Stack Overflow Question: What simple vim commands do you wish you'd known earlier?]http://stackoverflow.com/questions/1276403/simple-vim-commands-you-wish-youd-known-earlier)
+* [Stack Overflow Question: What simple vim commands do you wish you'd known earlier?](http://stackoverflow.com/questions/1276403/simple-vim-commands-you-wish-youd-known-earlier)
 * [amix's .vimrc](http://amix.dk/vim/vimrc.html) (a huge default vimrc file with lots of goodies)
 * [vimrc generator](http://vimrcgenerator.appspot.com/) (makes a simple/minimal vimrc with a nice GUI)
 
