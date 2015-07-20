@@ -4,12 +4,12 @@ title: Remember Mailto?
 tags: article
 ---
 
->"How do I send this to my Mom..." she asked herself scrolling up and down the page; "...I can tweet or add it to pinterest," she sighed in resignation, opened a new tab, wrote 'gmail.com' and navigated all the way to the compose pane.
+>"How do I send this to my Mom..." she asked herself scrolling up and down the page; "...I can tweet or add it to pinterest," she sighed in resignation, opened a new tab, typed 'gmail.com' and navigated all the way to the compose pane.
 
 There's a bit of debate about what services to include when you want users to share your pages, but often the the original ultimate app is forgotten, Email.
 Sending an email isn't hard, but it could be easier. It used to require a plugin or an external email app; 
 If you didn't have either it would open any email app that just happens to be on your computer but probably not associated to any email account, and ask you to set it up.
-which was super annoying. Firefox, Opera, and Chrome all reportedly to take you to your web-based e-mail provider; as of right now it looks like IE is the ugly duckling, again, but I always have high hopes for the future (which it may already be)...
+(which was super annoying) Firefox, Opera, and Chrome all reportedly to take you to your web-based e-mail provider; as of right now it looks like IE is the ugly duckling, again, but I always have high hopes for the future (which it may have already occured).
 
 Anyhow... Back in the day we'd use the `mailto:` URI scheme to let users send us emails (uphill! both ways! while fighting mastodons!) We'd type (by hand! into the cave wall!) a link like
 
