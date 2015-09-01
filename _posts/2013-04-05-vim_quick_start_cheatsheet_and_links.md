@@ -148,5 +148,8 @@ doing that lately, so look around. Also there's a very nice VIM Distribution nam
 * [Stack Overflow Question: What simple vim commands do you wish you'd known earlier?](http://stackoverflow.com/questions/1276403/simple-vim-commands-you-wish-youd-known-earlier)
 * [amix's .vimrc](http://amix.dk/vim/vimrc.html) (a huge default vimrc file with lots of goodies)
 * [vimrc generator](http://vimrcgenerator.appspot.com/) (makes a simple/minimal vimrc with a nice GUI)
+* [Vim Regex Tutor](https://github.com/dahu/VimRegexTutor)
+* [Vim Regexes](http://andrewradev.com/2011/05/08/vim-regexes/)
+* [7 habits of effective text editing](http://www.moolenaar.net/habits.html)
 
 
