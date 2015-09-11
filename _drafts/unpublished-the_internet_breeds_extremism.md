@@ -23,3 +23,4 @@ Twitter has pitchforks and torches prepared for your convenience.
 http://www.washingtonpost.com/news/the-intersect/wp/2015/03/23/what-you-dont-know-about-internet-algorithms-is-hurting-you-and-you-probably-dont-know-very-much/?tid=sm_tw
 http://disinfo.com/2015/07/internet-making-people-mad-hell/
 https://www.commentarymagazine.com/article/the-timothy-hunt-witch-hunt/
+http://www.politico.eu/article/hungarian-camerawoman-i-was-scared-petra-laszlo-refugees-migrants-jobbik/
