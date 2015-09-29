@@ -12,21 +12,25 @@ but how do you know where they are?
 
 Turns out, cowsay will tell you if you pass the `-l` flag like so:
 
-
+{% highlight bash %}
     cowsay -l
+{% end highlight %}
 
 which outputs the directory, and a list of all available cowfiles - much simpler
 than using `find`. But if there's a list of cowfiles there, why bother using
 `ls` to get the directory listing? simply trim off the first line by piping to
 `sed`, and ask it to delete it
 
+{% highlight bash %}
     cowsay -l  | sed "1 d"
+{% end highlight %}
 
 now we've got a nice clean list to randomize; You could use `shuf`, or bash's
 built-in array-mangling utilities; for sake of portability, this script uses
 both:
 
 
+{% highlight bash %}
     #! /bin/bash
     if type shuf > /dev/null; then
       cowfile="$(cowsay -l | sed "1 d" | tr ' ' '\n' | shuf -n 1)"
@@ -35,11 +39,13 @@ both:
       cowfile=${cowfiles[$(($RANDOM % ${#cowfiles[*]}))]}
     fi
     cowsay -f "$cowfile"
+{% end highlight %}
 
 
 store that as a script (i.e. [`cowsay.sh`][2]), put it in your path, and soon you
 will find randomized cow bliss. check it out
 
+{% highlight bash %}
     fortune | cowsay.sh
 
 
