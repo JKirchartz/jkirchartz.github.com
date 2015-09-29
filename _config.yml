@@ -1,4 +1,5 @@
 permalink: /:year/:month/:title.html
+highlighter: pygments
 pygments: true
 safe: true
 paginate: 2
