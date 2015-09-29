@@ -2,6 +2,7 @@
 layout: post
 title: Randomize Cowsay Critters
 tags: article
+published: false
 ---
 
 [Cowsay][1] is a fun little app that draws a cow that says things, but you can do so
