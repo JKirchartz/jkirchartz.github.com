@@ -31,7 +31,7 @@ There are 4 different pages here, each offering their own unique take on the tas
 
 1. [Demo][23] will run each function against the original image once
 2. [Glitch Only][24] will apply a random set of glitches to the original image several times
-3. [Glitch Cruiser][25] When you upload an image it appears in the center surrounded by 8 glitchy alternatives. If one of these images suits your fancy, click on it and it will become the new source for the next round of glitches. If you do not like any of the suggested glitches, click on the center image, and you'll get the next 8 glitch options, but your source will not be changed. [Lena, and 8 possibilities](http://i.imgur.com/UFYhyOV.png)
+3. [Glitch Cruiser][25] When you upload an image it appears in the center surrounded by 8 glitchy alternatives. If one of these images suits your fancy, click on it and it will become the new source for the next round of glitches. If you do not like any of the suggested glitches, click on the center image, and you'll get the next 8 glitch options, but your source will not be changed. ![Lena, and 8 possibilities](http://i.imgur.com/UFYhyOV.png)
 4. [Glitch Chooser][26] this allows you to select functions from a drop-down list to apply to an image, you can either apply a tranformation, or reset it to the way it was before, you can even reset it to the original image. Unliked Glitch Cruiser, you won't be able to see the results of a function before selecting it, but you can replace the latest image transformation again and again until you can see your desired results.
 
 # Technical Notes
