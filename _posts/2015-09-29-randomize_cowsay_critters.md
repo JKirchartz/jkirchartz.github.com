@@ -14,7 +14,7 @@ Turns out, cowsay will tell you if you pass the `-l` flag like so:
 
 {% highlight bash %}
     cowsay -l
-{% end highlight %}
+{% endhighlight %}
 
 which outputs the directory, and a list of all available cowfiles - much simpler
 than using `find`. But if there's a list of cowfiles there, why bother using
@@ -23,7 +23,7 @@ than using `find`. But if there's a list of cowfiles there, why bother using
 
 {% highlight bash %}
     cowsay -l  | sed "1 d"
-{% end highlight %}
+{% endhighlight %}
 
 now we've got a nice clean list to randomize; You could use `shuf`, or bash's
 built-in array-mangling utilities; for sake of portability, this script uses
@@ -39,7 +39,7 @@ both:
       cowfile=${cowfiles[$(($RANDOM % ${#cowfiles[*]}))]}
     fi
     cowsay -f "$cowfile"
-{% end highlight %}
+{% endhighlight %}
 
 
 store that as a script (i.e. [`cowsay.sh`][2]), put it in your path, and soon you
