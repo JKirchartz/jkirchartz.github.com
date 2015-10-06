@@ -12,41 +12,42 @@ but how do you know where they are?
 
 Turns out, cowsay will tell you if you pass the `-l` flag like so:
 
-{% highlight bash %}
-    cowsay -l
-{% endhighlight %}
+```bash
+cowsay -l
+```
 
 which outputs the directory, and a list of all available cowfiles - much simpler
 than using `find`. But if there's a list of cowfiles there, why bother using
 `ls` to get the directory listing? simply trim off the first line by piping to
 `sed`, and ask it to delete it
 
-{% highlight bash %}
-    cowsay -l  | sed "1 d"
-{% endhighlight %}
+```bash
+cowsay -l  | sed "1 d"
+```
 
 now we've got a nice clean list to randomize; You could use `shuf`, or bash's
 built-in array-mangling utilities; for sake of portability, this script uses
 both:
 
 
-{% highlight bash %}
-    #! /bin/bash
-    if type shuf > /dev/null; then
-      cowfile="$(cowsay -l | sed "1 d" | tr ' ' '\n' | shuf -n 1)"
-    else
-      cowfiles=( $(cowsay -l | sed "1 d") );
-      cowfile=${cowfiles[$(($RANDOM % ${#cowfiles[*]}))]}
-    fi
-    cowsay -f "$cowfile"
-{% endhighlight %}
+```bash
+#! /bin/bash
+if type shuf > /dev/null; then
+  cowfile="$(cowsay -l | sed "1 d" | tr ' ' '\n' | shuf -n 1)"
+else
+  cowfiles=( $(cowsay -l | sed "1 d") );
+  cowfile=${cowfiles[$(($RANDOM % ${#cowfiles[*]}))]}
+fi
+cowsay -f "$cowfile"
+```
 
 
 store that as a script (i.e. [`cowsay.sh`][2]), put it in your path, and soon you
 will find randomized cow bliss. check it out
 
-{% highlight bash %}
+```bash
     fortune | cowsay.sh
+```
 
 
 
@@ -76,7 +77,7 @@ will find randomized cow bliss. check it out
 
 
 P.S. that `$RANDOM` bit looks familiar, where have I seen that before? oh yeah -
-it's the only functional part in [my "Oblique Strategies" script][3].
+it's the only functional part in ["my" Oblique Strategies script][3].
 
 [1]: http://cowsay.org/
 [2]: https://github.com/JKirchartz/dotfiles/blob/master/scripts/cowsay.sh
