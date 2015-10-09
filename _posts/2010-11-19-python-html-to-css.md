@@ -7,7 +7,7 @@ tags: python
 I surely couldn't have been the first to think of this, but wouldn't it be great if you could write your HTML, 
 then convert it to CSS? Yeah, I know they're not really the same, but the CSS has to be attached to something. 
 Why not pull it out and have a skeleton CSS file made for you? This short python script will read in HTML, and 
-spit out all the CSS selectors it can find. I plan on adding this to a larger project, so it's just a funtion and the call.
+spit out all the CSS selectors it can find. I plan on adding this to a larger project, so it's just a function and the call.
 
 <script src="https://gist.github.com/1118350.js"> 
 </script>

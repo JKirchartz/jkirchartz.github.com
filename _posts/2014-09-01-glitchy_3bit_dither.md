@@ -40,6 +40,7 @@ There are 4 different pages here, each offering their own unique take on the tas
 This array holds all the data for every pixel in the image, however it's stores 8-bit values, channel-by-channel instead of pixel-by-pixel, that is to say `Uint8ClampedArray` stores the image data like `[R,G,B,A,R,G,B,A,R,G...]`.
 This means that to deal with this array, you're going to have to increment the loop by 4, and handle the channel-values each time like this
 
+{% highlight javascript %}
     var Uint8Arr = imageData.data;
     for(var i = 0; i < Uint8Arr.length; i += 4){
         /* simple invert */
@@ -47,15 +48,18 @@ This means that to deal with this array, you're going to have to increment the l
         Uint8Arr[i+1] -= 255;
         Uint8Arr[i+2] -= 255;
     }
+{% endhighlight %}
 
 This is a slow &amp; tedious task, but there are other typed arrays, like `Uint32Array` which stores 32-bit values, converting an 8-bit array to a 32-bit array would cut the size of the array by a quarter.
 So Uint32Arrays store their data like `[RGBA, RGBA, RGBA, RGBA...`.
 
+{% highlight javascript %}
     var Uint32Arr = new Uint32Array(imageData.data.buffer);
     for(var i = 0; i < Uint32Arr.length; i++){
         /* bitwise invert */
         Uint32Arr[i] = ~Uint32Arr[i] | 0xFF000000;
     }
+{% endhighlight %}
 
 Here, a bitwise NOT (`~`) inverts the bits, and OR `|` applies a mask to keep the alpha channel at 100%.
 You may also notice that I'm using the `imageData.data.buffer` to make a 32-bit view of the 8-bit data, this means that you don't have to set the data back into the array, because it passes through to the original variable naturally.

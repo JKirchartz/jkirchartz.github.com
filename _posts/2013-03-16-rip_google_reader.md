@@ -55,3 +55,8 @@ Ultimately though I'm becoming disenfranchised with RSS feeds.
 They just pile up too much, and all serve the mentality of "you can't miss a thing." 
 I'm generally "behind" by at least 1000 posts, but I'd guestimate at least 90% of them aren't worth actually looking at twice.
 There's got to be a better way, but for now I'm not seeing a ready-made product that combats this pile-up.
+
+
+**update** I still don't pay too much attention to reading every post from every 
+feed, but I've been enjoying Feedly and have been using at part of my "Firehose 
+Technique" for internetting, which I plan to explain in an upcoming post
