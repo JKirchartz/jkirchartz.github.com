@@ -1,8 +1,11 @@
 permalink: /:year/:month/:title.html
-highlighter: pygments
-pygments: true
 safe: true
 paginate: 2
 markdown: rdiscount
+highlighter: pygments
+pygments: true
+syntax-highlighting:
+  enabled: true
+  css: css/syntax.css
 
 twitter: jkirchartz
