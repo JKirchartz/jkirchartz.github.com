@@ -7,11 +7,11 @@ tags: portfolio article art javascript
 I'd like to officially introduce my most ambitious pet project, [Glitchy 3bit Dither][1], it's an in-browser emulation of [glitch art][2] techniques.
 In the past I've tried my hand at circuit bending, creatively short-circuiting and modifying physical devices.
 I've even played with [more][3] [traditional][4] [glitches][5], but was inspired to create my own software to do so after seeing [rumblesan][6].
-His [cuttr][7] project glitches images found on tumblr and posts them to another [tumblog][8], .
-I quickly set out and created a [python script][9] using PIL to start glitching images from instagram. 
+His [cuttr][7] project glitches images from on tumblr and posts them to another [tumblog][8], .
+I quickly created a [python script][9] using PIL to start glitching images from instagram. 
 I started writing the tumblr code, but I didn't like the lack of control, and I didn't really want to make a rumblesan clone.
 Besides, how can you create art without the artist's input? After seeing [caman.js][10]\*, I knew I could do it in javascript, thanks to [canvas][11].
-During my research I found [3bitdither][12], forked it, and set out to [bend it to my will][13].
+During my research I discovered [3bitdither][12], forked it, and [bent it to my will][13].
 
 # Glitches
 
