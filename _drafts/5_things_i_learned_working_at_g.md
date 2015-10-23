@@ -28,7 +28,10 @@ another TVC would ask if we were allowed to be there, my only
 response: "Let's see if they kick us out." -- and we never were -- although 
 there was always the awkward feeling like we were about to be...
 
-#3.
+#3. Nobody knows anything
+Think your teammates or superiors know what they want or what they're talking 
+about? Nope. Nobody knows anything; no matter how many meetings or how good you  
+are at communicating, knowledge is impossible.
 
 #2. All meetings need an Agenda
 Gers are diligent at creating an agenda for a meeting, where anybody could 
