@@ -12,7 +12,7 @@ In honor of my time at G, which is ending during peak listicle season, Here are
 Blue, Red, Yellow, Green, Black, White -- if you see a color that's not one of 
 these, chances are it's not at G. Any lableling system there was 
 limited to this group of colors, which makes sense, because it's their brand. The 
-brand is strong.
+brand is strong. Like, scary strong.
 
 
 #4. The Caste System is everywhere
@@ -28,10 +28,13 @@ another TVC would ask if we were allowed to be there, my only
 response: "Let's see if they kick us out." -- and we never were -- although 
 there was always the awkward feeling like we were about to be...
 
-#3. Nobody knows anything
+#3. Nobody knows anything until it's too late
 Think your teammates or superiors know what they want or what they're talking 
 about? Nope. Nobody knows anything; no matter how many meetings or how good you  
-are at communicating, knowledge is impossible.
+are at communicating, knowledge is impossible. You can't write good tests 
+without good test data; but you can't get good test data until something is live 
+in production, at which point it's too late and you have to rush to fix the 
+issues nobody could foresee.
 
 #2. All meetings need an Agenda
 Gers are diligent at creating an agenda for a meeting, where anybody could 
@@ -43,9 +46,9 @@ you'd realize.)
 
 #1. G has no Magic Mojo
 G is exactly like every other company on the planet; They don't have any 
-magic mojo to prevent problems with clients and communication, they just have 
-all the resources they could ever want, and they send wave after wave of workers
-to hack their way through the product until it works well enough for public 
-consumption. Their only real power is cold hard cash, enough that they can do 
-whatever they want and let failure roll off their backs.
+magic mojo to prevent problems with clients, communication, or workflow. They
+just have all the resources they could ever want, and they send wave after wave
+of workers to hack their way through the product until it works well enough for
+public consumption. Their only real power is cold hard cash, enough that they
+can do anything they could possible conceive  and let failure roll off their backs.
 
