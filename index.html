@@ -30,8 +30,8 @@ layout: base
              var toTop = document.getElementById('toTop');
              toTop.onclick = function(e){
                  e.preventDefault();
-                 function scroller(){ 
-                     window.scrollBy(0,-50); 
+                 function scroller(){
+                     window.scrollBy(0,-50);
                      if(window.pageYOffset === 0){
                          clearInterval(repeater);
                      }

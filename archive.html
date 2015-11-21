@@ -9,8 +9,17 @@ title: archive
             {% if post.redirect %}
             {% else %}
             <li>
-                {% include time.html %}
-                <a href="{{ post.url | downcase }}">{{ post.title }}</a>
+              <a href="{{ post.url | downcase }}">
+                {% if page.date %}
+                  <time datetime="{{ page.date | date_to_xmlschema }}">
+                          {{ page.date  | date: "%Y/%m" }}:
+                  </time>
+                {% else %}
+                  <time datetime="{{ post.date | date_to_xmlschema }}">
+                          {{ post.date  | date: "%Y/%m" }}:
+                  </time>
+                {% endif %}
+                {{ post.title }}</a>
             </li>
         {% endif %}
         {% endfor %}

@@ -21,36 +21,16 @@ html {
   width:100%;
   height:100%;
   overflow:auto;
-  background: #130f30;
-  background-image: radial-gradient(#b0e0e0 0%,transparent 11%, transparent 0),
-                    radial-gradient(#130f30 0%,transparent 17%, transparent 0),
-                    radial-gradient(#309090 0%,transparent 31%, transparent 0),
-                    radial-gradient(#130f30 0%,transparent 59%, transparent 0),
-                    radial-gradient(#b0e0e0 0%,transparent 61%, transparent 0),
-                    radial-gradient(#309090 0%,transparent 47%, transparent 0),
-                    radial-gradient(#130f30 0%,transparent 31%, transparent 0),
-                    radial-gradient(#b0e0e0 0%,transparent 11%, transparent 0),
-                    radial-gradient(#309090 0%,transparent 19%, transparent 0);
-  background-size:393px 259px,
-                  509px 509px,
-                  281px 127px,
-                  103px 251px,
-                  359px 313px,
-                  281px 167px,
-                  311px 373px,
-                  269px 383px,
-                  397px 397px;
-  background-position: 0 0,
-                       191px 191px,
-                       311px 311px,
-                       509px 509px,
-                       191px 191px,
-                       311px 311px,
-                       509px 509px;
+  background-color: #130f30;
+  background-image:radial-gradient(#309090 0%, transparent 40%, transparent 0),radial-gradient(#130f30 0%, transparent 51%, transparent 0),radial-gradient(#b0e0e0 0%, transparent 21%, transparent 0),radial-gradient(#309090 0%, transparent 51%, transparent 0),radial-gradient(#130f30 0%, transparent 20%, transparent 0),radial-gradient(#b0e0e0 0%, transparent 30%, transparent 0),radial-gradient(#309090 0%, transparent 54%, transparent 0),radial-gradient(#130f30 0%, transparent 53%, transparent 0),radial-gradient(#b0e0e0 0%, transparent 26%, transparent 0),radial-gradient(#309090 0%, transparent 14%, transparent 0),radial-gradient(#130f30 0%, transparent 28%, transparent 0),radial-gradient(#b0e0e0 0%, transparent 59%, transparent 0),radial-gradient(#309090 0%, transparent 17%, transparent 0),radial-gradient(#130f30 0%, transparent 54%, transparent 0),radial-gradient(#b0e0e0 0%, transparent 34%, transparent 0),radial-gradient(#309090 0%, transparent 58%, transparent 0),radial-gradient(#130f30 0%, transparent 32%, transparent 0),radial-gradient(#b0e0e0 0%, transparent 13%, transparent 0),radial-gradient(#309090 0%, transparent 36%, transparent 0),radial-gradient(#130f30 0%, transparent 48%, transparent 0),radial-gradient(#b0e0e0 0%, transparent 37%, transparent 0),radial-gradient(#309090 0%, transparent 13%, transparent 0),radial-gradient(#130f30 0%, transparent 43%, transparent 0),radial-gradient(#b0e0e0 0%, transparent 28%, transparent 0);
+  background-size:1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px;
+  background-position:1097px 1097px,494px 260px,1120px 261px,812px 224px,920px 12px,1248px 1248px,1369px 1369px,320px 320px,1356px 1356px,444px 168px,418px 25px,212px 212px,912px 912px,922px 184px,240px 128px,1112px 1112px,293px 293px,1397px 1397px,777px 103px,1020px 63px,1155px 1155px,169px 47px,293px 293px,97px 31px;
 }
 
 body {
-  font: 112.5%/1.5 "Hoefler Text", Constantia, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-size: 112.5%;
+  font-family: "Hoefler Text", Constantia, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  line-height: 1.5;
   color: #333;
   padding: 0;
   margin: 0;
@@ -59,17 +39,25 @@ body {
 a {
   font-size:1em;
   color: #369;
+  color:#130f30;
   text-decoration:none;
 }
 
 a:hover {
   color: #31277C;
   padding-bottom:0.05em;
-  background: linear-gradient(rgba(66,66,66,0.75), rgba(66,66,66,0.75)) no-repeat;
-  background-size: 100% 1px;
-  background-position: 0 1.15em;
 }
 
+article a {
+  background: linear-gradient(rgba(66,66,66,0.75), transparent) no-repeat;
+  background-size: 100% 0.05em;
+  background-position: 0 1.13em;
+  text-shadow: 0.07em 0 #DEE, -0.07em 0 #DEE;
+}
+article a:hover {
+  background-image: linear-gradient(rgba(88,88,88,1), rgba(88,88,88,1)) no-repeat;
+  text-shadow: 0.07em 0 #DEE, -0.07em 0 #DEE;
+}
 #canvas {
   width:100%;
   height:100%;
@@ -86,7 +74,7 @@ a:hover {
 }
 
 article, .archive {
-  background: rgba(255,255,255,0.7);
+  background: #DEE;
   border-radius:0.15em;
   margin: 5em 0;
   padding: 1em;
@@ -98,9 +86,9 @@ h1 { font-size:2.11538em; padding:1rem 0 1.73177rem; }
 h2 { font-size:1.61538em; padding:1.57136rem 0 1rem; }
 h3 { font-size:1.30769em; padding:1.54418rem 0 1rem; }
 h1 a, h2 a, h3 a {
-  color:#130f30;
   border:none;
   text-decoration:none;
+  background-position: 0 1.08em;
 }
 #idl_alert{
   position: absolute!important;
@@ -136,13 +124,7 @@ header span {
 nav a {
   color:#130f30;
   background: #b0e0e0;
-  background-image: -moz-linear-gradient(-45deg, #b0e0e0 0%, #b0e0e0 50%, #309090 100%);
-  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#b0e0e0), color-stop(50%,#b0e0e0), color-stop(100%,#309090));
-  background-image: -webkit-linear-gradient(-45deg, #b0e0e0 0%,#b0e0e0 50%,#309090 100%);
-  background-image: -o-linear-gradient(-45deg, #b0e0e0 0%,#b0e0e0 50%,#309090 100%);
-  background-image: -ms-linear-gradient(-45deg, #b0e0e0 0%,#b0e0e0 50%,#309090 100%);
   background-image: linear-gradient(135deg, #b0e0e0 0%,#b0e0e0 50%,#309090 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0e0e0', endColorstr='#309090',GradientType=1 );
   background-position: 50px 0;
   background-repeat: no-repeat;
   border: #309090 solid 1px;
@@ -159,44 +141,38 @@ nav a:hover {
   background-position: 0 0;
   padding:0.5em;
   text-decoration:none;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 .pagination {
+  color:#EEE;
+  font-size:2em;
+  line-height:0;
   text-align:center;
-  font-size:1.3em;
-  line-height:2.5;
 }
 .pagination a, .pagination span {
   display:inline-block;
-  background:#dee;
-  border-radius: 100%;
-  margin: 0 0 4em 0;
-  box-shadow: 0.2em 0.2em 0.5em 0.1em #344;
-}
-.pagination a {
-  margin: 0 auto;
-  height: 2em;
-  width: 2em;
-  border-radius: 1.5em;
-  line-height: 2em;
-  border: 1px solid #333;
+  color:inherit;
+  background:none;
+  padding: 1em;
   text-decoration:none;
-  border:none;
+  text-align:center;
 }
 .pagination a:hover {
-  color:#EEE;
-  background:#333;
+  color:#DEE;
+  text-shadow: 0 0 4px #000,
+               0 0 1em #FFF,
+               0 0 0.5em #FFF;
+               /*
+  background-repeat: no-repeat;
+  background-image: radial-gradient(transparent 0, transparent 40%, white 45%, white 55%, transparent 60%);
+  background-size:2em 2em;
+  background-position:top calc(50% + 5px) right calc(50% + 5px);
+  background-clip:none;
   padding:0;
 }
-.pagination span {
-  background:#dee;
-  padding:0.5em;
-  border-radius: 100%;
-  margin: 0 0 4em 0;
-  box-shadow: 0.2em 0.2em 0.5em 0.1em #344;
+.pagination #toTop {
+  background-position:top calc(50% + 5px) right 50%;
+  */
 }
 p img {
   display:block;
@@ -312,6 +288,11 @@ time {
   color:#eee;
   text-shadow: 0 0 5px #333, 1px 1px 0 #000;
 }
+.archive time {
+  margin: 0 1em 0 0;
+  text-shadow:none;
+  color:inherit;
+}
 .day, .month, .year {
   padding:0.5em 1em;
   margin:0;
@@ -394,13 +375,6 @@ time {
   right: 0;
   bottom: 0;
 }
-.archive a {
-  display:block;
-  text-align:center;
-  font-size:2em;
-  text-decoration:none;
-  border:none;
-}
 .highlight, .gist, article iframe{
   display:block;
   margin:1em;
@@ -423,18 +397,18 @@ footer {
   z-index:5;
 }
 footer #social_media {
-  width:60%;
+  width:50%;
   display:inline-block;
 }
 footer #license {
-  width:40%;
+  width:25%;
   display:inline-block;
 }
 footer #affiliations {
   border:1px solid #3f3f3f;
   border-radius:0.5em;
   background:#fff;
-  display:table;
+  display:inline-block;
   margin:0 auto;
 }
 footer #affiliations li {
@@ -453,6 +427,7 @@ footer li {
 .share_buttons { text-align:center; }
 .share_buttons a, .share_buttons a:hover, footer ul li a, footer ul li a:hover {
   border:none;
+  background:none;
   text-decoration:none;
   box-shadow: none;
 }
