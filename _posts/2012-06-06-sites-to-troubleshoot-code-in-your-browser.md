@@ -5,13 +5,13 @@ permalink: "/2012/06/sites-to-troubleshoot-code-in-your-browser.html"
 tags: article html javascript regex
 ---
 
-[StackOverflow](http://stackoverflow.com/) is an awesome community, devs 
-helping devs become better devs, it's nice. More often than not, solving these 
-problems will require setting up a test somewhere, for javascript that's easy 
-just use [jsfiddle](http://jsfiddle.net/), but other languages you might have 
+[StackOverflow](http://stackoverflow.com/) is an awesome community, devs
+helping devs become better devs, it's nice. More often than not, solving these
+problems will require setting up a test somewhere, for javascript that's easy
+just use [jsfiddle](http://jsfiddle.net/), but other languages you might have
 some work to do. I often hear my fellow dev's asking "Is there a JSFiddle for&hellip;"
 almost any programing language. Well, friend, here's my list of sites and sandboxes
-that make writing code with your browser all sorts of easier:
+that make writing code with your browser all sorts of easier<!--more-->:
 
 
 ##server-side / programming languages
@@ -129,5 +129,5 @@ Other interesting things that don't fit above.
 
 Ivan Zuzak has compiled another list of online tools that might be helpful, check out [The Web engineer's online toolbox](http://ivanzuzak.info/2012/11/18/the-web-engineers-online-toolbox.html).
 
-**update 3:** My blog now runs on Jekyll/Github, to add to the listi just fork &amp; make a pull request! 
+**update 3:** My blog now runs on Jekyll/Github, to add to the list you can fork &amp; make a pull request!
 

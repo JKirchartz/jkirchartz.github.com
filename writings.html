@@ -1,9 +1,9 @@
 ---
 layout: base
-title: archive
+title: Writings
 ---
 <div class="archive">
-    <h2>Archive</h2>
+    <h2>Writings</h2>
     <ul>
         {% for post in site.posts %}
             {% if post.redirect %}
@@ -12,14 +12,15 @@ title: archive
               <a href="{{ post.url | downcase }}">
                 {% if page.date %}
                   <time datetime="{{ page.date | date_to_xmlschema }}">
-                          {{ page.date  | date: "%Y/%m" }}:
+                          {{ page.date  | date: "%m/%Y" }}:
                   </time>
                 {% else %}
                   <time datetime="{{ post.date | date_to_xmlschema }}">
-                          {{ post.date  | date: "%Y/%m" }}:
+                          {{ post.date  | date: "%m/%Y" }}:
                   </time>
                 {% endif %}
                 {{ post.title }}</a>
+                <p>{{ post.excerpt | strip_html }}&hellip; <a href="{{ post.url | downcase }}">read more</a></p>
             </li>
         {% endif %}
         {% endfor %}

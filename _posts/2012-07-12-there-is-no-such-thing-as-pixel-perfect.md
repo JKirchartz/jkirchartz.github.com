@@ -4,8 +4,8 @@ title: "There is no such thing as pixel-perfect web design"
 tags: article
 ---
 
-There, I said it. Now get the phrase out of your head, it doesn't exist, please stop trying. 
-Far too often you'll hear some paraphrasing of the complaint "But it doesn't look like it did in Photoshop" 
+There, I said it. Now get the phrase out of your head, it doesn't exist, please stop trying. <!--more-->
+Far too often you'll hear some paraphrasing of the complaint "But it doesn't look like it did in Photoshop"
 
 ##  Well, Why not?
 
@@ -58,11 +58,11 @@ cats](https://www.youtube.com/watch?v=Pk7yqlTMvp8).
 
 > For me, “ideal” on the web isn’t about pixel-perfection anymore, but about
 > seeking the most pragmatic approach to balancing different kinds of content
-> with an ever-increasing number of screen sizes and resolutions. 
+> with an ever-increasing number of screen sizes and resolutions.
 
 &mdash; [Trent Walton](http://trentwalton.com/2012/06/19/fluid-type/)
 
-> A pixel is not a pixel. There are different kind of pixels: CSS pixels, density independent pixels and device pixels. 
+> A pixel is not a pixel. There are different kind of pixels: CSS pixels, density independent pixels and device pixels.
 
 &mdash; [Peter-Paul Koch](http://twitter.com/smashingmag/status/253785972377010176)
 

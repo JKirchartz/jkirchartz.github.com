@@ -12,16 +12,13 @@
         <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     </head>
     <body>
-
-        <div id="main" >
-            <header>
-                <h1><a href="/">JKirchartz</a></h1>
-                <span>Web Monkey n'at</span>
-                {% include navigation.html %}
-            </header>
+        <div id="landing" >
             {{ content }}
+        <footer>
+          {% include navigation.html %}
+          {% include social_media.html %}
+        </footer>
         </div>
-        {% include footer.html %}
         {% include scripts.html %}
     </body>
 </html>

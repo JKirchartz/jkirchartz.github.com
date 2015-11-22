@@ -4,17 +4,15 @@ title: The Great Internet Migratory Box Of Electronics Junk
 tags: hacks article
 ---
 
+[The Great Internet Migratory Box Of Electronics
+Junk](http://tgimboej.org/) is a project that allows hackers &amp; makers to share
+some electronics/components with each other. There's a ton of these things
+going around, but it seems like they move quite slowly.<!--more--> 
+
 ![](http://i.imgur.com/N7zS1ug.jpg)
 
-
-If you didn't know [The Great Internet Migratory Box Of Electronics
-Junk](http://tgimboej.org/) is a project that allows hackers & makers to share
-some electronics/components with each other. There's a ton of these things
-going around, but it seems like they move quite slowly.
-
-
  I received the box code-named [_Baltimore
-Bazaar_](http://tgimboej.org/Box_Code:_Baltimore_Bazaar) a few days ago &
+Bazaar_](http://tgimboej.org/Box_Code:_Baltimore_Bazaar) a few days ago &amp;
 busted it open immediately; nothing really caught my eye in there, a few
 motors, a battery charger and a bunch of small components EVERYWHERE. I had to
 pick a bunch of capacitors and screws out of one of the motors I decided to

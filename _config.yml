@@ -6,5 +6,6 @@ syntax-highlighting:
   enabled: true
   css: css/syntax.css
 paginate: 2
+excerpt_separator: <!--more-->
 twitter: jkirchartz
 gems: [jekyll-paginate]

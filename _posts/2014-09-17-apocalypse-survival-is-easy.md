@@ -5,11 +5,12 @@ tags: portfolio jquery wikipedia
 ---
 
 
-I'm suprized at how easy it is to survive the end-times as predicted by mediums, prophets, clergy, mathemeticians, charlatans, and true-believers.
+I'm suprized at how easy it is to survive the end-times as predicted by mediums, prophets, clergy, mathemeticians, charlatans, and true-believers.<!--more-->
 In 2012, it was the Mayan Calendar Doomsday predictions, which were ignored - and later denounced - especially by Mayans.
 In 2011, it was Harold Camping predicting first May 21st, and when that fell through October 21st, would be the end-times of [Revelations][4].
-In ancient Rome there was a prophecy that 12 eagles revealed to Romulus the lifespan of Rome. 
+In ancient Rome there was a prophecy that 12 eagles revealed to Romulus the lifespan of Rome.
 Some believed each eagle to represent 10 years, bringing the end in 634 BCE; others that the eagles represented days in a year setting the end in 389 BCE.
+Neither one were even close to being correct, [Rome and the Roman Empire didn't fall until the 400's CE.][5]
 These sorts of predictions are occasionally popular in some circles but so far have never come true.
 Some people are unduly distressed when they find themselves soon to be facing the end of the universe as we know it in a massive cosmic event, so I've decided to try and quell their fears.
 Maybe knowing you've likely survived a dozen or more moments of universal doom will also give you solace, knowing that the next time the world faces the final judgement won't be the last.
@@ -26,3 +27,4 @@ It stores this data locally on initial load, and loads it from the local on subs
 [2]: https://en.wikipedia.org/wiki/List_of_dates_predicted_for_apocalyptic_events
 [3]: https://github.com/JKirchartz/demos/blob/gh-pages/How_Many_Apocalypses_Have_I_Survived.html
 [4]: https://en.wikipedia.org/wiki/Book_of_Revelation#Outline
+[5]: https://en.wikipedia.org/wiki/Fall_of_Rome

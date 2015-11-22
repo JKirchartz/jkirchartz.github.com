@@ -6,7 +6,7 @@ tags: article
 
 [Cowsay][1] is a fun little app that draws a cow that says things, but you can do so
 much more than a cow, there's all sorts of fun ascii art critters in there; but
-how do we get to them? Lots of solutions simply find the directory where
+how do we get to them? <!--more--> Lots of solutions simply find the directory where
 cowfiles (the templates that define the critters) are stored and hard-code that;
 but how do you know where they are?
 

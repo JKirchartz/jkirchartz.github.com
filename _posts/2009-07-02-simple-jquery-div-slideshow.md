@@ -4,7 +4,7 @@ title: "Code: Simple JQuery Div Slideshow"
 tags: Javascript jQuery
 ---
 
-Here's a super-simple DIV slideshow with JQuery based on one for prototype/scriptaculous, it can be found <a href="http://snippets.dzone.com/posts/show/1068">here</a>. The beauty is that it can contain anything 
+Here's a super-simple DIV slideshow with JQuery based on one for prototype/scriptaculous, it can be found <a href="http://snippets.dzone.com/posts/show/1068">here</a>. The beauty is that it can contain anything  <!--more-->
 a div can. I've been using it for just a single image link, but you can put anything in there. Here's the HTML:
 
 {% highlight html %}

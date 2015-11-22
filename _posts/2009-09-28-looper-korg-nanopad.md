@@ -4,12 +4,9 @@ layout: post
 tags: music
 ---
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/7qpUFDoNBHs" frameborder="0">
-</iframe>
-
 The music of [Yoav](http://www.yoavmusic.com/) is heavily loop based, due to
 the fact that every sound is either produced by his guitar or his voice. To
-accomplish this he has several looping delay pedals; In some of [his videos on
+accomplish this he has several looping delay pedals<!--more-->; In some of [his videos on
 youtube](http://www.youtube.com/user/Yoavmusic) you can clearly see the [Boss
 RC-20XL](http://www.bosscorp.co.jp/products/en/RC-20XL/). These pedals are fun
 to play with because you can loop and overdub anything placed into the input,
@@ -18,6 +15,8 @@ then improvise over the loop creating nearly any sound possible. Recently
 multiple loopers with live, but their instructions are a little unclear unless
 you're familiar with Live.
 
+<iframe width="420" height="315" src="http://www.youtube.com/embed/7qpUFDoNBHs" frameborder="0">
+</iframe>
 
 Over the weekend I've experimented and played around a lot and produced this
 Live 8 set, and nanoPAD preset. I don't suggest using the nanoPAD with your

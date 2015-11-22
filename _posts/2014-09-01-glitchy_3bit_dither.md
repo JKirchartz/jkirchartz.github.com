@@ -4,7 +4,7 @@ title: Glitchy 3bit dither
 tags: portfolio article art javascript
 ---
 
-I'd like to officially introduce my most ambitious pet project, [Glitchy 3bit Dither][1], it's an in-browser emulation of [glitch art][2] techniques.
+I'd like to officially introduce my most ambitious pet project, [Glitchy 3bit Dither][1], it's an in-browser emulation of [glitch art][2] techniques.<!--more-->
 In the past I've tried my hand at circuit bending, creatively short-circuiting and modifying physical devices.
 I've even played with [more][3] [traditional][4] [glitches][5], but was inspired to create my own software to do so after seeing [rumblesan][6].
 His [cuttr][7] project glitches images from on tumblr and posts them to another [tumblog][8], .

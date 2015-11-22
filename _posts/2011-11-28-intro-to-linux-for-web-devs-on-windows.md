@@ -5,7 +5,7 @@ tags: tutorial
 ---
 
 I've been spending a lot of time using the linux CLI lately, and I know it can
-seem difficult at first. When I started with computers everything ran off the
+seem difficult at first. <!--more--> When I started with computers everything ran off the
 CLI and nobody got all freaked out, that was back before color monitors, now
 we have color monitors in our pockets so don't worry, it's not that hard, you
 can do this.
@@ -25,7 +25,7 @@ docs](http://the.earth.li/~sgtatham/putty/0.61/htmldoc/).
 
 ## Getting Around:
 
-On windows you can list folders and directories like `C:/Program Files/` or 
+On windows you can list folders and directories like `C:/Program Files/` or
 `` C:\Program Files\ ``, on linux it's `/var/www/html` (for apache's default html
 directory), so linux is /-only, where windows doesn't care if you use / or \.
 
@@ -52,7 +52,7 @@ could try there too.
 Here's a quick reference of commands for moving around:
 
 * `pwd` = display current directory path (Print Working Directory)
-* `ls` = list files, you can add flags to see more info on each file, I like to use `ls -alF` (LiSt) 
+* `ls` = list files, you can add flags to see more info on each file, I like to use `ls -alF` (LiSt)
 * `cd` = change directory, use `cd ../` to move up one directory, or `cd /var/www/html` to move to an entirely different directory (Change Directory)
 
 for more on these, check the wikipedia pages for
@@ -62,13 +62,14 @@ for more on these, check the wikipedia pages for
 
 ## Editing Text-based files:
 
-[My favorite is VIM](/2013/04/vim_quick_start_cheatsheet_and_links.html), so to try it out simply type `vim` into the
-command line to create a new file and lets go. Notice that typing isn't
+[My favorite is VIM](/2013/04/vim_quick_start_cheatsheet_and_links.html), so to try it out type `vim` into the
+command line to open it and lets go. Notice that typing isn't
 changing anything? yeah, vim has input mode and command mode, and you start in
 command mode. So hit `i` to switch from command mode to input mode and you can
 finally start typing, to get back to control mode hit `esc`, and to save and
 quit (from command mode) use `:wq`; to quit immediately without saving use
-`:q!`. Vim is super powerful but this switching thing is radically different than most windows-based 
+`:q!`. To open an existing file use `vim filename.ext`, where `filename.ext` is the path to the filename and it's extension.
+Vim is super powerful but this switching thing is radically different than most windows-based
 text editors. The [learning curve is steep](http://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/), but worth it.
 There have been books written about using VIM, it's a
 huge entity unto itself to [learn more about VIM](http://www.vim.org/docs.php)
@@ -76,12 +77,12 @@ try [their docs](http://www.vim.org/docs.php) or check out this nice [VIM
 Cheat-sheet](http://michael.peopleofhonoronly.com/vim/).
 
 Lets use something simpler for now: [nano](http://www.nano-editor.org/). type
-in `nano` at the command line to open a new file, start typing you're already
-in input mode, and there's a UI so it tells you what commands are available,
+in `nano` at the command line to open it, start typing you're already
+in input mode, because there are no modes, and there's a UI so it tells you what commands are available,
 but there's much more than meets the eye. To open an existing file use `nano
 filename.ext` at the command line
 
-Unlike VIM nano doesn't have code-highlighting by default so to set this up
+Unlike VIM, nano doesn't have code-highlighting by default so to set this up
 you have to edit `/etc/nanorc`, so type `nano /etc/nanorc` at the command line
 the section we're looking for starts on line 240, so hit `ctrl+/` and type
 `240` hit enter and you'll see a list of nanorc files, erase the # before each

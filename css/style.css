@@ -17,11 +17,14 @@ ol,ul {
   list-style:none;
 }
 iframe { margin:0 }
+html, body {
+  margin:0; padding:0;
+  width:100%; height:100%;
+}
 html {
-  width:100%;
-  height:100%;
   overflow:auto;
   background-color: #130f30;
+  background-repeat:repeat;
   background-image:radial-gradient(#309090 0%, transparent 40%, transparent 0),radial-gradient(#130f30 0%, transparent 51%, transparent 0),radial-gradient(#b0e0e0 0%, transparent 21%, transparent 0),radial-gradient(#309090 0%, transparent 51%, transparent 0),radial-gradient(#130f30 0%, transparent 20%, transparent 0),radial-gradient(#b0e0e0 0%, transparent 30%, transparent 0),radial-gradient(#309090 0%, transparent 54%, transparent 0),radial-gradient(#130f30 0%, transparent 53%, transparent 0),radial-gradient(#b0e0e0 0%, transparent 26%, transparent 0),radial-gradient(#309090 0%, transparent 14%, transparent 0),radial-gradient(#130f30 0%, transparent 28%, transparent 0),radial-gradient(#b0e0e0 0%, transparent 59%, transparent 0),radial-gradient(#309090 0%, transparent 17%, transparent 0),radial-gradient(#130f30 0%, transparent 54%, transparent 0),radial-gradient(#b0e0e0 0%, transparent 34%, transparent 0),radial-gradient(#309090 0%, transparent 58%, transparent 0),radial-gradient(#130f30 0%, transparent 32%, transparent 0),radial-gradient(#b0e0e0 0%, transparent 13%, transparent 0),radial-gradient(#309090 0%, transparent 36%, transparent 0),radial-gradient(#130f30 0%, transparent 48%, transparent 0),radial-gradient(#b0e0e0 0%, transparent 37%, transparent 0),radial-gradient(#309090 0%, transparent 13%, transparent 0),radial-gradient(#130f30 0%, transparent 43%, transparent 0),radial-gradient(#b0e0e0 0%, transparent 28%, transparent 0);
   background-size:1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px,1366px 269px;
   background-position:1097px 1097px,494px 260px,1120px 261px,812px 224px,920px 12px,1248px 1248px,1369px 1369px,320px 320px,1356px 1356px,444px 168px,418px 25px,212px 212px,912px 912px,922px 184px,240px 128px,1112px 1112px,293px 293px,1397px 1397px,777px 103px,1020px 63px,1155px 1155px,169px 47px,293px 293px,97px 31px;
@@ -32,8 +35,6 @@ body {
   font-family: "Hoefler Text", Constantia, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
   line-height: 1.5;
   color: #333;
-  padding: 0;
-  margin: 0;
 }
 
 a {
@@ -58,20 +59,20 @@ article a:hover {
   background-image: linear-gradient(rgba(88,88,88,1), rgba(88,88,88,1)) no-repeat;
   text-shadow: 0.07em 0 #DEE, -0.07em 0 #DEE;
 }
-#canvas {
-  width:100%;
-  height:100%;
-  position:fixed;
-  top:0;
-  left:0;
-  z-index:0;
-}
-#main {
-  position:relative;
-  z-index:10;
+#main, #landing {
   max-width:58em;
   margin: 0 auto;
 }
+#landing p {
+  color: white;
+  font-size:2em;
+  line-height:0px;
+  margin:calc(30vh - 2em) auto;
+  text-shadow: 0 0 5px black, 0 0 10px black;
+}
+#landing img { display:inline-block!important; line-height:0; margin-bottom:-0.35em }
+#landing p a { color:inherit; transition:1s; }
+#landing p a:hover { color:#DEE; text-shadow: 0 0 5px black, 0 0 1em white, 0 0 0.5em white; }
 
 article, .archive {
   background: #DEE;
@@ -121,58 +122,21 @@ header span {
   display:inline-block;
   text-shadow:0px 0px 5px #130f30;
 }
-nav a {
-  color:#130f30;
-  background: #b0e0e0;
-  background-image: linear-gradient(135deg, #b0e0e0 0%,#b0e0e0 50%,#309090 100%);
-  background-position: 50px 0;
-  background-repeat: no-repeat;
-  border: #309090 solid 1px;
-  border-radius:0.2em;
-  padding:0.5em;
-  text-decoration:none;
-  margin: 5px;
-  display:inline-block;
+.post_pagination {
+  width:100%;
+  clear:both;
 }
-nav a:hover {
-  color:#130f30;
-  text-shadow: 0px 0px 0.1em #b0e0e0;
-  box-shadow:0 0.4em 0.3em -0.3em rgba(66,66,66,0.75);
-  background-position: 0 0;
-  padding:0.5em;
-  text-decoration:none;
-  transition: all 0.2s ease-in-out;
+.post_pagination .prev {
+  float:left;
 }
-.pagination {
-  color:#EEE;
-  font-size:2em;
-  line-height:0;
-  text-align:center;
+.post_pagination .next {
+  float:right;
 }
-.pagination a, .pagination span {
-  display:inline-block;
-  color:inherit;
-  background:none;
-  padding: 1em;
-  text-decoration:none;
-  text-align:center;
+.post_pagination a {
+  margin-bottom:0.1em;
 }
-.pagination a:hover {
-  color:#DEE;
-  text-shadow: 0 0 4px #000,
-               0 0 1em #FFF,
-               0 0 0.5em #FFF;
-               /*
-  background-repeat: no-repeat;
-  background-image: radial-gradient(transparent 0, transparent 40%, white 45%, white 55%, transparent 60%);
-  background-size:2em 2em;
-  background-position:top calc(50% + 5px) right calc(50% + 5px);
-  background-clip:none;
-  padding:0;
-}
-.pagination #toTop {
-  background-position:top calc(50% + 5px) right 50%;
-  */
+.post_pagination a:hover {
+  margin-bottom:0em;
 }
 p img {
   display:block;
@@ -293,6 +257,9 @@ time {
   text-shadow:none;
   color:inherit;
 }
+.archive li {
+  margin-bottom:1em;
+}
 .day, .month, .year {
   padding:0.5em 1em;
   margin:0;
@@ -394,7 +361,15 @@ footer {
   margin:1em 0;
   padding:0.5em;
   position:relative;
-  z-index:5;
+}
+#landing footer {
+  background:none;
+  box-shadow:none;
+  max-width:80%;
+  margin:0 auto;
+}
+#landing nav {
+  font-size:1.5rem;
 }
 footer #social_media {
   width:50%;
@@ -424,7 +399,7 @@ footer li {
   min-width: 50px;
   text-align:center;
 }
-.share_buttons { text-align:center; }
+.share_buttons { text-align:center; clear:both; }
 .share_buttons a, .share_buttons a:hover, footer ul li a, footer ul li a:hover {
   border:none;
   background:none;
@@ -441,6 +416,30 @@ footer li {
 footer a[href='http://www.alrdesign.com/dam.html'] img {
   padding:0.8em 0;
 }
+nav a {
+  color:#130f30;
+  background: #b0e0e0;
+  background-image: linear-gradient(115deg, #b0e0e0 0%,#b0e0e0 50%,#309090 100%);
+  background-position: 50px 0;
+  background-repeat: no-repeat;
+  border: #309090 solid 1px;
+  border-radius:0.2em;
+  padding:0.5em;
+  text-decoration:none;
+  margin: 5px;
+  display:inline-block;
+}
+nav a:hover {
+  color:#130f30;
+  text-shadow: 0px 0px 0.1em #b0e0e0;
+  box-shadow:0 0.4em 0.3em -0.3em rgba(66,66,66,0.75);
+  background-position: 0 0;
+  padding:0.5em;
+  text-decoration:none;
+  transition: all 0.2s ease-in-out;
+}
+#quote { transition:0.5s; }
+#quote.flip { color:transparent; text-shadow:0 0 0 transparent; }
 @media all and (max-width: 35em) {
   header span {
     padding:0 0 1em 1em;

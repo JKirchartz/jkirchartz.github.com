@@ -6,7 +6,7 @@ tags: tutorial
 
 If you've been [following me](http://twitter.com/jkirchartz) for a while, you might know my editor of choice is VIM,
 it's very clean. There's nothing there to get in your way, except your own limitations, and those limitations can be
-destroyed through practice. Havn't tried vim yet? What are you waiting for?
+destroyed through practice. <!--more--> Havn't tried vim yet? What are you waiting for?
 
 Vim is a text editor written by Bram Moolenaar and first released publicly in 1991.
 It is commonly found on unix-based operating systems.
@@ -92,8 +92,8 @@ I'm not sure how useful these are in gvim, but these should work if you're runni
 * You can insert a file below the cursor with `:r /path/to/file.txt` or if you don't supply a file it will insert the current file below the cursor.
 * the delimiter when using `:s` doesn't have to be `/` you can try `%` or `\_` if you want to avoid fences like in `:s/\/usr\/local\/bin/\/common\/bin/` you can use `:s#/user/local/bin#/common/bin#`
 * unless you set a `equalprg` in your vimrc, you can auto-indent with `=`
-    * to autoindent an entire file use `gg=G` (could have "unexpected" results) 
-    * to autoindent the current line `==` 
+    * to autoindent an entire file use `gg=G` (could have "unexpected" results)
+    * to autoindent the current line `==`
     * to autoindent this line and the one after it is `=j` where `j` is a movement key
     * if you select a section with visual mode you can indent just that selection with `=`
 * You can store a cursor location in a mark, you can set a mark with command `m` followed by a letter like `ma`, it accepts [A-Za-z] so you get 52 different marks.
@@ -110,7 +110,7 @@ I'm not sure how useful these are in gvim, but these should work if you're runni
 
 Vim is highly customizable, you can set shortcuts and preferences in the `.vimrc` file, usually located in your home directory.
 There are a [ton of plugins (aka scripts)](http://www.vim.org/scripts/) available too. They're easy to manage with other scripts
-like [Pathogen](https://github.com/tpope/vim-pathogen) or [Vundle](https://github.com/gmarik/vundle). I just switch from pathogen 
+like [Pathogen](https://github.com/tpope/vim-pathogen) or [Vundle](https://github.com/gmarik/vundle). I just switch from pathogen
 to vundle because I was tired of mucking around with `git submodules` to keep my plugins up to date (vundle uses git too, but handles everything for you.)
 
 If you want to get a headstart, my [dotfiles are available on github](https://github.com/jkirchartz/dotfiles), but there are a lot of people

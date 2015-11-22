@@ -6,7 +6,7 @@ tags: article
 
 It's no secret, I'm VIM fan. Any time I have to take my hands off the keyboard to mess with a GUI I have issues.
 My palms get all sweaty, I break out in hives, and have a vague feeling like I'm playing a game of whack-a-mole.
-Well, it may not be *that* bad, but I'm sick of it. So I decided to do something about it.
+Well, it may not be *that* bad, but I'm sick of it. So I decided to do something about it.<!--more--> 
 
 I split my time almost equally been my editor and my browser, why not use the same keyboard shortcuts?
 Enter [Vimium](http://vimium.github.io), a customizable Google Chrome extension that gives you vim-like control over your browser.

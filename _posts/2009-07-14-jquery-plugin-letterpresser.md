@@ -4,7 +4,7 @@ title: "JQuery Plugin: Letterpresser"
 tags: Javascript JQuery Plugin
 ---
 
-This plugin adds the Letterpress style to any assigned tag.
+This plugin adds the Letterpress style to any assigned tag.<!--more--> 
 
 Here's what it looks like:
 

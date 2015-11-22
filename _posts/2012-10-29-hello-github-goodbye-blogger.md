@@ -5,9 +5,9 @@ tags: article
 ---
 
 I've always been an early adopter and when blogs were just becoming a thing Blogger was one of the first companies doing it, how else would they get such a great URL?
-For a time I was fine with the way blogging worked, but now I am disappointed. Enough so to leave.
+For a time I was fine with the way blogging worked there, but now I am disappointed. Enough so to leave.<!--more--> 
 
-A constant problem for me has been a lack of documentation for the templating. It's a special xml format that they haven't 
+A constant problem for me has been a lack of documentation for the templating. It's a special xml format that they haven't
 disclosed in any way leaving the developers completely in the dark, forcing them to reverse engineer it.
 Another problem I've had is that their text editor seems to add html unreliably, it's been difficult to style posts without being certain of their structure.
 I had hopes that the Google acquisition or their subsequent redesign would resolve this, but I was left wanting.

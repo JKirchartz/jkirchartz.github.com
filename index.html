@@ -1,42 +1,26 @@
 ---
-layout: base
+layout: landing
 ---
-{% for post in paginator.posts %}
-<article>
-{% include post_detail.html %}
-<div class="center"><a href="{{post.url | lower }}#disqus_thread">[comments]</a></div>
-</article>
-{% endfor %}
-
-<div class="pagination">
-        <a id="toTop" href="#main" title="back to top">&#9650;</a>
-        <br/>
-        {% if paginator.previous_page %}
-            {% if paginator.previous_page == 1 %}
-                <a href="/" rel="prev" title="previous">&#9664;</a>
-            {% else %}
-                <a href="/page{{paginator.previous_page}}" rel="prev" title="previous">&#9664;</a>
-            {% endif %}
-        {% else %}
-            <a href="#" style="visibility:hidden">&nbsp;</a>
-        {% endif %}
-        <span>{{paginator.page}} of {{paginator.total_pages}}</span>
-        {% if paginator.next_page %}
-            <a href="/page{{paginator.next_page}}" rel="next " title="next">&#9654;</a>
-        {% else %}
-            <a href="#" style="visibility:hidden">&nbsp;</a>
-        {% endif %}
-        <script>
-             var toTop = document.getElementById('toTop');
-             toTop.onclick = function(e){
-                 e.preventDefault();
-                 function scroller(){
-                     window.scrollBy(0,-50);
-                     if(window.pageYOffset === 0){
-                         clearInterval(repeater);
-                     }
-                 }
-                 var repeater = setInterval(scroller,5);
-             }
-        </script>
-</div>
+<p>
+  <img src="avatar.gif" alt="jkirchartz" width="64px" heigh="64px"/>
+  Hello, my name is
+   <a href="http://google.com/search?q=jkirchartz">Joel <span data-IPA="kər·chärtz">Kirchartz</span></a>.
+</p>
+<p id="quote">
+  I like to make stuff and share it with people on the web.
+</p>
+<script>
+  var q = document.getElementById('quote');
+  var possibilities = ["I like to make stuff and share it with people on the web.",
+  "I like to make internets out of symbols.", "I like to make interactive experiences.",
+  "I like to create the unexpected.", "I believe in the internet."];
+  function quote() {
+    q.classList.add('flip');
+    setTimeout(unquote, 500);
+  }
+  function unquote() {
+    q.innerHTML = possibilities[Math.floor(Math.random() * possibilities.length)];
+    q.classList.remove('flip');
+  }
+  setInterval(quote, 10000);
+</script>
