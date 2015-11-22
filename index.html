@@ -4,23 +4,26 @@ layout: landing
 <p>
   <img src="avatar.gif" alt="jkirchartz" width="64px" heigh="64px"/>
   Hello, my name is
-   <a href="http://google.com/search?q=jkirchartz">Joel <span data-IPA="kər·chärtz">Kirchartz</span></a>.
+   <a href="https://google.com/search?q=jkirchartz">J. <span data-IPA="kər·chärtz">Kirchartz</span></a>.
 </p>
 <p id="quote">
   I like to make stuff and share it with people on the web.
 </p>
 <script>
   var q = document.getElementById('quote');
-  var possibilities = ["I like to make stuff and share it with people on the web.",
-  "I like to make internets out of symbols.", "I like to make interactive experiences.",
-  "I like to create the unexpected.", "I believe in the internet."];
+  var possibilities = {
+    'A':["I like to make stuff and share it with people on the web.", "I like to make interactive experiences.", "I'm ready to believe in you!", "I like to create the unexpected.", "I believe in the internet.", "I love to learn new things.", "I love to discover.", "I talk to computers, and make them talk back."],
+    'B':["I like food. Food tastes good.", "I make this look good.", "I like to make symbols out of internets.", "I like to make internets out of symbols.", "I want to do what frozen things do in summer!"]
+  };
   function quote() {
-    q.classList.add('flip');
-    setTimeout(unquote, 500);
-  }
-  function unquote() {
-    q.innerHTML = possibilities[Math.floor(Math.random() * possibilities.length)];
+    var P = 'A';
+    if (Math.floor(Math.random() * 100) < 15) { P = 'B'; }
+    q.innerHTML = possibilities[P][Math.floor(Math.random() * possibilities[P].length)];
     q.classList.remove('flip');
   }
-  setInterval(quote, 10000);
+  function unquote() {
+    q.classList.add('flip');
+    setTimeout(quote, 500);
+  }
+  setInterval(unquote, 10000);
 </script>
