@@ -441,7 +441,7 @@ nav a:hover {
 #quote.flip { color:transparent; text-shadow:0 0 0 transparent; }
 .highlight pre { overflow:auto; }
 
-@media all and (max-width: 35em) {
+@media all and (max-width: 58em) {
   #landing footer, footer #social_media, footer #license, footer #affiliations {
     width:100%;
     max-width:100%;
