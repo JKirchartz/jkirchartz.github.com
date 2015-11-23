@@ -73,7 +73,7 @@ article a:hover {
 #landing p a { color:inherit; transition:1s; }
 #landing p a:hover { color:#DEE; text-shadow: 0 0 5px black, 0 0 1em white, 0 0 0.5em white; }
 
-article, .archive {
+article {
   background: #DEE;
   border-radius:0.15em;
   margin: 5em 0;
@@ -444,6 +444,10 @@ nav a:hover {
 @media all and (max-width: 35em) {
   #landing footer, footer #social_media, footer #license, footer #affiliations {
     width:100%;
+    max-width:100%;
+  }
+  #footer li {
+    display:inline-block;
   }
   header h1 {
     font-size:2.11538em;
@@ -452,7 +456,10 @@ nav a:hover {
     margin:auto;
   }
   #landing img {
-    margin:0;
+    margin:0 auto;
     display:block;
+  }
+  article {
+    margin:3em 0;
   }
 }
