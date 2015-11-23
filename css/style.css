@@ -446,4 +446,7 @@ nav a:hover {
   footer #social_media, footer #license, footer #affiliations {
     width:100%;
   }
+  header h1 {
+    font-size:inherit;
+  }
 }
