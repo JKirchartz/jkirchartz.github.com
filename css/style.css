@@ -66,11 +66,10 @@ article a:hover {
 #landing p {
   color: white;
   font-size:2em;
-  line-height:0px;
   margin:calc(30vh - 2em) auto;
   text-shadow: 0 0 5px black, 0 0 10px black;
 }
-#landing img { display:inline-block!important; line-height:0; margin-bottom:-0.35em }
+#landing img { display:inline-block; line-height:0; margin-bottom:-0.35em }
 #landing p a { color:inherit; transition:1s; }
 #landing p a:hover { color:#DEE; text-shadow: 0 0 5px black, 0 0 1em white, 0 0 0.5em white; }
 
@@ -443,10 +442,17 @@ nav a:hover {
 .highlight pre { overflow:auto; }
 
 @media all and (max-width: 35em) {
-  footer #social_media, footer #license, footer #affiliations {
+  #landing footer, footer #social_media, footer #license, footer #affiliations {
     width:100%;
   }
   header h1 {
     font-size:2.11538em;
+  }
+  #landing p {
+    margin:auto;
+  }
+  #landing img {
+    margin:0;
+    display:block;
   }
 }
