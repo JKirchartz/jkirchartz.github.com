@@ -60,3 +60,6 @@ There's got to be a better way, but for now I'm not seeing a ready-made product 
 **update** I still don't pay too much attention to reading every post from every
 feed, but I've been enjoying Feedly and have been using at part of my "Firehose
 Technique" for internetting, which I plan to explain in an upcoming post
+
+**another update**
+2 years after posting this, Feedly is clearly the winner; although Feedspot constantly emails me offers about it's premium offerings I haven't bothered taking them up on any...

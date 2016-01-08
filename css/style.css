@@ -59,28 +59,33 @@ article a:hover {
   background-image: linear-gradient(rgba(88,88,88,1), rgba(88,88,88,1)) no-repeat;
   text-shadow: 0.07em 0 #DEE, -0.07em 0 #DEE;
 }
-#main, #landing {
+#main {
+  max-width:48em;
+  margin: 0 auto;
+}
+.landing {
   max-width:58em;
   margin: 0 auto;
 }
-#landing p {
+.landing p {
   color: white;
   font-size:2em;
-  margin:calc(30vh - 2em) auto;
+  margin:calc(30vh - 4em) auto;
   text-shadow: 0 0 5px black, 0 0 10px black;
+  text-align:center;
 }
-#landing img { display:inline-block; line-height:0; margin-bottom:-0.35em }
-#landing p a { color:inherit; transition:1s; }
-#landing p a:hover { color:#DEE; text-shadow: 0 0 5px black, 0 0 1em white, 0 0 0.5em white; }
+.landing p a { color:inherit; transition:1s; }
+.landing p a:hover { color:#DEE; text-shadow: 0 0 5px black, 0 0 1em white, 0 0 0.5em white; }
 
-article {
+.archive li, article {
   background: #DEE;
   border-radius:0.15em;
   margin: 5em 0;
   padding: 1em;
   box-shadow: 0.2em 0.2em 0.5em 0.1em #344;
 }
-
+.archive li { margin:2.5em 0; }
+.archive h2 { color: #DEE; }
 h1, h2, h3 { margin:0 0.75rem; }
 h1 { font-size:2.11538em; padding:1rem 0 1.73177rem; }
 h2 { font-size:1.61538em; padding:1.57136rem 0 1rem; }
@@ -140,6 +145,10 @@ header span {
 p img {
   display:block;
   margin:0 auto;
+}
+.landing p img {
+  margin: 1.5em auto;
+  box-shadow: 0px 0px 2em #DEE;
 }
 div.img {
   text-align:center;
@@ -252,12 +261,9 @@ time {
   text-shadow: 0 0 5px #333, 1px 1px 0 #000;
 }
 .archive time {
-  margin: 0 1em 0 0;
+  margin: 0;
   text-shadow:none;
   color:inherit;
-}
-.archive li {
-  margin-bottom:1em;
 }
 .day, .month, .year {
   padding:0.5em 1em;
@@ -361,13 +367,13 @@ footer {
   padding:0.5em;
   position:relative;
 }
-#landing footer {
+footer.landing  {
   background:none;
   box-shadow:none;
   max-width:80%;
   margin:0 auto;
 }
-#landing nav {
+.landing nav {
   font-size:1.5rem;
 }
 footer #social_media {
@@ -442,7 +448,7 @@ nav a:hover {
 .highlight pre { overflow:auto; }
 
 @media all and (max-width: 58em) {
-  #landing footer, footer #social_media, footer #license, footer #affiliations {
+  footer.landing , footer #social_media, footer #license, footer #affiliations {
     width:100%;
     max-width:100%;
   }
@@ -452,12 +458,11 @@ nav a:hover {
   header h1 {
     font-size:2.11538em;
   }
-  #landing p {
+  .landing p {
     margin:auto;
   }
-  #landing img {
+  .landing img {
     margin:0 auto;
-    display:block;
   }
   article {
     margin:3em 0;

@@ -6,18 +6,16 @@ layout: landing
   Hello, my name is
    <a href="https://google.com/search?q=jkirchartz">J. <span data-IPA="kər·chärtz">Kirchartz</span></a>.
 </p>
-<p id="quote">
-  I like to make stuff and share it with people on the web.
-</p>
+<p id="quote">I like to make stuff and share it with people on the web.</p>
 <script>
   var q = document.getElementById('quote');
   var possibilities = {
-    'A':["I like to make stuff and share it with people on the web.", "I like to make interactive experiences.", "I'm ready to believe in you!", "I like to create the unexpected.", "I believe in the internet.", "I love to learn new things.", "I love to discover.", "I talk to computers, and make them talk back."],
-    'B':["I like food. Food tastes good.", "I make this look good.", "I like to make symbols out of internets.", "I like to make internets out of symbols.", "I want to do what frozen things do in summer!"]
+    'A':["I like to make stuff and share it with people on the web.", "I like to make interactive experiences.", "I like to create the unexpected.", "I love to learn new things.", "I love to discover.", "I make hand crafted artisinal internets."],
+    'B':["I like food. Food tastes good.", "I make this look good.", "I like to make symbols out of internets.", "I'm ready to believe in you!", "I believe in the internet.", "I like to make internets out of symbols.", "I want to do what frozen things do in summer!", "I synergize core competencies, for you."]
   };
   function quote() {
     var P = 'A';
-    if (Math.floor(Math.random() * 100) < 15) { P = 'B'; }
+    if (Math.floor(Math.random() * 100) < 25) { P = 'B'; }
     q.innerHTML = possibilities[P][Math.floor(Math.random() * possibilities[P].length)];
     q.classList.remove('flip');
   }
@@ -25,5 +23,5 @@ layout: landing
     q.classList.add('flip');
     setTimeout(quote, 500);
   }
-  setInterval(unquote, 10000);
+  setTimeout(function(){setInterval(unquote, 10000);}, 5000);
 </script>

@@ -1,28 +1,46 @@
-<script src="/js/background.js" type="text/javascript"></script>
 <script type="text/javascript">
+    var d = document, e = d.documentElement,
+        body = d.getElementsByTagName('body')[0],
+        head = d.getElementsByTagName('head')[0],
+        colors = ['#b0e0e0', '#309090', '#130f30', '#309090'],
+        style = d.createElement('style'),
+        maxwidth = window.innerWidth || e.clientWidth || body.clientWidth(),
+        maxheight = window.innerHeight || e.clientHeight || body.clientHeight(),
+        bgImg = '', bgSize = '', bgPos = '',
+        _gaq = _gaq || [],
+        protocol = d.location.protocol;
     window._idl = {};
-    _idl.variant = "banner";
-    (function() {
-        var idl = document.createElement('script');
-        idl.type = 'text/javascript';
-        idl.async = true;
-        idl.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'members.internetdefenseleague.org/include/?url=' + (_idl.url || '') + '&campaign=' + (_idl.campaign || '') + '&variant=' + (_idl.variant || 'banner');
-        document.getElementsByTagName('body')[0].appendChild(idl);
-    })();
+    /* create background CSS */
+    for (var i = 10, l = 10 + (Math.random() * 10); i < l; i++) {
+      var col = colors[i % (colors.length)],
+        width = Math.floor(Math.random() * maxwidth),
+        height = Math.floor(Math.random() * maxheight),
+        r = Math.floor(Math.random() * 40) + 10;
+      if (Math.round(Math.random()) + 0.2) {
+        width = height = Math.floor(width + height / 2);
+      }
+      if (Math.round(Math.random() + 0.2)) {
+        maxwidth = maxheight = Math.floor(maxwidth + maxheight / 2);
+      }
+      bgImg += ['radial-gradient(', col, ' 0, transparent ', r, '%, transparent 0),'].join('');
+      bgSize += maxwidth + 'px ' + maxheight + 'px,';
+      bgPos += width + 'px ' + height + 'px,';
+    }
+    style.innerHTML = 'html { background-image:' + bgImg.slice(0, -1) + ';\nbackground-size:' + bgSize.slice(0, -1) + ';\nbackground-position:' + bgPos.slice(0, -1) + ';}';
+    head.appendChild(style);
+    /* load Google Analytics & other external scripts */
     function loadScript(src){
-        var script = document.createElement('script');
+        var script = d.createElement('script');
         script.type = 'text/javascript';
         script.async = true;
         script.src = src;
 
-        var s = document.getElementsByTagName('script')[0];
+        var s = d.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(script, s);
     }
-    var _gaq = _gaq || [],
-        protocol = document.location.protocol;
     _gaq.push(['_setAccount', 'UA-21180085-1']);
     _gaq.push(['_trackPageview']);
-
     loadScript(('https:' == protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js');
+    loadScript(('https:' == protocol ? 'https://' : 'http://www') + 'members.internetdefenseleague.org/include/?url=&campaign=&variant=banner');
     loadScript(protocol + '//d1agz031tafz8n.cloudfront.net/thedaywefightback.js/widget.min.js');
 </script>
