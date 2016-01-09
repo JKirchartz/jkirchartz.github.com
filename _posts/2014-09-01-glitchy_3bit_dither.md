@@ -4,11 +4,11 @@ title: Glitchy 3bit dither
 tags: portfolio article art javascript
 ---
 
-I'd like to officially introduce my most ambitious pet project, [Glitchy 3bit Dither][1], it's an in-browser emulation of [glitch art][2] techniques.<!--more-->
+I'd like to officially introduce my new pet project, [Glitchy 3bit Dither][1], it's an in-browser emulation of [glitch art][2] techniques.<!--more-->
 In the past I've tried my hand at circuit bending, creatively short-circuiting and modifying physical devices.
 I've even played with [more][3] [traditional][4] [glitches][5], but was inspired to create my own software to do so after seeing [rumblesan][6].
 His [cuttr][7] project glitches images from on tumblr and posts them to another [tumblog][8], .
-I quickly created a [python script][9] using PIL to start glitching images from instagram. 
+I quickly created a [python script][9] using PIL to start glitching images from instagram.
 I started writing the tumblr code, but I didn't like the lack of control, and I didn't really want to make a rumblesan clone.
 Besides, how can you create art without the artist's input? After seeing [caman.js][10]\*, I knew I could do it in javascript, thanks to [canvas][11].
 During my research I discovered [3bitdither][12], forked it, and [bent it to my will][13].
@@ -22,12 +22,13 @@ I've also [colorized][15] it by rating each channel value of the pixel.
 2. [Color shifting][16] will play with the values by boosting or re-arranging the red, green, or blue channels.
 3. [Slices][17] move chunks of pixel and channel values in interesting ways, sometimes shifting colors as well.
 4. [Sorts][18] Sort chunks of pixels in place, producing gradient-like stripes of colors within the image.
+5. [Fractals][27] Create fractal-like ghosts and shadows by repeating an image on itself
 
 This is a work in progress, so all of the code is subject to change; also I'm working on updating this to work with [node.js on a separate branch][22]\*, so all the code will have to be adjusted for that anyhow.
 
 # Interface
 
-There are 4 different pages here, each offering their own unique take on the task, 
+There are 4 different interfaces here, each offering their own unique take on the task,
 
 1. [Demo][23] will run each function against the original image once
 2. [Glitch Only][24] will apply a random set of glitches to the original image several times
@@ -36,9 +37,9 @@ There are 4 different pages here, each offering their own unique take on the tas
 
 # Technical Notes
 
-`imageData.data` is a [`Uint8ClampedArray`][19], one of the new [Typed Arrays][20] in javascript. They're part of the WebGL spec and should be available in all _modern_ browsers. 
+`imageData.data` is a [`Uint8ClampedArray`][19], one of the new [Typed Arrays][20] in javascript. They're part of the WebGL spec and should be available in all _modern_ browsers.
 This array holds all the data for every pixel in the image, however it's stores 8-bit values, channel-by-channel instead of pixel-by-pixel, that is to say `Uint8ClampedArray` stores the image data like `[R,G,B,A,R,G,B,A,R,G...]`.
-This means that to deal with this array, you're going to have to increment the loop by 4, and handle the channel-values each time like this
+This means that to deal with this array, you're going to have to increment the loop by 4, and handle the channel-values each time like this function that inverts a pixel's color:
 
 {% highlight javascript %}
     var Uint8Arr = imageData.data;
@@ -51,7 +52,7 @@ This means that to deal with this array, you're going to have to increment the l
 {% endhighlight %}
 
 This is a slow &amp; tedious task, but there are other typed arrays, like `Uint32Array` which stores 32-bit values, converting an 8-bit array to a 32-bit array would cut the size of the array by a quarter.
-So Uint32Arrays store their data like `[RGBA, RGBA, RGBA, RGBA...`.
+So as a Uint32Array color data is stored like `[ARGB, ARGB, ARGB, ARGB...`, inverting is now just one operation.
 
 {% highlight javascript %}
     var Uint32Arr = new Uint32Array(imageData.data.buffer);
@@ -82,11 +83,11 @@ If you were making imaging software you'd probably want to account for that, but
 [11]: http://diveintohtml5.info/canvas.html
 [12]: https://github.com/mncaudill/3bitdither
 [13]: https://github.com/jkirchartz/Glitchy3bitdither
-[14]: https://github.com/JKirchartz/Glitchy3bitdither/blob/gh-pages/GlitchyDither.js#L397-L408
-[15]: https://github.com/JKirchartz/Glitchy3bitdither/blob/gh-pages/GlitchyDither.js#L410-L420
-[16]: https://github.com/JKirchartz/Glitchy3bitdither/blob/gh-pages/GlitchyDither.js#L422-L481
-[17]:  https://github.com/JKirchartz/Glitchy3bitdither/blob/gh-pages/GlitchyDither.js#L561-L657
-[18]:  https://github.com/JKirchartz/Glitchy3bitdither/blob/gh-pages/GlitchyDither.js#L697-L848
+[14]: https://github.com/JKirchartz/Glitchy3bitdither/blob/gh-pages/GlitchyDither.js#L448-L458
+[15]: https://github.com/JKirchartz/Glitchy3bitdither/blob/gh-pages/GlitchyDither.js#L460-L470
+[16]: https://github.com/JKirchartz/Glitchy3bitdither/blob/gh-pages/GlitchyDither.js#L495-L575
+[17]:  https://github.com/JKirchartz/Glitchy3bitdither/blob/gh-pages/GlitchyDither.js#L659-L717
+[18]:  https://github.com/JKirchartz/Glitchy3bitdither/blob/gh-pages/GlitchyDither.js#L795-L906
 [19]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray
 [20]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 [21]: https://en.wikipedia.org/wiki/Endianness
@@ -95,3 +96,4 @@ If you were making imaging software you'd probably want to account for that, but
 [24]: http://jkirchartz.com/Glitchy3bitdither/glitch.html
 [25]: http://jkirchartz.com/Glitchy3bitdither/GlitchCruiser.html
 [26]: http://jkirchartz.com/Glitchy3bitdither/GlitchChooser.html
+[27]:  https://github.com/JKirchartz/Glitchy3bitdither/blob/gh-pages/GlitchyDither.js#L697-L848
