@@ -50,7 +50,7 @@ that make writing code with your browser all sorts of easier<!--more-->:
 * [htmlinstant.com](http://www.htmlinstant.com/)
 * [scratchpad.io](http://scratchpad.io/)
 * [babeljs.io/repl](https://babeljs.io/repl/)
-* [es6fiddle.net](es6fiddle.net)
+* [es6fiddle.net](http://es6fiddle.net)
 
 ##validators / cleaners
 
