@@ -14,7 +14,7 @@ almost any programing language. Well, friend, here's my list of sites and sandbo
 that make writing code with your browser all sorts of easier<!--more-->:
 
 
-##server-side / programming languages
+## server-side / programming languages
 
 * [codepad.viper-7.com](http://codepad.viper-7.com/)
 * [pythonfiddle.com](http://pythonfiddle.com/)
@@ -30,11 +30,11 @@ that make writing code with your browser all sorts of easier<!--more-->:
 
 \* these cover multiple languages
 
-##shell
+## shell
 * [explainshell.com](http://explainshell.com)
 * [shellcheck.net](http://shellcheck.net)
 
-##javascript / html / css
+## javascript / html / css
 
 * [codepen.io](http://codepen.io/)
 * [jsfiddle.net](http://jsfiddle.net/)
@@ -53,7 +53,7 @@ that make writing code with your browser all sorts of easier<!--more-->:
 * [es6fiddle.net](http://es6fiddle.net)
 * [ember-twiddle.com](https://ember-twiddle.com/)
 
-##validators / cleaners
+## validators / cleaners
 
 * [jshint.com](http://jshint.com/)
 * [jslint.com](http://jslint.com/)
@@ -64,9 +64,8 @@ that make writing code with your browser all sorts of easier<!--more-->:
 * [validator.w3.org](http://validator.w3.org/)
 * [jigsaw.w3.org/css-validator](http://jigsaw.w3.org/css-validator/)
 
-##regex
-mod_redirect &amp; just about anything else, just [don't parse
-html](http://stackoverflow.com/a/1732454/276250).
+## regex
+mod_redirect &amp; just about anything else, just [don't parse html](http://stackoverflow.com/a/1732454/276250).
 
 * [regex101.com](http://regex101.com)
 * [regexr.com](http://regexr.com/)
@@ -82,7 +81,7 @@ html](http://stackoverflow.com/a/1732454/276250).
 * [txt2re.com](http://www.txt2re.com/)
 * [2problems.com](http://2problems.com/)
 
-##cdn
+## cdn
 include a library into your sandbox
 
 * [cdnjs.com](http://cdnjs.com/)
@@ -92,7 +91,7 @@ include a library into your sandbox
 * [jsdelivr.com](http://www.jsdelivr.com/)
 * [cdn.tl](http://www.cdn.tl/)
 
-##image placeholders
+## image placeholders
 no images yet want to show some?
 
 * [lorempixel.com](http://lorempixel.com/)
@@ -108,14 +107,14 @@ no images yet want to show some?
 * [fillmurray.com](http://www.fillmurray.com/)
 * [stevensegallery.com](http://www.stevensegallery.com/)
 
-##IDEs
+## IDEs
 
 * [codepad.org](http://codepad.org/)
 * [ideone.com](http://ideone.com/)
 * [c9.io](http://c9.io/)
 
 
-##other
+## other
 Other interesting things that don't fit above.
 
 * [httpstatus.es](http://httpstatus.es/)
