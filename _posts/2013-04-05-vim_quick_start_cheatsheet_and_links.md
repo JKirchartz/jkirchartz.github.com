@@ -15,9 +15,9 @@ With vim Your fingers never have to leave the keyboard to command great power. T
 and a Command mode. By default you start in command mode, here you can move around the document, search, and do a fair bit of editing quickly. Insert mode is designed for adding (and removing) text, it's just like a normal text
 editor.
 
-##Quick Start/Cheat Sheet
+## Quick Start/Cheat Sheet
 
-###From the Command Line
+### From the Command Line
 
 * type "vim" into the command line to create a new untitled file
 * type "vim /path/to/file.name" to open an existing file. (if the file doesn't exist, this creates it)
@@ -29,7 +29,7 @@ editor.
 * open a file & jump to a particular word or phrase with `vim -c "/searchstring" file.type` (you can execute other commands with the `-c` flag too)
 * find the differences between two files with `vim -d file.v1 file.v2` (this works like vimdiff)
 
-##Working with VIM modes
+## Working with VIM modes
 
 * hit "i" to switch from command mode to input mode
 * hit "v" to switch from command mode to visual mode
@@ -38,7 +38,7 @@ editor.
 note: 'i' doesn't mean "enter insert mode" so much as it is a command to "insert the following text until you hit <kbd>ESC<kbd>"
 Also, "command mode" is often referred to as "normal mode," because for a lot of tasks, you will probably want to use a bunch of commands, instead of writing a bunch of stuff in input mode.
 
-###VIM Command/Normal-mode
+### VIM Command/Normal-mode
 
 * type ":wq" or "ZZ" to save and quit
 * type ":q!" to quit without saving
@@ -75,7 +75,7 @@ Also, "command mode" is often referred to as "normal mode," because for a lot of
     * you can get more details about the help command with `:help help`
     * you can find an index of commands with `:help index`
 
-###VIM Input-mode
+### VIM Input-mode
 
 I'm not sure how useful these are in gvim, but these should work if you're running in a terminal.
 
@@ -86,7 +86,7 @@ I'm not sure how useful these are in gvim, but these should work if you're runni
     * `alt+p` to paste
     * `alt+R"` to paste from register `"`, for example, or use and other register.
 
-###VIM tips
+### VIM tips
 
 * If the file is owned by root and you opened it as another user, you can escalate privileges and save with `:w !sudo tee %`
 * You can insert a file below the cursor with `:r /path/to/file.txt` or if you don't supply a file it will insert the current file below the cursor.
@@ -106,7 +106,7 @@ I'm not sure how useful these are in gvim, but these should work if you're runni
     * You can execute a register as a macro with `@A` for register `A`, for example, or use any other register.
 * You can execute a register as an ex command with `:@A` for register `A`, for example, or use any other register.
 
-##Going Further
+## Going Further
 
 Vim is highly customizable, you can set shortcuts and preferences in the `.vimrc` file, usually located in your home directory.
 There are a [ton of plugins (aka scripts)](http://www.vim.org/scripts/) available too. They're easy to manage with other scripts
@@ -116,7 +116,7 @@ to vundle because I was tired of mucking around with `git submodules` to keep my
 If you want to get a headstart, my [dotfiles are available on github](https://github.com/jkirchartz/dotfiles), but there are a lot of people
 doing that lately, so look around. Also there's a very nice VIM Distribution named [Janus](https://github.com/carlhuda/janus) that has a lot of plugins and a nice vimrc, it's worth a look.
 
-##Links
+## Links
 
 * [Vim Interactive Tutorial](http://www.openvim.com/tutorial.html) (try it now!)
 * [VIM docs](http://www.vim.org/docs.php)
