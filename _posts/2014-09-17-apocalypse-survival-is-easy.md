@@ -21,7 +21,7 @@ This single-page app fetches a JSON feed from wikipedia's [List of dates predict
 comparing them with the input year and tallying the number of failed predictions since then.
 It stores this data locally on initial load, and loads it from the local on subsequent loads.
 
-##find out [how many apocalypses you've survived, today!][1] or [view the source on github][3]
+## find out [how many apocalypses you've survived, today!][1] or [view the source on github][3]
 
 [1]: /demos/How_Many_Apocalypses_Have_I_Survived.html
 [2]: https://en.wikipedia.org/wiki/List_of_dates_predicted_for_apocalyptic_events
