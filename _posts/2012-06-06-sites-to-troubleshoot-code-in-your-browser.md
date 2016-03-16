@@ -51,6 +51,7 @@ that make writing code with your browser all sorts of easier<!--more-->:
 * [scratchpad.io](http://scratchpad.io/)
 * [babeljs.io/repl](https://babeljs.io/repl/)
 * [es6fiddle.net](http://es6fiddle.net)
+* [ember-twiddle.com](https://ember-twiddle.com/)
 
 ##validators / cleaners
 
