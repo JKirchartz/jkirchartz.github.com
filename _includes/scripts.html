@@ -13,18 +13,12 @@
     /* create background CSS */
     for (var i = 10, l = 10 + (Math.random() * 10); i < l; i++) {
       var col = colors[i % (colors.length)],
-        width = Math.floor(Math.random() * maxwidth),
-        height = Math.floor(Math.random() * maxheight),
-        r = Math.floor(Math.random() * 40) + 10;
-      if (Math.round(Math.random()) + 0.2) {
-        width = height = Math.floor(width + height / 2);
-      }
-      if (Math.round(Math.random() + 0.2)) {
-        maxwidth = maxheight = Math.floor(maxwidth + maxheight / 2);
-      }
+        bgs = Math.floor((Math.random() * maxwidth) + (Math.random() * maxheight)),
+        bgp = Math.round(Math.random() * bgs) + 10,
+        r = Math.floor(Math.random() * i) + 50;
       bgImg += ['radial-gradient(', col, ' 0, transparent ', r, '%, transparent 0),'].join('');
-      bgSize += maxwidth + 'px ' + maxheight + 'px,';
-      bgPos += width + 'px ' + height + 'px,';
+      bgSize += bgs + 'px ' + bgs + 'px,';
+      bgPos += bgp + 'px ' + bgp + 'px,';
     }
     style.innerHTML = 'html { background-image:' + bgImg.slice(0, -1) + ';\nbackground-size:' + bgSize.slice(0, -1) + ';\nbackground-position:' + bgPos.slice(0, -1) + ';}';
     head.appendChild(style);
