@@ -6,25 +6,52 @@ tags: article
 ---
 
 
-Seems these days that the only way to get a job is through a recruiter - a 3rd 
-party human resources team. These companies all have basically the same M.O. 
-make money by filling positions for companies who don't wanna do their own HR.
-It's a lucrative business, sometimes they can get paid more than your potential 
-salary for your placement.
+Seems these days that the only way to get a job is through a recruiter or some other 3rd party human resources team.
+It's a new sort of gatekeeping middleman between you and the next phase of your career.
+These companies, like your employer, all do the same thing: make more money from your work than you do.
+It's a lucrative business, and sometimes they do get paid more than your potential salary just for your placement.
+I don't know about you, but I could really use a hiring bonus of at least 400 times my hourly rate, it works for professional atheletes.
+You can be certain their client can pass a credit check, middlemen know to protect their neck.
+
+Here's a few basic techniques I've seen for hiring the top tech talent:
+
+1. Protect your client from the evils of the unworthy
+It's a big secret *who* might be hiring who, can't let anybody sidestep the middleman and go straight to the client!
+You might use another recruiter, who's only in their client's top 3 vendors and not a 1st place vendor like them, they know the hiring managers the best!
+They've made 50+ placements! Can't possibly be churn, it's 100% growth!!
+
+2. Test the waters before revealing too much.
+Meeting face-to-face is the only way to ensure the talent fits their clients' needs (no uggos!)
+After all, people may feel indebted to you if you buy them a cupp-o-chino or a free lunch, and business lunches are a deductable business expense.
+They need to hear somebody's voice first before just outright telling them what the job might be, but according to your resume you're a perfect fit for selling life insurance to senior citizens!
+
+3. Only losers read resumes
+The resume-finding keyword-matching software is impeccable, the best, so no need to read resumes or look at a potential hire's career history.
+They're names and numbers on a spreadsheet, the more you can get through the more placements you may make. It's Always Be Closing, not Always Be Reading, damn.
+
+4. Voicemail, Schmoicemail
+Phone went to voicemail during business hours? Better not leave a message, it's too important, call back immediately!
+This is an emergency, there is an urgent need for web developers in Albequerque, damnit, no time to leave a message!
+This job deserves the same phone ettiquette as your average life-threatening emergency, no way the person would forget to silence their "ironic" Beiber ringtone during a big meeting.
+
+5. Millenials, amirite?
+Kids these days are lazy schmucks, just like every generation that came after every other generation, they don't even have any respect for their elders!
+Double-check that they can figure out how to work a button-down shirt, but take it easy on their ironing skills, ensure they don't spill coffee on themselves during your f2f.
+Medical Insurance is still only for the independantly wealthy, but only after 90 days, if the talent last that long.
+
+6. Everybody has Everything
+Everybody has a car, fax machine, printer, land-line phone, teleporter, and a home office at the very least.
+Even if they tell you they don't have any of these items, it's safe to assume they have easy access to all of them at their beck and call.
 
 
-Here's some annoying shit recruiters need to stop doing:
 
-1. not sending job descriptions
-2. sending job descriptions completely unrelated to your resume
-3. Calling you, going to voicemail, then calling you back (possibly without 
-   leaving a message)
+
 
 
 recruiters that border on spambots:
 apex systems inc
 cybercoders
 tekskills inc
-amtex enterprises < this is one of the worst, emailing about jobs not even 
-related to the content of the resume, if there's any word-match between the 
-resume and the job description you get an email
+amtex enterprises < this is one of the worst, emailing about jobs not even
+related to the content of the resume, if there's any word-match between the
+resume and the job description you get an email, there's no way to unsubscribe
