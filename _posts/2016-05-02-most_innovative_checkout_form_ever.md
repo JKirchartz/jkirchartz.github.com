@@ -1,10 +1,11 @@
 ---
 layout: post
 title: The Most Innovative Checkout Form Ever
-tags: article, UI, UX
+tags: article UI UX
 ---
 
 I don't know if you're ready for this - it might blow your mind&hellip;
+<!--more-->
 
 
 * Name: [ Full Name (as seen on card) ]
