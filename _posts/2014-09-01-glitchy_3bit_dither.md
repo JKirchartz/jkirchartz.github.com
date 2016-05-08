@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Glitchy 3bit dither
-tags: portfolio article art javascript
+tags: project article art javascript
+projectImg: http://i.imgur.com/UFYhyOV.png
+projectUrl: http://jkirchartz.com/Glitchy3bitdither
 ---
 
 I'd like to officially introduce my new pet project, [Glitchy 3bit Dither][1], it's an in-browser emulation of [glitch art][2] techniques.<!--more-->

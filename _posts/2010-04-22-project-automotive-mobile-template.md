@@ -2,11 +2,12 @@
 title: "Project: Automotive Mobile site template."
 layout: post
 tags: portfolio
+projectImg: http://i.imgur.com/RZ5ljU2.jpg
 ---
 
 Here is a base-template I created for use on car dealership mobile sites. It's a
 minimalist design, made to work on the widest variety of software/firmware
-possible from your favorite flip-phone to a top-of-the-line blackberry.<!--more--> 
+possible from your favorite flip-phone to a top-of-the-line blackberry.<!--more-->
 
 ![](http://i.imgur.com/RZ5ljU2.jpg)
 

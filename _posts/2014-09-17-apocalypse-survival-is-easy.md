@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Apocalypse Survival is Easy.
-tags: portfolio jquery wikipedia
+tags: project jquery wikipedia
+projectName: How Many Apocalypses Have I Survived?
+projectUrl: http://jkirchartz.com/demos/How_Many_Apocalypses_Have_I_Survived.html
+projectImg: http://i.imgur.com/rEtvt7S.png
 ---
 
 

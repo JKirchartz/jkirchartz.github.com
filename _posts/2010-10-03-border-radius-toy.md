@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Border Radius Toy
-tags: portfolio demo jQuery html5
+tags: project demo jQuery html5
+projectName: Border Radius Toy
+projectUrl: http://jkirchartz.com/demos/Border_Radius_Toy.html
+projectImg: http://3.bp.blogspot.com/_KHL6Vvj96Eo/TKi5woZN7jI/AAAAAAAAAoA/hewVyI7JzKA/s320/BorderRadiusToy.png
 ---
 
 This is my CSS3 Border-Radius Toy, it's kind of a rip-off of a rip-off of
