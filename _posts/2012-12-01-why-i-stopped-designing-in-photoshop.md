@@ -10,7 +10,7 @@ Working hard to improve my skills, and learning all the tricks and [etiquette](h
 It was all fluff, web browsers don't care about your layer-naming scheme or how well you use smart objects.
 The web is open, free, and unpredictable; Photoshop is none of those things.<!--more-->
 It's a monolith of photo manipulation and drawing tools, it exists purely for creating and improving stunning images.
-It's not a web devlopment tool, it's a graphics tool, and you should always use the right tool for the task at hand.
+It's not a web development tool, it's a graphics tool, and you should always use the right tool for the task at hand.
 
 ## PX
 
@@ -22,7 +22,7 @@ There's another bug when using IE6-8, if you set your font with a pixel height i
 
 ## Mockups
 
-Sometimes mockups are neccessary, but I don't use them often.
+Sometimes mockups are necessary, but I don't use them often.
 It's much faster to prototype instead and it gives you a great head start to the final product.
 Clients love seeing progress, and if you let them play with the minimum viable product they feel much more involved in the process.
 This also allows them to give you feedback quicker, spot mistakes, and ask questions &mdash; all valuable time savers.

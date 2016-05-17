@@ -54,11 +54,11 @@ Alright, here's the setup:
 [![Ableton Live Screenshot](http://3.bp.blogspot.com/_KHL6Vvj96Eo/SsERS0B4EfI/AAAAAAAAAjU/pHS-fROSGsc/s320/screenshot.jpg)](http://3.bp.blogspot.com/_KHL6Vvj96Eo/SsERS0B4EfI/AAAAAAAAAjU/pHS-fROSGsc/s1600-h/screenshot.jpg)
 
 
-Now you're good to go. Hit the button you asigned to send & then tap the MPTB
+Now you're good to go. Hit the button you assigned to send & then tap the MPTB
 button to start recording, do something awesome, then tap the MPTB button
 again to switch from recording to playing. To overdub tap the MPTB button and
 lay something down but I suggest tapping off the send and switching to your
-next send to laydown something funky for the next section. Rinse, Wash,
+next send to lay down something funky for the next section. Rinse, Wash,
 Repeat.
 
 

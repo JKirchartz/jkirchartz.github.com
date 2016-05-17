@@ -7,7 +7,7 @@ tags: hacks article
 [The Great Internet Migratory Box Of Electronics
 Junk](http://tgimboej.org/) is a project that allows hackers &amp; makers to share
 some electronics/components with each other. There's a ton of these things
-going around, but it seems like they move quite slowly.<!--more--> 
+going around, but it seems like they move quite slowly.<!--more-->
 
 ![](http://i.imgur.com/N7zS1ug.jpg)
 

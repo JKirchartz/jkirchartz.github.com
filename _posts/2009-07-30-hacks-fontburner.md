@@ -7,7 +7,7 @@ tags: css hack
 As you might have noticed <s>I've got</s> I had a couple crazy "non-standard" fonts
 from [fontburner.com](http://www.fontburner.com/). [FontBurner](http://www.fontburner.com/) is a great tool for hosting [sIFR
 (scalable inman flash replacement)](http://www.mikeindustries.com/blog/sifr/)
-flash files & javascript to simply replace fonts & text with a small flash
+flash files &amp; javascript to simply replace fonts &amp; text with a small flash
 file that displays it in the font of your choice. Currently fontburner has a
 limited set of options regarding color/spacing etc. but with a little
 ingenuity one is able to add this functionality themselves.<!--more-->
@@ -25,10 +25,10 @@ is a 'get the code' button, which will give you this:
     <!-- sIFR fonts delivered by www.fontburner.com -->
 {% endhighlight %}
 
-Now you copy that code onto your page & it will replace h1, h2, h3 tags and
+Now you copy that code onto your page &amp; it will replace h1, h2, h3 tags and
 any dom element with a class or ID the same as the font-name.
 
-Ok, so now let's do a little disection & investigation...
+Ok, so now let's do a little dissection &amp; investigation...
 
 {% highlight html %}
     <link rel="stylesheet" href="http://www.fontburner.com/css/fontburner.css" type="text/css" media="screen">
@@ -88,11 +88,11 @@ Alright let's see what's in that php file loaded as javascript:
     });
 {% endhighlight %}
 
-Hey look, CSS... this is EXACTLY what we want, and editing this script will
+Hey look, CSS, this is EXACTLY what we want, and editing this script will
 give us much more control & options for fontburner. I suggest removing the h1,
 h2, and h3 tags from the selectors string in line 9 of this code, you probably
-shouldn't put CSS on a tag itself unless you're sure it's neccessary. Now lets
-move down to that lovely CSS... here you can change the font color, text-
+shouldn't put CSS on a tag itself unless you're sure it's necessary. Now lets
+move down to that lovely CSS, here you can change the font color, text-
 decoration, underling, weight, but there is a lot more you can do, hack away. So
 now you can text-align and almost anything else in flash's limited css.
 

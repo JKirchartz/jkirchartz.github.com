@@ -8,7 +8,7 @@ tags: jQuery plugin
 A While back I coded a plugin to apply the letterpress effect, since then I've decided
 that css's text-shadow property was a better way to go, but some browsers don't support
 text-shadow \*cough\* IE \*cough\* this is a slight mod to check for IE &amp; apply the letterpress
-plugin to them, and use text-shadow on browsers that support it.<!--more--> 
+plugin to them, and use text-shadow on browsers that support it.<!--more-->
 
 Here's what it looks like:
 

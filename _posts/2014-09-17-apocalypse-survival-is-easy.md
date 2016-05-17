@@ -8,7 +8,7 @@ projectImg: http://i.imgur.com/rEtvt7S.png
 ---
 
 
-I'm suprized at how easy it is to survive the end-times as predicted by mediums, prophets, clergy, mathemeticians, charlatans, and true-believers.<!--more-->
+I'm surprised at how easy it is to survive the end-times as predicted by mediums, prophets, clergy, mathematicians, charlatans, and true-believers.<!--more-->
 In 2012, it was the Mayan Calendar Doomsday predictions, which were ignored - and later denounced - especially by Mayans.
 In 2011, it was Harold Camping predicting first May 21st, and when that fell through October 21st, would be the end-times of [Revelations][4].
 In ancient Rome there was a prophecy that 12 eagles revealed to Romulus the lifespan of Rome.

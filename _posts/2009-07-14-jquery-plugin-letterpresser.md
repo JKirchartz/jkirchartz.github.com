@@ -4,7 +4,7 @@ title: "JQuery Plugin: Letterpresser"
 tags: Javascript JQuery Plugin
 ---
 
-This plugin adds the Letterpress style to any assigned tag.<!--more--> 
+This plugin adds the Letterpress style to any assigned tag.<!--more-->
 
 Here's what it looks like:
 
@@ -47,7 +47,7 @@ and this is the code needed for this example:
 {% endhighlight %}
 
 This is a CSS / Graphic effect that usually requires a bit of planning and is kind-of hard
-to throw into dynamic content, or content you have no control over the markup of. No extra 
+to throw into dynamic content, or content you have no control over the markup of. No extra
 tags, or css required. No duplicate text needed.
 
 Here's the basics:

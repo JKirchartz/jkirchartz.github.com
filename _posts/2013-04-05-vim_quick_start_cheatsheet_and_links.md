@@ -6,7 +6,7 @@ tags: tutorial
 
 If you've been [following me](http://twitter.com/jkirchartz) for a while, you might know my editor of choice is VIM,
 it's very clean. There's nothing there to get in your way, except your own limitations, and those limitations can be
-destroyed through practice. <!--more--> Havn't tried vim yet? What are you waiting for?
+destroyed through practice. <!--more--> Haven't tried vim yet? What are you waiting for?
 
 Vim is a text editor written by Bram Moolenaar and first released publicly in 1991.
 It is commonly found on unix-based operating systems.

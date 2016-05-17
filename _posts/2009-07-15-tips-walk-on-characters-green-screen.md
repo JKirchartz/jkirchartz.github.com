@@ -8,8 +8,8 @@ Keying -- the process used to remove green-screen -- is a relatively simple proc
 pick the shade of green and tweak a few numbers and you're done; but sometimes there are issues...<!--more-->
 
 A Walk-on Character project just came across my desk, a spokes-person shot on green-screen to say the mission
-statement of the site. But there\'s a problem, a big problem, the source footage is terrible, the spokes-person
-is casting 4-6 different shadows depending on where they\'re standing, and to make matters worse the video is pixelated, and blurry.
+statement of the site. But there's a problem, a big problem, the source footage is terrible, the spokes-person
+is casting 4-6 different shadows depending on where they're standing, and to make matters worse the video is pixelated, and blurry.
 
 These issues individually cause problems when keying, combined the effects are HUGE, mainly because the system gets
 confused as to where the line between the subject and the green-screen actually are, this can be easily avoided by
@@ -21,7 +21,7 @@ following a few simple guidelines.
 1. Lighting
 
     Simply put, lighting is one of the most important things in videography, and for green-screen it's relatively easy. Just use the Layer Method. Each subject &amp; set of lights is a different layer (yes the green-screen counts as a subject) Here is an image of the most lighting set-up, just be sure to have no possibility of shadows ANYWHERE.
-    ![setup lights in layers](http://4.bp.blogspot.com/_KHL6Vvj96Eo/Sl4OmTM2n5I/AAAAAAAAAiU/6O0DKDwJ7bM/s320/Layers.png)
+    ![setup lights in layers][1]
 1. Camera Setup
 
     While setting up the camera make sure you're positioned dead-on to the subject, and that the entire background is green-screen (some gaffers tape is exceptable, if it's blue or green) Make sure there are no
@@ -39,8 +39,9 @@ following a few simple guidelines.
 
 With these simple steps you will get a high-quality source video to give to the editor, and they will be able to key out the background perfectly leaving you with a beautiful walk-on character for your site.
 
-For a more detailed explanation (aimed towords videographers) read <i><a href="http://www.film-and-video.com/broadcastvideoexamples-greenscreen.html">Down and Dirty Green Screen</a></i> by Walter Graff
+For a more detailed explanation (aimed towards videographers) read <i><a href="http://www.film-and-video.com/broadcastvideoexamples-greenscreen.html">Down and Dirty Green Screen</a></i> by Walter Graff
 
-Before I sign-off, here's another tip: If you're going to use a walk-on character to pop up when somebody launches your page, i
+Before I sign-off, here's another tip: If you're going to use a walk-on character to pop up when somebody launches your page,
 the video should be under 1 minute long so that it will load quickly when somebody visits the site.
 
+[1]: http://4.bp.blogspot.com/_KHL6Vvj96Eo/Sl4OmTM2n5I/AAAAAAAAAiU/6O0DKDwJ7bM/s320/Layers.png

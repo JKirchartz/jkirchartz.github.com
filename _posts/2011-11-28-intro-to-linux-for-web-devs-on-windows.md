@@ -36,7 +36,7 @@ To see what files are in this folder type `ls`, this will print out columns of
 files in the current directory, but if you want to see more details you can
 add to this command with flags, `ls -a` will list all files, `ls -l` will list
 details about the files, you can mix these flags like `ls -al` to list details
-for all files. You'll notice a .. and a . directory, In linux the path to the
+for all files. You'll notice a `..` and a `.` directory, In linux the path to the
 current directory is `./` and the path to the parent directory is `../` Not
 much fun being stuck in one place huh?
 
@@ -64,7 +64,7 @@ for more on these, check the wikipedia pages for
 
 [My favorite is VIM](/2013/04/vim_quick_start_cheatsheet_and_links.html), so to try it out type `vim` into the
 command line to open it and lets go. Notice that typing isn't
-changing anything? yeah, vim has input mode and command mode, and you start in
+changing anything? Yeah, vim has input mode and command mode, and you start in
 command mode. So hit `i` to switch from command mode to input mode and you can
 finally start typing, to get back to control mode hit `esc`, and to save and
 quit (from command mode) use `:wq`; to quit immediately without saving use
