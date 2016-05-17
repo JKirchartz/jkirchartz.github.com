@@ -11,7 +11,7 @@ This was truly a learning experience, and not just for all those participating, 
 There were 6 challenges for 6 non-profits in the area.
 [Allegheny Children's Initiative][2] needed an app for families to better collect behavioral data.
 [Children's Museum of Pittsburgh][3] needed a tool to help guide and schedule their visitors through their often chaotic children's exhibits.
-[Homewood Children's Village][4] was looking for something to help develop indiviualized plans for students' success, and improve communication between mentors, teachers, and advisors.
+[Homewood Children's Village][4] was looking for something to help develop individualized plans for students' success, and improve communication between mentors, teachers, and advisors.
 [involveMINT][5] wanted to create an app to incentivize volunteering.
 [The Allegheny County Department of Human Services][6] needed a desktop tool to sanitize and categorize address data.
 And [The Pittsburgh Downtown Partnership (PDP) & City of Pittsburgh Department of Public Works (DPW)][7] wanted to optimize the partnership between PDP's Clean Team and DPW's trash collectors.

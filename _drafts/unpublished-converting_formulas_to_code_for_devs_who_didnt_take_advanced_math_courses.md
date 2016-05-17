@@ -5,7 +5,7 @@ published: false
 tags: article
 ---
 
-Epsilon: Looks scarey, right? that's an iterator.
+Epsilon: Looks scary, right? That's an iterator.
 
 
 

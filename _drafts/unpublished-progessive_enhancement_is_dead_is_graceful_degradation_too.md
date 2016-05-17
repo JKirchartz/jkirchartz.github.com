@@ -5,7 +5,7 @@ published: false
 tags: javascript, mvc
 ---
 
-With the way browsers have been adopting standards, it's becoming easier to make device-independent rich web apps with javascript. 
+With the way browsers have been adopting standards, it's becoming easier to make device-independent rich web apps with javascript.
 Frameworks like [AngularJS][1] and [Ember.js][2] are amazing front-end MVC's, but often you see people using them in ways that break the web.
 Some people like to make excuses about it, saying the pay-off is worth it, but even Ember's site proudly proclaims "Build JavaScript apps that don't break the web!"
 

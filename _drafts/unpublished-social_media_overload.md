@@ -12,6 +12,6 @@ Everybody's vying for your time and attention, everybody has something clever to
 Why should you worry about it?
 
 ##Don't
-"What!? are you crazy!?" I hear you say, and my only reply can be "YES! just give up!"
+"What!? Are you crazy!?" I hear you say, and my only reply can be "YES! Just give up!"
 Here's my very simple technique to end social media fatigue: don't try to see everything.
 You can't do everything all at once, no matter how good you think you are at multitasking, you're wrong.

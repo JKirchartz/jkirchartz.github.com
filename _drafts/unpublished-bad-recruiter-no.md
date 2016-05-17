@@ -10,7 +10,7 @@ Seems these days that the only way to get a job is through a recruiter or some o
 It's a new sort of gatekeeping middleman between you and the next phase of your career.
 These companies, like your employer, all do the same thing: make more money from your work than you do.
 It's a lucrative business, and sometimes they do get paid more than your potential salary just for your placement.
-I don't know about you, but I could really use a hiring bonus of at least 400 times my hourly rate, it works for professional atheletes.
+I don't know about you, but I could really use a hiring bonus of at least 400 times my hourly rate, it works for professional athletes.
 You can be certain their client can pass a credit check, middlemen know to protect their neck.
 
 Here's a few basic techniques I've seen for hiring the top tech talent:
@@ -48,7 +48,7 @@ Even if they tell you they don't have any of these items, it's safe to assume th
 
 
 
-recruiters that border on spambots:
+Recruiters that border on spambots:
 apex systems inc
 cybercoders
 tekskills inc

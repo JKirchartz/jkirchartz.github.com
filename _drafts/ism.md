@@ -12,30 +12,30 @@ Watching this short you'll see how hard they try not to say "capitalism," but in
 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/Oz9fX_HfsXA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-"Ism will cure any ailment of the body politic," claims "Dr. Utopia," as he presents bottles of 'ISM' to a worker, a farmer, a manufacturer, a journalist, and a regular joe.
-Like snake-oil salesmen of yore, Dr Utopia over-sells his product, even going so far to claim it'll improve the weather.
-First, before 'ism' can cure the various characters, they must sign a contract stating "I hereby turn over to Ism, Incorporated, everything I have, including my freedom, and the freedom of my children, and my children's children, in return for which said Ism promises to take care of me forever."
+"Ism will cure any ailment of the body politic," claims "Dr. Utopia," as he presents bottles of 'ISM' to a worker, a farmer, a manufacturer, a journalist, and a regular Joe.
+Like snake-oil salesmen of yore, Dr Utopia over-sells his product, even going so far to claim it will improve the weather.
+But before 'ism' can cure the various characters they must sign a contract stating "I hereby turn over to Ism, Incorporated, everything I have, including my freedom, and the freedom of my children, and my children's children, in return for which said Ism promises to take care of me forever."
 <!-- Vague statements for a contract, but some Libertarians argue that this sort of thing should be legal for individuals to do, because preventing indentured servitude and paying a wage somehow prevents the free market from working. -->
 
-Luckily our Regular Joe shows us how freedom works: if you have an idea and can convince your friends to give you money, you can start a business and possibly become a major corporation.
-This freedom is terrific, because Americans in seersucker suits are free to make more money than any charicature of a foreign national!
-Regular Joe plays the voice of reason. Just a taste Ism will show them the dangers of Ism, he suggests, immediately plunging his peers into a totalitarian wet dream.
+Luckily our John Q Public shows us how freedom works: if you have an idea and can convince your friends to give you money, you can start a business and possibly become a major corporation.
+This freedom is terrific, because Americans in seersucker suits are free to make more money than the next 6 stereotypical caricatures of foreign nationals from capitalistic countries combined!
+John Q Public, playing the voice of reason, informs that just a taste will show us the dangers of Ism, immediately plunging his peers into a totalitarian wet dream.
 
 1. Employers chain their workers to their stations, Unions mark their workers (double-unluckily '1313'), and anti-strike laws prevent workers from participating in collective action.
 
-Here in the future, where luxurious capitalism has won, you don't need chains when you can have [mandatory unpaid security checks][1] and [adult-diapers to prevent bathroom breaks][2].
-States have prevented the danger of union membership by impementing [right-to-work laws][3] that've made membership optional.
+Here in the future of capitalist America, you don't need chains when you can have [mandatory unpaid security checks][1] to waste employees time and [adult-diapers to prevent paid bathroom breaks][2], so employees don't waste your time.
+States have prevented the danger of union membership by implementing [right-to-work laws][3] that have made membership optional.
 Why spend your hard-earned money for union membership when you can get the benefits of the Union's collective bargaining and have a few extra bucks to spend?
-If you take a Union job, in a state with [Davis-Bacon laws][4], and you're not a member of the union you get the 'prevailing wage' which the majority of union workers earn.
+If you take a Union job, in a state with [Davis-Bacon laws][4], and you're not a member of the union you get the 'prevailing wage' which the majority of union workers earn, and you still might not need to unionize.
 However, without funding and members, Unions are dwindling and their collective bargaining power is going with it.
-Impact this with [at-will employment][5] and you can lose (or quit) your job at any time for any or no reason without notice, going on strike or literally anything else could be a fireable offense.
+Impact this with [at-will employment][5] and you can lose (or quit) your job at any time for any or no reason without notice, unionizing, going on strike, or literally anything else could be a fireable offense.
 Sure it may be illegal to be fired for some things like race, religion, and gender, but if they want you out it's easy enough to come up with any or no reason.
 
 2. "The State is the Supreme Court, no more Private Property, no more you."
 
 This brief segment firstly ignores that the Judiciary Branch is part of the trinity of vested powers in the United States.
-As a function of this brand of full-communism, private property and capitalist have been outlawed, preventing CEOs the freedom of exploiting their workers to receive obscene profits, or any profits.
-However, in Communist China, CEOs are still very much involved in [State-Capitalism][6], and are well-paid for their efforts.
+As a function of this brand of full-communism, private property and capitalist have been outlawed, preventing CEOs the freedom of exploiting their workers to receive obscene, or any, profits.
+However, in "Communist" China CEOs are still very much involved in [State-Capitalism][6] and are well-paid for their efforts.
 
 3. Farmers are now slaves that can no longer vote
 
@@ -46,18 +46,18 @@ Farmers are paid to grow various crops, but mostly corn; providing us with an ov
 4. Journalists and Nay-sayers are put in pens and replaced by yes-men.
 
 Here's another chilling example of how much supposed American ideals have (or haven't) changed.
-Protestors and Nay-sayers are often only permitted in [Free Speech Zones][8], far from the powerful people who they wish to address.
+Protesters and Nay-sayers are often placed in [Free Speech Zones][8] far from the powerful people who they wish to address.
 Dissidents will be corralled and [kettled][9], and met with derision from those in positions of power who disagree.
 
 
-Our Regular Joe gets the last word,
+Our John Q Public gets the last word,
 
 > When anybody breaches unity and tried to pit one of us against the other through class warfare, race hatred, or religious intolerance. You know that person seeks to rob us of our freedom and destroy our very lives.
 > And we know what to do about it!
 
 Apparently what you do about it is watch their cartoon, then find an un-American to chase out of town, because utopian ideas aren't welcome here; free speech be damned!
 
-In hindsight, I believe this history and this cartoon shows the dangers of and one Ism given totalitarian power: everybody but the powerful suffers.
+In hindsight, I believe this history and this cartoon shows the dangers of and one Ism given totalitarian power: anybody but the powerful suffers.
 
 
 [1]: https://www.washingtonpost.com/politics/courts_law/supreme-court-rules-amazon-doesnt-have-to-pay-for-after-hours-time-in-security-lines/2014/12/09/05c67c0c-7fb9-11e4-81fd-8c4814dfa9d7_story.html

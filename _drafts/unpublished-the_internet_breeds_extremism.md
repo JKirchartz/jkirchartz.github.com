@@ -5,17 +5,17 @@ published: false
 tags: article
 ---
 
-the internet breeds extremism. It's the perfect place for it. You sit safely in 
-your home, away from prying eyes, alone with every other person 
-secreted away and trawling the internet. There's nobody to stop you from 
-learning about what you want to know, except for your own limitations (or some 
+the internet breeds extremism. It's the perfect place for it. You sit safely in
+your home, away from prying eyes, alone with every other person
+secreted away and trawling the internet. There's nobody to stop you from
+learning about what you want to know, except for your own limitations (or some
 DMCA takedown notice that only slows you down)
 
 http://www.cracked.com/blog/5-reasons-internet-always-prefers-revenge-over-justice/
 
 Internet algorithms are bubbling you, learning what you like, think, agree with,
-and then repeating the same sort of content to you over and over; no opposing 
-views, no Real Facts(tm), just the things YOU want to see. 
+and then repeating the same sort of content to you over and over; no opposing
+views, no Real Facts(tm), just the things YOU want to see.
 
 Twitter has pitchforks and torches prepared for your convenience.
 

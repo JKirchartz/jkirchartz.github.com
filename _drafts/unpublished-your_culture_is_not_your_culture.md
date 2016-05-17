@@ -13,7 +13,7 @@ It's easy to pay lip service to these values, point at a sign on the wall, and s
 
 You might say you value "Togetherness" or "Teamwork" but what do you mean?
 You're together in the same room, or under the same roof, or at least have the
-same person signing all your checks. You work together to acheive a common
+same person signing all your checks. You work together to achieve a common
 goal, but that's the nature of the job. But are you acting like a team? What's the use of working "together"
 if you don't communicate? Communication isn't just calling a meeting
 to recite sales numbers and give the latest roadmap update, it's a two-way
@@ -25,7 +25,7 @@ Nobody wants a carbon copy, You need to bring your own special mojo to the table
 But how are you innovating?
 If you haven't found what makes You special at least improve your processes, hone your marketing and sales chops, perfect the method behind making your core product, file down the sharp edges and reduce internal friction.
 Ambition isn't so much stress as it is trying harder and experiencing individual growth.
-When a team grows together, it creates an indelable bond that no on-boarding procedure can replicate.
+When a team grows together, it creates an indelible bond that no on-boarding procedure can replicate.
 If you're doing the same exact thing you did two years ago and getting the similar results, you're not growing and certainly not innovating.
 
 Try as you might to dictate your culture, it's probably not going to work.
