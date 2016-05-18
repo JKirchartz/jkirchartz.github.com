@@ -12,14 +12,15 @@ Watching this short you'll see how hard they try not to say "capitalism," but in
 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/Oz9fX_HfsXA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-"Ism will cure any ailment of the body politic," claims "Dr. Utopia," as he presents bottles of 'ISM' to a worker, a farmer, a manufacturer, a journalist, and a regular Joe.
+"Ism will cure any ailment of the body politic," claims "Dr. Utopia," as he presents bottles of 'ISM' to a laborer, a farmer, a manufacturer, a politician, and a regular Joe.
 Like snake-oil salesmen of yore, Dr Utopia over-sells his product, even going so far to claim it will improve the weather.
 But before 'ism' can cure the various characters they must sign a contract stating "I hereby turn over to Ism, Incorporated, everything I have, including my freedom, and the freedom of my children, and my children's children, in return for which said Ism promises to take care of me forever."
 <!-- Vague statements for a contract, but some Libertarians argue that this sort of thing should be legal for individuals to do, because preventing indentured servitude and paying a wage somehow prevents the free market from working. -->
 
-Luckily our John Q Public shows us how freedom works: if you have an idea and can convince your friends to give you money, you can start a business and possibly become a major corporation.
+Luckily our John Q Public shows us how freedom works: if you have an idea and can convince your friends (who've never heard of a bank) to give you money, you can start a business and possibly become a major corporation.
 This freedom is terrific, because Americans in seersucker suits are free to make more money than the next 6 stereotypical caricatures of foreign nationals from capitalistic countries combined!
-John Q Public, playing the voice of reason, informs that just a taste will show us the dangers of Ism, immediately plunging his peers into a totalitarian wet dream.
+In fact, America's free educational system that sends more white people to highschool and college than any other sterotypical caricature of a nationality.
+John Q Public, playing the voice of reason, suggests that just a taste will show us the dangers of Ism, immediately plunging his peers into a totalitarian wet dream.
 
 1. Employers chain their workers to their stations, Unions mark their workers (double-unluckily '1313'), and anti-strike laws prevent workers from participating in collective action.
 
@@ -40,14 +41,16 @@ However, in "Communist" China CEOs are still very much involved in [State-Capita
 3. Farmers are now slaves that can no longer vote
 
 Another brief and terrifying segment. Fortunately voting is a fundamental right in our democracy, and we've has prevented slavery through a civil war.
+Without the vote, farmers can't obtain seed, for some unspecified reason.
 But we've proven that [Agricultural Subsidies][7] are a more palatable method of controlling produce.
 Farmers are paid to grow various crops, but mostly corn; providing us with an overabundance of cheap corn-based products such as ethanol fuel additives and high fructose corn syrup.
 
-4. Journalists and Nay-sayers are put in pens and replaced by yes-men.
+4. Politicians and Nay-sayers are put in pens and replaced by yes-men.
 
 Here's another chilling example of how much supposed American ideals have (or haven't) changed.
-Protesters and Nay-sayers are often placed in [Free Speech Zones][8] far from the powerful people who they wish to address.
+Protesters and Nay-sayers are often placed in [Free Speech Zones][8] far from the politicians who they wish to address.
 Dissidents will be corralled and [kettled][9], and met with derision from those in positions of power who disagree.
+In the 2016 election the only candidate who expresses concern about the flaws in capitalism is often ignored by the media, in favor of his opponents who believe capitalism is beyond reproach.
 
 
 Our John Q Public gets the last word,
