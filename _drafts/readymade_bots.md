@@ -1,6 +1,6 @@
 ---
 layout: post
-title: readymade bots
+title: readymade twitter bots
 published: false
 tags: article
 ---
@@ -16,6 +16,35 @@ Well, What's this have to do with bots? I'll tell ya: They're not as hard to
 make as you think. With SaaS and mashup tools online, you don't even need to
 know how to code.
 
+
+# Web-based Services
+tweetjukebox.com
+Schedule lists of pre-conceived tweets, this site imports CSV files (output from
+Excel or Google Spreadsheets, but simple enough to write in Notepad or TextEdit)
+and will tweet them on a set schedule. They also have sets of ready-made tweets
+you can incorporate.
+
+roundteam.co
+Twitter automation powertool
+
+ifttt.com
+Services to other Services
+
+twitterfeed.com / twibble.io
+RSS feed to twitter
+
+cheapbotsdonequick.com is a tool to use generative grammar to make new and
+interesting tweets, this is the only tool on this list that involves coding.
+CBDQ uses Tracery, a javascript library that takes marked up strings inside of a
+JSON object to output new stories from smaller chunks of text.
+
+# Code Libraries
+
+# Other Bots
+motion.ai
+This is a neat tool that lets you visually connect chunks of functionality into
+a full-fledged bot without writing a line of code, there's no built-in twitter
+functionality, but email, messanger, slack, and more are possible.
 
 [1]: http://www.moma.org/collection/artists/1634
 [2]: http://www.theartstory.org/movement-dada.htm
