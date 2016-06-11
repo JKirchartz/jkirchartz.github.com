@@ -18,6 +18,7 @@ Here's a few basic techniques I've seen for hiring the top tech talent:
 
 1. Protecting clients from the evils of the unworthy
 It's a big secret *who* might be hiring who, recruiters can't let anybody sidestep the middleman and go straight to the client!
+You can't get a name or address for any of these positions until you promise fealty the recruiter.
 You might use another recruiter who's only in their client's top 3 vendors and not a 1st place vendor like them, besides they know the hiring managers the best!
 They've made 50+ placements! That can't possibly be churn (and churn couldn't be a red flag), they make it out to be 100% growth!!
 
@@ -44,6 +45,10 @@ Medical Insurance is still only for the independantly wealthy, but only after 90
 Everybody has a car, fax machine, printer, land-line phone, teleporter, and a home office at the very least.
 Even if they tell you they don't have any of these items, it's safe to assume they have easy access to all of them at their beck and call.
 The Unemployeed allegedly have limitless resources, and nobody can tell a recruiter any different.
+
+7. Nobody in a recruiting firm talks to anybody but their immediate manager
+Most recruiters work for conglomerates with "fancy" websites, however nobody in any other office has access to your resume or anything else.
+The websites were usually cobbled together over the years by various contractracts, sub-contractors, and sub-sub-contractors, and mixed with various 3rd party extensions and tools.
 
 
 
