@@ -11,6 +11,8 @@ title: JKirchartz - Web Yinzer n'at
 author:
   twitter: jkirchartz
 gems:
-  - jekyll-paginate
   - jekyll-feed
+  - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
+  - jemoji
