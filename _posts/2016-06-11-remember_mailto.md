@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Remember Mailto?
-tags: article
 ---
 
 >"How do I send this to my Mom..." she asked herself scrolling up and down the page; "...I can tweet or add it to pinterest," she sighed in resignation, opened a new tab, typed 'gmail.com' and navigated all the way to the compose pane.
