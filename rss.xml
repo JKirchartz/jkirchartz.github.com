@@ -13,6 +13,7 @@ layout: nil
         <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
 
         {% for post in site.posts %}
+          {{ post }}
         <item>
             <title>{{ post.title | xml_escape }}</title>
             <link>http://jkirchartz.com/{{ post.url }}</link>
@@ -23,5 +24,5 @@ layout: nil
         </item>
         {% endfor %}
 
-    </channel> 
+    </channel>
 </rss>
