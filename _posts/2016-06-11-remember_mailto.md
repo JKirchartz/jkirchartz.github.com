@@ -53,4 +53,4 @@ versions of iPhone, the encoding may show up in the mail app and be all ugly.
 
 P.S. If you like this article you can always [send me an email ;)](mailto:me@jkirchartz.com?subject=Thanks%20For%20Reminding%20Me%20About%20Mailto&body=Can%20I%20have%20your%20autograph)
 
-[0] http://en.wikipedia.org/wiki/Kreskin
+[0]: http://en.wikipedia.org/wiki/Kreskin
