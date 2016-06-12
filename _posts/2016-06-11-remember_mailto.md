@@ -12,15 +12,22 @@ If you didn't have either it would open any email app that just happens to be on
 
 Anyhow... Back in the day we'd use the `mailto:` URI scheme to let users send us emails (Uphill! Both ways! While fighting mastodons!) We'd type (By hand! Onto the cave wall!) a link like
 
+{% highlight html %}
+
     <a href="mailto:webmaster@example.com?subject=Hello&body=I%20like%20your%20site">
+
+{% endhighlight %}
 
 
 And clicking that opened a new email, to `webmaster@example.com` with the subject
 `Hello` and a body of `I like your site` but the mailto protocol is more versatile
 than that,there's `cc` and `bcc` and multiple recipients by separating addresses with commas.
 
+{% highlight html %}
+
     mailto:user@example.com,user2@example.com?cc=user3@example.com&bcc=user4@example.com
 
+{% endhighlight %}
 
 But that assumes you know who you want to send the email `To` which is
 impossible, even for [Kreskin][0], good thing it's not necessary. The protocol
@@ -28,14 +35,19 @@ alone will suffice, but you should probably include a link, the title, maybe a
 byline or blurb. Watch out though, this is a URI so it generally has to be
 URI encoded so: `%20` for space, `%3F` for question mark, and so on.
 
+{% highlight html %}
+
     mailto:?subject=I%20thought%20you%20would%20like%20this&body=http://example.com/some/page
 
+{% endhighlight %}
 
 URIs are already URI encoded so you don't have to do anything special to those.
 You may want to generate this server-side or via JavaScript because on some
 versions of iPhone, the encoding may show up in the mail app and be all ugly.
 
-##links:
+
+## links:
+
 * [RFC-6068](http://www.ietf.org/rfc/rfc6068.txt)
 * [mailto generator](http://www.mailto.co.uk/)
 
