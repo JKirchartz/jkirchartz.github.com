@@ -82,7 +82,7 @@ article a:hover {
   border-radius:0.15em;
   margin: 5em 0;
   padding: 1em;
-  box-shadow: 0.2em 0.2em 0.5em 0.1em #344;
+  box-shadow: 0.2em 0.2em 0.1em 0em rgba(0, 0, 33, 0.5);
 }
 .projects li, .archive li { margin:2.5em 0; }
 .projects li:after {
