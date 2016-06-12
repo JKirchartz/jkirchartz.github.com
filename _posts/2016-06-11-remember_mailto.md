@@ -3,7 +3,9 @@ layout: post
 title: Remember Mailto?
 ---
 
->"How do I send this to my Mom..." she asked herself scrolling up and down the page; "...I can tweet or add it to pinterest," she sighed in resignation<!--more-->, opened a new tab, typed 'gmail.com' and navigated all the way to the compose pane.
+"How do I send this to my Mom..." she asked herself scrolling up and down the page;
+"...I can tweet or add it to pinterest," she sighed in resignation<!--more-->,
+opened a new tab, typed 'gmail.com' and navigated all the way to the compose pane.
 
 There's a bit of debate about what services to include when you want users to share your pages, but often the original ultimate app is forgotten, Email.
 Sending an email isn't hard, but it could be easier. It used to require a plugin or an external email app;
