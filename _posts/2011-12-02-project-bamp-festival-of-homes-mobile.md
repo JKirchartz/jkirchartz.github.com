@@ -8,7 +8,7 @@ projectImg: http://2.bp.blogspot.com/--9bknh6sbAA/Ttke0KomNGI/AAAAAAAAAz0/On-M0z
 
 Here's the [Builders Association in the Metropolitan Pittsburgh](http://www.pghhomebuilders.com/) Festival of Homes mobile site at [bamp.songwhale.com](http://bamp.songwhale.com)<!--more-->
 
-[![](http://2.bp.blogspot.com/--9bknh6sbAA/Ttke0KomNGI/AAAAAAAAAz0/On-M0zfzX5U/s320/BAMP-screenshots_01.jpg)](http://2.bp.blogspot.com/--9bknh6sbAA/Ttke0KomNGI/AAAAAAAAAz0/On-M0zfzX5U/s1600/BAMP-screenshots_01.jpg)
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/b97pg"><a href="//imgur.com/a/b97pg">BAMP Screenshots</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 This little humdinger has a back end written with
 [python](http://python.org/)/[django](https://www.djangoproject.com/), I'm
