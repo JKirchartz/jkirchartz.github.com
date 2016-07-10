@@ -73,6 +73,7 @@ mod_redirect &amp; just about anything else, just [don't parse html](http://stac
 * [regviz.org](http://regviz.org/) (regex visualizer)
 * [regexplained](https://leaverou.github.io/regexplained/)
 * [pyregex.com](http://pyregex.com/)
+* [pythex.org](http://pythex.org/)
 * [rentzsch.github.com/JSRegexTeststand](http://rentzsch.github.com/JSRegexTeststand/)
 * [regexplanet.com](http://www.regexplanet.com/)
 * [regextester.com](http://www.regextester.com/)
