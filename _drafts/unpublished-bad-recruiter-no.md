@@ -6,8 +6,7 @@ tags: article
 ---
 
 Seems these days that the only way to get a job is through a recruiter or some other 3rd party human resources team, it's a gatekeeper between you and the next phase of your career.
-There are over 300 Employment Agencies in the Greater Pittsburgh area alone, and these companies all do the same thing: make more money from your work than you do.
-It's a lucrative business, and yes, sometimes they do get paid more than your potential salary just for your placement.
+There are over 300 Employment Agencies in the Greater Pittsburgh area alone, and these companies all do the same thing: skim off the top of your paycheck.
 I don't know about you, but I could really use a hiring bonus of at least 400 times my hourly rate, it seems to work well for professional athletes.
 And you can be certain their client can pass a credit check, middlemen know to protect their neck.
 
@@ -18,13 +17,13 @@ Here's a few basic techniques I've seen for hiring the top tech talent:
 
 1. Protecting clients from the evils of the unworthy
 It's a big secret *who* might be hiring who, recruiters can't let anybody sidestep the middleman and go straight to the client!
-You can't get a name or address for any of these positions until you promise fealty the recruiter.
+You can't get a name or address for any of these positions until you promise fealty to the recruiter.
 You might use another recruiter who's only in their client's top 3 vendors and not a 1st place vendor like them, besides they know the hiring managers the best!
 They've made 50+ placements! That can't possibly be churn (and churn couldn't be a red flag), they make it out to be 100% growth!!
 
 2. Test the waters before revealing too much
 Meeting face-to-face is the only way to ensure the talent fits their clients' needs (no uggos!)
-After all, people may feel indebted to you if you buy them a cupp-o-chino or a free lunch, and business lunches are a deductable business expense.
+After all, people may feel indebted to you if you buy them a cupp-o-chino or a free lunch, and business lunches are tax deductable &amp; usually reembursed.
 They need to hear somebody's voice first before just outright telling them what the job might be, but according to whatever your resume might say you're a perfect fit for selling life insurance to senior citizens!
 
 3. Nobody reads resumes
