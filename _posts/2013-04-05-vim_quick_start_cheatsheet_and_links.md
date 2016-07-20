@@ -133,6 +133,7 @@ doing that lately, so look around. Also there's a very nice VIM Distribution nam
 * [Learning Vim for People Who Think Things Like Vim Are Weird and Hard](http://csswizardry.com/2014/06/vim-for-people-who-think-things-like-vim-are-weird-and-hard/)
 * [VIM Regex](http://vimregex.com/)
 * [Vim Tips Wiki](http://vim.wikia.com/)
+* [Vim Tips Wiki's Best Vim Tips](http://vim.wikia.com/wiki/Best_Vim_Tips)
 * [Zzapper's Best of Vim Tips](http://zzapper.co.uk/vimtips.html)
 * [Secrets of the Vim Ninja](http://bencrowder.net/files/vim-fu/)
 * [Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)
