@@ -6,7 +6,7 @@ tags: tutorial
 
 If you've been [following me](http://twitter.com/jkirchartz) for a while, you might know my editor of choice is VIM,
 it's very clean. There's nothing there to get in your way, except your own limitations, and those limitations can be
-destroyed through practice. <!--more--> Haven't tried vim yet? What are you waiting for?
+destroyed through practice. Haven't tried vim yet? What are you waiting for? <!--more--> 
 
 Vim is a text editor written by Bram Moolenaar and first released publicly in 1991.
 It is commonly found on unix-based operating systems.
@@ -110,11 +110,12 @@ I'm not sure how useful these are in gvim, but these should work if you're runni
 
 Vim is highly customizable, you can set shortcuts and preferences in the `.vimrc` file, usually located in your home directory.
 There are a [ton of plugins (aka scripts)](http://www.vim.org/scripts/) available too. They're easy to manage with other scripts
-like [Pathogen](https://github.com/tpope/vim-pathogen) or [Vundle](https://github.com/gmarik/vundle). I just switch from pathogen
-to vundle because I was tired of mucking around with `git submodules` to keep my plugins up to date (vundle uses git too, but handles everything for you.)
+like [Pathogen](https://github.com/tpope/vim-pathogen), [Vundle](https://github.com/gmarik/vundle), or [vim-plug](https://github.com/junegunn/vim-plug). I just switch from vundle to vim-plug because it makes it easier to configure your plugins and does it a lot faster.
 
 If you want to get a headstart, my [dotfiles are available on github](https://github.com/jkirchartz/dotfiles), but there are a lot of people
-doing that lately, so look around. Also there's a very nice VIM Distribution named [Janus](https://github.com/carlhuda/janus) that has a lot of plugins and a nice vimrc, it's worth a look.
+doing that lately, so look around. Also there's a few very nice VIM Distributions like [Janus](https://github.com/carlhuda/janus), [SPF13-vim](https://github.com/spf13/spf13-vim), and [dotvim](https://github.com/bling/dotvim) that have a lot of plugins and a nice vimrc right out of the box, definitely worth a look.
+
+:godmode:
 
 ## Links
 
@@ -153,5 +154,3 @@ doing that lately, so look around. Also there's a very nice VIM Distribution nam
 * [Vim Regex Tutor](https://github.com/dahu/VimRegexTutor)
 * [Vim Regexes](http://andrewradev.com/2011/05/08/vim-regexes/)
 * [7 habits of effective text editing](http://www.moolenaar.net/habits.html)
-
-
