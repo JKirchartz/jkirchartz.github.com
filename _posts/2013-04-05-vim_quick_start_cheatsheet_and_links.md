@@ -6,7 +6,7 @@ tags: tutorial
 
 If you've been [following me](http://twitter.com/jkirchartz) for a while, you might know my editor of choice is VIM,
 it's very clean. There's nothing there to get in your way, except your own limitations, and those limitations can be
-destroyed through practice. Haven't tried vim yet? What are you waiting for? <!--more--> 
+destroyed through practice. Haven't tried vim yet? What are you waiting for? <!--more-->
 
 Vim is a text editor written by Bram Moolenaar and first released publicly in 1991.
 It is commonly found on unix-based operating systems.
@@ -16,6 +16,11 @@ and a Command mode. By default you start in command mode, here you can move arou
 editor.
 
 ## Quick Start/Cheat Sheet
+
+Vim commands are more of a language than a list of commands you need to use.
+<!--
+vim is a language of operators (like delete yank change uppercase rot13) and motions (word til X paragraph)
+-->
 
 ### From the Command Line
 
