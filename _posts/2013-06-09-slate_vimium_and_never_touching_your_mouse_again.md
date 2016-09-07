@@ -29,7 +29,8 @@ Even better, they're BOTH free, open-source, and (the icing on the cake) hosted 
 
 
 *UPDATE*
-As of August 2016, Slate hasn't been updated in 4 years, fortunately it still works because I have yet to find a suitable replacement.
+As of August 2016, Slate hasn't been updated in 4 years, despair not, there is an updated fork at [mattr-slate](https://github.com/mattr-/slate)
+that can be installed with homebrew via `brew cask install mattr-slate` :+1:
 
 ## links
 
