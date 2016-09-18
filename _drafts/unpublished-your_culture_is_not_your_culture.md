@@ -40,6 +40,8 @@ You can try to hire based on 'fit' or some semblance of who you are and who your
 
 
 
+
+http://adage.com/article/agency-viewpoint/debunking-myths-corporate-culture/305166/
 http://www.usatoday.com/story/news/nation/2015/04/16/army-survey-morale/24897455/
 http://www.microsoft.com/en-us/about
 http://www.amazon.com/Values-Careers-Homepage/b?ie=UTF8&node=239365011

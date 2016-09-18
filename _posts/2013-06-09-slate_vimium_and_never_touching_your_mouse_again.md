@@ -27,6 +27,11 @@ With my config `Cmd+ctrl+E` (default is `Cmd+esc`) will show a character for eac
 
 Even better, they're BOTH free, open-source, and (the icing on the cake) hosted on github; so you can inspect the code at your leisure.
 
+
+*UPDATE*
+As of August 2016, Slate hasn't been updated in 4 years, despair not, there is an updated fork at [mattr-slate](https://github.com/mattr-/slate)
+that can be installed with homebrew via `brew cask install mattr-slate` :+1:
+
 ## links
 
 * [Vimium](https://github.com/philc/vimium)
