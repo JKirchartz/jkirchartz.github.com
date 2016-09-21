@@ -76,7 +76,7 @@ cats](https://www.youtube.com/watch?v=Pk7yqlTMvp8).
 > design for this flexibility. But first, we must “accept the ebb and flow of
 > things.”
 
-&mdash; [John Allsopp](http://quotesondesign.com/john-allsopp/)
+&mdash; [John Allsopp](http://alistapart.com/article/dao)
 
 ##  What's the solution?
 
