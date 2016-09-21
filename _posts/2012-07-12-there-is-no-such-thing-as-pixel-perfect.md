@@ -70,10 +70,18 @@ cats](https://www.youtube.com/watch?v=Pk7yqlTMvp8).
 
 &mdash; [Patrick Cox](http://tympanus.net/codrops/2012/10/30/becoming-device-agnostic/)
 
+> The control which designers know in the print medium, and often desire in the
+> web medium, is simply a function of the limitation of the printed page. We
+> should embrace the fact that the web doesn’t have the same constraints, and
+> design for this flexibility. But first, we must “accept the ebb and flow of
+> things.”
+
+&mdash; [John Allsopp](http://quotesondesign.com/john-allsopp/)
+
 ##  What's the solution?
 
 It's just not possible to plan for every single device, so you'll just have to
-embrace uncertainty. [Responsive design](http://www.alistapart.com/articles/responsive-web-design/) will help adapt, but it has its
+embrace uncertainty "accept the ebb and flow of things." [Responsive design](http://www.alistapart.com/articles/responsive-web-design/) will help adapt, but it has its
 [problems](http://www.webdesignshock.com/responsive-design-problems/), you
 could also make a separate mobile site (and you _could_ make that responsive),
 mix solutions until you find what works for you and your client. There's more
