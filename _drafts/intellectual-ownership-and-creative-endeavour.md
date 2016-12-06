@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Intellectual Property Law
+title: Intellectual Ownership and Creative Endeavour
 published: false
 ---
 
