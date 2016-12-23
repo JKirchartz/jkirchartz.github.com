@@ -1,0 +1,24 @@
+list vms:
+
+        vboxmanage list vms
+
+power off or restart vm:
+
+        vboxmanage contrilvm <vm> poweroff
+        vboxmanage contrilvm <vm> restart
+
+delete vm:
+
+        vboxmanage unregister <vm> --delete
+
+
+
+
+list vagrant machines, and their statuses:
+
+        vagrant global-status
+
+delete vm:
+
+        vagrant destroy
+
