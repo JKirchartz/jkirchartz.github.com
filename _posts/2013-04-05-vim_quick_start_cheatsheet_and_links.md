@@ -146,7 +146,7 @@ doing that lately, so look around. Also there's a few very nice VIM Distribution
 * [VI Cheat Sheet](http://www.lagmonster.org/docs/vi.html)
 * [Learning Vi & Vim editors (O'Reilly)](http://www.amazon.com/gp/product/059652983X) (prefer books?)
 * [Download Vim](http://www.vim.org/download.php)
-* [Derek Wyatt's Vim Video Tutorials](http://www.derekwyatt.org/vim/vim-tutorial-videos/)
+* [Derek Wyatt's Vim Video Tutorials](http://derekwyatt.org/vim/tutorials/)
 * [VIM Adventures](http://vim-adventures.com/) (Learn VIM playing an RPG)
 * [vimgolf](http://vimgolf.com/) (find the shortest way to complete the challenges)
 * [shortcutFoo](https://www.shortcutfoo.com/) (Drills to learn your tools better)
