@@ -1,10 +1,12 @@
 ---
 layout: post
 title: Five Things I Learned Working at Google
-published: false
+published: true
 tags: article
 ---
 
+I worked at Google in 2015 and learned a great deal of things, I wrote this
+shortly after; now I think it's finally ready to publish.
 
 # Post-Mortems
 Failures need to be investigated so you can learn from them and avoid making
