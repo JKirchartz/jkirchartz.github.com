@@ -6,7 +6,7 @@ tags: article
 ---
 
 I worked at Google in 2015 and learned a great deal of things, I wrote this
-shortly after; now I think it's finally ready to publish.
+shortly after; now I think it's finally ready to publish.<!--more-->
 
 # Post-Mortems
 Failures need to be investigated so you can learn from them and avoid making
