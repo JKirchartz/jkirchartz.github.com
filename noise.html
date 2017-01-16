@@ -1,9 +1,11 @@
 ---
 layout: base
 ---
-{% for post in site.tags.music %}
+{% for post in site.posts %}
+    {% if post.tags contains "music" %}
     <article>
     {% include post_detail.html %}
     <div class="center"><a href="{{post.url | lower }}#disqus_thread">[comments]</a></div>
     </article>
+    {%endif}
 {% endfor %}
