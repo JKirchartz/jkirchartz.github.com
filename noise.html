@@ -2,24 +2,29 @@
 layout: base
 ---
 
-{% for post in site.tags.music %}
-    <article>
-            <h1 class="entry-title">
-                    {% if page.title %}
-                        <a href="{{ page.url | lower }}">{{ page.title }}</a>
-                    {% endif %}
-                    {% if post.title %}
-                        <a href="{{ post.url | lower  }}">{{ post.title }}</a>
-                    {% endif %}
-            </h1>
+<div class="archive">
+        <h2>Music</h2>
+        <ul>
+                {% for post in site.tags.music %}
+                <article>
+                        <h1 class="entry-title">
+                                {% if page.title %}
+                                <a href="{{ page.url | lower }}">{{ page.title }}</a>
+                                {% endif %}
+                                {% if post.title %}
+                                <a href="{{ post.url | lower  }}">{{ post.title }}</a>
+                                {% endif %}
+                        </h1>
 
-            {% if content %}
-                {{ content }}
-            {% else %}
-                {{ post.content }}
-            {% endif %}
+                        {% if content %}
+                        {{ content }}
+                        {% else %}
+                        {{ post.content }}
+                        {% endif %}
 
-            {% include share.html %}
-            {% include time.html %}
-    </article>
-{% endfor %}
+                        {% include share.html %}
+                        {% include time.html %}
+                </article>
+                {% endfor %}
+        </ul>
+</div>
