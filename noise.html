@@ -1,14 +1,15 @@
 ---
 layout: base
 ---
+
 {% for post in site.tags.music %}
     <article>
             <h1 class="entry-title">
                     {% if page.title %}
-                    <a href="{{ page.url | lower }}">{{ page.title }}</a>
+                        <a href="{{ page.url | lower }}">{{ page.title }}</a>
                     {% endif %}
                     {% if post.title %}
-                    <a href="{{ post.url | lower  }}">{{ post.title }}</a>
+                                <a href="{{ post.url | lower  }}">{{ post.title }}</a>
                     {% endif %}
             </h1>
 
