@@ -3,8 +3,6 @@ layout: base
 ---
 
 <div class="archive">
-        <h2>Music</h2>
-        <ul>
                 {% for post in site.tags.music %}
                 <article>
                         <h1 class="entry-title">
@@ -17,14 +15,12 @@ layout: base
                         </h1>
 
                         {% if content %}
-                        {{ content }}
+                                {{ content }}
                         {% else %}
-                        {{ post.content }}
+                                {{ post.content }}
                         {% endif %}
 
                         {% include share.html %}
-                        {% include time.html %}
                 </article>
                 {% endfor %}
-        </ul>
 </div>
