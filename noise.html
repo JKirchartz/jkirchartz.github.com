@@ -7,17 +7,12 @@ title: Noise
                 {% for post in site.tags.music %}
                 <article>
                         <h1 class="entry-title">
-                                {% if page.title %}
-                                <a href="{{ page.url | lower }}">{{ page.title }}</a>
-                                {% endif %}
                                 {% if post.title %}
                                 <a href="{{ post.url | lower  }}">{{ post.title }}</a>
                                 {% endif %}
                         </h1>
 
-                        {% if content %}
-                                {{ content }}
-                        {% else %}
+                        {% if post.content %}
                                 {{ post.content }}
                         {% endif %}
 
