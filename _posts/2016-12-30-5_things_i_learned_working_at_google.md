@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Five Things I Learned Working at Google
-published: true
 tags: article
 ---
 
