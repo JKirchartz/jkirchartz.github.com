@@ -8,8 +8,7 @@ syntax-highlighting:
 paginate: 2
 excerpt_separator: <!--more-->
 title: JKirchartz - Web Yinzer n'at
-author:
-  twitter: jkirchartz
+author: jkirchartz
 gems:
   - jekyll-feed
   - jekyll-sitemap
