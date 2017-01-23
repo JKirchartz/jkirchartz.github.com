@@ -10,8 +10,8 @@ excerpt_separator: <!--more-->
 title: JKirchartz - Web Yinzer n'at
 author: jkirchartz
 gems:
+  - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo-tag
   - jekyll-paginate
   - jemoji
