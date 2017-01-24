@@ -8,6 +8,7 @@ syntax-highlighting:
 paginate: 2
 excerpt_separator: <!--more-->
 title: JKirchartz - Web Yinzer n'at
+description: Musings, Music, and More from the WebYinzer n'at.
 author: jkirchartz
 gems:
   - jekyll-seo-tag
