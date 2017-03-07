@@ -13,10 +13,15 @@ delete vm:
 
 
 
-
 list vagrant machines, and their statuses:
 
         vagrant global-status
+
+power off or restart vm:
+
+        vagrant halt
+        vagrant reload
+
 
 delete vm:
 
