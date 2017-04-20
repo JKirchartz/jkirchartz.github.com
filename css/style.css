@@ -450,6 +450,9 @@ nav a:hover {
         text-decoration:none;
         transition: all 0.2s ease-in-out;
 }
+footer.landing nav {
+  margin: 0 0 1em 0;
+}
 #quote {
         transition:0.5s;
         min-height: 6.5em;
