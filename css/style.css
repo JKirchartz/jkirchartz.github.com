@@ -450,7 +450,13 @@ nav a:hover {
         text-decoration:none;
         transition: all 0.2s ease-in-out;
 }
-#quote { transition:0.5s; }
+#quote {
+        transition:0.5s;
+        min-height: 6.5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
 #quote.flip { color:transparent; text-shadow:0 0 0 transparent; }
 .highlight pre { overflow:auto; }
 
