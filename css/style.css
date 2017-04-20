@@ -472,10 +472,15 @@ nav a:hover {
         object-fit: cover;
         object-position: bottom right;
         display: block;
-        margin: 0 auto;
+        margin: 1em;
+        float: left;
 }
 
-@media all and (max-width: 58em) {
+@media all and (max-width: 700px) {
+        .headshot {
+                margin: 1em auto;
+                float: none;
+        }
         footer.landing , footer #social_media, footer #license, footer #affiliations {
                 width:100%;
                 max-width:100%;
