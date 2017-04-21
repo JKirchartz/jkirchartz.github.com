@@ -68,6 +68,7 @@ article a:hover {
         margin: 0 auto;
 }
 .landing p {
+        margin-top: 1em;
         color: white;
         font-size:2em;
         text-shadow: 0 0 5px black, 0 0 10px black;
@@ -494,7 +495,6 @@ nav a:hover {
         }
         .landing p {
                 margin:auto;
-                margin-top: 5vh;
         }
         .landing img {
                 margin:0 auto;
