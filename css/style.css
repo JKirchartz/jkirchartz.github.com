@@ -493,6 +493,7 @@ nav a:hover {
         }
         .landing p {
                 margin:auto;
+                margin-top: 5vh;
         }
         .landing img {
                 margin:0 auto;
