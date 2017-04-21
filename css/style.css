@@ -73,7 +73,6 @@ article a:hover {
         font-size:2em;
         text-shadow: 0 0 5px black, 0 0 10px black;
         text-align:center;
-        float: left;
         width: auto;
         display: flex;
         justify-content: center;
@@ -475,6 +474,7 @@ nav a:hover {
         height: 50vw;
         max-width: 320px;
         max-height: 320px;
+        float: left;
         object-fit: cover;
         object-position: bottom right;
         display: block;
