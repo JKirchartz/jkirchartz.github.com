@@ -73,6 +73,12 @@ article a:hover {
         font-size:2em;
         text-shadow: 0 0 5px black, 0 0 10px black;
         text-align:center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 50wv;
+        max-height: 320px;
 }
 .landing p a { color:inherit; transition:1s; }
 .landing p a:hover { color:#DEE; text-shadow: 0 0 5px black, 0 0 1em white, 0 0 0.5em white; }
@@ -454,10 +460,6 @@ nav a:hover {
 }
 #quote {
         transition:0.5s;
-        min-height: 6.5em;
-        display: flex;
-        align-items: center;
-        justify-content: center;
 }
 #quote.flip { color:transparent; text-shadow:0 0 0 transparent; }
 .highlight pre { overflow:auto; }
@@ -494,6 +496,8 @@ nav a:hover {
                 font-size:2.11538em;
         }
         .landing p {
+                display: block;
+                height: auto;
                 margin:auto;
         }
         .landing img {
