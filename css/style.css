@@ -503,7 +503,7 @@ nav a:hover {
                 margin:auto;
         }
         .landing img {
-                margin:0 auto;
+                margin:1em auto 0;
         }
         article {
                 margin:3em 0;
