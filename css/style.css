@@ -77,7 +77,7 @@ article a:hover {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height: 50wv;
+        height: 50vh;
         max-height: 320px;
 }
 .landing p a { color:inherit; transition:1s; }
@@ -477,7 +477,7 @@ nav a:hover {
         object-position: bottom right;
         display: block;
         margin: 1em;
-        float: left;
+        float: right;
 }
 
 @media all and (max-width: 700px) {
@@ -498,6 +498,7 @@ nav a:hover {
         .landing p {
                 display: block;
                 height: auto;
+                max-height:auto;
                 margin:auto;
         }
         .landing img {
