@@ -1,11 +1,16 @@
 ---
 layout: base
 ---
-<article>
-{% include post_detail.html %}
 
-
-<div id="disqus_thread"></div>
-<script type="text/javascript" src="http://jkirchartz.disqus.com/embed.js"> </script>
-<noscript>Please enable JavaScript to <a href="http://jkirchartz.disqus.com/?url=ref">view the discussion thread.</a></noscript>
-</article>
+<div class="content">
+        <div class="row bg-white">
+                <div class="col-12">
+                        <article>
+                                {% include post_detail.html %}
+                                <div id="disqus_thread"></div>
+                                <script type="text/javascript" src="http://jkirchartz.disqus.com/embed.js"> </script>
+                                <noscript>Please enable JavaScript to <a href="http://jkirchartz.disqus.com/?url=ref">view the discussion thread.</a></noscript>
+                        </article>
+                </div>
+        </div>
+</div>

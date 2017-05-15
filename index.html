@@ -1,26 +1,16 @@
 ---
 layout: landing
 ---
-<img class="headshot" src="http://i.imgur.com/aHSBnyGm.jpg">
-<p>
-        <span>Hello, my name is <a href="https://google.com/search?q=jkirchartz">J.&nbsp;<span data-IPA="kər·chärtz">Kirchartz</span></a>.</span><br>
-        <span id="quote">I make stuff and share it with people on the web.</span>
-</p>
-<script>
-  var q = document.getElementById('quote');
-  var possibilities = {
-    'A':["Web Yinzer n'at", "I make stuff and share it with people on the web.", "I make interactive experiences.", "I create the unexpected.", "I love to learn new things.", "I love to discover.", "I make hand crafted artisinal internets."],
-    'B':["Web Yinzer n'at", "I like food. Food tastes good.", "I make this look good.", "I make symbols out of internets.", "I'm ready to believe in you!", "I believe in the internet.", "I make internets out of symbols.", "The Internet is my religion.", "I want to do what frozen things do in summer!", "I synergize core competencies, for you."]
-  };
-  function quote() {
-    var P = 'A';
-    if (Math.floor(Math.random() * 100) < 25) { P = 'B'; }
-    q.innerHTML = possibilities[P][Math.floor(Math.random() * possibilities[P].length)];
-    q.classList.remove('flip');
-  }
-  function unquote() {
-    q.classList.add('flip');
-    setTimeout(quote, 500);
-  }
-  setTimeout(function(){setInterval(unquote, 10000);}, 5000);
-</script>
+<div class="container-fluid">
+        <div class="row">
+                <div class="hidden-md-up col-12">
+                        <img class="headshot rounded-circle img-thumbnail" src="http://i.imgur.com/aHSBnyGl.jpg">
+                </div>
+                <div class="col-12 col-md-7">
+                        <h1 class="text-center text-left-md">Hello, I'm Joel&nbsp;<span data-IPA="kər·chärtz">Kirchartz</span>,<br><span id="quote" >web yinzer n'at.</span></h1>
+                </div>
+                <div class="hidden-sm-down col-md-5">
+                        <img class="headshot rounded-circle img-thumbnail" src="http://i.imgur.com/aHSBnyGl.jpg">
+                </div>
+        </div>
+</div>

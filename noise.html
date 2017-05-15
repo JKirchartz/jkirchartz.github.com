@@ -3,7 +3,8 @@ layout: base
 title: Noise
 ---
 
-<div>
+<div class="row bg-white">
+        <div class="col-12">
                 {% for post in site.tags.music %}
                 <article>
                         <h1 class="entry-title">
@@ -13,10 +14,11 @@ title: Noise
                         </h1>
 
                         {% if post.content %}
-                                {{ post.content }}
+                        {{ post.content }}
                         {% endif %}
 
                         {% include share.html %}
                 </article>
                 {% endfor %}
+        </div>
 </div>

@@ -7,4 +7,4 @@
 # Distributed under terms of the NPL (Necessary Public License) license.
 #
 
-bundle exec jekyll serve -wIP 8000 --host=0.0.0.0
+bundle exec jekyll serve & #-wIP 8000 --host=0.0.0.0

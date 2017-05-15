@@ -5,19 +5,17 @@
         <title> {% if page.title %} {{ page.title }} | {% endif %} Joel Kirchartz - Web Yinzer n'at</title>
         <meta name="viewport" content="width=device-width" />
         <link rel="stylesheet" media="not print" href="/css/style.css" />
-        <link rel="stylesheet" media="only print" href="/css/print.css" />
-        <link rel="stylesheet" href="/css/syntax.css" />
+        <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
         <link href="/favicon.ico" rel="icon" type="image/x-icon" />
         <meta name="p:domain_verify" content="28092cfebd8dcf35ac5c5d6a35788f6c"/>
         {% seo %}
         {% feed_meta %}
-        <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     </head>
-    <body>
-        <div class="landing" >
+    <body class="landing">
+        <header>
             {{ content }}
-        </div>
-        <footer class="landing">
+        </header>
+        <footer>
           {% include navigation.html %}
           {% include social_media.html %}
         </footer>

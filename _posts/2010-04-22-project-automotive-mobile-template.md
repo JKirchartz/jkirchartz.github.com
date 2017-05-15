@@ -1,5 +1,5 @@
 ---
-title: "Project: Automotive Mobile site template."
+title: "Automotive Mobile site template."
 layout: post
 tags: portfolio
 projectImg: http://i.imgur.com/RZ5ljU2.jpg

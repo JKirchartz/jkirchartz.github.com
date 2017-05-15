@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Project: BAMP Festival of Homes mobile site"
+title: "BAMP Festival of Homes mobile site"
 tags: portfolio
 projectImg: http://2.bp.blogspot.com/--9bknh6sbAA/Ttke0KomNGI/AAAAAAAAAz0/On-M0zfzX5U/s320/BAMP-screenshots_01.jpg
 ---

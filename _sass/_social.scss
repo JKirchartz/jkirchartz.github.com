@@ -1,0 +1,19 @@
+#social_media {
+        text-align: center;
+        font-size: 2rem;
+        margin: 5vh 1vw;
+
+        a {
+                color: white;
+                margin: 0.2em 1rem;
+                text-shadow: 0 0 5px black;
+        }
+
+        a:hover {
+                text-shadow: 0 0 10px black;
+                transition: text-shadow 0.2s ease-in-out;
+                //color: white;
+        }
+
+}
+

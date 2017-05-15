@@ -1,0 +1,38 @@
+.card-img-top {
+        max-width: 100%;
+        width: 100%;
+}
+
+.bg-white {
+        background: white;
+}
+
+img {
+        @include img-fluid;
+}
+
+body {
+        background-color: transparent;
+}
+
+
+header, footer {
+        color: white;
+
+        h1, a, a:hover, a:active, small {
+                color: white;
+                text-align: center;
+                text-shadow: 0px 0px 5px black;
+        }
+
+        small {
+                display:block;
+        }
+
+        [class*=col] {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+        }
+}

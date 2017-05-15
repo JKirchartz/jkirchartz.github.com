@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Glitchy 3bit dither
-tags: project article art javascript
+tags: project article art javascript portfolio
 projectImg: http://i.imgur.com/UFYhyOV.png
 projectUrl: http://jkirchartz.com/Glitchy3bitdither
 ---
@@ -27,6 +27,13 @@ I've also [colorized][15] it by rating each channel value of the pixel.
 5. [Fractals][27] Create fractal-like ghosts and shadows by repeating an image on itself
 
 This is a work in progress, so all of the code is subject to change; also I'm working on updating this to work with [node.js on a separate branch][22]\*, so all the code will have to be adjusted for that anyhow.
+
+# Example
+
+The following gif was made by compositing several glitches over the original image.
+
+ <div class="tumblr-post" data-href="https://embed.tumblr.com/embed/post/jOZbvQ_9njeKZIGbXljJzg/133069110694" data-did="a96321f716d4bbc5657189d828f60630e133edaa"><a href="http://glitches.jkirchartz.com/post/133069110694">http://glitches.jkirchartz.com/post/133069110694</a></div>  <script async src="https://assets.tumblr.com/post.js"></script>
+
 
 # Interface
 
@@ -69,7 +76,6 @@ You may also notice that I'm using the `imageData.data.buffer` to make a 32-bit 
 
 While all the above is true for most personal computers which store data in Little [Endian][21], some other machines may use Big Endian notations, which would reverse the order of the data from RGBA to ABGR.
 If you were making imaging software you'd probably want to account for that, but since the point of this project is to maim images it's only mildly important to ensure the alpha channel is applied correctly (or just set to 100%.)
-
 \* now that I'm planning to make this into a node-based tool, and eventually distribute it on NPM, I'm thinking I'd be better off making this an extension of [camanjs][10] because they've already got so much figured out. Also I think by that point a name change might be in order.
 
 [1]: http://jkirchartz.com/Glitchy3bitdither/
@@ -93,7 +99,7 @@ If you were making imaging software you'd probably want to account for that, but
 [19]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray
 [20]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 [21]: https://en.wikipedia.org/wiki/Endianness
-[22]: https://github.com/JKirchartz/Glitchy3bitdither/tree/node
+[22]: https://github.com/JKirchartz/Glitchy3bitdither/tree/jimp
 [23]: http://jkirchartz.com/Glitchy3bitdither/index.html
 [24]: http://jkirchartz.com/Glitchy3bitdither/glitch.html
 [25]: http://jkirchartz.com/Glitchy3bitdither/GlitchCruiser.html

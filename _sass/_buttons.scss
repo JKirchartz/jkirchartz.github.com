@@ -1,0 +1,12 @@
+.btn-nav {
+        @include button-variant(white, $brand-primary, $brand-primary);
+        background: $brand-primary linear-gradient(75deg, $brand-primary 50%, darken($brand-primary, 15%) 100%) no-repeat;
+        background-size: 200% 100%;
+        background-position: -100% 0;
+        border: 0;
+        &:hover {
+                background-position: 100% 0;
+                text-shadow: 0 0 5px darken($brand-primary, 50%);
+                border: 0;
+        }
+}

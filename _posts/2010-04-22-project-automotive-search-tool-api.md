@@ -1,5 +1,5 @@
 ---
-title: "Project: Automotive Search Tool &amp; API"
+title: "Automotive Search Tool &amp; API"
 layout: post
 tags: portfolio
 projectImg: http://i.imgur.com/Cy1zbsS.png
