@@ -3,22 +3,21 @@ layout: base
 title: Noise
 ---
 
-<div class="row bg-white">
+<div class="row noise">
         <div class="col-12">
                 {% for post in site.tags.music %}
-                <article>
-                        <h1 class="entry-title">
-                                {% if post.title %}
-                                <a href="{{ post.url | lower  }}">{{ post.title }}</a>
+                {% if post.redirect %}
+                {% else %}
+                <article class="card">
+                        <div class="card-block">
+                                <h1 class="card-title">{{ post.title }}</h1>
+                                {% if post.content %}
+                                <div class="card-text">{{ post.content }}</div>
                                 {% endif %}
-                        </h1>
-
-                        {% if post.content %}
-                        {{ post.content }}
-                        {% endif %}
-
-                        {% include share.html %}
+                                {% include share.html %}
+                        </div>
                 </article>
+                {% endif %}
                 {% endfor %}
         </div>
 </div>
