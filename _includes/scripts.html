@@ -22,6 +22,14 @@
     }
     style.innerHTML = 'html { background-image:' + bgImg.slice(0, -1) + ';\nbackground-size:' + bgSize.slice(0, -1) + ';\nbackground-position:' + bgPos.slice(0, -1) + ';}';
     head.appendChild(style);
+
+
+    $('a[href="#top"]').on('click', function(e){
+        e.preventDefault();
+        $(document.body).animate({
+                'scrollTop':   $('#top').offset().top
+        }, 2000);
+    });
     /* load Google Analytics & other external scripts */
     function loadScript(src){
         var script = d.createElement('script');

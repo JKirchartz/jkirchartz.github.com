@@ -5,27 +5,16 @@
                 <title> {% if page.title %} {{ page.title }} | {% endif %} Joel Kirchartz - Web Yinzer n'at</title>
                 <meta name="viewport" content="width=device-width" />
                 <link rel="stylesheet" media="not print" href="/css/style.css" />
+                <link href="https://fonts.googleapis.com/css?family=Fira+Mono" rel="stylesheet">
                 <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
                 <link href="/favicon.ico" rel="icon" type="image/x-icon" />
                 <meta name="p:domain_verify" content="28092cfebd8dcf35ac5c5d6a35788f6c"/>
                 {% seo %}
                 {% feed_meta %}
         </head>
         <body>
-
-                <header>
-                        <div class="container-fluid">
-                                <div class="row">
-                                        <div class="col-4">
-                                                <img class="headshot rounded-circle img-thumbnail" src="http://i.imgur.com/aHSBnyGb.jpg">
-                                        </div>
-                                        <div class="col-7">
-                                                <h1><a href="/">JKirchartz</a> <small>Web Yinzer N'at</small></h1>
-                                        </div>
-                                </div>
-                        </div>
-                        {% include navigation.html %}
-                </header>
+                {% include header.html %}
                 <main id="main" class="container-fluid">
                 {{ content }}
                 </main>
