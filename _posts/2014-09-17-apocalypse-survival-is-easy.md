@@ -4,7 +4,7 @@ title: Apocalypse Survival is Easy.
 tags: project jquery wikipedia portfolio
 projectName: How Many Apocalypses Have I Survived?
 projectUrl: http://jkirchartz.com/demos/How_Many_Apocalypses_Have_I_Survived.html
-projectImg: http://i.imgur.com/rEtvt7S.png
+projectImg: http://i.imgur.com/JKJLRpI.png
 ---
 
 
@@ -18,7 +18,7 @@ These sorts of predictions are occasionally popular in some circles but so far h
 Some people are unduly distressed when they find themselves soon to be facing the end of the universe as we know it in a massive cosmic event, so I've decided to try and quell their fears.
 Maybe knowing you've likely survived a dozen or more moments of universal doom will also give you solace, knowing that the next time the world faces the final judgement won't be the last.
 
-[![Apocalypse Survival](http://i.imgur.com/rEtvt7S.png)][1]
+[![Apocalypse Survival](http://i.imgur.com/JKJLRpI.png)][1]
 
 This single-page app fetches a JSON feed from wikipedia's [List of dates predicted for apocalyptic events][2] and parses out years,
 comparing them with the input year and tallying the number of failed predictions since then.
