@@ -32,7 +32,7 @@ html {
 
 body {
         font-size: 112.5%;
-        font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+        font-family: "Montserrat", sans-serif;
         line-height: 1.5;
         color: #333;
 }
@@ -207,7 +207,6 @@ blockquote + p {
 }
 blockquote p:first-child:before {
         content: '“';
-        font-family: sans-serif;
         font-size:4em;
         line-height:0.1em;
         margin-right:0.1em;
@@ -216,7 +215,6 @@ blockquote p:first-child:before {
 }
 blockquote p:last-child:after {
         content: '”';
-        font-family: sans-serif;
         font-size:4em;
         line-height:0.1em;
         margin-right:0.1em;
