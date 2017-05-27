@@ -94,14 +94,16 @@
 // Start with assigning color names to specific hex values.
 $white:  #fff !default;
 $black:  #111 !default;
-$red:    #d9534f !default;
-$orange: #f0ad4e !default;
-$yellow: #ffd500 !default;
+$red:    #B81927;
+$orange: #E35D12;
+$yellow: #D3AA28;
 $green:  #2E7526;
 $blue:   #042F8D;
 $teal:   #5bc0de !default;
 $pink:   #ff5b77 !default;
 $purple: #613d7c !default;
+$tan: #74462E;
+$brown: #40201A;
 
 /*
 Kuler: beachside
@@ -274,8 +276,8 @@ $grid-gutter-widths: (
 
 $font-family-sans-serif: "Montserrat", sans-serif;
 $font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
-$font-family-monospace:  'Fira Mono', Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
-$font-family-base:       $font-family-monospace;
+$font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:       $font-family-sans-serif;
 
 $font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
 $font-size-lg:   1.25rem !default;
@@ -741,7 +743,7 @@ $card-border-width:        1px !default;
 $card-border-radius:       $border-radius !default;
 $card-border-color:        rgba($black,.125) !default;
 $card-border-radius-inner: calc(#{$card-border-radius} - #{$card-border-width}) !default;
-$card-cap-bg:              $gray-lightest !default;
+$card-cap-bg:              $white;
 $card-bg:                  $white !default;
 
 $card-link-hover-color:    $white !default;

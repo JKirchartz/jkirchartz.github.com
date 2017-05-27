@@ -4,13 +4,12 @@ title: Noise
 ---
 
 <div class="row noise">
-        <div class="col-12">
                 {% for post in site.tags.music %}
                 {% if post.redirect %}
                 {% else %}
-                <article class="card">
+                <article class="card col-12">
                         <div class="card-block">
-                                <h1 class="card-title">{{ post.title }}</h1>
+                                <h2 class="card-title">{{ post.title }}</h2>
                                 {% if post.content %}
                                 <div class="card-text">{{ post.content }}</div>
                                 {% endif %}
@@ -19,5 +18,4 @@ title: Noise
                 </article>
                 {% endif %}
                 {% endfor %}
-        </div>
 </div>
