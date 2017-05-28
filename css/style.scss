@@ -5,13 +5,13 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-  "bootstrap-custom-variables", // Custom variables must load before bootstrap.
-  "bootstrap",
-  "header",
-  "cards",
-  "social",
-  "time",
-  "buttons",
-  "common",
-  "syntax"
-;
+"variables",
+"bootstrap",
+"header",
+"nav",
+"cards",
+"social",
+"time",
+"buttons",
+"common",
+"syntax";
