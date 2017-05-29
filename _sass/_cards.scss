@@ -1,31 +1,47 @@
 .card {
-        h1,h2,h3,h4,h5,h6,
-        .h1,.h2,.h3,.h4,.h5,.h6 {
-                color: $black;
-        }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    color: $black;
+  }
 }
+
 article.card {
-        padding-left: 1rem;
-        padding-right: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
+
 .card-header {
-        background: transparent;
-        border-bottom: none;
+  background: transparent;
+  border-bottom: 0;
 }
+
 .card-img-top {
-        max-width: 100%;
-        width: 100%;
+  max-width: 100%;
+  width: 100%;
 }
+
 .card-columns {
-        column-count: 1;
+  column-count: 1;
 }
+
 @include media-breakpoint-up(sm) {
-        .card-columns {
-                column-count: 2;
-        }
+  .card-columns {
+    column-count: 2;
+  }
 }
+
 @include media-breakpoint-up(lg) {
-        .card-columns {
-                column-count: 3;
-        }
+  .card-columns {
+    column-count: 3;
+  }
 }

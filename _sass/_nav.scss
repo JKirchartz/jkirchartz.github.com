@@ -1,30 +1,35 @@
 .navbar {
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-around;
-        flex-basis: 0;
-        flex-grow: 1;
-        margin: 5vh 1vw;
-        a {
-                margin: 0.5em;
-        }
+  align-items: center;
+  flex-basis: 0;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 5vh 1vw;
+
+  a {
+    margin: .5em;
+  }
 }
 
 
 .post_pagination {
-        width:100%;
-        clear:both;
-        .prev {
-                float:left;
-        }
-        .next {
-                float:right;
-        }
-        a {
-                margin-bottom:0.1em;
-                &:hover {
-                        margin-bottom:0em;
-                }
-        }
+  clear: both;
+  width: 100%;
+
+  .prev {
+    float: left;
+  }
+
+  .next {
+    float: right;
+  }
+
+  a {
+    margin-bottom: .1em;
+
+    &:hover {
+      margin-bottom: 0;
+    }
+  }
 }
