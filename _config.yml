@@ -4,8 +4,9 @@ markdown: kramdown
 highlighter: rouge
 syntax-highlighting:
   enabled: true
-  css: css/syntax.css
 paginate: 2
+sass:
+  style: compressed
 excerpt_separator: <!--more-->
 title: JKirchartz - Web Yinzer n'at
 description: Musings, Music, and More from the WebYinzer n'at.
