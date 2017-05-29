@@ -63,10 +63,6 @@ header {
 }
 
 .landing {
-  header {
-    height: 80vh;
-  }
-
   [href='#top'] {
     display: none;
   }
@@ -74,6 +70,12 @@ header {
 
 
 @include media-breakpoint-up(md) {
+  .landing {
+    header {
+      height: 80vw;
+    }
+  }
+
   header {
     background-image: url('//i.imgur.com/oCNbSjO.jpg'), linear-gradient(87deg, $white 0%, transparent 87%); // toothless grin
     justify-content: center;
