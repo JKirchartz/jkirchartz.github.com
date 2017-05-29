@@ -1,7 +1,7 @@
 header {
   align-items: flex-start;
   // background-image: url(http://i.imgur.com/NRbMgtih.jpg); // toothy smiling
-  background-image: linear-gradient(90deg, rgba($white .5) 0, rgba($white 0) 100%), url('//i.imgur.com/oCNbSjOh.jpg'), linear-gradient(87deg, $white 0%, transparent 87%);
+  background-image: linear-gradient(90deg, rgba($white, .5) 0, rgba($white, 0) 100%), url('//i.imgur.com/oCNbSjOh.jpg'), linear-gradient(87deg, $white 0%, transparent 87%);
   background-position: center left;
   background-repeat: repeat;
   background-size: cover;
