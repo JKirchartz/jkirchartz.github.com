@@ -11,7 +11,7 @@ header {
   display: flex;
   flex-direction: column;
   font-weight: 700;
-  height: 60vmax;
+  height: 60vh;
   justify-content: center;
   max-height: 100%;
   max-width: 100%;
@@ -73,7 +73,7 @@ header {
 @include media-breakpoint-up(md) {
   .landing {
     header {
-      height: 80vmin;
+      height: 80vh;
     }
   }
 
