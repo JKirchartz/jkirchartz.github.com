@@ -1,6 +1,8 @@
+// http://i.imgur.com/NRbMgt.jpg // toothy smiling
+// http://i.imgur.com/oCNbSjO.jpg // toothless grin
+
 header {
   align-items: flex-start;
-  // background-image: url(http://i.imgur.com/NRbMgtih.jpg); // toothy smiling
   background-image: linear-gradient(90deg, rgba($white, .5) 0, rgba($white, .5) 100%), url('//i.imgur.com/oCNbSjOh.jpg');
   background-position: center;
   background-repeat: repeat;
@@ -76,7 +78,7 @@ header {
   }
 
   header {
-    background-image: url('//i.imgur.com/oCNbSjO.jpg'), linear-gradient(87deg, $white 0%, transparent 87%); // toothless grin
+    background-image: url('//i.imgur.com/oCNbSjO.jpg'), linear-gradient(87deg, $white 0%, transparent 87%);
 
     h1 {
       font-size: 8vw;
@@ -90,15 +92,6 @@ header {
 
 @include media-breakpoint-up(lg) {
   header {
-    // background-image: url(http://i.imgur.com/NRbMgt.jpg); // toothy smiling
-    background-image: url('//i.imgur.com/oCNbSjO.jpg'), linear-gradient(87deg, $white 0%, transparent 87%); // toothless grin
-  }
-}
-
-@include media-breakpoint-up(xl) {
-  .landing {
-    header {
-      height: 70vmin;
-    }
+    background-image: url('//i.imgur.com/oCNbSjO.jpg'), linear-gradient(87deg, $white 0%, transparent 87%);
   }
 }
