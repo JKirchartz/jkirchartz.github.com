@@ -71,7 +71,7 @@ header {
 @include media-breakpoint-up(md) {
   .landing {
     header {
-      height: 80vmax;
+      height: 80vmin;
     }
   }
 
@@ -96,7 +96,9 @@ header {
 }
 
 @include media-breakpoint-up(xl) {
-  header {
-    height: 70vmin;
+  .landing {
+    header {
+      height: 70vmin;
+    }
   }
 }
