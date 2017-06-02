@@ -2,6 +2,10 @@ h1 {
   color: $white;
 }
 
+h2 {
+ transform: rotateZ(3deg);
+}
+
 img {
   @include img-fluid;
 }
