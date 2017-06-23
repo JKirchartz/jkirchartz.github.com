@@ -29,9 +29,11 @@ header {
 }
 
 h2 {
+  opacity: 0;
   animation: fadeIn 1s ease 1s 1;
 }
 
 .card {
+  opacity: 0;
   animation: fadeIn 1s ease 1s 1;
 }
