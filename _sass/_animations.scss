@@ -1,0 +1,40 @@
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.header {
+  animation: 1s ease 0s 1 slideInFromLeft;
+
+  .nav {
+    animation: 1.5s ease 0s 1 slideInFromLeft;
+  }
+
+  h1 {
+    animation: 1.5s ease 0s 1 slideInFromLeft;
+  }
+}
+
+h2 {
+  animation: 2s ease 0s 1 fadeIn;
+}
+
+.card {
+  animation: 2s ease 0s 1 fadeIn;
+}

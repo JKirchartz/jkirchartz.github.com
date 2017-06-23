@@ -12,6 +12,7 @@ html, body {
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "variables";
 @import  "bootstrap";
+@import  "animations";
 @import  "header";
 @import  "nav";
 @import  "cards";
