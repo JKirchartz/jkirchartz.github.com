@@ -1,4 +1,9 @@
 .card {
+  clip-path: polygon(0 0, 100% 5vw, 100% 100%, 0 calc(100% - 5vw));
+  margin: 0 auto;
+  max-width: 65rem;
+  padding: 5vw 1rem;
+
   h1,
   h2,
   h3,
@@ -16,11 +21,6 @@
   }
 }
 
-article.card {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .card-header {
   background: transparent;
   border-bottom: 0;
@@ -33,8 +33,8 @@ article.card {
 
 .card-columns {
   column-count: 1;
-  max-width: 1000px;
   margin: 0 auto;
+  max-width: 65rem;
 }
 
 @include media-breakpoint-up(sm) {
