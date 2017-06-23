@@ -33,6 +33,8 @@ article.card {
 
 .card-columns {
   column-count: 1;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 @include media-breakpoint-up(sm) {
