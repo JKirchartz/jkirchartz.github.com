@@ -20,21 +20,18 @@
 
 
 .header {
-  animation: 1s ease 0s 1 slideInFromLeft;
+  animation: slideInFromLeft 1s ease 0s 1;
 
-  .nav {
-    animation: 1.5s ease 0s 1 slideInFromLeft;
-  }
-
+  nav,
   h1 {
-    animation: 1.5s ease 0s 1 slideInFromLeft;
+    animation: slideInFromLeft 1s ease 0s 1;
   }
 }
 
 h2 {
-  animation: 2s ease 0s 1 fadeIn;
+  animation: fadeIn 1s ease 1s 1;
 }
 
 .card {
-  animation: 2s ease 0s 1 fadeIn;
+  animation: fadeIn 1s ease 1s 1;
 }
