@@ -40,7 +40,7 @@ vim is a language of operators (like delete yank change uppercase rot13) and mot
 * hit "v" to switch from command mode to visual mode
 * hit "esc" to switch back to command mode
 
-note: 'i' doesn't mean "enter insert mode" so much as it is a command to "insert the following text until you hit <kbd>ESC<kbd>"
+note: 'i' doesn't mean "enter insert mode" so much as it is a command to "insert the following text until you hit <kbd>ESC</kbd>"
 Also, "command mode" is often referred to as "normal mode," because for a lot of tasks, you will probably want to use a bunch of commands, instead of writing a bunch of stuff in input mode.
 
 ### VIM Command/Normal-mode
