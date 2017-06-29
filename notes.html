@@ -11,7 +11,7 @@ title: Notes
                 {% else %}
                 <div class="card">
                         <div class="card-header">
-                                <h4 class="card-title">{{ post.title }}</h4>
+                          <h4 class="card-title"><a href="{{ post.url | downcase }}">{{ post.title }}</a></h4>
                         </div>
                         {% if post.projectImg %}<img class="card-img-top" src="{{ post.projectImg }}" alt="{% if post.projectName %}{{ post.projectName }}{% else %}{{ post.title }}{% endif %} screenshot"/>{% endif %}
                         <div class="card-block">
