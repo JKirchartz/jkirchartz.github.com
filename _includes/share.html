@@ -1,12 +1,6 @@
 <div class="h3 share_buttons text-center">
     Share via:
-    {% if page.title | uri_escape %}
-    <a class="twitter" href="http://twitter.com/intent/tweet?url=http%3A%2F%2Fjkirchartz.com{{ page.url | uri_escape }}&text={{ page.title | uri_escape }}&via={{ twitter }}" target="_blank" ><i class="fa fa-twitter" ></i><span class='sr-only'>twitter</span></a>
-    <a class="facebook" href="http://facebook.com/sharer.php?u=http%3A%2F%2Fjkirchartz.com{{ page.url | uri_escape }}" target="_blank" ><i class="fa fa-facebook" ></i><span class='sr-only'>facebook</span></a>
-    <a class="google" href="https://plus.google.com/share?url=http%3A%2F%2Fjkirchartz.com{{ page.url | uri_escape }}" target="_blank" ><i class="fa fa-google+" ></i><span class='sr-only'>google plus</span></a>
-    <a class="reddit" href="http://www.reddit.com/submit?title={{ page.title | uri_escape }}&url=http%3A%2F%2Fjkirchartz.com{{ page.url | uri_escape}}" target="_blank"><i class="fa fa-reddit" ></i><span class='sr-only'>reddit</span></a>
-    <a class="email" href="mailto:?subject={{ page.title | uri_escape }}&body=http%3A%2F%2Fjkirchartz.com{{ page.url | uri_escape }}" target="_blank"><i class="fa fa-envelope" ></i><span class='sr-only'>email</span></a>
-    {% else if post.title | uri_escape %}
+    {% if post.title | uri_escape %}
     <a class="twitter" href="http://twitter.com/intent/tweet?url=http%3A%2F%2Fjkirchartz.com{{ post.url | uri_escape }}&text={{ post.title | uri_escape }}&via={{ twitter }}" target="_blank" ><i class="fa fa-twitter" ></i><span class='sr-only'>twitter</span></a>
     <a class="facebook" href="http://facebook.com/sharer.php?u=http%3A%2F%2Fjkirchartz.com{{ post.url | uri_escape }}" target="_blank" ><i class="fa fa-facebook" ></i><span class='sr-only'>facebook</span></a>
     <a class="google" href="https://plus.google.com/share?url=http%3A%2F%2Fjkirchartz.com{{ post.url | uri_escape }}" target="_blank" ><i class="fa fa-google+" ></i><span class='sr-only'>google plus</span></a>

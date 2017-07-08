@@ -3,7 +3,8 @@ h1 {
 }
 
 h2 {
- transform: rotateZ(3deg);
+  font-size: 3rem;
+  transform: rotateZ(2.9deg);
 }
 
 img {
@@ -16,6 +17,7 @@ body {
 
 main {
   clip-path: polygon(0 0, 100% 5vw, 100% 100%, 0 calc(100% - 5vw));
+  transition: background .5s;
 }
 
 a,

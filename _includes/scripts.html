@@ -1,18 +1,18 @@
 <script type="text/javascript">
     var d = document, e = d.documentElement,
-        body = d.getElementsByTagName('body')[0],
-        head = d.getElementsByTagName('head')[0],
-        colors = ['#042F8D', '#309090', '#130f30', '#309090'],
-        style = d.createElement('style'),
-        maxwidth = window.innerWidth || e.clientWidth || body.clientWidth(),
-        maxheight = window.innerHeight || e.clientHeight || body.clientHeight(),
+        b = d.getElementsByTagName('body')[0],
+        h = d.getElementsByTagName('head')[0],
+        c = ['#042F8D', '#309090', '#130f30', '#309090'],
+        s = d.createElement('style'),
+        maxwidth = window.innerWidth || e.clientWidth || b.clientWidth(),
+        maxheight = window.innerHeight || e.clientHeight || b.clientHeight(),
         bgImg = '', bgSize = '', bgPos = '',
         _gaq = _gaq || [],
         protocol = d.location.protocol;
     window._idl = {};
     /* create background CSS */
     for (var i = 10, l = 20 + (Math.random() * 10); i < l; i++) {
-      var col = colors[i % (colors.length)],
+      var col = c[i % (c.length)],
         bgs = Math.floor((Math.random() * maxwidth) + (Math.random() * maxheight)),
         bgp = Math.round(Math.random() * bgs) + 10,
         r = Math.floor(Math.random() * i) + 50;
@@ -20,16 +20,9 @@
       bgSize += bgs + 'px ' + bgs + 'px,';
       bgPos += bgp + 'px ' + bgp + 'px,';
     }
-    style.innerHTML = 'html { background-image:' + bgImg.slice(0, -1) + ';\nbackground-size:' + bgSize.slice(0, -1) + ';\nbackground-position:' + bgPos.slice(0, -1) + ';}';
-    head.appendChild(style);
+    s.innerHTML = 'html { background-image:' + bgImg.slice(0, -1) + ';\nbackground-size:' + bgSize.slice(0, -1) + ';\nbackground-position:' + bgPos.slice(0, -1) + ';}';
+    var style = h.appendChild(s);
 
-
-    $('a[href="#top"]').on('click', function(e){
-        e.preventDefault();
-        $(document.body).animate({
-                'scrollTop':   $('#top').offset().top
-        }, 2000);
-    });
     /* load Google Analytics & other external scripts */
     function loadScript(src){
         var script = d.createElement('script');
