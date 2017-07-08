@@ -58,7 +58,7 @@ footer {
 
 }
 
-@include media-breakpoint-down(md) {
+@include media-breakpoint-up(md) {
   .container-fluid {
     @include make-container-max-widths();
   }
