@@ -4,18 +4,18 @@ title: Noise
 ---
 
 <div class="row noise">
-                {% for post in site.tags.music %}
-                {% if post.redirect %}
-                {% else %}
-                <article class="card col-12">
-                        <div class="card-block">
-                                <h2 class="card-title">{{ post.title }}</h2>
-                                {% if post.content %}
-                                <div class="card-text">{{ post.content }}</div>
-                                {% endif %}
-                                {% include share.html %}
-                        </div>
-                </article>
-                {% endif %}
-                {% endfor %}
+  {% for post in site.tags.music %}
+    {% if post.redirect %}
+    {% else %}
+    <article class="card col-12">
+      <div class="card-block">
+        <h2 class="card-title">{{ post.title }}</h2>
+        {% if post.content %}
+        <div class="card-text">{{ post.content }}</div>
+        {% endif %}
+        {% include share.html %}
+      </div>
+    </article>
+    {% endif %}
+  {% endfor %}
 </div>
