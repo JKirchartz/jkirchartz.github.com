@@ -58,6 +58,10 @@ footer {
 
 }
 
+#license {
+  margin-top: 5vh;
+}
+
 @include media-breakpoint-up(md) {
   .container-fluid {
     @include make-container-max-widths();

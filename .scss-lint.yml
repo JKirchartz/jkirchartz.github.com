@@ -1,0 +1,14 @@
+scss_files: '_scss/*.scss'
+exclude: '_scss/bootstrap/**'
+linters:
+  Comment:
+    enabled: false
+  IdSelector:
+    enabled: false
+  PropertySortOrder:
+    enabled: false
+  StringQuotes:
+    enabled: false
+  UrlFormat:
+    enabled: false
+
