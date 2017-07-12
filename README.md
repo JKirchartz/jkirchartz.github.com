@@ -3,4 +3,5 @@ blog
 
 jekyll blog, initial content ported from blogger...
 
-lovely icons by Paul Robert Lloyd prlloyd.com/Pf4al8
+* lovely icons are [Font Awesome](http://fontawesome.io)
+* font is [Montserrat](https://fonts.google.com/specimen/Montserrat)
