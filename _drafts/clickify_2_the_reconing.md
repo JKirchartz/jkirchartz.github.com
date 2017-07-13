@@ -11,21 +11,25 @@ we wouldn't want to ruin our lovely design. Now the words "Click Here to Visit!"
 
 
     <script>
-            $('a').on({ mouseenter: function(e) {
-              $('<p id="clickhere">Click Here to Visit!</p>').css({
-                'position': 'absolute',
-                'z-index': '9999',
-                'border' : '1px solid #333',
-                'backgroundColor' : '#161616',
-                'border-radius': '5px',
-                'padding': '2px 10px',
-                'color': '#FFF'
-              }).appendTo('body');
-            }, mouseleave: function(e) {
-              $('#clickhere').remove();
-            }, mousemove: function(e) {
-              $('#clickhere').css({ 'top': e.pageY + 10, 'left': e.pageX + 20 });
-            }});
+        $('a').on({ mouseenter: function(e) {
+          var text = "Click Here to Visit!";
+          if (/\.(png|jpg|jpeg|gif)$/.test($(this).attr('href'))) {
+            text = "Click Here to view Full-Sized!";
+          }
+          $('<p id="clickhere"></p>').text(text).css({
+            'position': 'absolute',
+            'z-index': '9999',
+            'border' : '1px solid #333',
+            'backgroundColor' : '#161616',
+            'border-radius': '5px',
+            'padding': '2px 10px',
+            'color': '#FFF'
+          }).appendTo('body');
+        }, mouseleave: function(e) {
+          $('#clickhere').remove();
+        }, mousemove: function(e) {
+          $('#clickhere').css({ 'top': e.pageY + 10, 'left': e.pageX + 20 });
+        }});
     </script>
 
 
