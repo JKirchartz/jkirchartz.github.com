@@ -119,6 +119,7 @@ no images yet want to show some?
 ## other
 Other interesting things that don't fit above.
 
+* [BuiltWith.com](http://builtwith.com) see the full stack of what a site is built with
 * [beta.jhere.net/bin/](http://beta.jhere.net/bin/) jHere makes maps easy w/ javascript
 * [jotted](https://github.com/ghinda/jotted) self-hosted editable html/css/javascript demos
 * [httpstatus.es](http://httpstatus.es/)
@@ -129,6 +130,7 @@ Other interesting things that don't fit above.
 * [TheToolbox.cc](http://thetoolbox.cc/) (app aggregator)
 * [How to Ask Questions the Smart Way](http://catb.org/~esr/faqs/smart-questions.html)
 * [Can I Use](http://caniuse.com)
+* [Curated List of Awesome Lists](https://github.com/sindresorhus/awesome) has some more awesome tools mentioned throughout
 
 
 
