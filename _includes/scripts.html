@@ -9,7 +9,6 @@
         bgImg = '', bgSize = '', bgPos = '',
         _gaq = _gaq || [],
         protocol = d.location.protocol;
-    window._idl = {};
     /* create background CSS */
     for (var i = 10, l = 20 + (Math.random() * 10); i < l; i++) {
       var col = c[i % (c.length)],
@@ -36,7 +35,13 @@
     _gaq.push(['_setAccount', 'UA-21180085-1']);
     _gaq.push(['_trackPageview']);
     loadScript(('https:' == protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js');
-    loadScript(('https:' == protocol ? 'https://' : 'http://www') + 'members.internetdefenseleague.org/include/?url=&campaign=&variant=banner');
-    loadScript(protocol + '//d1agz031tafz8n.cloudfront.net/thedaywefightback.js/widget.min.js');
-    loadScript('https://widget.battleforthenet.com/widget.js');
+
+    window._idl = {};
+    _idl.variant = "modal";
+    (function() {
+        var idl = document.createElement('script');
+        idl.async = true;
+        idl.src = 'https://members.internetdefenseleague.org/include/?url=' + (_idl.url || '') + '&campaign=' + (_idl.campaign || '') + '&variant=' + (_idl.variant || 'modal');
+        document.getElementsByTagName('body')[0].appendChild(idl);
+    })();
 </script>
