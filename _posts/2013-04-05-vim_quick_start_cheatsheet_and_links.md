@@ -126,6 +126,7 @@ doing that lately, so look around. Also there's a few very nice VIM Distribution
 
 * [Vim Interactive Tutorial](http://www.openvim.com/tutorial.html) (try it now!)
 * [VIM docs](http://www.vim.org/docs.php)
+* [Vim Galore](https://github.com/mhinz/vim-galore) ("Everything you need to know about vim")
 * [Vimbits](http://vimbits.com/)
 * [Vimcasts](http://vimcasts.org/) (video tutorials)
 * [usevim](http://usevim.com/)
