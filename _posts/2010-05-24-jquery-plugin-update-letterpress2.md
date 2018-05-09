@@ -12,12 +12,12 @@ plugin to them, and use text-shadow on browsers that support it.<!--more-->
 
 Here's what it looks like:
 
-[![](http://3.bp.blogspot.com/_KHL6Vvj96Eo/Slzi8kMa0oI/AAAAAAAAAiM/g4mhv-ePzYs/s400/letterpresser_screenshot.gif)](http://3.bp.blogspot.com/_KHL6Vvj96Eo/Slzi8kMa0oI/AAAAAAAAAiM/g4mhv-ePzYs/s1600-h/letterpresser_screenshot.gif)
+[![](https://3.bp.blogspot.com/_KHL6Vvj96Eo/Slzi8kMa0oI/AAAAAAAAAiM/g4mhv-ePzYs/s400/letterpresser_screenshot.gif)](https://3.bp.blogspot.com/_KHL6Vvj96Eo/Slzi8kMa0oI/AAAAAAAAAiM/g4mhv-ePzYs/s1600-h/letterpresser_screenshot.gif)
 
 
 and this is the code needed for this example:
 
-{% highlight html %}
+{% highlight html %
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
     <script src="jquery.letterpress2.js" type="text/javascript"></script>
     <style>
@@ -49,8 +49,6 @@ and this is the code needed for this example:
     <h4>Lorem ipsum dolor sit amet</h4>
     </div>
 {% endhighlight %}
-
-
 
 This is a CSS / Graphic effect that usually requires a bit of planning and is
 kind-of hard to throw into dynamic content, or content you have no control
