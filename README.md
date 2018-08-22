@@ -1,7 +1,7 @@
 blog
 ====
 
-[![Build Status](https://travis-ci.org/JKirchartz/jkirchartz.github.com.svg?branch=master)](https://travis-ci.org/jkirchartz/jkirchartz.github.com)
+[![Build Status](https://travis-ci.org/JKirchartz/jkirchartz.github.com.svg?branch=master)](https://travis-ci.org/JKirchartz/jkirchartz.github.com)
 
 jekyll blog, initial content ported from blogger...
 
