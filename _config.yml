@@ -11,7 +11,7 @@ excerpt_separator: <!--more-->
 title: JKirchartz - Web Yinzer n'at
 description: Musings, Music, and More from the WebYinzer n'at.
 author: jkirchartz
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap

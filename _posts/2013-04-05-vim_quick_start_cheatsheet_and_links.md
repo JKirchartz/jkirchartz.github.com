@@ -126,6 +126,7 @@ doing that lately, so look around. Also there's a few very nice VIM Distribution
 
 * [Vim Interactive Tutorial](http://www.openvim.com/tutorial.html) (try it now!)
 * [VIM docs](http://www.vim.org/docs.php)
+* [Vim Galore](https://github.com/mhinz/vim-galore) ("Everything you need to know about vim")
 * [Vimbits](http://vimbits.com/)
 * [Vimcasts](http://vimcasts.org/) (video tutorials)
 * [usevim](http://usevim.com/)
@@ -140,6 +141,7 @@ doing that lately, so look around. Also there's a few very nice VIM Distribution
 * [VIM Regex](http://vimregex.com/)
 * [Vim Tips Wiki](http://vim.wikia.com/)
 * [Vim Tips Wiki's Best Vim Tips](http://vim.wikia.com/wiki/Best_Vim_Tips)
+* [r/Vim Wiki](https://www.reddit.com/r/vim/wiki/index)
 * [Zzapper's Best of Vim Tips](http://zzapper.co.uk/vimtips.html)
 * [Secrets of the Vim Ninja](http://bencrowder.net/files/vim-fu/)
 * [Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)
