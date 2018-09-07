@@ -14,7 +14,7 @@ exactly like this. Your friend wants to know how long it would take to read,
 Minutes? Hours? Days? Weeks? Admittedly it's not much to go on, so you decide
 to ask your friend some clarifying questions. How many pages? Is it a greeting
 card, a pop-up book, a comic book, a novel? Does it have large print? What's
-it about? Who would read something like this? Your friend isn't certain, they
+it about? Who would read something like this? Your friend's not certain, they
 haven't read it, but they have heard that it's not very long perhaps 20 pages
 and plenty of pictures. Sounds like a comic book, maybe even a childrens book.
 So, How long would it take to read it? You estimate a minute per page, but
