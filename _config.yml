@@ -17,3 +17,5 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jemoji
+  - jekyll-gist
+  - github-metadata
