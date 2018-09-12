@@ -51,6 +51,8 @@ include-after:
 ---
 ```
 
+[View this post on tilde.town][9]
+
 
 [1]: https://tilde.team/wiki/?page=other-tildes
 [2]: http://tilde.club/
@@ -59,3 +61,4 @@ include-after:
 [5]: http://pandoc.org/
 [6]: https://www.gnu.org/software/make/
 [7]: http://yaml.org/
+[8]: https://tilde.town/~kirch/unix-as-a-cms.html
