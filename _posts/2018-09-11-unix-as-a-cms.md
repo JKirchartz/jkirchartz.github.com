@@ -51,7 +51,7 @@ include-after:
 ---
 ```
 
-[View this post on tilde.town][9]
+[View this post on tilde.town][8]
 
 
 [1]: https://tilde.team/wiki/?page=other-tildes
