@@ -1,13 +1,12 @@
 ---
 layout: post
 title: The Book Metaphor
-published: false
-tags: article, time
+tags: article, time, planning
 ---
 
 Imagine a friend shows you a photo of a book online &mdash; well, you presume
 it's a book, it could be a magazine, an encyclopedia, or even a journal, it's
-hard to tell from a picture &mdash; there's at least a lovely photograph and
+hard to tell from a picture <!--more--> &mdash; there's at least a lovely photograph and
 what could be a title, it's hard to make out. Of course you've seen books and
 magazines, perhaps you're an avid reader, but you've never seen anything
 exactly like this. Your friend wants you to read it before joining them in a
