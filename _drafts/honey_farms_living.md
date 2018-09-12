@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Honey Farms Living
-published: false
+projectImg: https://i.imgur.com/XVln5Qc.jpg
 tags: portfolio, wordpress, Fireman Creative
 ---
 
-
+![Honey Farms Living](https://i.imgur.com/Sn7HYOJ.png)
 
 ## Technologies
 
@@ -28,7 +28,7 @@ tags: portfolio, wordpress, Fireman Creative
   - *Bootstrap*:<br> Enable Bootstrap 3 features
   - *Custom Scripts*:<br> Small modifications to ensure comformity to design and enhance user interaction.
 - *Twitter Typeahead*:<br> type-ahead in-page predictive search for the Glossary page.
-- SVG icons, backgrounds, and interactive maps
+- SVG Animations, icons, backgrounds, and interactive maps
 - CSS Animations
 - Google Maps:<br> Find local dining, shoping, and entertainment in nearby communities.
 - Google Analytics

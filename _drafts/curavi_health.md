@@ -1,9 +1,11 @@
 ---
 layout: post
 title: Curavi Health
-published: false
+projectImg: https://i.imgur.com/0p7EPUr.jpg
 tags: portfolio, wordpress, Fireman Creative
 ---
+
+![Curavi Health](https://i.imgur.com/EPqx1NM.png)
 
 
 ## Technologies
