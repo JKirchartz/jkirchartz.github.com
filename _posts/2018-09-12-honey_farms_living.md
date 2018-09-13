@@ -2,7 +2,10 @@
 layout: post
 title: Honey Farms Living
 projectImg: https://i.imgur.com/XVln5Qc.jpg
-tags: portfolio, wordpress, Fireman Creative
+tags:
+- portfolio
+- wordpress
+- Fireman Creative
 ---
 <!--more-->
 ![Honey Farms Living](https://i.imgur.com/Sn7HYOJ.png)

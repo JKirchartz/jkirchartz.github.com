@@ -2,7 +2,10 @@
 layout: post
 title: Out and Equal
 projectImg: https://i.imgur.com/oK3OkFB.jpg
-tags: portfolio, wordpress, Fireman Creative
+tags:
+- portfolio
+- wordpress
+- Fireman Creative
 ---
 <!--more-->
 ![Out and Equal](https://i.imgur.com/aOUqN1Y.png)
