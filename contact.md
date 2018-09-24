@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: solo
 title: Contact JKirchartz
 ---
 
@@ -41,5 +41,4 @@ title: Contact JKirchartz
         <div><span itemprop="addressLocality" >Pittsburgh</span>, <span itemprop="addressRegion">PA</span> </div>
         <span itemprop="postalCode">15212</span><br> <span itemprop="addressCountry">United States</span>
       </div>
-    </div>
 </div>
