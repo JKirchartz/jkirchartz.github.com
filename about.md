@@ -3,7 +3,7 @@ layout: solo
 title: About
 ---
 
-### Hello, I'm Joel <span data-IPA="kər·chärtz">Kirchartz</a>. I like to make stuff and share it with people on the web.
+### Hello, I'm Joel <span data-IPA="kər·chärtz">Kirchartz</span>. I like to make stuff and share it with people on the web.
 
 I'm a full-stack developer and web generalist living in Pittsburgh, Pa.  I'm
 passionate about modular web design &amp; development, automation, and
