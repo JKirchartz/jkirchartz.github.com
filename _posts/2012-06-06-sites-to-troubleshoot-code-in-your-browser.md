@@ -27,6 +27,7 @@ that make writing &amp; repairing code with your browser all sorts of easier<!--
 * [wonderfl.net](http://wonderfl.net/)
 * [dotnetfiddle.net](http://dotnetfiddle.net/)
 * [ember-twiddle.com](https://ember-twiddle.com/)
+* [trinket.io](https://trinket.io/)
 
 \* these cover multiple languages
 
