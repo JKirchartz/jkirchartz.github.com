@@ -32,14 +32,14 @@ Each of these musical examples builds upon the past to progress into the future 
 Copyright in music, however, is applied to the performance and the music notation separately.
 This allows musicians to profit from their work, but has kept other artists from profiting from creative reuse in remixes, mashups, samples, and other transformative uses.
 
-Currently though in the tech industry patents aren't generally used for disseminating information, but to protect it from competition.
+Patents aren't generally used for disseminating information, but to protect it from competition.
 [As Apple did in it's cases against Samsung](http://news.cnet.com/8301-13579_3-57423627-37/apple-v-samsung-50-suits-10-countries-and-counting/).
 Apple tried to litigate away competition, and prevent their competitors product from going to market by filing injunctions against Samsung.
 Apple's [not the only one](http://www.techdirt.com/blog/?tag=patent+war) tied up in this Google, Motorola, RIM, pretty much the entire smartphone market has been in court over some patent.
 But there are even more subversive agents in the IP law game, [Patent Trolls](http://www.techdirt.com/blog/?tag=patent+troll).
 All Patent Trolls do is use patents to try to sue their way into tech wealth. Some have purchased or filed overly-broad patents and made claims that they [own podcasting](http://www.techdirt.com/articles/20130206/07215421891/patent-troll-says-it-owns-podcasting-sues-adam-carolla-howstuffworks.shtml)
-or [putting recipes online](http://www.techdirt.com/articles/20120615/03122319332/patent-holder-sues-basically-anyone-who-offers-recipes-meal-planning-online.shtml).
+or [putting recipes online](http://www.techdirt.com/articles/20120615/03122319332/patent-holder-sues-basically-anyone-who-offers-recipes-meal-planning-online.shtml). Adding international law to the mix only [complicates things further](https://www.cnet.com/news/huawei-is-reportedly-chasing-verizon-for-1b-in-patent-licensing-fees/)
 
-There are only so many ways to cut a shirt, toast bread, or arrange notes, just as there are only so many ways to write a program, especially one that sends text over the internet.
+There are only so many ways to cut a shirt, toast bread, or arrange notes, just as there are only so many ways to write a program, especially one that basically sends text over the internet.
 We can all prosper if we let information flow freely. Why hold onto your baby forever? Once it matures (or not), set it free to the world.
 
