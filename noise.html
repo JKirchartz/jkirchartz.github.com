@@ -4,25 +4,17 @@ title: Noise
 ---
 
 <h2>Noise</h2>
-<div class="archive">
-  <div class="container-fluid">
-    <div class="row noise">
-      <div class="col-12">
+<div class="noise archive">
       {% for post in site.tags.music %}
         {% if post.redirect %}
         {% else %}
-        <article class="card">
-          <div class="card-block">
-            <h2 class="card-title">{{ post.title }}</h2>
+        <article class="article">
+            <h2>{{ post.title }}</h2>
             {% if post.content %}
-            <div class="card-text">{{ post.content }}</div>
+            <div>{{ post.content }}</div>
             {% endif %}
             {% include share.html %}
-          </div>
         </article>
         {% endif %}
       {% endfor %}
-      </div>
-    </div>
-  </div>
 </div>
