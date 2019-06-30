@@ -2,7 +2,7 @@
 layout: post
 title: "JQuery Plugin update: Letterpress2"
 name: jquery-plugin-update-letterpress2
-tags: jQuery plugin
+tags: jQuery plugin article
 ---
 
 A While back I coded a plugin to apply the letterpress effect, since then I've decided

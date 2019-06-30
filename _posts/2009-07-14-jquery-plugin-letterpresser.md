@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "JQuery Plugin: Letterpresser"
-tags: Javascript JQuery Plugin
+tags: Javascript JQuery Plugin article
 ---
 
 This plugin adds the Letterpress style to any assigned tag.<!--more-->

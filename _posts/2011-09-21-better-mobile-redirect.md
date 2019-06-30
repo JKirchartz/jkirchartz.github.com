@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Better Mobile Redirect
-tags: html javascript
+tags: html javascript article
 ---
 
 

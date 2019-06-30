@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Border Radius Toy
-tags: project demo jQuery html5 portfolio
+tags: project demo jQuery html5 portfolio article
 projectName: Border Radius Toy
 projectUrl: https://jkirchartz.com/demos/Border_Radius_Toy.html
 projectImg: https://3.bp.blogspot.com/_KHL6Vvj96Eo/TKi5woZN7jI/AAAAAAAAAoA/hewVyI7JzKA/s320/BorderRadiusToy.png

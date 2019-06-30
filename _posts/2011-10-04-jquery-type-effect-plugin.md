@@ -1,7 +1,7 @@
 ---
 layout: post
 title: jQuery type effect plugin
-tags: jQuery plugin
+tags: jQuery plugin article
 ---
 
 Let's kick it old-school, with the absolute CLASSIC typewriter effect. I couldn't

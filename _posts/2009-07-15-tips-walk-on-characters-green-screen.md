@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tips: Walk-on Characters &amp; Green Screen"
-tags: Video Tips
+tags: Video Tips article
 ---
 
 Keying -- the process used to remove green-screen -- is a relatively simple process now-a-days,

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "XUIjs for Mobile Development + 2 extensions"
-tags: javascript
+tags: javascript article
 ---
 
 I recently stared playing with [xui.js](http://xuijs.com/) it's a really nice library targeted to mobile devices,

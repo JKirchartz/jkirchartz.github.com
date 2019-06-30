@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "VIM quick-start, cheat-sheet, and links"
-tags: tutorial
+title: VIM quick-start, cheat-sheet, and links
+tags: tutorial article
 ---
 
 If you've been [following me](http://twitter.com/jkirchartz) for a while, you might know my editor of choice is VIM,

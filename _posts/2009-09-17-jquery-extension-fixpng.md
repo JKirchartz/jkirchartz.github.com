@@ -1,7 +1,7 @@
 ---
 title: "JQuery Extension: fixPng"
 layout: post
-tags: jQuery plugin
+tags: jQuery plugin article
 ---
 
 PNGs and IE6, sounds like a recipe for trouble. Well you could always use the lovely [DD_belatedPNG](http://www.dillerdesign.com/experiment/DD_belatedPNG/) <!--more-->

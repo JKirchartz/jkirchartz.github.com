@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Book Metaphor
-tags: article, time, planning
+tags: article time planning
 ---
 
 Imagine a friend shows you a photo of a book online &mdash; well, you presume

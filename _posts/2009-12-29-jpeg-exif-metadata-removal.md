@@ -1,7 +1,7 @@
 ---
 title: "Jpeg EXIF Metadata Removal"
 layout: post
-tags: exif hacks
+tags: exif hacks article
 ---
 
 Image Optimization is a fun game, trying to get just the right compression ratio to balance file size and appearance. There are a ton of tricks out there, but as a Photoshop user you generally end up with some pretty big files that are just small images. Today I had an icon, 71x30px that was 40.1kb after I resized it from a larger jpeg that was 38kb.<!--more-->
