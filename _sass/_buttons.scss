@@ -1,5 +1,5 @@
 .btn-nav {
-  @include button-variant($white, $brand-primary, $brand-primary);
+  // @include button-variant($white, $brand-primary, $brand-primary);
   background: $brand-primary linear-gradient(75deg, $brand-primary 50%, darken($brand-primary, 15%) 100%) no-repeat;
   background-position: -100% 0;
   background-size: 200% 100%;

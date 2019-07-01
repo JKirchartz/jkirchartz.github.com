@@ -2,6 +2,10 @@
 ---
 @charset "UTF-8";
 
+* { box-sizing:border-box; }
+html {
+  background-color: #7F7F7F;
+}
 html, body {
   margin: 0;
   padding: 0;
@@ -10,14 +14,15 @@ html, body {
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-// @import "variables";
-@import  "new";
-// @import  "animations";
-// @import  "header";
-// @import  "nav";
-// @import  "cards";
-// @import  "social";
-// @import  "time";
-// @import  "buttons";
-// @import  "common";
-// @import  "syntax";
+@import "variables";
+@import "breakpoints";
+@import "new";
+@import "animations";
+@import "header";
+@import "nav";
+// @import "cards";
+@import "social";
+@import "time";
+@import "buttons";
+@import "common";
+@import "syntax";

@@ -1,4 +1,4 @@
-.card {
+.archive .article {
   margin: 0 auto .75rem;
   max-width: 65rem;
   padding: 5vw 1rem;
@@ -42,14 +42,14 @@
   max-width: 65rem;
 }
 
-@include media-breakpoint-up(sm) {
-  .card-columns {
-    column-count: 2;
-  }
-}
+// @include media-breakpoint-up(sm) {
+//   .card-columns {
+//     column-count: 2;
+//   }
+// }
 
-@include media-breakpoint-up(lg) {
-  .card-columns {
-    column-count: 3;
-  }
-}
+// @include media-breakpoint-up(lg) {
+//   .card-columns {
+//     column-count: 3;
+//   }
+// }

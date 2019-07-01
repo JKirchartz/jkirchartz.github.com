@@ -11,11 +11,16 @@
     {% seo %}
     {% feed_meta %}
   </head>
-  <body class="landing">
-    {% include header.html %}
-    <footer>
+  <body>
+    <div class="landing">
+      {% include header.html %}
+      <img class="featured-img"
+           srcset="https://i.imgur.com/kpDsH1K.jpg 250w,
+                   https://i.imgur.com/QQJKhBz.jpg 500w,
+                   http://i.imgur.com/NRbMgti.jpg 700w"
+           src="http://i.imgur.com/NRbMgti.jpg">
       {% include social_media.html %}
-    </footer>
+    </div>
     {% include scripts.html %}
   </body>
 </html>

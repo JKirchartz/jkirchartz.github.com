@@ -1,14 +1,19 @@
 .navbar {
+  display: flex;
   align-items: center;
   flex-basis: 0;
   flex-direction: row;
   flex-grow: 1;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 5vh 1vw;
 
   a {
     margin: .5em;
+    color: $black;
+
+    &::hover {
+      text-shadow: 0 0 0.5rem 0.5em $white;
+    }
   }
 }
 

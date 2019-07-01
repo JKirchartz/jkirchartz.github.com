@@ -6,16 +6,19 @@ $orange: #E35D12;
 $yellow: #D3AA28;
 $green: #2E7526;
 $blue: #042F8D;
+$gray: #7E7E7E;
+$grey: $gray;
 $tan: #74462E;
 $brown: #40201A;
 
 // globals
-$body-bg: $blue;
+$body-bg: $gray;
+$brand-primary: $blue;
 $font-family-sans-serif: "Montserrat", sans-serif;
 $font-family-base: $font-family-sans-serif;
 $headings-color: $white;
 $card-cap-bg: $white;
-
+$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px)
 
 // Kuler: beachside
 // darkest blue: #042F8D
@@ -37,3 +40,4 @@ $card-cap-bg: $white;
 // light blue: #01AEE7
 // mustard yellow: #D3AA28
 // orange: #E45D12
+

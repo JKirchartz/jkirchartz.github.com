@@ -5,24 +5,22 @@ h1 {
 h2 {
   font-size: 3rem;
   padding-left: 1.4rem;
-  transform: rotateZ(2.9deg);
+  margin-bottom: 1rem;
 }
 
 img {
-  @include img-fluid;
+  max-width: 100%;
+  height: auto;
 }
 
 body {
-  background-color: transparent;
+  background-color: $body-bg;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 main {
   transition: background .5s;
-}
-
-.archive,
-.post {
-  clip-path: polygon(0 0, 100% 5vw, 100% 100%, 0 calc(100% - 5vw));
 }
 
 a,
@@ -62,8 +60,3 @@ footer {
   margin-top: 5vh;
 }
 
-@include media-breakpoint-up(md) {
-  .container-fluid {
-    @include make-container-max-widths();
-  }
-}
