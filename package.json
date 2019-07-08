@@ -1,0 +1,29 @@
+{
+  "name": "jkirchartz.github.com",
+  "version": "1.0.0",
+  "description": "My Personal Blog/Site",
+  "browserlist": "last 2 versions",
+  "main": "index.js",
+  "scripts": {
+    "test": "rake serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jkirchartz/jkirchartz.github.com.git"
+  },
+  "keywords": [
+    "Blog",
+    "Site",
+    "JKirchartz"
+  ],
+  "author": "J. Kirchartz",
+  "license": "SEE LICENSE IN NPL.txt",
+  "bugs": {
+    "url": "https://github.com/jkirchartz/jkirchartz.github.com/issues"
+  },
+  "homepage": "https://github.com/jkirchartz/jkirchartz.github.com#readme",
+  "devDependencies": {
+    "postcss": "^7.0.17",
+    "postcss-preset-env": "^6.6.0"
+  }
+}

@@ -13,10 +13,17 @@ description: Musings, Music, and More from the WebYinzer n'at.
 author: jkirchartz
 jekyll_compose:
   auto_open: true
+  draft_default_frontmatter:
+    layout: post
+    projectImg:
+    tags:
+      - article
+      - portfolio
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-postcss
   - jekyll-seo-tag
   - jemoji
   - jekyll-gist
