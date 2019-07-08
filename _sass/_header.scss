@@ -26,7 +26,13 @@ header {
       font-size: .5em;
       padding: .25em 0;
       text-align: right;
+      &::after {
+        content: ":";
+      }
     }
+  }
+  .navbar {
+    display: inline-flex;
   }
 }
 .landing {
