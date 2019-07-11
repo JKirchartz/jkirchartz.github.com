@@ -6,14 +6,7 @@ title: Projects
 <div class="projects">
       <div class="archive">
         {% for post in site.tags.portfolio %}
-        <div class="article">
-          <h4><a href="{{ post.url | downcase }}">{% if post.projectName %}{{ post.projectName }}{% else %}{{ post.title }}{% endif %}</a></h4>
-          </div>
-          {% if post.projectImg %}<img class="card-img-top" src="{{ post.projectImg }}" alt="{% if post.projectName %}{{ post.projectName }}{% else %}{{ post.title }}{% endif %} screenshot"/>{% endif %}
-          <p>{{ post.excerpt | strip_html }}&hellip;</p>
-          <a href="{{post.url | downcase }}">Project Details</a>
-          </div>
-        </div>
+          {% include post_archive.html %}
         {% endfor %}
       </div>
 </div>

@@ -7,13 +7,18 @@
   flex-wrap: wrap;
   justify-content: space-around;
 
-  a {
+  & a {
+    font-weight: 900;
     margin: .5em;
-    color: $black;
+    color: var(--black);
 
     &::hover {
-      text-shadow: 0 0 0.5rem 0.5em $white;
+      text-shadow: 0 0 0.5rem 0.5em var(--white);
     }
+  }
+
+  @media (--viewport-medium) {
+    display: inline-flex;
   }
 }
 
@@ -22,15 +27,15 @@
   clear: both;
   width: 100%;
 
-  .prev {
+  & .prev {
     float: left;
   }
 
-  .next {
+  & .next {
     float: right;
   }
 
-  a {
+  & a {
     margin-bottom: .1em;
 
     &:hover {

@@ -1,5 +1,7 @@
 module.exports = {
   plugins: [
-    requite('postcss-preset-env)
+    require('postcss-import')({path: 'css'}),
+    require('postcss-nesting'),
+    require('postcss-preset-env')({stage: 1})
   ]
 }

@@ -1,0 +1,26 @@
+.social_media {
+  display:grid;
+  font-size: 2em;
+  margin: 0.2rem auto;
+  text-align: center;
+  grid-template-columns: auto auto auto;
+
+  @media (--viewport-large) {
+    display: block;
+    grid-template-columns: none;
+  }
+
+  & a {
+    display: inline-block;
+  }
+}
+
+.social a {
+  color: var(--black);
+  margin: .2em 0.5em;
+
+  &::hover {
+    text-shadow: 0 0 0.5em var(--white);
+    transition: text-shadow .2s ease-in-out;
+  }
+}

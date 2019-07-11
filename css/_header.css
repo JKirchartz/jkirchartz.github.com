@@ -1,0 +1,40 @@
+/*
+http://i.imgur.com/NRbMgt.jpg // toothy smiling
+http://i.imgur.com/oCNbSjO.jpg // toothless grin
+*/
+header {
+  position: relative;
+  overflow: overlay;
+  z-index: 100;
+
+  & h1 {
+    color: var(--black);
+    font-size: 2.5rem;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+    & a {
+      color: var(--black);
+    }
+
+    & span {
+      border-bottom: 1px solid var(--primary);
+      display: block;
+      padding: 0 0 0 1.5rem;
+    }
+
+    & small {
+      display: block;
+      font-size: .5em;
+      padding: .25em 0;
+      text-align: right;
+
+      @media (--viewport-medium) {
+        &::after {
+          content: ":";
+        }
+      }
+    }
+  }
+}

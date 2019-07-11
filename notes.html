@@ -8,12 +8,7 @@ title: Notes
   {% for post in site.tags.article %}
   {% if post.redirect %}
   {% else %}
-  <div class="article">
-    <h4><a href="{{ post.url | downcase }}">{{ post.title }}</a></h4>
-    {% if post.projectImg %}<img class="card-img-top" src="{{ post.projectImg }}" alt="{% if post.projectName %}{{ post.projectName }}{% else %}{{ post.title }}{% endif %} screenshot"/>{% endif %}
-    <p>{{ post.excerpt | strip_html }}</p>
-    <a href="{{post.url | downcase }}">read more</a>
-  </div>
+    {% include post_archive.html %}
   {% endif %}
   {% endfor %}
 </div>

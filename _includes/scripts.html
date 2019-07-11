@@ -2,7 +2,7 @@
 <script type="text/javascript">
         var d = document, b = d.getElementsByTagName('body')[0],
         wa = d.createElement('div'),
-        w = b.clientWidth, h = b.clientHeight;
+        w = window.innerWidth, h = window.innerHeight;
         st = "background: linear-gradient(",
         f = Math.floor, r = Math.random,
         bgi = bgp = bgs = "", c = p = s = 0,
@@ -10,19 +10,20 @@
         sa = function() { s++; return s % 2 ? 50 : 0; };
         lu = function() { return 35 + f(r() * 45)};
         wa.setAttribute('class', 'wallpaper');
+    /* generate wallpaper */
         for (var i = 0, l = 15; i != l; i++) {
           p = p >= 100 ? 100 : (p + (i%2 ? f(r() * 30) + 10 : 0));
           c = i%2 ? c : "hsl(" + hu() + "," + sa() + "%," + lu() + "%) ";
           st += c + p+"%" + (i<l-1?", ":")");
           if (!(i % 2)) {
-            let size = d.querySelectorAll('header')[0].offsetHeight, rad = f(r()*40) + 10, col = 'hsl(' + hu()+ ','+ f(r()*50) + '%,'+ lu() + '%)';
+            let size = d.querySelectorAll('header')[0].offsetHeight, rad = f(r()*40) + 10, col = 'hsl(' + hu()+ ','+ (f(r()*40)+20) + '%,'+ lu() + '%)';
             bgi += ['radial-gradient(', col, ' 0, ', col , ' ', rad, '%, transparent ', rad, '%),'].join('');
             bgs += size + 'px ' + size + 'px,';
             bgp += (f(r()*(w/2))) + 'px ' + (f(r()*(h/2))) + 'px,';
           }
         };
-        wa.setAttribute("style", st);
-        b.setAttribute("style",  'background-image:' + bgi.slice(0, -1) + ';background-size:' + bgs.slice(0, -1) + ';background-position:' + bgp.slice(0, -1) + ';');
+        wa.innerHTML = "<div><div style='" + st + "'></div></div>"
+        b.setAttribute("style", 'background-image:' + bgi.slice(0, -1) + ';background-size:' + bgs.slice(0, -1) + ';background-position:' + bgp.slice(0, -1) + ';');
         b.appendChild(wa);
 
     /* load Google Analytics & other external scripts */

@@ -24,8 +24,8 @@
 header {
   animation: slideInFromLeft 1s ease 0s 1;
 
-  nav,
-  h1 {
+  & nav,
+  & h1 {
     animation: slideInFromLeft 1s ease 0s 1;
   }
 }
