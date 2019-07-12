@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  flex-basis: 0;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  & a {
+    font-weight: 900;
+    margin: .5em;
+    color: var(--black);
+
+    &::hover {
+      text-shadow: 0 0 0.5rem 0.5em var(--white);
+    }
+  }
+
+  @media (--viewport-medium) {
+    display: inline-flex;
+  }
+}
+
+
+.post_pagination {
+  clear: both;
+  width: 100%;
+
+  & .prev {
+    float: left;
+  }
+
+  & .next {
+    float: right;
+  }
+
+  & a {
+    margin-bottom: .1em;
+
+    &:hover {
+      margin-bottom: 0;
+    }
+  }
+}

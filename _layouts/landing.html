@@ -1,21 +1,16 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="p:domain_verify" content="28092cfebd8dcf35ac5c5d6a35788f6c"/>
-    <title> {% if page.title %} {{ page.title }} | {% endif %} Joel Kirchartz - Web Yinzer n'at</title>
-    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
-    <link rel="stylesheet" media="not print" href="/css/style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    {% seo %}
-    {% feed_meta %}
-  </head>
-  <body class="landing">
-    {% include header.html %}
-    <footer>
+  <head>{% include head.html %}</head>
+  <body>
+    <div class="landing">
+      {% include header.html %}
+      <img class="featured-img"
+           srcset="https://i.imgur.com/kpDsH1K.jpg 250w,
+                   https://i.imgur.com/QQJKhBz.jpg 500w,
+                   http://i.imgur.com/NRbMgti.jpg 700w"
+           src="http://i.imgur.com/NRbMgti.jpg">
       {% include social_media.html %}
-    </footer>
+    </div>
     {% include scripts.html %}
   </body>
 </html>

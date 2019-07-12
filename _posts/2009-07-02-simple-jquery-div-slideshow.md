@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Code: Simple JQuery Div Slideshow"
-tags: Javascript jQuery
+tags: Javascript jQuery article
 ---
 
 Here's a super-simple DIV slideshow with JQuery based on one for prototype/scriptaculous, it can be found <a href="http://snippets.dzone.com/posts/show/1068">here</a>. The beauty is that it can contain anything  <!--more-->

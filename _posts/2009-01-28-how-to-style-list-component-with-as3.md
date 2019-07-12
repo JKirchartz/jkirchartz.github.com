@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to style the List Component with AS3
-tags: Flash
+tags: Flash article
 ---
 
 Back in the good ol' days to style the list component's over state all you

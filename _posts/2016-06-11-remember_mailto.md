@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Remember Mailto?
+tags: article
 ---
 
 "How do I send this to my Mom..." she asked herself scrolling up and down the page;

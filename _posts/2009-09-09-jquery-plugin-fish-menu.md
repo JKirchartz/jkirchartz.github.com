@@ -1,7 +1,7 @@
 ---
 title: "jQuery Plugin: Fish-Menu"
 layout: post
-tags: jQuery plugin
+tags: jQuery plugin article
 ---
 
 Here we go, at it again with a new plugin called fish-menu heavily based on [jquery.ui.potato.menu](http://labs.makotokw.com/s/jquery/menu) by [Makoto_KW](http://makotokw.com/en/)<!--more-->

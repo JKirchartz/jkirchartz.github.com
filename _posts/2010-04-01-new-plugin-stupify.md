@@ -1,7 +1,7 @@
 ---
 title: "New Plugin: Clickify"
 layout: post
-tags: jQuery plugin
+tags: jQuery plugin article
 ---
 
 Here's a quickly little plugin' tool, that I know people will find very useful. It's called Clickify, and it's an answer to a problem a lot of people are concerned about.<!--more--> Too often has somebody asked "How will users know where to click?" now we have your answer, Clickify automatically adds the text "(click here!)" to every "hyperlink" within a page, so that there will be no confusion as to where to click to visit a link.
