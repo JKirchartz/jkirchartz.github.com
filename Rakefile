@@ -7,11 +7,13 @@ end
 
 desc "Build jekyll project"
 task :build do
+  system("./node_modules/postcss-cli/bin/postcss css/index.css -o css/style.css")
   system("bundle exec jekyll build")
 end
 
 desc "Build & serve jekyll project for develoment"
 task :serve do
+  system("./node_modules/postcss-cli/bin/postcss css/index.css -o css/style.css --watch")
   system("bundle exec jekyll serve --incremental")
 end
 

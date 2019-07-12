@@ -23,7 +23,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-postcss
   - jekyll-seo-tag
   - jemoji
   - jekyll-gist
