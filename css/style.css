@@ -369,7 +369,10 @@ header h1 {
     padding: 0
   }
 
-header h1 a {
+header h1 a,
+    header h1 a::ctive,
+    header h1 a::isited,
+    header h1 a::over {
       color: #111111;
       color: var(--black);
     }
