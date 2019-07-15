@@ -1,11 +1,5 @@
 @charset "UTF-8";
 
-/* breakpoints */
-
-/* above: set navbar to inlay block, add colon to header>h1>small */
-
-/* below:article min to 30ch */
-
 :root {
   /* colors */
   --black: #111111;

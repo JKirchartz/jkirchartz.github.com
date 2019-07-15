@@ -9,7 +9,7 @@ Junk](http://tgimboej.org/) is a project that allows hackers &amp; makers to sha
 some electronics/components with each other. There's a ton of these things
 going around, but it seems like they move quite slowly.<!--more-->
 
-![](http://i.imgur.com/N7zS1ug.jpg)
+![](//i.imgur.com/N7zS1ug.jpg)
 
  I received the box code-named [_Baltimore
 Bazaar_](http://tgimboej.org/Box_Code:_Baltimore_Bazaar) a few days ago &amp;
