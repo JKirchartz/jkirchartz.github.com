@@ -13,7 +13,7 @@ end
 
 desc "Build & serve jekyll project for develoment"
 task :serve do
-  system("./node_modules/postcss-cli/bin/postcss css/index.css -o css/style.css --watch")
+  system("./node_modules/postcss-cli/bin/postcss css/index.css -o css/style.css")
   system("bundle exec jekyll serve --incremental")
 end
 
@@ -24,8 +24,9 @@ task :install do
 end
 
 desc "Build, Commit, and Deploy to Github"
-task :deploy => ["build"] do
-  system("git commit")
+task :deploy, [:msg] => ["build"] do |t, args|
+  system("git add .")
+  system("git commit -m '#{args.msg}'")
   system("git push")
 end
 

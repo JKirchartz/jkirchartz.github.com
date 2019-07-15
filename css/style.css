@@ -17,6 +17,7 @@
   --blue: #042F8D;
   --tan: #74462E;
   --brown: #40201A;
+  --purple: #639;
   /* nobody really knows how to spell this word */
   --gray: #B0B0B0;
   --grey: var(--gray);
@@ -154,9 +155,21 @@ main {
   z-index: 1000;
 }
 
-a,
-a:hover {
+a {
+  color: #042F8D;
+  color: var(--blue);
   text-decoration: none;
+
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active,
+a:visited {
+  color: #639;
+  color: var(--purple);
 }
 
 time {
@@ -230,15 +243,6 @@ footer {
   font-size: 1rem
 
 }
-
-footer a,
-  footer a:hover,
-  footer a:active,
-  footer small {
-    color: #111111;
-    color: var(--black);
-    text-align: center;
-  }
 
 footer small {
     display: block;
