@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+/* breakpoints */
+
+/* above: set navbar to inlay block, add colon to header>h1>small */
+
+/* below:article min to 30ch */
+
 :root {
   /* colors */
   --black: #111111;
@@ -107,6 +113,11 @@ body {
     height: 35vmin;
     width: 80vmin;
   }
+
+main, header, .archive, .landing, footer {
+  position: relative;
+  z-index:100;
+}
 
 h1 {
   font-size:2.11538em;
@@ -476,7 +487,7 @@ header h1 small {
     transition: text-shadow .2s ease-in-out;
   }
 
-.highlight pre { background-color: #272822; color:#F8F8F2; }
+.highlight pre { background-color: #272822; color:#F8F8F2; padding: 0.5rem; }
 
 .highlight .hll { background-color: #272822; }
 

@@ -49,6 +49,10 @@ body {
   }
 }
 
+main, header, .archive, .landing, footer {
+  position: relative;
+  z-index:100;
+}
 
 h1 {
   font-size:2.11538em;
