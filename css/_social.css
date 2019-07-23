@@ -24,3 +24,8 @@
     transition: text-shadow .2s ease-in-out;
   }
 }
+
+.fas.fa-tilde::before {
+  content: "~";
+  font-family: var(--font-family);
+}
