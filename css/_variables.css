@@ -22,7 +22,7 @@
   --body-bg: var(--gray);
   --color: var(--black);
   --primary: var(--blue);
-  --font-family: "Montserrat", sans-serif;
+  --font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif;
 
   /*
   // Kuler: beachside

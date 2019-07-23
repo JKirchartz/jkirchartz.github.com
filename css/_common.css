@@ -19,6 +19,7 @@ body {
   background-color: var(--body-bg);
   background-repeat: no-repeat;
   font-family: var(--font-family);
+  font-display: swap;
   color: var(--black);
   font-size: 110%;
   line-height: 1.75;
