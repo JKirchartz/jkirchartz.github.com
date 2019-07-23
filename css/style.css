@@ -420,7 +420,7 @@ header h1 small {
 }
 
 .navbar a {
-    font-weight: 900;
+    font-weight: 700;
     margin: .5em;
     color: #111111;
     color: var(--black)
