@@ -26,7 +26,7 @@
   --body-bg: var(--gray);
   --color: var(--black);
   --primary: var(--blue);
-  --font-family: "Montserrat", sans-serif;
+  --font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif;
 
   /*
   // Kuler: beachside
@@ -81,8 +81,9 @@ body {
   background-color: #B0B0B0;
   background-color: var(--body-bg);
   background-repeat: no-repeat;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif;
   font-family: var(--font-family);
+  font-display: swap;
   color: #111111;
   color: var(--black);
   font-size: 110%;
@@ -275,6 +276,14 @@ $breakpoints: (
     @content;
   }
 }
+
+/*
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important;
+}
+*/
 
 @-webkit-keyframes slideInFromLeft {
   0% {
@@ -498,7 +507,7 @@ header h1 small {
 
 .fas.fa-tilde::before {
   content: "~";
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif;
   font-family: var(--font-family);
 }
 
