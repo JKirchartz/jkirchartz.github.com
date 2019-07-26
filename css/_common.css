@@ -142,6 +142,8 @@ time {
   width: 30vw;
   max-width: 500px;
   min-width: 250px;
+  position:relative;
+  z-index: 100;
 }
 
 .featured-img-auto {
