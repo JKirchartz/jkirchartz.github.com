@@ -228,6 +228,8 @@ time {
   width: 30vw;
   max-width: 500px;
   min-width: 250px;
+  position:relative;
+  z-index: 100;
 }
 
 .featured-img-auto {
@@ -312,41 +314,35 @@ $breakpoints: (
 @-webkit-keyframes fadeInAndUp {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(100%);
-            transform: translateY(100%);
+    -webkit-transform: rotateX(-45deg) translateY(50%);
+            transform: rotateX(-45deg) translateY(50%);
   }
 
   100% {
     opacity: 1;
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    -webkit-transform: rotateX(0deg) translateY(0%);
+            transform: rotateX(0deg) translateY(0%);
   }
 }
 
 @keyframes fadeInAndUp {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(100%);
-            transform: translateY(100%);
+    -webkit-transform: rotateX(-45deg) translateY(50%);
+            transform: rotateX(-45deg) translateY(50%);
   }
 
   100% {
     opacity: 1;
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    -webkit-transform: rotateX(0deg) translateY(0%);
+            transform: rotateX(0deg) translateY(0%);
   }
 }
 
 header {
   -webkit-animation: slideInFromLeft 1s ease 0s 1;
-          animation: slideInFromLeft 1s ease 0s 1
+          animation: slideInFromLeft 1s ease 0s 1;
 }
-
-header nav,
-  header h1 {
-    -webkit-animation: slideInFromLeft 1s ease 0s 1;
-            animation: slideInFromLeft 1s ease 0s 1;
-  }
 
 h2 {
   -webkit-animation: fadeInAndUp 1s ease 0s 1;
@@ -361,39 +357,54 @@ h2 {
 /*
 http://i.imgur.com/NRbMgt.jpg // toothy smiling
 http://i.imgur.com/oCNbSjO.jpg // toothless grin
-*/
+ */
 
 header {
-  position: relative;
-  overflow: overlay;
-  z-index: 100
+  overflow: visible;
+  text-align: center
 }
 
 header h1 {
     color: #111111;
     color: var(--black);
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 400;
     display: inline-block;
     margin: 0;
     padding: 0
   }
 
+@media (min-width: 752px) {
+
+header h1 {
+      margin-left: -6rem
+  }
+    }
+
 header h1 a,
-    header h1 a::active,
-    header h1 a::visited,
-    header h1 a::hover {
-      color: #111111;
-      color: var(--black);
-      text-decoration: none;
+    header h1 a:visited,
+    header h1 a:hover,
+    header h1 a:active {
+      text-decoration: none!important;
+      color: #111111 !important;
+      color: var(--black) !important;
     }
 
 header h1 span {
-      border-bottom: 1px solid #042F8D;
-      border-bottom: 1px solid var(--primary);
+      position: relative;
       display: block;
-      padding: 0 0 0 1.5rem;
+      padding: 0 0 0 1.5rem
     }
+
+header h1 span::after {
+        content: "";
+        display: block;
+        border-bottom: 1px solid #042F8D;
+        border-bottom: 1px solid var(--primary);
+        width: 1000px;
+        position: absolute;
+        right: 0;
+      }
 
 header h1 small {
       display: block;
