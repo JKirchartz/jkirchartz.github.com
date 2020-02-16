@@ -84,6 +84,7 @@ mod_redirect &amp; just about anything else, just [don't parse html](http://stac
 * [htaccess.madewithlove.be](http://htaccess.madewithlove.be/)
 * [txt2re.com](http://www.txt2re.com/)
 * [2problems.com](http://2problems.com/)
+* [extendsclass.com](https://extendsclass.com/regex-tester.html)
 
 ## cdn
 include a library into your sandbox
