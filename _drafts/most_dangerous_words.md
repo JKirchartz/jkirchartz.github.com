@@ -67,3 +67,11 @@ visiting <https://100daystooffload.com>
 [1]: https://the-pastry-box-project.net/brad-frost/2014-january-28
 [2]: https://alistapart.com/blog/post/the-most-dangerous-word-in-software-development/
 [3]: http://www.catb.org/jargon/html/C/Conways-Law.html
+
+
+<!-- unincorporated -->
+https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
+
+inclusive/exclusive or:
+https://en.wiktionary.org/wiki/inclusive_or
+https://en.wiktionary.org/wiki/exclusive_or
