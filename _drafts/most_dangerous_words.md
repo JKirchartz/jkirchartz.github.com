@@ -76,3 +76,6 @@ https://blog.kowsheek.com/the-technical-interview-is-an-ego-trip/
 inclusive/exclusive or:
 https://en.wiktionary.org/wiki/inclusive_or
 https://en.wiktionary.org/wiki/exclusive_or
+
+Anti-Racism RFC:
+https://tools.ietf.org/id/draft-knodel-terminology-00.html
