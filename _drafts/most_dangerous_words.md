@@ -72,6 +72,7 @@ visiting <https://100daystooffload.com>
 <!-- unincorporated -->
 https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
 https://blog.kowsheek.com/the-technical-interview-is-an-ego-trip/
+https://btlr.dev/blog/how-to-find-vulnerabilities-in-code-bad-words
 
 inclusive/exclusive or:
 https://en.wiktionary.org/wiki/inclusive_or
