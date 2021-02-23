@@ -62,10 +62,56 @@ http://www.google.com/about/company/philosophy/
 http://www.dorisandbertie.com/goodcopybadcopy/2011/05/25/how-not-to-write-your-companys-core-values/
 http://money.usnews.com/money/blogs/outside-voices-careers/2012/01/17/how-to-spot-bad-company-culture-
 http://www.forbes.com/sites/erikaandersen/2012/12/05/bad-company-culture-heres-what-to-do/
+https://www.showingupforracialjustice.org/white-supremacy-culture-characteristics.html
 
 
 <script>
-var allvalues = ["1","2","3","4","5"];
+var allvalues = [
+"Integrity",
+"Boldness",
+"Honesty",
+"Trust",
+"Accountability",
+"Commitment to Customers",
+"Passion",
+"Fun",
+"Humility",
+"Continuous Learning",
+"Ownership",
+"Constant Improvement",
+"Leadership",
+"Diversity",
+"Innovation",
+"Quality",
+"Teamwork",
+"Simplicity",
+"Stewardship",
+"The Best People",
+"Client Value Creation",
+"One Global Network",
+"Respect for the Individual",
+"Integrity",
+"Customer Commitment",
+"Quality",
+"Integrity",
+"Teamwork",
+"Respect for People",
+"Good Citizenship",
+"A Will to Win",
+"Personal Accountability",
+"Focus on impact",
+"Move fast",
+"Be bold",
+"Be open",
+"Build social value",
+"We believe in people",
+"We are one team",
+"Straightforward and open-minded",
+"Keep it simple",
+"Entrepreneurial spirit",
+"Constant improvement",
+"Cost-consciousness",
+];
 function Values() {
     var values = document.getElementById("values");
     var quickshuf = function() { return Math.round(Math.random()); };
