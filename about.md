@@ -9,7 +9,7 @@ I'm a full-stack developer and web generalist living in Pittsburgh, Pa.  I'm
 passionate about modular web design &amp; development, automation, and
 developing systems.  I graduated from the Art Institute of Pittsburgh with a
 Bachelors of Science in Interactive Multimedia Design.  I've spent the last 15
-years creating solutions for small businesses and startups, most recently for
+years creating solutions for small businesses and startups such as
 [Garrison Hughes](http://garrisonhughes.com), [Barkley REI](http://barkleyREI.com), [Fireman Creative](http://firemancreative.com),
 and [Google](http://google.com).  I primarily work with WordPress or Javascript,
 but I'm also familiar with Python, PHP, Coldfusion, Java, Actionscript, Shell
@@ -23,6 +23,6 @@ anything I can find, practicing various circus skills, feats of
 prestidigitation and legerdemain, and a bit of baking.  Learning new things is
 fun.
 
-I love going on adventures with my family; my wife, son, and daughter are the
-three most amazing people in my world, I wouldn't be able to continue following
-my passions without their unconditional love and support.
+I love exploring life with my family; my wife, son, and daughter are the three
+most amazing people in my world, I wouldn't be able to continue my work without
+their unconditional love and support.
