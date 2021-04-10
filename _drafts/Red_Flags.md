@@ -27,4 +27,9 @@ my scraped knee and put a bandaid on it. Save the friends/family talk for at
 home, in the office it's called nepotism, and during the hiring process it's
 just creepy.
 
+
+4) We Have Fun!
+
+Your managers have fun. You, the unseen, pick up the slack.
+
 ![I don't know you](https://i.imgur.com/5rO7M6w.gif)

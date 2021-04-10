@@ -67,3 +67,24 @@ visiting <https://100daystooffload.com>
 [1]: https://the-pastry-box-project.net/brad-frost/2014-january-28
 [2]: https://alistapart.com/blog/post/the-most-dangerous-word-in-software-development/
 [3]: http://www.catb.org/jargon/html/C/Conways-Law.html
+
+
+<!-- unincorporated -->
+https://www.showingupforracialjustice.org/white-supremacy-culture-characteristics.html
+
+
+https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
+https://blog.kowsheek.com/the-technical-interview-is-an-ego-trip/
+https://btlr.dev/blog/how-to-find-vulnerabilities-in-code-bad-words
+https://davidwalsh.name/impostor-syndrome
+
+inclusive/exclusive or:
+https://en.wiktionary.org/wiki/inclusive_or
+https://en.wiktionary.org/wiki/exclusive_or
+
+Anti-Racism RFC:
+https://tools.ietf.org/id/draft-knodel-terminology-00.html
+
+
+
+Counterpoint, but it's stupid/sophistic: https://felipec.wordpress.com/2020/11/13/git-master/

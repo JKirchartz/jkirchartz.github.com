@@ -15,3 +15,6 @@ http://mouri.no/blog/post/the-bizarre-world-of-recruiting/
 >“The difference between screwing around and science is writing it down.”
 > ― Adam Savage
 
+https://www.washingtonpost.com/news/answer-sheet/wp/2017/12/20/the-surprising-thing-google-learned-about-its-employees-and-what-it-means-for-todays-students/
+
+https://www.zippia.com/employer/7-lessons-on-hiring-from-googles-big-data-research/
