@@ -6,7 +6,7 @@ tags: article, 100 days to offload
 ---
 
 In 2014 there were a few people talking about how ["Just"][1] is [the most
-dangerous word in software development][2], Brad Frost (who wrote the first link in this sentence) says:
+dangerous word in software development][2], Brad Frost says:
 
 > I feel like an idiot while doing my job. A lot.
 >
@@ -30,24 +30,24 @@ dangerous word in software development][2], Brad Frost (who wrote the first link
 > background, studied certain courses in university, am fluent in certain
 > technologies, and have read all the right books, articles, and resources.
 > “Just” is a dangerous word.
->
+
 
 
 Like Brad, I often feel like an idiot; but I know I'm not alone, you're never
-alone[^1].
+alone[^1]. All of us are idiots sometimes, we're only human.
 
-The story goes that the Oracle of Delphi told Socrates that he was
-the wisest man in Athens and, being the thinker that he was, he didn't think it
-was possible for him to be the wisest.  Socrates went around to talk to all the
-wisest people he could find to prove he wasn't the wisest. After talking to all
-the smartest [Sophists][^2], he found that each of them thought they knew a
-lot, but Socrates didn't think any of their answers were satisfactory.
-Ultimately this led him to his famous Socratic Paradox: "The only true wisdom
-is in knowing that you know nothing."
+The story goes that the Oracle of Delphi told Socrates that he was the wisest
+man in Athens and, being the thinker that he was, he didn't think that was
+possible. So, he went around to talk to all the wisest people he could find to
+prove the oracle wrong. He found that although the smartest [Sophists][^2]
+thought they knew a lot, Socates thought they were as dumb as he was. Leading
+him to the Paradox: "The only true wisdom is in knowing that you know nothing."
 
 Most folks raised in western culture know the phrase "Sticks and Stones can
 break your bones, but words can never hurt you", but we've also heard hurtful
-words. [Conway's Law][3] is an addage that states that "Any organization that
+words.
+
+[Conway's Law][3] is an addage that states that "Any organization that
 designs a system (defined broadly) will produce a design whose structure is a
 copy of the organization's communication structure." It turns out that words
 are very important.
