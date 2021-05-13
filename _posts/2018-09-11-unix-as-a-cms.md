@@ -1,9 +1,4 @@
----
-layout: post
-title: Unix as a CMS
-date: 2018-09-11 18:22 -0400
-tags: article
----
+--- layout: post title: Unix as a CMS date: 2018-09-11 18:22 -0400 tags: article ---
 
 Recently I've discovered the [tildeverse][1], a loose federation of *nix servers inpired by [tilde.club][2] offering a shell account
 where you can host a site, play games, and participate in a community of like-minded individuals (you know, the sort who think having a
