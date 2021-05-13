@@ -21,8 +21,8 @@ has it's own set of quirks instead, and they're different from the quirks of
 that person's preferred language. Javascript does do some [really weird stuff][1],
 
 
- everyone is a Comp-Sci major, not everyone wants to
-be a polyglot programmer to paraphase Bill Gates, "One programming language
+Not everyone is a Computer Science major, and not everyone wants to
+be a polyglot programmer - even some comp-sci majors! To paraphase Bill Gates, "One programming language
 should be enough for anyone" - I mean, THAT's why node.js is so popular, right?
 You can run your JS in the browser OR server - one language to rule them all!
 
