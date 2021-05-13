@@ -1,8 +1,13 @@
---- layout: post title: Unix as a CMS date: 2018-09-11 18:22 -0400 tags: article ---
+---
+layout: post
+title: Unix as a CMS
+date: 2018-09-11 18:22 -0400
+tags: article
+---
 
 Recently I've discovered the [tildeverse][1], a loose federation of *nix servers inpired by [tilde.club][2] offering a shell account
-where you can host a site, play games, and participate in a community of like-minded individuals (you know, the sort who think having a
-unix account would be fun.) This article will show a method to create these pages more efficiently.<!--more-->
+where you can host a site, play games, and participate in a community<!--more--> of like-minded individuals (you know, the sort who think having a
+unix account would be fun.) This article will show a method to create these pages more efficiently.
 
 As tradition dictates, these sites are usually hand-written html hosted in the `~/public_html` directory nested inside your home directory (for which `~` is a shortcut)
 this site is then accessible at `<domain>.<tld>/~<username>`, which all together explains the "tilde" in tildeverse.
