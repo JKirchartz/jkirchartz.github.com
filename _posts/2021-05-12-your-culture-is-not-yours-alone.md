@@ -5,8 +5,8 @@ tags: article
 ---
 
 You're expanding - finally hiring a team - it's the big show now. You've got
-to project your vision and image on a whole new group of employees. You work
-hard brainstorming your company values<!--more-->, hours of meetings, days of discussion
+to project your vision and image on a whole new group of employees.<!--more--> You work
+hard brainstorming your company values, hours of meetings, days of discussion
 with core stakeholders, and finally you get a handful of things that define who
 You are as a Corporate Person. A list of words or concepts, about how fun and
 unique and valuable your business is, but like really good and meaningful ones,
