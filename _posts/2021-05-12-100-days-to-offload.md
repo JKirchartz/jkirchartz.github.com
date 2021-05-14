@@ -6,13 +6,14 @@ tags:
 - 100 days to offload
 ---
 
-A friend mentioned [100 days to Offload][1] to me, and it got me thinking, I
-sure do have a lot of drafts here on by blog, and not a lot of content.  I get
-myself stuck in this rut where I write something, then don't really finish it
-&mdash; editing is hard &mdash; and wanting to be "right" and fact-checking
-everything is difficult, too. But being mistaken is nothing to be ashamed of,
-these posts are editable, the world moves on, and it's not like I'm a celebrity
-blogger by any stretch of the imagination, so I should just get on with it!
+A friend mentioned [100 days to Offload][1] to me, and it got me
+thinking,<!--more--> I sure do have a lot of drafts here on by blog, and not a
+lot of content.  I get myself stuck in this rut where I write something, then
+don't really finish it &mdash; editing is hard &mdash; and wanting to be
+"right" and fact-checking everything is difficult, too. But being mistaken is
+nothing to be ashamed of, these posts are editable, the world moves on, and
+it's not like I'm a celebrity blogger by any stretch of the imagination, so I
+should just get on with it!
 
 Ultimately, this site contains my writings, resume, and portfolio - so there is
 a degree of professionalism I strive for; but not everything I write needs to
