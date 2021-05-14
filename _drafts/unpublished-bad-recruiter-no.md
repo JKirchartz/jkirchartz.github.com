@@ -7,7 +7,7 @@ tags: article
 
 Seems these days that the only way to get a job is through a recruiter or some other 3rd party human resources team, it's a gatekeeper between you and the next phase of your career.
 There are over 300 Employment Agencies in the Greater Pittsburgh area alone, and these companies all do the same thing: skim off the top of your paycheck.
-I don't know about you, but I could really use a hiring bonus of at least 400 times my hourly rate, it seems to work well for professional athletes.
+I don't know about you, but I could really use a hiring bonus of at least 400 times[^1] my hourly rate, it seems to work well for professional athletes.
 And you can be certain their client can pass a credit check, middlemen know to protect their neck.
 
 The job descriptions seem to be written by somebody who doesn't understand the field they're hiring in, because it's usually a game of telephone through the hiring manager through HR to the recruiters.
@@ -16,7 +16,7 @@ The interviewers may have cribbed all their questions from a "What not to ask du
 Here's a few basic techniques I've seen for hiring the top tech talent:
 
 1. Protecting clients from the evils of the unworthy
-It's a big secret *who* might be hiring who, recruiters can't let anybody sidestep the middleman and go straight to the client!
+It's a big secret who might be hiring who, recruiters can't let anybody sidestep the middleman and go straight to the client!
 You can't get a name or address for any of these positions until you promise fealty to the recruiter.
 You might use another recruiter who's only in their client's top 3 vendors and not a 1st place vendor like them, besides they know the hiring managers the best!
 They've made 50+ placements! That can't possibly be churn (and churn couldn't be a red flag), they make it out to be 100% growth!!
@@ -47,13 +47,15 @@ The Unemployeed allegedly have limitless resources, and nobody can tell a recrui
 
 7. Nobody in a recruiting firm talks to anybody but their immediate manager
 Most recruiters work for conglomerates with "fancy" websites, however nobody in any other office has access to your resume or anything else.
+They say they're putting it in their files and taking notes, but it's abundantly clear that nobody has seen these afterwards.
 The websites were usually cobbled together over the years by various contractracts, sub-contractors, and sub-sub-contractors, and mixed with various 3rd party extensions and tools.
 
 
+[^1]: At least that's what my penalty would've been for not showing up for a placement with one recruiter
 
 
 
-
+<!--
 Recruiters that border on spambots:
 apex systems inc
 cybercoders
@@ -61,3 +63,4 @@ tekskills inc
 amtex enterprises < this is one of the worst, emailing about jobs not even
 related to the content of the resume, if there's any word-match between the
 resume and the job description you get an email, there's no way to unsubscribe
+-->

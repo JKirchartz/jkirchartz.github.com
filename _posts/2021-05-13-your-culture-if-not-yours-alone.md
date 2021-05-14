@@ -161,5 +161,3 @@ var allvalues = [
 
 </script --->
 
-I’m publishing this as part of 100 Days To Offload. You can join in yourself by
-visiting <https://100daystooffload.com>
