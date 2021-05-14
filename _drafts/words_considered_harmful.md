@@ -99,3 +99,6 @@ ask about better practices, effective practices, or promising practices instead 
 
 
 Counterpoint, but it's stupid/sophistic: https://felipec.wordpress.com/2020/11/13/git-master/
+
+
+Gentle Art of Verbal Self Defense: https://www.adrr.com/aa/overview.html

@@ -1,7 +1,12 @@
 ---
 layout: post
 title: Your Culture is not Yours Alone
-tags: article
+published: false
+tags:
+- article
+- 100 days to offload
+- culture
+- practices
 ---
 
 You're expanding - finally hiring a team - it's the big show now. You've got
@@ -36,7 +41,7 @@ If you haven't found what makes You special at least improve your processes,
 hone your marketing and sales chops, perfect the method behind making your core
 product, file down the sharp edges and reduce internal friction. Ambition isn't
 so much stress as it is trying harder and experiencing individual growth. When
-a team grows together, it creates an indelible bond can your on-boarding
+a team grows together it creates an indelible bond, can your on-boarding
 procedure replicate that? If you're doing the same exact thing you did two years
 ago and getting the similar results you're probably not growing and certainly not
 innovating.
@@ -155,3 +160,6 @@ var allvalues = [
 })();
 
 </script --->
+
+I’m publishing this as part of 100 Days To Offload. You can join in yourself by
+visiting <https://100daystooffload.com>
