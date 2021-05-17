@@ -5,13 +5,13 @@ tags: article 100-days-to-offload culture practices
 ---
 
 You worked hard brainstorming your company values, hours of meetings, days of
-discussion with core stakeholders, and finally you get a handful of things that
-define who You are as a Corporate Person. A list of words or concepts, about
-how fun and unique and valuable your business culture is! It's easy to pay lip
-service to these values, point at a sign on the wall, and say "This is what We
-are!" but [Do they do more than just sound nice?][1]<!--more--> Do those values actually
-lead to success? [Is your culture actually distinct from the culture outside
-your walls?][5]
+discussion with core stakeholders, and finally you get a handful of
+things that define who You are as a Corporate Person. A list of words or
+concepts, about how fun and unique and valuable your business culture is!<!--more--> It's
+easy to pay lip service to these values, point at a sign on the wall, and say
+"This is what We are!" but [Do they do more than just sound nice?][1] Do those
+values actually lead to success? [Is your culture actually distinct from the
+culture outside your walls?][5]
 
 <div id="values"></div>
 
