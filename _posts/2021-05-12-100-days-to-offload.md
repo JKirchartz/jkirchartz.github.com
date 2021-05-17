@@ -1,9 +1,7 @@
 ---
 layout: post
 title: 100 days to offload
-tags:
-- article
-- 100 days to offload
+tags: article 100-days-to-offload
 ---
 
 A friend mentioned [100 days to Offload][1] to me, and it got me

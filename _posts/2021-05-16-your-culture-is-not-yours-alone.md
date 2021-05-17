@@ -1,11 +1,7 @@
 ---
 layout: post
 title: Your Culture is Not Yours Alone
-tags:
-- article
-- 100 days to offload
-- culture
-- practices
+tags: article 100-days-to-offload culture practices
 ---
 
 You worked hard brainstorming your company values, hours of meetings, days of
