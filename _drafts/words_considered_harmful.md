@@ -2,19 +2,19 @@
 layout: post
 title: Words Considered Harmful
 published: false
-tags: article, 100 days to offload
+tags: culture, article, 100 days to offload
 ---
 
 > Software development is a social process, not a sum of individuals process.
 
 Kent Beck, interview, The Agile Revolution podcast, 2/20/2020
 
-The story goes that the Oracle of Delphi told Socrates that he was the wisest
+The Oracle of Delphi told Socrates that he was the wisest
 man in Athens and, being the thinker that he was, he didn't think that was
 possible. So, he went around to talk to all the wisest people he could find to
 prove the oracle wrong. He found that although the smartest [Sophists][^1]
 thought they knew a lot, Socates thought they were as dumb as he was. Leading
-him to the Paradox: "The only true wisdom is in knowing that you know nothing."
+him to the paradox: "The only true wisdom is in knowing that you know nothing."
 Shakespear eventually paraphrased this as "The fool doth think he is wise, but the wise man
 knows himself to be a fool," and Batty from Ferngully summarized it to "Only fools are positive."
 
@@ -29,15 +29,15 @@ dangerous word in software development][2], Brad Frost says:
 > “Just” is a dangerous word.
 
 
-It's not just the word "just," there are many small hostilities we face on a
-daily basis. All of us feel like idiots sometimes, and maybe we are sometimes,
-we're only human. Most folks raised in western culture know the phrase "Sticks
-and Stones can break your bones, but words can never hurt you", but we've also
-heard hurtful words like this.
+All of us feel like idiots sometimes, and maybe we are sometimes, we're only human.
+It's not just the word "just," there are many small hostilities we face on a daily basis.
+Most folks know the phrase "Sticks and Stones can break your bones, but words can never hurt you", but we've also heard hurtful words like this.
 
-[Conway's Law][3] is an addage that states that "Any organization that
-designs a system (defined broadly) will produce a design whose structure is a
-copy of the organization's communication structure." Do we really want to perpetuate hostile communications?
+[Conway's Law][3] is an addage that states that "Any organization that designs
+a system (defined broadly) will produce a design whose structure is a copy of
+the organization's communication structure." With that in mind, do we really want to perpetuate
+hostile communications? Is this really what's best for our users?
+
 
 > Great things in business are never done by one person, They are done by a team of people.
 
@@ -102,3 +102,9 @@ Counterpoint, but it's stupid/sophistic: https://felipec.wordpress.com/2020/11/1
 
 
 Gentle Art of Verbal Self Defense: https://www.adrr.com/aa/overview.html
+
+"The best defense is no offense" ~ Ho Chi Zen
+
+two Richard Branson quotes "Train people well enough so they can leave, treat them well enough so they don't want to" and "Take care of your employees and they still take care of your business. it's as simple as that."
+
+
