@@ -135,4 +135,4 @@ doing, in a technical way. It's always helpful to hear what they have to say.
 
 ---
 
-**I’m publishing this as part of 100 Days To Offload. You can join in yourself by visiting <https://100daystooffload.com>**
+*I’m publishing this as part of 100 Days To Offload. You can join in yourself by visiting <https://100daystooffload.com>*
