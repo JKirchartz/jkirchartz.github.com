@@ -5,3 +5,5 @@ Gemfile.lock
 .gitmodules
 _plugins
 node_modules
+.bundle
+vendor
