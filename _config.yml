@@ -1,3 +1,4 @@
+---
 permalink: /:year/:month/:title.html
 safe: true
 markdown: kramdown
@@ -16,9 +17,9 @@ jekyll_compose:
   draft_default_frontmatter:
     layout: post
     projectImg:
-    tags:
-      - article
-      - portfolio
+      tags:
+        - article
+        - portfolio
 plugins:
   - jekyll-feed
   - jekyll-sitemap
