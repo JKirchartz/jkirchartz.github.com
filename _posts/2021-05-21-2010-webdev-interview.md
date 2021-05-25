@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2010 Web Developer Interview
-tags: advise, culture, history, article, 100 days to offload
+tags: advise culture history article 100-days-to-offload
 ---
 
 ### Introduction
