@@ -12,6 +12,7 @@ excerpt_separator: <!--more-->
 title: JKirchartz - Web Yinzer n'at
 description: Musings, Music, and More from the WebYinzer n'at
 author: jkirchartz
+repository: https://github.com/jkirchartz/jkirchartz.github.com
 jekyll_compose:
   auto_open: true
   draft_default_frontmatter:
