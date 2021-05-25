@@ -5,11 +5,11 @@ tags: portfolio
 projectImg: //i.imgur.com/RZ5ljU2.jpg
 ---
 
-Here is a base-template I created for use on car dealership mobile sites. It's a
+Here is a base-template I pitched and developed for use on car dealership mobile sites. It's a
 minimalist design, made to work on the widest variety of software/firmware
-possible from your favorite flip-phone to a top-of-the-line blackberry.<!--more-->
+possible from your favorite flip-phone to a top-of-the-line Blackberry.<!--more-->
 
-![](//i.imgur.com/RZ5ljU2.jpg)
+![Screenshot of Mobile Layout](//i.imgur.com/RZ5ljU2.jpg)
 
 This template was developed to launch quickly, if the dealer had an
 existing site, it was simply a flick of the switch to launch. To maximize

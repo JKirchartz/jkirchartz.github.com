@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2010 Web Developer Interview
-tags: advise culture history article 100-days-to-offload
+tags: article 100-days-to-offload advise
 ---
 
 ### Introduction
@@ -10,13 +10,13 @@ In 2010, the [mobile web was still in its
 infancy](https://www.quirksmode.org/blog/archives/2010/09/state_of_mobile.html)
 and [CSS3 and HTML5 were starting to take
 traction.](https://webdirections.org/sotw10/) - Standards Compliance meant
-broken websites - ugly hacks often saved the day. I was working at [WorldDealer
-at the
+broken websites - [ugly hacks](https://gist.github.com/ricardozea/5549389)
+often saved the day. I was working at [WorldDealer at the
 time](https://web.archive.org/web/20100325215512/http://worlddealer.net/), they
-provided websites and advertising for car dealerships across the United States.
-On April 13, 2010, I was interviewed as part of somebody's "CS114 Academic
-Strategies for the IT Professional" Finals. Sadly their name was lost to the
-sands of time, but maybe this old advise might still have something to it.
+provided websites and advertising for car dealerships across the United States, I pitched and developed [their first mobile website templates]({% post_url 2010-04-22-project-automotive-mobile-template %}) long before the concept of "mobile first" and demoed them on a Blackberry and a Palm Treo.
+On April 13, 2010, I was interviewed as part of my old friend Brad's "CS114
+Academic Strategies for the IT Professional" Finals. I've lost touch with Brad
+over the years, but maybe this old advise might still have something to it.
 
 ## Interview
 
