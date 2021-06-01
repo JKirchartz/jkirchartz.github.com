@@ -11,7 +11,7 @@ infancy](https://www.quirksmode.org/blog/archives/2010/09/state_of_mobile.html)
 and [CSS3 and HTML5 were starting to take
 traction.](https://webdirections.org/sotw10/) - Standards Compliance meant
 broken websites - [ugly hacks](https://gist.github.com/ricardozea/5549389)
-often saved the day. I was working at [WorldDealer at the
+often saved the day.<!--more--> I was working at [WorldDealer at the
 time](https://web.archive.org/web/20100325215512/http://worlddealer.net/), they
 provided websites and advertising for car dealerships across the United States, I pitched and developed [their first mobile website templates]({% post_url 2010-04-22-project-automotive-mobile-template %}) long before the concept of "mobile first" and demoed them on a Blackberry and a Palm Treo.
 On April 13, 2010, I was interviewed as part of my old friend Brad's "CS114
