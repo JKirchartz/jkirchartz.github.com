@@ -46,7 +46,8 @@ with their own quirks to "get around" javascript's quirks.
 
 
 I may be an old fogey, but before 2012, we didn't need map files! We needed
-de-obsfucators and reverse engineering skills.
+de-obsfucators and reverse engineering skills. Heck, we didn't even need a
+Shadow DOM or any other virtual DOM!
 
 https://medium.com/javascript-scene/you-might-not-need-typescript-or-static-types-aa7cb670a77b
 

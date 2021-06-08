@@ -5,7 +5,7 @@ published: false
 tags: article
 ---
 
-the internet breeds extremism. It's the perfect place for it. You sit safely in
+The internet breeds extremism. It's the perfect place for it. You sit safely in
 your home, away from prying eyes, alone with every other person
 secreted away and trawling the internet. There's nobody to stop you from
 learning about what you want to know, except for your own limitations (or some
