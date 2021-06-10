@@ -7,7 +7,9 @@ tags: article, 100 days to offload
 
 <iframe width="1264" height="480" src="https://www.youtube.com/embed/dVGINIsLnqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-> "In Ancient Rome there was a poem about a dog that had two bones, he licked the one, he licked the other, he went in circles until he dropped dead" ~ Devo (Freedom of Choice)
+> "In Ancient Rome there was a poem about a dog that had two bones, he licked
+> the one, he licked the other, he went in circles until he dropped dead" ~
+> Devo (Freedom of Choice)
 
 How does one go about developing a website in 2021? Where do you start? The
 common advice is "Learn HTML, CSS, and Javascript" - they're the core building
@@ -20,14 +22,14 @@ There are over 1.6 Billion (with a B) websites with something north of 3
 Billion users, according to some [NetStat
 survey](https://www.internetlivestats.com/total-number-of-websites/). Looking
 at w3techs we see 79% of the internet is powered by [PHP][1], most likely
-because 41% of the internet runs [WordPress][2][^2], but even [plain files][3] make
+because 41% of their measured internet runs [WordPress][2][^2], but even [plain files][3][^5] make
 up 1.5% of the net.  77.9% of the web is still using [jQuery][4], I'll cast the
 blame for that one on WordPress as well, and [React][5] is reported on 2.6% of
 known websites, barely more than websites that are using plain files! But React
 is a big popular library from Facebook! What gives?
 
-It turns out, most businesses are not Facebook; not even close to being
-Facebook. Facebook gets over 2.5 Billion users a month, and employs over 60,000
+It turns out, most websites are not Facebook; not even close to being
+Facebook. Facebook gets over 2,500,000,000[^3] users a month and employs over 60,000
 people [according to their own statistics][6]. The [company has said that][7]
 "Loading a user’s home page typically requires accessing hundreds of servers,
 processing tens of thousands of individual pieces of data, and delivering the
@@ -35,11 +37,21 @@ information selected in less than one second," they have no qualms about
 spending a [Billion dollars on a server farm][8]!
 
 Being as big as Facebook might be your goal, but it's impossible to get there
-overnight. Most of the sites I've worked on have run very comfortably on a
+overnight. Most of the sites I've seen have run very comfortably on a
 $5-per-month VPS[^1] &mdash; with one core, one gigabyte of memory, and a
 terabyte or two of transfers (depending on the provider). You don't need a lot
 of power or a fancy machine to host your website - you can use [solar power and
 a single-board computer][10] if you'd like.
+
+One of the hardest lessons I had to learn early on in my development career is
+that the technologies used to produce your website don't really matter. Your
+code does not have to be clever, clean, or beautiful &mdash; it just has to
+run[^3]. You can use any language you'd like to power your site, don't worry
+too much about what you've chosen, find something good enough for now and put it
+together in any combination you'd like. So like they say on the [ShopTalk
+Show][11]:
+
+## *Just Make Websites*
 
 
 
@@ -53,7 +65,11 @@ a single-board computer][10] if you'd like.
 [8]: https://www.al.com/news/2021/06/facebook-spending-tops-1-billion-at-its-huntsville-data-center-campus.html
 [9]: https://mentorphile.com/2019/02/23/option-paralysis-or-the-paradox-of-choice/
 [10]: https://solar.lowtechmagazine.com/about.html
+[11]: https://shoptalkshow.com/
 
 
 [^1]: Virtual Private Server (not even a whole dedicated server, part of one)
 [^2]: WordPress is built with PHP
+[^3]: mostly; well enough is good enough
+[^4]: That's 2.5 Billion, with a B
+[^5]: I assume there's HTML, JS, and CSS here, and not just plain text files
