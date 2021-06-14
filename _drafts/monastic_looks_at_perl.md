@@ -20,6 +20,11 @@ published, Larry Wall's man page for perl went a little more in-depth,
 > (Language historians will also note some vestiges of csh, Pascal, and even
 > BASIC-PLUS.)
 
+[Later][16], Wall expanded this list of inspirations to "C, sh, csh, grep, sed,
+awk, Fortran, COBOL, PL/I, BASIC-PLUS, SNOBOL, Lisp, Ada, C++, and Python"
+&mdash; he borrowed bits from these "because the various features of these
+languages ruled rather than sucked."
+
 In the early 90s [Perl became the language of the dynamic web][11];
 but I'm not here to present a cronology of Perl over the years, I wasn't there
 for it, and [it's been done][3]. I remember some time the late 1990s when I was
@@ -32,9 +37,10 @@ bit more.
 The title here alludes to the [Perl Monks][5] Community, which is themed after
 a monastery. The comparison of hackers to other devotees is not new, the
 Commodore had the "Guru Meditation Error," there's also [programming koans][13]
-and [coding koans][14], and the [Tao of Perl][12]. [Steven Levy's "Hacker's"][6] many people are refered
-to as "gurus," many workspaces are called "monasteries" and the people who
-operated IBM mainframes were refered to as a "Priesthood,"
+and [coding koans][14], and the [Tao of Perl][12] or even [Zen of Perl][15].
+[Steven Levy's "Hacker's"][6] many people are refered to as "gurus," many
+workspaces are called "monasteries" and the people who operated IBM mainframes
+were refered to as a "Priesthood,"
 
 > and those privileged enough to submit data to those most holy priests were
 > the official acolytes. It was an almost ritualistic exchange.
@@ -47,10 +53,10 @@ operated IBM mainframes were refered to as a "Priesthood,"
 
 Larry Wall has never hidden his Christian faith, he's referenced it in his
 extellent [speeches][7], but he's no fundamentalist hardliner thumping a bible,
-he discusses a variety of ideas with wit, joy, reverance, and irreverance, and
+he discusses a variety of ideas with wit, joy, reverance, and irreverance.
 I've found [these talks][7] to be infinitely fascinating.
 
-You may be familiar with [Wall's "Three Virtues of a Programmer"][9]: Laziness,
+You may be familiar with [Wall's Famous "Three Virtues of a Programmer"][9]: Laziness,
 Impatience and Hubris; but in his [second "State of the Onion"][10] he expands
 on that with three virtues of community[^2]
 
@@ -90,5 +96,7 @@ on that with three virtues of community[^2]
 [12]: https://www.perlmonks.org/?node_id=93118
 [13]: https://github.com/topics/koans
 [14]: https://gopher.tildeverse.org/tilde.team/1/~kirch/koans/
+[15]: https://www.perlmonks.org/?node_id=752029
+[16]: https://www.perl.com/pub/1999/03/pm.html/
 
 
