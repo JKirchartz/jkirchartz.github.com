@@ -1,15 +1,12 @@
 ---
 layout: post
 title: Steel City Codefest 2016
-published: false
-tags:
-- article
-- 100 days to offload
+tags: article 100-days-to-offload
 ---
 
-**This post was originally drafted in 2016 and is posted as part of 100 days to offload**
+**This post was originally drafted in 2016, so happy belated 5th anniversary to this draft.**
 
-This past week I participated in [Steel City Codefest][1], I've never done a hackathon before and wasn't sure at all what to expect.
+In April of 2016 I participated in [Steel City Codefest][1], I've never done a hackathon before and wasn't sure at all what to expect.
 This was truly a learning experience, and not just for all those participating, this year was the first time Steel City Codefest was a week-long event.
 
 There were 6 challenges for 6 non-profits in the area.
@@ -25,8 +22,8 @@ There were a few familiar faces from the industry or around town, but a lot of p
 The sponsors had their swag booths, and there were delicious snacks. Each organization presented their projects. Then we formed teams, a process of talking to people about their skills and which challenges they were considering.
 I was thinking about The Alleghenny County DHS's project, since it was similar to my work at Google, but all of the open teams I talked to were talking about Allegheny Children's Initiative, Homewood Children's Village, and PDP &amp; DPW's challenges.
 
-When the dust had settled, I had landed on a team with 3 strangers: Jacob, Roulan, and Jon; motion graphics, grad student/visualisation, and a dev/consultant, respectively.
-We discussed our skills and thoughts on the project until the kick-off wound down to stacking chairs, we hailed an Uber and headed to The Hardware Store, and began thinking about what the Department of Public Works &amp; the Downtown Pittsburgh Partnership really needed.
+When the dust had settled, I had landed on a team with 3 strangers: Jacob Finch, Roulan Xia, and Jonathan Shaffer; motion graphics, grad student/visualisation, and a dev/consultant, respectively.
+We discussed our skills and thoughts on the project until the kick-off wound down to stacking chairs, we hailed an Uber and headed to [The Hardware Store][15], and began thinking about what the Department of Public Works &amp; the Downtown Pittsburgh Partnership really needed.
 
 The PDP workers job was to keep the streets clean, and ensure trash cans were emptied - but they didn't have a way to coordinate with the Dept of Public Works to actually pick up the trash.
 The drivers simply went around and picked up the bags they saw while the boots on the ground went about their business.
@@ -34,17 +31,26 @@ Sometimes trash would wait an entire day before being removed, Clearly not ideal
 But they had a plan in the works to get iPod &amp; iPad tablets - not constantly connected to the internet, but able to sync when wifi was available.
 
 Jon was familiar with [Meteor][11] with [React][12] which would allow us to make a website and an app with the same codebase, and since I had just installed Meteor a week earlier and was planning on playing with React I had no complaints.
-It was challenging getting over the initial hump with a new stack, it was very flexible and just went through a major release so there wasn't much new information available.
-Roulan &amp; Jacob had some serious chops, creating map designs, icons, and videos nearly on the fly, all while Roulan was up to her elbows in course-work.
+It was challenging getting over the initial hump with a new stack, it was very flexible but it had just went through a major release so there wasn't much new information available.
+Roulan &amp; Jacob had some serious chops, creating map designs, icons, and videos nearly on the fly, all while Roulan was up to her elbows in course-work at CMU.
 
 Over the course of the week we met to build prototypes, nail down some designs, meet with stakeholders, and even get a working prototype into the hands of a PDP "boots on the ground" worker.
 This was my first hackathon, and the first time Codefest did a week long format, and it was quite a learning experience from start to end.
 I learned just enough React &amp; JSX, honed Meteor, and with some mentoring discovered what hackathons are really all about: the pitch.
-Ultimately we won in the Design category, but we didn't win the bid on the project and our Ad-Hoc Hackathon organization went our separate ways.
-Our team had gone above and beyond the Travelling Salesman Problem the other teams were exited to tackle, sliced through that gordian knot, and got a minimum viable product out into the universe.
+Ultimately we won in the [Design category][^1], but we didn't win the bid on the project and our Ad-Hoc Hackathon organization went our separate ways.
+Our team had gone above and beyond the Travelling Salesman Problem the other teams were exited to tackle, sliced through that gordian knot, and got a minimum viable product out into the universe for one glimmering moment.
+
+P.S. Sadly, the Steel City Codefest was sunset in 2018, but [Pittsburgh Hackathons live on][13]
 
 
-I’m publishing this as part of 100 Days To Offload. You can join in yourself by
+P.P.S. I selected a year-long membership to the [Carnegie Museums][14] as the
+prize, and it was a dream come true to spend an entire year dipping in and out
+of the Carnegie Museums of Art and Natural History, Carnegie Science Center,
+and The Andy Warhol Museum. If I left the city I could've even gotten into a
+few other museums and science centers across the country. It's great to be able
+to support the local museums and the community programs they offer.
+
+P.P.P.S. I’m publishing this as part of 100 Days To Offload. You can join in yourself by
 visiting <https://100daystooffload.com>
 
 [^1]: I told you Roulan &amp; Jacob were good;
@@ -58,3 +64,6 @@ visiting <https://100daystooffload.com>
 [7]: http://www.downtownpittsburgh.com/
 [11]: https://www.meteor.com/
 [12]: https://reactjs.org/
+[13]: https://duckduckgo.com/?q=hackathon+pittsburgh&ia=web
+[14]: https://carnegiemuseums.org/
+[15]: https://www.workhardpgh.com/

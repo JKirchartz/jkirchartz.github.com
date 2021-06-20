@@ -12,7 +12,8 @@ tags:
 I've been trying to spend more and more time offline, but I find that when most
 of the stuff you read comes in a digital format it's hard to keep up when
 you're not connected. That's where this technique really helps. For this you
-will need a couple of browser plugins which are both available for Chrome &amp; Firefox: [one-tab][1] and [epub.press][2].
+will need a couple of browser plugins which are both available for Chrome &amp;
+Firefox: [one-tab][1] and [epub.press][2].
 
 The idea is simple
 

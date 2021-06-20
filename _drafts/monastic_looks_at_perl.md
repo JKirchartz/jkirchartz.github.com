@@ -23,16 +23,20 @@ published, Larry Wall's man page for perl went a little more in-depth,
 [Later][16], Wall expanded this list of inspirations to "C, sh, csh, grep, sed,
 awk, Fortran, COBOL, PL/I, BASIC-PLUS, SNOBOL, Lisp, Ada, C++, and Python"
 &mdash; he borrowed bits from these "because the various features of these
-languages ruled rather than sucked."
+languages ruled rather than sucked." Unlike [Python's "one obvious way to do
+it"][18], Perl's motto is ["There's More Than One Way To Do It"][19]. Learning
+to get the same results with different code is one of the steps to [becoming a
+Perl ninja][20].
 
-In the early 90s [Perl became the language of the dynamic web][11];
-but I'm not here to present a cronology of Perl over the years, I wasn't there
-for it, and [it's been done][3]. I remember some time the late 1990s when I was
-first trying to become a "real programmer" that I picked up some "Learn Perl in
-24 hours" book, and not having much success in 24 hours put off the whole thing
-for nearly 20 years. I've since learned to hack perl a bit and started a job
-where perl is used extensively so I've been trying to wrap my mind around it a
-bit more.
+In the early 90s [Perl became the language of the dynamic web][11] because it
+was a "Glue Language" for Unix it was only natural to use it to glue websites
+together with [CGI scripts][21]. But I'm not here to present a cronology of
+Perl over the years, I wasn't there for it, anyhow [it's been done][3]. I
+remember some time the late 1990s when I was first trying to become a "real
+programmer" that I picked up some "Learn Perl in 24 hours" book, and not having
+much success in 24 hours put off the whole thing for nearly 20 years. I've
+since learned to hack perl a bit and started a job where perl is used
+extensively so I've been trying to wrap my mind around it a bit more.
 
 The title here alludes to the [Perl Monks][5] Community, which is themed after
 a monastery. The comparison of hackers to other devotees is not new, the
@@ -51,10 +55,11 @@ were refered to as a "Priesthood,"
 > > Priest (on behalf of the machine): We will try. We promise nothing.
 >
 
-Larry Wall has never hidden his Christian faith, he's referenced it in his
-extellent [speeches][7], but he's no fundamentalist hardliner thumping a bible,
-he discusses a variety of ideas with wit, joy, reverance, and irreverance.
-I've found [these talks][7] to be infinitely fascinating.
+Larry Wall has never hidden [his Christian faith][17], he's referenced it in
+his extellent [speeches][7], but he's no fire-and-brimstone bible-thumper[^4], he discusses a variety of ideas with wit, joy, reverance, and
+irreverance.  I've found [these talks][7] to be infinitely fascinating. He
+connects a lot of different ideas and ideologies, it's clear that Perl's "glue"
+was born from Wall's personal adhesiveness.
 
 You may be familiar with [Wall's Famous "Three Virtues of a Programmer"][9]: Laziness,
 Impatience and Hubris; but in his [second "State of the Onion"][10] he expands
@@ -69,7 +74,7 @@ on that with three virtues of community[^2]
 > us this far. These are the virtues that will carry our community into the
 > future, if we do not abandon them.
 >
-> Basically, we just have to stay the course. Friedrich Nietzsche called it "a
+> Basically, we just have to stay the course. Friedrich Nietzsche[^3] called it "a
 > long obedience in the same direction", which is a good snappy slogan. But I
 > like the full quote too:
 >
@@ -80,8 +85,13 @@ on that with three virtues of community[^2]
 
 
 
+
+
+
 [^1]: A [Benevelent Dictator For Life][4]
 [^2]: Something I've been thinking about a lot lately
+[^3]: See? Larry's not holding a grudge against the guy who famously said "God is dead"
+[^4]: He probably read the contents instead of weaponizing the book
 
 [1]: https://www.math.utah.edu/docs/info/perl_5.html#SEC7
 [2]: https://amzn.to/3pqug8E
@@ -98,5 +108,8 @@ on that with three virtues of community[^2]
 [14]: https://gopher.tildeverse.org/tilde.team/1/~kirch/koans/
 [15]: https://www.perlmonks.org/?node_id=752029
 [16]: https://www.perl.com/pub/1999/03/pm.html/
-
-
+[17]: https://web.archive.org/web/20140908122704/http://www.techgnosis.com/wall1.html
+[18]: https://www.python.org/dev/peps/pep-0020/#the-zen-of-python
+[19]: https://everything2.com/title/TMTOWTDI
+[20]: https://everything2.com/title/10+steps+to+becoming+a+Perl+Ninja
+[21]: https://wiki.c2.com/?CommonGatewayInterface
