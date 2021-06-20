@@ -37,7 +37,7 @@ Roulan &amp; Jacob had some serious chops, creating map designs, icons, and vide
 Over the course of the week we met to build prototypes, nail down some designs, meet with stakeholders, and even get a working prototype into the hands of a PDP "boots on the ground" worker.
 This was my first hackathon, and the first time Codefest did a week long format, and it was quite a learning experience from start to end.
 I learned just enough React &amp; JSX, honed Meteor, and with some mentoring discovered what hackathons are really all about: the pitch.
-Ultimately we won in the [Design category][^1], but we didn't win the bid on the project and our Ad-Hoc Hackathon organization went our separate ways.
+Ultimately we won in the Design category[^1], but we didn't win the bid on the project and our Ad-Hoc Hackathon organization went our separate ways.
 Our team had gone above and beyond the Travelling Salesman Problem the other teams were exited to tackle, sliced through that gordian knot, and got a minimum viable product out into the universe for one glimmering moment.
 
 P.S. Sadly, the Steel City Codefest was sunset in 2018, but [Pittsburgh Hackathons live on][13]
