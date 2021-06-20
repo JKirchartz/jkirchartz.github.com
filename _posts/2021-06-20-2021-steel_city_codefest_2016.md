@@ -6,7 +6,7 @@ tags: article 100-days-to-offload
 
 **This post was originally drafted in 2016, so happy belated 5th anniversary to this draft.**
 
-In April of 2016 I participated in [Steel City Codefest][1], I've never done a hackathon before and wasn't sure at all what to expect.
+In April of 2016 I participated in [Steel City Codefest][1], I've never done a hackathon before and wasn't sure at all what to expect.<!--more-->
 This was truly a learning experience, and not just for all those participating, this year was the first time Steel City Codefest was a week-long event.
 
 There were 6 challenges for 6 non-profits in the area.
