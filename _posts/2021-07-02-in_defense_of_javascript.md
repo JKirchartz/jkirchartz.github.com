@@ -18,7 +18,7 @@ Most critiques of JavaScript cover the same well-worn paths<!--more-->
 Yes, Brendan Eich[^1] confesses that the prototype named [Mocha was built in 10 contiguous
 days][3] in May of 1995; but it developed further and 3 months later JavaScript
 was released in the Netscape browser's 2.0 beta. I'm not going to [recount the
-history of the web][8], so to make a long story short, Microsoft shortly
+history of the web][8] or [JavaScript][15], so to make a long story short, Microsoft shortly
 entered the browser market, the [browser wars][7] ensued, and the first
 JavaScript standard was released in 1997. At the time of this writing we find
 ourselves 24 years and 11 EcmaScript recommendations later[^3].
@@ -125,6 +125,7 @@ it's not going away any time soon.
 [12]: https://www.freecodecamp.org/news/stop-bringing-strong-typing-to-javascript-4da0666cba6e/
 [13]: https://amzn.to/3qDbNGw
 [14]: https://en.wikipedia.org/wiki/Lint_(software)
+[15]: https://dl.acm.org/doi/pdf/10.1145/3386327
 
 
 *I’m publishing this as part of 100 Days To Offload. You can join in yourself by
