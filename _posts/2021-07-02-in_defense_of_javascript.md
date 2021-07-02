@@ -7,7 +7,7 @@ projectImg: //i.imgur.com/2meSgMf.jpg
 
 I'm bored of the generic bashing on JavaScript. Everyone has done it, it's
 "Language of the Web" and we're online where the memes are. Memes die hard.
-Most critiques of JavaScript cover the same well-worn paths<!-- more -->
+Most critiques of JavaScript cover the same well-worn paths<!--more-->
 
 1. It was made in 10 days
 2. Dynamic typing
