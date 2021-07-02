@@ -23,6 +23,8 @@ entered the browser market, the [browser wars][7] ensued, and the first
 JavaScript standard was released in 1997. At the time of this writing we find
 ourselves 24 years and 11 EcmaScript recommendations later[^3].
 
+![A classic image of Javascript The Good Parts compared to Javascript the Definitive Guide](//i.imgur.com/2meSgMf.jpg)
+
 [JavaScript: The Definitive Guide][5] has been in publication since 1996, and
 is currently in it's seventh edition; and Douglas Crockford published
 [JavaScript: The Good Parts][4] in 2008, so it's safe to assume we've seen
