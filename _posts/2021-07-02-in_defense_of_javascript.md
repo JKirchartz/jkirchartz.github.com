@@ -1,7 +1,7 @@
 ---
 layout: post
 title: In Defense of JavaScript
-tags: article, 100 days to offload
+tags: article 100-days-to-offload
 projectImg: //i.imgur.com/2meSgMf.jpg
 ---
 
