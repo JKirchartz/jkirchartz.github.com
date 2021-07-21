@@ -12,10 +12,10 @@
     /* generate wallpaper */
         for (var i = 0, l = 15; i != l; i++) {
           p = p >= 100 ? 100 : (p + (i%2 ? f(r() * 30) + 10 : 0));
-          c = i%2 ? c : "hsla(" + hu() + "," + sa() + "%," + lu() + "%, 0.8) ";
+          c = i%2 ? c : "hsla(" + hu() + "," + sa() + "%," + lu() + "%, 0.5) ";
           st += c + p+"%" + (i<l-1?", ":")");
           if (!(i % 2)) {
-            let size = d.querySelectorAll('header')[0].offsetHeight, rad = f(r()*40) + 10, col = 'hsla(' + hu()+ ','+ (f(r()*40)+20) + '%,'+ lu() + '%, 0.8)';
+            let size = d.querySelectorAll('header')[0].offsetHeight, rad = f(r()*40) + 10, col = 'hsla(' + hu()+ ','+ (f(r()*40)+20) + '%,'+ lu() + '%, 0.5)';
             bgi += ['radial-gradient(', col, ' 0, ', col , ' ', rad, '%, transparent ', rad, '%),'].join('');
             bgs += size + 'px ' + size + 'px,';
             bgp += (f(r()*(w/2))) + 'px ' + (f(r()*(h/2))) + 'px,';
