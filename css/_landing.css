@@ -24,7 +24,7 @@
   }
 
   & a {
-    color: var(--black);
+    color: inherit;
     display: inline-block;
   }
 

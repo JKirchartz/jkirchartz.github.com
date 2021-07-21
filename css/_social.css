@@ -16,7 +16,7 @@
 }
 
 .social a {
-  color: var(--black);
+  color: inherit;
   margin: .2em 0.5em;
 
   &::hover {

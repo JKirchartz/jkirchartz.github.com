@@ -47,3 +47,12 @@
    orange: #E45D12
   */
 }
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-bg: var(--black);
+    --color: var(--gray);
+    --primary: var(--blue);
+  }
+}

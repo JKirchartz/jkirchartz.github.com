@@ -7,7 +7,7 @@ header {
   text-align: center;
 
   & h1 {
-    color: var(--black);
+    color: inherit;
     font-size: 2rem;
     font-weight: 400;
     display: inline-block;
@@ -23,7 +23,7 @@ header {
     & a:hover,
     & a:active {
       text-decoration: none!important;
-      color: var(--black) !important;
+      color: inherit;
     }
 
     & span {

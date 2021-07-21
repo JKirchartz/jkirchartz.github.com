@@ -10,7 +10,7 @@
   & a {
     font-weight: 700;
     margin: .5em;
-    color: var(--black);
+    color: inherit;
 
     &::hover {
       text-shadow: 0 0 0.5rem 0.5em var(--white);
