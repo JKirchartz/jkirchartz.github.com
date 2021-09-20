@@ -54,7 +54,7 @@ In the next paragraph he continues and explains the discrepancy in size between 
 > programs small and large.  By focusing on just the good parts, we can reduce
 > learning time, increase robustness, and save some trees.
 
-Unfortunately there aren't any newer versions of The Good Parts[^4], the es5 spec
+Unfortunately there aren't any newer versions of The Good Parts[^4], the ES5 spec
 was released in 2009 right after this was published, including a lot of Mr
 Crockford's ideas, and in 2013 reached cross-browser compatibility.
 Fortunately, JavaScript isn't bad enough to scare Doug away, he's still a

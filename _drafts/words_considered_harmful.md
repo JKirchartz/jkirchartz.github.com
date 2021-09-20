@@ -107,4 +107,4 @@ Gentle Art of Verbal Self Defense: https://www.adrr.com/aa/overview.html
 
 two Richard Branson quotes "Train people well enough so they can leave, treat them well enough so they don't want to" and "Take care of your employees and they still take care of your business. it's as simple as that."
 
-
+https://blog.trello.com/trello-hanlons-razor
