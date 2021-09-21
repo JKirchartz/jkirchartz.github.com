@@ -24,9 +24,8 @@
 
   /* globals */
   --body-bg: var(--gray);
-  --color: inherit;
+  --color: var(--black);
   --primary: var(--blue);
-  --visited: var(--purple);
   --font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif;
 
   /*
@@ -53,16 +52,25 @@
   */
 }
 
+@media (color-index: 48) {
+  :root {
+    --body-bg: var(--black);
+    --color: var(--gray);
+    --primary: var(--blue);
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --body-bg: var(--black);
     --color: var(--gray);
+    --primary: var(--blue);
   }
 }
 
 * {
+  -webkit-box-sizing:border-box;
           box-sizing:border-box;
-          color: inherit;
 }
 
 html, body {
@@ -86,11 +94,13 @@ ul {
 }
 
 body {
+  background-color: #B0B0B0;
   background-color: var(--body-bg);
   background-repeat: no-repeat;
   font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif;
   font-family: var(--font-family);
   font-display: swap;
+  color: #111111;
   color: var(--color);
   font-size: 110%;
   line-height: 1.75;
@@ -163,7 +173,8 @@ main {
 }
 
 a {
-  color: var(--primary);
+  color: #042F8D;
+  color: var(--blue);
   text-decoration: none;
 
 }
@@ -174,6 +185,7 @@ a:hover {
 
 a:active,
 a:visited {
+  color: #639;
   color: var(--purple);
 }
 
@@ -206,7 +218,7 @@ time {
 
 .archive {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(20ch, 1fr) );
+  grid-template-columns: repeat(auto-fill, minmax(60ch, 1fr) );
   grid-column-gap: 3%;
   grid-row-gap: 3rem
 }
@@ -214,14 +226,14 @@ time {
 @media (min-width: 752px) {
 
 .archive {
-    grid-template-columns: repeat(auto-fill, minmax(30ch, 1fr) )
+    grid-template-columns: repeat(auto-fill, minmax(40ch, 1fr) )
 }
   }
 
 @media (min-width: 1024px) {
 
 .archive {
-    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr) )
+    grid-template-columns: repeat(auto-fill, minmax(30ch, 1fr) )
 }
   }
 
@@ -388,7 +400,7 @@ header h1 a,
     header h1 a:hover,
     header h1 a:active {
       text-decoration: none!important;
-      color: inherit !important;
+      color: inherit;
     }
 
 header h1 span {
