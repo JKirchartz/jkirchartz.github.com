@@ -6,7 +6,7 @@ tags: article 100-days-to-offload meta
 
 100 days to offload is going slower than expected. Two completely separate
 extended-family situations hoisted house-hunting and home repair upon me the
-past few months, but that's no excuse - I could've written about the homes I
+past few months, but that's no excuse - I could've written about<!--more--> the homes I
 was seeing, maybe even come up with some witty comparison between home projects
 and legacy websites. The book club I've been in has spun off a few projects,
 like stamp-making/letterboxing, watching movies, and it's own writing and
