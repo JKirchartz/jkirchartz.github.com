@@ -14,6 +14,8 @@ replies on Twitter, and in the post on Masto itself, that I have no intended
 definition for "normalcy;" as one person replied, "normal is only a setting on
 a clothes dryer."
 
+<iframe src="https://giphy.com/embed/3oKIPqgSSYAsUVXKiQ" width="480" height="252" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/my-cousin-vinny-3oKIPqgSSYAsUVXKiQ">via GIPHY</a></p>
+
 While the polls were running, I was struck by the difference in how much
 interaction each post was generating. The spread on each on each platform was
 radically different. Sure, I reposted on each network and harassed my friends
