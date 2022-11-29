@@ -23,6 +23,8 @@ to spread them; but on Mastodon I had nearly 6 times the number of responses I
 had on Twitter. The results of the poll were fairly clear on each network -
 about 20% of people are normal, and 80% are not normal. [80/20 seems fairly normal][7]
 
+![Screenshots of Twitter and Mastodon polling and analytics](https://i.imgur.com/rn19gkQ.png)
+
 I've seen Twitter power-users complaining that they couldn't "go viral" on
 Mastodon, but that didn't seem to be a problem for me. I joined Twitter in
 2009, and have roughly 1400 followers there. I've been active on Mastodon since
