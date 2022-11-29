@@ -9,7 +9,7 @@ projectImg: https://i.imgur.com/rn19gkQ.png
 I have a confession. I am a poster. I post. Sometimes, I even shitpost. This is
 a story about two shitposts. Both alike in dignity. The ask was simple: "Are
 you normal? Please repost for reach." One posted to [Twitter][1], the other to
-[Mastodon][2]. There wasn't much thought put into it... I clarified in the
+[Mastodon][2].<!--more--> There wasn't much thought put into it... I clarified in the
 replies on Twitter, and in the post on Masto itself, that I have no intended
 definition for "normalcy;" as one person replied, "normal is only a setting on
 a clothes dryer."
