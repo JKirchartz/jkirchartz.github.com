@@ -219,8 +219,7 @@ time {
 .archive {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(60ch, 1fr) );
-  grid-column-gap: 3%;
-  grid-row-gap: 3rem
+  grid-gap: 3rem
 }
 
 @media (min-width: 752px) {
