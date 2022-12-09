@@ -70,6 +70,9 @@ Some day, we'll develop a general-purpose human-level artificial intelligence,
 it's been 5-10 years out for a long time, but this time is different, everyone
 promises.
 
+Check out some better auto-generated content here at [learngpt.com](https://www.learngpt.com/)
+and some worse, but more creative, auto-generated content in [My NaNoGenMo Entries](https://jkirchartz.com/NaNoGenMo/)
+
 
 [^1]: End Of Content
 [^2]: Situation Normal: All F***ed Up
