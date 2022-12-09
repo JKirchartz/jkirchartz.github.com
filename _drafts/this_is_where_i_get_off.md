@@ -32,6 +32,8 @@ flow, and a time to say "enough is enough."
 I'm not ready to start herding sheep, but I am tired of [shaving yaks][1], and
 I don't want to solve any more problems that don't need solved.
 
+I'm turning into a simple bucolic hacker, chopping wood and tending the fire.
+
 
 
 

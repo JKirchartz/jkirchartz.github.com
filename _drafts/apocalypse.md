@@ -12,7 +12,8 @@ The word "Apocalypse" comes from the Greek word apokalypsis which literally mean
 will occur in their lifetime. Christendom has been waiting two thousand years,
 a portion of each generation believing the end will come within their
 lifetimes. They've all been wrong, but that doesn't stop people from still
-being wrong.
+being wrong. I've personally survived 44 apocalypses[^3], and built an app to
+help everyone else figure out ["How many apocalypses have I survived?"][6].
 
 Unfortunately, the end is not nigh, not in a universal sense. The End has
 already come and gone for many civilizations, and our period of relative
@@ -24,7 +25,10 @@ A belief in the End of All Times isn't unique to Abrahamic religions,
 >
 > ― Ursula K. Le Guin
 
-Both World Wars were Apocalypses - some of the battlefields are still a no-man's land a century later - the ground poisoned by chemical warfare.
+Both World Wars were Apocalypses - some of the battlefields are still a
+no-man's land a century later -- the ground poisoned by chemical warfare,
+humanity doesn't seem to have learned much from the lessons revealed from any
+of these apocalypses.
 
 ## but don't take my word for it
 
@@ -33,6 +37,7 @@ Both World Wars were Apocalypses - some of the battlefields are still a no-man's
 <iframe width="1407" height="480" src="https://www.youtube.com/embed/NP10A5ehOsY?list=TLPQMTUxMDIwMjE1z18EvmEJpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+[^3]: That's not included the hundreds of earlier prophecies (some fulfilled) of societal collpse.
 [^2]: "divinely ordained climax of history," coined by Protestant theologian Charles Harold Dodd in 1935 (1884-1973) from Greek eskhaton, neuter of eskhatos "last, furthest, uttermost" according to [etymonline][4]
 [^1]: Maybe we'll get into apocryphic apocalypses, i.e. `apocrypha` from the Greek apokryphos "hidden; obscure, hard to understand,"
 
@@ -41,3 +46,4 @@ Both World Wars were Apocalypses - some of the battlefields are still a no-man's
 [3]: https://www.ligonier.org/learn/articles/secular-eschatology
 [4]: https://www.etymonline.com/word/eschaton#etymonline_v_32704
 [5]: https://slate.com/culture/2017/06/what-really-happens-after-societal-collapse.html
+[6]: https://jkirchartz.com/demos/How_Many_Apocalypses_Have_I_Survived.html
