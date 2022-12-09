@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Faster Blogging with ChatGPT
-date: 2022-12-09
-tags: article, ChatGPT, Automation
+tags: article ChatGPT Automation
 ---
 
 [Skip ahead to thoughts about ChatGPT][#eoc1-conclusions]
