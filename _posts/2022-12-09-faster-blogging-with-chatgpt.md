@@ -4,7 +4,7 @@ title: Faster Blogging with ChatGPT
 tags: article ChatGPT Automation
 ---
 
-[Skip ahead to thoughts about ChatGPT][#eoc1-conclusions]
+[Skip ahead to thoughts about ChatGPT](#eoc1-conclusions)
 
 ## Prompt: write a blog post about how to write blog posts faster
 
