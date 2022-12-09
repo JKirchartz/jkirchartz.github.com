@@ -8,7 +8,7 @@ tags: article ChatGPT Automation
 
 ## Prompt: write a blog post about how to write blog posts faster
 
-<!-- more -->
+<!--more-->
 
 > Are you tired of spending hours or even days writing blog posts, only to be left feeling frustrated and unfulfilled? Do you want to learn how to write blog posts faster, so you can spend more time on other important tasks or activities? If so, you're in the right place! In this blog post, we'll share some tips and tricks for writing blog posts faster, so you can get your ideas out into the world without spending all your time and energy on the writing process.
 >
