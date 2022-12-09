@@ -5,7 +5,7 @@ date: 2022-12-09
 tags: article, ChatGPT, Automation
 ---
 
-[Skip ahead to thoughts about ChatGPT][#eoc-conclusions]
+[Skip ahead to thoughts about ChatGPT][#eoc1-conclusions]
 
 ## Prompt: write a blog post about how to write blog posts faster
 
