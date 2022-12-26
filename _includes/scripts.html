@@ -25,20 +25,6 @@
         b.setAttribute("style", 'background-image:' + bgi.slice(0, -1) + ';background-size:' + bgs.slice(0, -1) + ';background-position:' + bgp.slice(0, -1) + ';');
         b.appendChild(wa);
 
-    /* load Google Analytics & other external scripts */
-    function loadScript(src){
-        var script = d.createElement('script');
-        script.type = 'text/javascript';
-        script.async = true;
-        script.src = src;
-
-        var s = d.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(script, s);
-    }
-    _gaq.push(['_setAccount', 'UA-21180085-1']);
-    _gaq.push(['_trackPageview']);
-    loadScript(('https:' == protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js');
-
     window._idl = {};
     _idl.variant = "modal";
     (function() {
