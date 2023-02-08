@@ -1,4 +1,5 @@
 ---
+url: https://jkirchartz.com
 permalink: /:year/:month/:title.html
 safe: true
 markdown: kramdown

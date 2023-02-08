@@ -2,35 +2,26 @@
         var d = document, b = d.getElementsByTagName('body')[0],
         wa = d.createElement('div'),
         w = window.innerWidth, h = window.innerHeight;
-        st = "background: linear-gradient(",
-        f = Math.floor, r = Math.random,
+        style = "background: linear-gradient(",
+        ran = (x) => Math.floor(Math.random() * x),
         bgi = bgp = bgs = "", c = p = s = 0,
-        hu = function() {return 175 + f(r() * 10)},
-        sa = function() { s++; return s % 2 ? 50 : 0; };
-        lu = function() { return 35 + f(r() * 45)};
+        cv = [...document.styleSheets[0].cssRules.item('root').style ?? []].filter(i => (i.match(/-/g) || []).length < 3); // get CSS3 variables
         wa.setAttribute('class', 'wallpaper');
     /* generate wallpaper */
         for (var i = 0, l = 15; i != l; i++) {
-          p = p >= 100 ? 100 : (p + (i%2 ? f(r() * 30) + 10 : 0));
-          c = i%2 ? c : "hsla(" + hu() + "," + sa() + "%," + lu() + "%, 0.5) ";
-          st += c + p+"%" + (i<l-1?", ":")");
+          p = p >= 100 ? 100 : (p + (i%2 ? ran(30) + 10 : 0));
+          c = i%2 ? c :"var(" + cv[ran(cv.length)] + ") ";
+          style += c + p+"%" + (i<l-1?", ":")");
           if (!(i % 2)) {
-            let size = d.querySelectorAll('header')[0].offsetHeight, rad = f(r()*40) + 10, col = 'hsla(' + hu()+ ','+ (f(r()*40)+20) + '%,'+ lu() + '%, 0.5)';
+            let size = d.querySelectorAll('header')[0].offsetHeight,
+              rad = ran(40) + 10,
+              col = "var(" + cv[ran(cv.length)] + ") ";
             bgi += ['radial-gradient(', col, ' 0, ', col , ' ', rad, '%, transparent ', rad, '%),'].join('');
             bgs += size + 'px ' + size + 'px,';
-            bgp += (f(r()*(w/2))) + 'px ' + (f(r()*(h/2))) + 'px,';
+            bgp += (ran(w/2)) + 'px ' + (ran(h/2)) + 'px,';
           }
         };
-        wa.innerHTML = "<div><div style='" + st + "'></div></div>"
-        b.setAttribute("style", 'background-image:' + bgi.slice(0, -1) + ';background-size:' + bgs.slice(0, -1) + ';background-position:' + bgp.slice(0, -1) + ';');
+        wa.innerHTML = "<div class='bg-stripe'><div style='" + style + "'></div></div>"
+        wa.setAttribute("style", 'background-image:' + bgi.slice(0, -1) + ';background-size:' + bgs.slice(0, -1) + ';background-position:' + bgp.slice(0, -1) + ';');
         b.appendChild(wa);
-
-    window._idl = {};
-    _idl.variant = "modal";
-    (function() {
-        var idl = document.createElement('script');
-        idl.async = true;
-        idl.src = 'https://members.internetdefenseleague.org/include/?url=' + (_idl.url || '') + '&campaign=' + (_idl.campaign || '') + '&variant=' + (_idl.variant || 'modal');
-        document.getElementsByTagName('body')[0].appendChild(idl);
-    })();
 </script>
