@@ -3,18 +3,17 @@ task default: %w[help]
 desc "Print this list"
 task :help do
   system("rake -T");
+  puts "\nreminder! if you're trying to post you need to call the function like:\n\nrake \"post[this is the title of the post]\"\n\nbecause Rake is tricky like that..."
 end
 
 desc "Build jekyll project"
 task :build do
-  system("./node_modules/postcss-cli/bin/postcss css/index.css -o css/style.css")
-  system("bundle exec jekyll build")
+  exec("bundle exec jekyll build")
 end
 
 desc "Build & serve jekyll project for develoment"
 task :serve do
-  system("./node_modules/postcss-cli/bin/postcss css/index.css -o css/style.css")
-  system("bundle exec jekyll serve --incremental")
+  exec("bundle exec jekyll serve --incremental")
 end
 
 desc "Install dependencies (See Gemfile & package.json)"
@@ -32,28 +31,28 @@ end
 
 desc "Create a draft"
 task :draft, [:title] do |t, args|
-  system("bundle exec jekyll draft #{args.title}")
+  exec("bundle exec jekyll draft \"#{args[:title]}\"")
 end
 
 
 desc "Create a post"
 task :post, [:title] do |t, args|
-  system("bundle exec jekyll post #{args.title}")
+  exec("bundle exec jekyll post \"#{args[:title]}\"")
 end
 
 desc "Create a page"
 task :page, [:title] do |t, args|
-  system("bundle exec jekyll page #{args.title}")
+  exec("bundle exec jekyll page \"#{args[:title]}\"")
 end
 
 
 desc "Publish a draft"
 task :publish, [:filepath] do |t, args|
-  system("bundle exec jekyll page #{args.filepath}")
+  exec("bundle exec jekyll page \"#{args[:filepath]}\"")
 end
 
 
 desc "Unpublish a post"
 task :unpublish, [:filepath] do |t, args|
-  system("bundle exec jekyll page #{args.filepath}")
+  exec("bundle exec jekyll page \"#{args[:filepath]}\"")
 end
