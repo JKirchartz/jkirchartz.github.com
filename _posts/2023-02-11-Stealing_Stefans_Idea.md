@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Blog Post Bookmarklet, or Stealing Stefan's Idea..."
-tags: article
+title: "Blog Post Bookmarklet, or Stealing Stefan's Idea&hellip;"
+tags: article bookmarklet
 ---
 
 A fine fellow told me about their [bookmarklet for making GHpages
 posts](https://stefanhayden.com/blog/2022/10/01/Quick-jekyll-Posts-with-Bookmarklet/)
 so I've decided to steal their idea, I love bookmarklets.<!--more-->
 
-Theirs is a little more involved, I simplified it for my uses...
+Theirs is a little more involved, I simplified it for my uses&hellip;
 
 ```
 var isoDate = (new Date()).toISOString();
