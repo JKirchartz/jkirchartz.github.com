@@ -1,6 +1,6 @@
 ---
-title: Blog Post Bookmarklet, or Stealing Stefan's Idea...
 layout: post
+title: "Blog Post Bookmarklet, or Stealing Stefan's Idea..."
 tags: article
 ---
 
@@ -21,8 +21,8 @@ var filename = date + "-" + title + '.md';
 var html = [
 '---',
 'published: false',
-'title: ' + t,
 'layout: post',
+'title: ' + t,
 'tags: article',
 '---',
 '<!--more-->',
