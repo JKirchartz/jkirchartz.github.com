@@ -45,15 +45,9 @@ for them (and everything else) because IE11 is surely dead by now, right? Is
 anyone even tracking their browser share anymore? Here's a hand-optimized es6 alternative:
 
 ```
-((t, d, h, f)=>{
-d = isoDate.split('T')[0];
-t = t.replaceAll(/([&$\+,:;'"=\?@#\s<>\[\]\{\}[\/]|\\\^%\.])+/g, '_').toLowerCase();
-f = d + "-" + t + '.md';
-window.location = "https://github.com/jkirchartz/jkirchartz.github.com/new/master/?filename=_posts/" + f + "&value=" + h;
-})(
-prompt("title", ""),
-new Date()).toISOString(),
-[
+((t, d, h)=>{
+d=d.split('T')[0];
+h=[
 '---',
 'published: false',
 'layout: post',
@@ -61,14 +55,20 @@ new Date()).toISOString(),
 'tags: article',
 '---','','',
 '<!--more-->',
-].join('%0A'));
+];
+t = t.replaceAll(/([&$\+,:;'"=\?@#\s<>\[\]\{\}[\/]|\\\^%\.])+/g, '_').toLowerCase();
+h = h.join('%0A');
+window.location = `https://github.com/jkirchartz/jkirchartz.github.com/new/master/?filename=_posts/${d}-${t}.md&value=${h}`;
+})(
+prompt("title"),
+new Date().toISOString(),
 );
 ```
 
 which crunches down to
 
 ```
-javascript:((t,d,h,f)=>{d=isoDate.split('T')[0];t=t.replaceAll(/([&$\+,:;'"=\?@#\s<>\[\]\{\}[\/]|\\\^%\.])+/g,'_').toLowerCase();f=d+"-"+t+'.md';window.location="https://github.com/jkirchartz/jkirchartz.github.com/new/master/?filename=_posts/"+f+"&value="+h;})(prompt("title",""),newDate()).toISOString(),['---','published:false','layout:post','title:\"'+t+'\"','tags:article','---','','','<!--more-->',].join('%0A')););
+javascript:((t,d,h)=>{d=d.split('T')[0];h=['---','published:false','layout:post','title:\"'+t+'\"','tags:article','---','','','<!--more-->',];t=t.replaceAll(/([&$\+,:;'"=\?@#\s<>\[\]\{\}[\/]|\\\^%\.])+/g,'_').toLowerCase();h=h.join('%0A');window.location=`https://github.com/jkirchartz/jkirchartz.github.com/new/master/?filename=_posts/${d}-${t}.md&value=${h}`;})(prompt("title"),newDate().toISOString());
 ```
 Anyhow. This bookmarket might've helped me stick to the "100 days to offload"
 thing a little better, but 100 blog posts in 100 days? that's not the way I
