@@ -45,31 +45,29 @@ for them (and everything else) because IE11 is surely dead by now, right? Is
 anyone even tracking their browser share anymore? Here's a hand-optimized es6 alternative:
 
 ```
-((t, d, h)=>{
-d=d.split('T')[0];
-h=[
-'---',
-'published: false',
-'layout: post',
-'title: \"' + t + '\"',
-'tags: article',
-'---','','',
-'<!--more-->',
-];
-t = t.replaceAll(/([&$\+,:;'"=\?@#\s<>\[\]\{\}[\/]|\\\^%\.])+/g, '_').toLowerCase();
-h = h.join('%0A');
-window.location = `https://github.com/jkirchartz/jkirchartz.github.com/new/master/?filename=_posts/${d}-${t}.md&value=${h}`;
+((t, h)=>{
+    h=[
+    '---',
+    'published: false',
+    'layout: post',
+    'title: \"' + t + '\"',
+    'tags: article',
+    '---','','',
+    '<!--more-->',
+    ];
+    t = t.replaceAll(/([&$\+,:;'"=\?@#\s<>\[\]\{\}[\/]|\\\^%\.])+/g, '_').toLowerCase();
+    window.location = `https://github.com/jkirchartz/jkirchartz.github.com/new/master/?filename=_posts/${new Date().toISOString().split('T')[0]}-${t}.md&value=${h.join('%0A')}`;
 })(
-prompt("title"),
-new Date().toISOString(),
+    prompt("title"),
 );
 ```
 
 which crunches down to
 
 ```
-javascript:((t,d,h)=>{d=d.split('T')[0];h=['---','published:false','layout:post','title:\"'+t+'\"','tags:article','---','','','<!--more-->',];t=t.replaceAll(/([&$\+,:;'"=\?@#\s<>\[\]\{\}[\/]|\\\^%\.])+/g,'_').toLowerCase();h=h.join('%0A');window.location=`https://github.com/jkirchartz/jkirchartz.github.com/new/master/?filename=_posts/${d}-${t}.md&value=${h}`;})(prompt("title"),newDate().toISOString());
+javascript:((t,h)=>{h=['---','published: false','layout: post','title:\"'+t+'\"','tags: article','---','','','<!--more-->',];t=t.replaceAll(/([&$\+,:;'"=\?@#\s<>\[\]\{\}[\/]|\\\^%\.])+/g,'_').toLowerCase();window.location=`https://github.com/jkirchartz/jkirchartz.github.com/new/master/?filename=_posts/${newDate().toISOString().split('T')[0]}-${t}.md&value=${h.join('%0A')}`;})(prompt("title"));
 ```
+
 Anyhow. This bookmarket might've helped me stick to the "100 days to offload"
 thing a little better, but 100 blog posts in 100 days? that's not the way I
 write, not anymore, not since... the incident... Pardon the digression, I would
@@ -85,5 +83,17 @@ variables names way too short to be _really_ meaningful. I probably should be
 working on my _other_ projects before hacking _my_ preferences in minification
 into an existing minifier.
 
-Like, if `document` appears more than once in your bookmarklet, it can easily be shrunk to `d=document` for future reference - heck `d=document,$=d.querySelectorAll` has its uses... but no... I don't need another project... at least not one that I can't put together in a night or two.
+Like, if `document` appears more than once in your bookmarklet, it can easily
+be shrunk to `d=document` for future reference - heck
+`d=document,$=d.querySelectorAll` has its uses... but no... I don't need
+another project... at least not one that I can't put together in a night or
+two.
+
+
+For more information about crunching down JS to it's bare bits, check out:
+
+* [Javascript Golfing](http://www.claudiocc.com/javascript-golfing/);
+* [The Quest for Extreme Javascript Minification](https://thingsinjars.com/post/293/the-quest-for-extreme-javascript-minification/)
+
+
 
