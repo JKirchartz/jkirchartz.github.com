@@ -23,7 +23,7 @@ In a world where information overload is the norm, quality often takes a backsea
 
 At Migoopleflickbook, we envision a world where the internet is no longer a daunting sea of complex information but a serene, shallow pool of easily digestible content. We believe that by simplifying online content, we can make the digital world more accessible and less overwhelming for everyone.
 
-Our Motto: "If the Internet's Not Dead, Our Job's Not Done"
+Our Motto: ["If the Internet's Not Dead, Our Job's Not Done"][1]
 
 This motto encapsulates our relentless drive to strip the internet of its intellectual density. We are committed to continuously working until the vast majority of online content is simplified to its most basic form, ensuring that the internet remains a space where simplicity reigns supreme.
 
@@ -38,3 +38,6 @@ Imagine a world where every piece of content serves a dual purpose: providing ba
 In conclusion, Migoopleflickbook stands at the forefront of a new era in content creation. Our innovative approach ensures that the internet becomes a space where intellectual content is replaced with accessible, kindergarten-level information, interspersed with lucrative advertisements.
 
 We are committed to our mission: "If the Internet's Not Dead, Our Job's Not Done." Together, we can transform the digital world into a simpler, more profitable place for businesses and a less intimidating space for users. Join us at Migoopleflickbook and be part of the revolution that is reshaping the internet, one sludge at a time.
+
+
+[1]: https://en.wikipedia.org/wiki/Dead_Internet_theory
