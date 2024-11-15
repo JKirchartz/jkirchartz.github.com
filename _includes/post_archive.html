@@ -1,9 +1,9 @@
 <div class="article">
-  <h4><a href="{{ post.url | downcase }}">{% if post.projectName %}{{ post.projectName }}{% else %}{{ post.title }}{% endif %}</a></h4>
+  <h4><a href="{{ post.url }}">{% if post.projectName %}{{ post.projectName }}{% else %}{{ post.title }}{% endif %}</a></h4>
   {% include time.html %}
   {% if post.projectImg %}<img class="card-img-top" src="{{ post.projectImg }}" alt="{% if post.projectName %}{{ post.projectName }}{% else %}{{ post.title }}{% endif %} screenshot"/>{% endif %}
   {% if post.excerpt %}
     <p>{{ post.excerpt | strip_html }}&hellip;</p>
   {% endif %}
-  <a href="{{post.url | downcase }}">See More &raquo;</a>
+  <a href="{{post.url }}">See More &raquo;</a>
 </div>
