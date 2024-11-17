@@ -1,11 +1,6 @@
 <div class="share_buttons social">
     Share via:
     {% if page.title | uri_escape %}
-    <a class="twitter" title="Share post via Twitter" href="http://twitter.com/intent/tweet?url=http%3A%2F%2Fjkirchartz.com{{ page.url | uri_escape }}&text={{ page.title | uri_escape }}&via={{ twitter }}" target="_blank" >
-                <svg>
-                        <use xlink:href="/images/icons.svg#twitter"></use>
-                </svg>
-    </a>
     <a class="facebook" title="Share post via Facebook" href="http://facebook.com/sharer.php?u=http%3A%2F%2Fjkirchartz.com{{ page.url | uri_escape }}" target="_blank" >
                 <svg>
                         <use xlink:href="/images/icons.svg#facebook"></use>
