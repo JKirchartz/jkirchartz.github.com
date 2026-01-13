@@ -6,7 +6,7 @@ date: 2025-01-26 23:38 -0500
 
 Here’s a list of ActivityPub services that are <em>not</em> Twitter-like,
 compiled by <a href="https://atomicpoet.org/notice/AqK3xWuDC4rJXq28Iq" rel="noopener noreferrer" target="_blank" referrerpolicy="no-referrer">Chris Trottier</a>, 
-along with a description of what each service does:
+along with a description of what each service does:<!--more-->
 
 
 <ul>
