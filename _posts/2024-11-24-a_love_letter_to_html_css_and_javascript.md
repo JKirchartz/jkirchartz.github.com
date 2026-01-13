@@ -4,13 +4,13 @@ title: "A love letter to HTML, CSS, and JavaScript"
 tags: article
 ---
 
-<h1><s>A Love Letter to</s>HTML, CSS, and JavaScript, a manifesto(?)</h1>
+<h1><s>A Love Letter</s>... a manifesto(?)</h1>
 
 If you've read any of my other writings you've probably guessed my secret shame.
 
-I am not a Real Programmer&tm;.<!--more-->
+I am not a Real Programmer &tm;.<!--more-->
 
-A Real Programmer&tm; could never take these toy web browsers seriously. The
+A Real Programmer &tm; could never take these toy web browsers seriously. The
 web is just a fad, real programs are compiled in dark terminals and guided by
 an occult hand. Their inner workings are arcane knowledge, every bit is under
 the control of these True Illuminates. And so web developers have worked hard
@@ -35,7 +35,7 @@ Tags.][1] The document contained a description of the first 18 HTML tags:
 &lt;ul&gt;, &lt;li&gt;,&lt;menu&gt; and &lt;dir&gt;. Some how, some way, this
 dialect of hypertext grew &ndash; escaped containment at CERN &ndash; and since
 then has infected the world with this mind virus. [Wars][2] have been fought,
-[Flames][3] have been thrown, Businesses, [Nations][9], [websites][10], and browsers have
+[Flames][3] have been thrown, [Businesses][29], [Nations][9], [websites][10], and [browsers][30] have
 come and gone. But the World Wide Web has stayed the same: a wilderness[^1].
 Yes, some have tried to tame this wilderness and create their own silos - but
 the web always strikes back with personal websites and weird projects.
@@ -71,6 +71,7 @@ If you don't like Javascript, don't worry! You don't have to write your app in
 Javascript, you can compile plenty of different languages to [wasm][8] and then
 use Javascript to run them on the web!
 
+(update 2026: love it or hate it, Claude & ChatGPT Codex both use JS/npm for their TUI/CLI apps)
 
 ## CSS
 
@@ -127,3 +128,5 @@ raw and unmoderated, pure creativity, where a coder can still be free.
 [26]: https://www.zmescience.com/science/news-science/www-toxic-web-tim-berners-lee/
 [27]: https://en.wikipedia.org/wiki/Yellow_journalism
 [28]: https://tvtropes.org/pmwiki/pmwiki.php/Main/InsidiousRumorMill
+[29]: https://en.wikipedia.org/wiki/Dot-com_bubble
+[30]: https://en.wikipedia.org/wiki/Usage_share_of_web_browsers
