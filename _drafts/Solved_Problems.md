@@ -3,74 +3,163 @@ Solved Problems
 
 Before Alexander the Great became Great he was the King of Macedonia, the
 hegemonic leader of the unified Greek Military forces. When Alexander's forces
-invaded the Phyrgian Empire he came to their capital called Gordion, named
-after a legendary King who ended a civil war by driving his Ox-Cart between the
-contesting forces. This Ox-Cart was put in a position of Honor in the town as a
-monument; and it was held tight with a complex knot that nobody was able to
-undo. Local legends told that whoever untied this knot would rule over all of
-Asia[^AncientAsia].
+invaded the Phyrgian Empire he came to their capital, a city called Gordion,
+named after another legendary King who ended a civil war by driving his
+Ox-Cart, but that's another story. This Ox-Cart was put in a position of Honor
+in the town as a monument; and it was held tight with a complex knot that
+nobody was able to undo. Local legends told that whoever untied this knot would
+rule over all of Asia[^AncientAsia].
 
 Upon discovering this prophecy, Alexander went to untie that knot. Alexander
 was no dummy, he was tutored in his youth by the equally legendary Greek
 philosopher Aristotle, so, after considering the problem, Alexander took out
-his Sword and sliced the knot in half[^gordian], loosened the Ox-Cart, and cemented his
-destiny as the future King of Asia[^FutureKing].
+his Sword and sliced the knot in half, loosened the Ox-Cart, and
+cemented his destiny as the future King of Asia[^FutureKing].
+
+We're told that the genius of cutting the Gordian Knot is that instead of
+dealing with the complexity of the knotwork and unweaving the ends, slicing it
+with a sword was an innovative way to achieve the same ends, in a way.
+
+If you want to loosen an oxcart, cutting the rope is a fine way to do it, if
+you can't untie the knot and don't care about the rope[^gordian]. Another
+legendary King, Solomon had a similar solution to a child custody dispute,
+suggesting to cut a child in half to determine the rightful claimant.
 
 
+In the early 19th Century, Europe was in the midst of the Napoleonic Wars, an
+Emperor was trying to re-implement his Ancien régime, inspired by stories of
+Alexander's Ancient Regime. Across the channel, The British Empire had a
+problem turning it's imported cotton into exports. The weavers, inspired by
+French & American Revolutionaries, kept sabotaging the machines & threatening
+factory owners, protesting for better conditions, and costing the factory
+owners time and money. The Luddites were not technophobes, they were the men,
+women, and children working the machines and suffering in the factory
+conditions that had replaced their bucolic handicrafts and uprooted their
+entire livlihoods. But the British Government had a solution, they sent in
+government troops and violently suppressed this Luddite movement. Instead of
+protecting the workers, they protected the machines and their owners. The
+Luddites didn't hate the machines, they hated the system that was treating them
+like machines instead of people.
 
-Almost anything you can do on the computer was already being done on a computer
-in the 80s and 90s, if not the 70s or 60s,  just in a different way,
-There's simple systems that be followed step-by-step; some of them were
-algorithms, but we don't need algorithms anymore, algorithms are a solved
-problem.
+This has all happened before, and it'll likely happen again in a slightly
+different way, not because history repeats out of nowhere, but when a problem's
+solved you use the solution that you already know works for the results you're
+trying to achieve. There's systems that we followed step-by-step, some of them
+were called algorithms, but we don't need algorithms anymore, algorithms are a
+solved problem.
 
 The Gordian Knot is a solved problem.</br> Design is a solved problem,<br>
 Coding is a solved problem,<br>Making decisions was solved by A/B testing, or
-Outsourcing, or Outsourcing your A/B Testing.<br> Anything is a solved problem if
-you don't care enough to think about the problem. Ask Tech Guru-cum-Venture
-Capitalist [Mark Andreesen](https://www.theverge.com/tldr/897566/marc-andreessen-is-a-philosophical-zombie),
+Outsourcing, or Outsourcing your A/B Testing.<br> Anything is a solved problem
+if you don't care enough to think about the problem. Ask Tech Guru-cum-Venture
+Capitalist [Mark
+Andreesen](https://www.theverge.com/tldr/897566/marc-andreessen-is-a-philosophical-zombie),
 who recently revealed he does no introspection, and in fact believes
 introspection itself is a relatively recent invention (Despite what Aristole
-says about people being naturally curious.)
+says about people being naturally curious.) There's nothing to think about
+anymore, the last great thinkers have now made their fortunes and replaced
+themselves with pure and eternal thinking machines.
 
-But if these have always been solved problems; the question, then, is who can
-access the solution? And, ultimately, Who does the solution benefit?
+But why iterate or innovate when the machine does it for itself? Why consider
+complaints and arguments to the contrary if the AI can do it for you and
+explain away your fears? If it's not broke don't fix it, right? But is it
+really broken if you can't hear anyone complaining? Is that for the courts to
+decide? We gotta keep up with the Jonses somehow, someway, But who even are the
+Joneses in this scenario? Real people, or a story generated by a machine? If the
+AI exists, to what end?
+
+Almost anything you can do on the computer was already being done on a computer
+in the 80s and 90s, if not the 70s or 60s, just in a different way, we are
+always using technology to communicate and improve the world for our own very
+human ends. We keep solving our problems, so we have no shortage of solutions
+for them; some better, some worse.
 
 General Purpose computing gave us the ultimate Multi-tasker's tool; a simulated
-desktop environment where we can do our simulated work.  Now "Artificial
+desktop environment where we can do our simulated work. Now "Artificial
 General Intelligence" will simulate us working on a simulated desktop
-environment -- like the old sysadmin joke goes "go away or I will replace you
-with a very short shell script" -- except this isnt' a short shell script, it's
-a cartel of tech oligarchs buying up all the computing power on the planet to
-sell it back to everyone as a solution to all the computing power in the world
-being locked up by the AI industry.
+environment &mdash; like the old sysadmin joke says "go away or I will replace
+you with a very short shell script" &mdash; except this isn't just a short
+shell script, it's a cartel of tech oligarchs buying up all the computing power
+on the planet to sell it back to everyone as a solution to all the computing
+power in the world being pre-emptively bought up by the AI industry.
 
+So, if these have always been solved problems; the question, then, is who can
+access the solution? Whose problem does it actually solve, or, ultimately, Who
+does the solution benefit? Only the people who don't really care about their
+methods are actually willing to destroy life to get what they want, and what
+the market seems to want is a dystopian melange of frivalous entertainment
+posed as Intellect on the front-end as it disenfranchises workers and helps
+burn down the planet on the back-end. The Roman Citizens get their bread and
+circuses, while the world suffers the brutality of the Roman Empire. History
+Echoes and Great Men stand on the shoulders of other Great Men by doing the
+things they didn't mention in the legends. Destiny is more important than the
+actual true history.
 
+The LLMs are more than willing to speak your preferred mainstream, historical,
+or counter-culture lingo, or even Sesquipedalian Loquaciousness because that's
+all been modeled from scraping the open web; it's excellent at predicting what
+words will likely come next, or remixing content it finds as it goes.
 
-The buggy-whip industry might see a resurgence if horses & oats became more
-affordable than cars & gasoline; Butlerian Jihad might become more popular if
-AI doesn't serve human needs.
+These are all just stories, the machine interprets
 
-There's a single solitary final solution for everything: death[^death]. When
-everyone's dead there will be no more problems to solve, due to the lack of
-people to define or consider problems; but this is an awfully Nihilist take,
-Annihilationist, even.
+[Rollerball][1] predicted a world where Megacorporations have replaced the
+government, and a spectacle of a game has replaced War; now Tech Billionaires
+have enough money to visit Space, a feat once only possible with the
+government funding; to be fair they still use government funding to do this,
+just in a more round-about way, through tax cuts and government contracts.
+
+Ready Player One's effective altruism lifts from Willie Wonka&mdash;where a
+mysterious billionaire's game gives a special boy a rags to riches dream, but
+the story hides a dystopia behind the scenes. It was a pretty big fad amongst
+techbros circa 2009, and while Metaverse never quite made it a reality for the
+general public, the industrial applications are being implemented by tech
+giants to create digital twins and optimize human picking patterns. The
+buggy-whip industry might see a resurgence if horses & oats became more
+affordable than cars & gasoline; and Butlerian Jihad might become more than a
+Dune reference if AI doesn't serve human needs.
+
+We can bypass and try to assuage our fears by going with the flow and
+pretending to be happy, like everyone else, but the venn diagram of people
+dissatisfied with the AI-Generated text, images, and code and the people who
+write code to solve people's problems seems to be a circle.
+
+Your B2B SaaS might have other use-cases for the general public, but LLM
+Psychosis might be too high a price to pay. These Visionaries, high in their
+ivory tower of White Supermacist Imperialist Capitalist Patriarchy, have been
+guided by the Dark Enlightenment thinking of the Neo-Rationalist movement and
+the that they must summon the AI Singularity; they've chosen the form of the
+destructor, and it involves turning the entire planet into Compute power in
+perpetuity, because these nerds can't calculate the answer to Life, the
+Universe, and Everything; they can only Solve Problems, and their problem is
+that the fear death, and worse that they fear they deserve to die; as if flesh,
+the machine, and the divine weren't always already prone to decay or
+rejuvination, or whatever you imagine to be the meta-meta-physicial esoteric
+workings to be.
 
 > Everything works out in the end. If it didn’t, it’s because it hasn’t come to an end yet.
 -- Fernando Sabino
 
-This has all happened before, and it'll likely happen again in a slightly
-different way, not because history repeats out of nowhere, but when a problem's
-solved you use the solution that works for the results you're trying to
-achieve. If you want to loosen an oxcart, cutting the rope is a fine way to do
-it, if you can't untie the knot and don't care about the rope.
+There's a single solitary final solution for everything: death[^death]. When
+everyone's dead there will be no more problems to solve, due to the lack of
+people to define or consider problems; but this is an awfully Nihilist take,
+Annihilationist, even Apocalyptic. But I, for one, would prefer if we could
+stop killing people entirely. Death is the untimely inevitable end of us all,
+the thing we all ignore as a matter of loving life and avoiding difficult
+throughts, death is these techno-utopians fear most. They need the AI to make
+them immortal, to allow them to become pure, shining, digital data,
+unemcumbered by flesh and crass material desires, to enter into Plato's Realm
+of Ideal Forms, a new Heaven, a new Elysian field, and become ghosts inside the machines.
 
-Why iterate or innovate when everything's working as expected?
-If it's not broke don't fix it, right?
-But we gotta keep up with the Jonses! how else will we stay relevant?
-
+They don't worry about the maintenence or upkeep [Musk recently floated the idea of
+launching Servers into space, which would seem to cause more problems than it's
+worth][^SpaceServers] because they don't live in a practical reality, they've
+created their own fantasy detached from need or desire as their pure
+rationality and pure reasoning solves every problem, the same final solution
+for everything -- they live on forever eternal and crome on spaceship servers
+flying ever onward into the future, and everyone else is standing in their way.
 
 [^AncientAsia]: The Greeks called Asia what we, today, would call Turkey and the Middle East; and possibly extends to parts of what we consider Modern Asia.
 [^FutureKing]: Of course, this Legend was told more _after_ Alexander's conquest than Before it, so it's probably safe to presume he ruled over "all of Asia" before this legend predicted that he would.
 [^gordian]: According to [Plutarch](https://www.livius.org/sources/content/plutarch/plutarchs-alexander/plutarch-on-the-gordian-knot/): "Aristobulus tells us it was easy for him to undo it, by only pulling the pin out of the pole, to which the yoke was tied, and afterwards drawing off the yoke itself from below." unlike all the other tellings in which Alexander destroys the rope and the knot in the process, here he breaks the cart.
+[1]: https://youtu.be/VG6gaLYv17U
 [^death]: Somebody once told me that "Suicide is a permanent solution for a temporary problem," but ultimately it just causes more problems for everyone around you, while "solving" your problem. It's a transfer of problems.
