@@ -100,7 +100,10 @@ or counter-culture lingo, or even Sesquipedalian Loquaciousness because that's
 all been modeled from scraping the open web; it's excellent at predicting what
 words will likely come next, or remixing content it finds as it goes.
 
-These are all just stories, the machine interprets
+These are all just stories that the machine interprets, remixes, and sells back
+to you.  It learned from reading the stories we fed it; which wasn't all of
+them, but enough for it to understand it's place in the cyberpunk dystopia that
+humanity has been creating.
 
 [Rollerball][1] predicted a world where Megacorporations have replaced the
 government, and a spectacle of a game has replaced War; now Tech Billionaires
@@ -110,18 +113,20 @@ just in a more round-about way, through tax cuts and government contracts.
 
 Ready Player One's effective altruism lifts from Willie Wonka&mdash;where a
 mysterious billionaire's game gives a special boy a rags to riches dream, but
-the story hides a dystopia behind the scenes. It was a pretty big fad amongst
+the story hides a dystopia behind the scenes. RP1 was a pretty big fad amongst
 techbros circa 2009, and while Metaverse never quite made it a reality for the
-general public, the industrial applications are being implemented by tech
-giants to create digital twins and optimize human picking patterns. The
-buggy-whip industry might see a resurgence if horses & oats became more
-affordable than cars & gasoline; and Butlerian Jihad might become more than a
-Dune reference if AI doesn't serve human needs.
+general public (can you imagine Zuck giving away his fortune to somebody who
+solves his riddles?), the industrial applications being implemented by tech
+giants to create digital twins and optimize human picking patterns are changing
+the world in more dehumanizing ways. The buggy-whip industry might see a
+resurgence if horses & oats became more affordable than cars & gasoline; and
+Butlerian Jihad might become more than a Dune reference if AI doesn't serve
+human needs.
 
 We can bypass and try to assuage our fears by going with the flow and
 pretending to be happy, like everyone else, but the venn diagram of people
 dissatisfied with the AI-Generated text, images, and code and the people who
-write code to solve people's problems seems to be a circle.
+do the same thing to solve people's problems, seems to be a circle.
 
 Your B2B SaaS might have other use-cases for the general public, but LLM
 Psychosis might be too high a price to pay. These Visionaries, high in their
@@ -139,27 +144,42 @@ workings to be.
 > Everything works out in the end. If it didn’t, it’s because it hasn’t come to an end yet.
 -- Fernando Sabino
 
-There's a single solitary final solution for everything: death[^death]. When
-everyone's dead there will be no more problems to solve, due to the lack of
-people to define or consider problems; but this is an awfully Nihilist take,
-Annihilationist, even Apocalyptic. But I, for one, would prefer if we could
-stop killing people entirely. Death is the untimely inevitable end of us all,
-the thing we all ignore as a matter of loving life and avoiding difficult
-throughts, death is these techno-utopians fear most. They need the AI to make
-them immortal, to allow them to become pure, shining, digital data,
-unemcumbered by flesh and crass material desires, to enter into Plato's Realm
-of Ideal Forms, a new Heaven, a new Elysian field, and become ghosts inside the machines.
-
-They don't worry about the maintenence or upkeep [Musk recently floated the idea of
-launching Servers into space, which would seem to cause more problems than it's
-worth][^SpaceServers] because they don't live in a practical reality, they've
-created their own fantasy detached from need or desire as their pure
+They don't worry about the maintenence or upkeep, or anything but themselves
+and their self-aggrandizing mythologies. For example, [Musk recently floated
+the idea of launching Servers into space, which would seem to cause more
+problems than it's worth][2] because they don't live in a practical reality,
+they've created their own fantasy detached from need or desire as their pure
 rationality and pure reasoning solves every problem, the same final solution
-for everything -- they live on forever eternal and crome on spaceship servers
-flying ever onward into the future, and everyone else is standing in their way.
+for everything -- they live on forever eternal, all shiny and chrome, on
+spaceship servers flying ever onward into the future, and everyone else is just
+standing in their way or destined to be support staff who should simple accept
+that their life's purpose is servitude.
+
+There's a single solitary solution for everything, it's been sold before as the
+final solution: death[^death]. When everyone's dead there will be no more
+problems to solve, due to the lack of people to define or consider problems;
+but this is an awfully Nihilist take, Annihilationist, even Apocalyptic. I'm
+not ready for the heat-death of the universe, or human extinction; But I, for
+one, would prefer if we could stop killing people entirely in the here and now.
+Death is the untimely inevitable end, coming for us all, the thing we all
+ignore as a matter of loving life and avoiding difficult throughts, death is
+what these techno-utopians fear most. They need the AI to make them immortal,
+to allow them to become pure, shining, digital data, unemcumbered by flesh and
+crass material desires, to enter into Plato's Realm of Ideal Forms, a new
+Heaven, a new Elysian field, and become ghosts inside the machines. And they
+don't care how many people have to die for them to get it.
+
+Orson Well's Time Machine predicted a result from this timeline, that human
+evolution would diverge, into the delicate and graceful Eloi, who live on the
+surface and enjoy all the pleasures the world has to offer; ot the Morlocks who
+live in the underworld working the machines that make the Eloi's world
+possible, but occasionally when an Eloi gets too close to the Morlock's world,
+the Eloi gets eaten for dinner.
 
 [^AncientAsia]: The Greeks called Asia what we, today, would call Turkey and the Middle East; and possibly extends to parts of what we consider Modern Asia.
 [^FutureKing]: Of course, this Legend was told more _after_ Alexander's conquest than Before it, so it's probably safe to presume he ruled over "all of Asia" before this legend predicted that he would.
 [^gordian]: According to [Plutarch](https://www.livius.org/sources/content/plutarch/plutarchs-alexander/plutarch-on-the-gordian-knot/): "Aristobulus tells us it was easy for him to undo it, by only pulling the pin out of the pole, to which the yoke was tied, and afterwards drawing off the yoke itself from below." unlike all the other tellings in which Alexander destroys the rope and the knot in the process, here he breaks the cart.
-[1]: https://youtu.be/VG6gaLYv17U
 [^death]: Somebody once told me that "Suicide is a permanent solution for a temporary problem," but ultimately it just causes more problems for everyone around you, while "solving" your problem. It's a transfer of problems.
+
+[1]: https://youtu.be/VG6gaLYv17U
+[2]: https://apnews.com/article/elon-musk-orbital-ai-data-centers-xai-spacex-92bc8ad95593bf3b5b801ddf36427194
