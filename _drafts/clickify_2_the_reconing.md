@@ -3,7 +3,7 @@ layout: post
 title: Clickify 2: The Reconing
 published: false
 tags: article
----o
+---
 
 It's been almost a decade since I've last needed [to alert users that links are indeed clickable](/2010/04/new-plugin-stupify.html),
 but now, it's back with a vengance! [Before]() appending "Click Here" to every link was enough, but thanks to advances in UI and UX

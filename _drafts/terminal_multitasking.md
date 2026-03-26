@@ -10,3 +10,4 @@ tags: article, 100 days to offload
 2. Background Jobs
 3. Screen
 4. Tmux
+5. BONUS: zellij and byobu

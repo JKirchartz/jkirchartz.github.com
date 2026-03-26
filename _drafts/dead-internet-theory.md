@@ -1,4 +1,5 @@
 ---
+
 title: "Dead Internet Theory"
 
 ---
@@ -15,6 +16,7 @@ your Facebook, or Twitter[^1], or Mastodon friends? Even if they live in the
 same city as you? We're [not getting out much][2], and it's not easy to [make
 friends][3], [especially as adults][4]
 
+Some mad lad actually made an artificial internet you can run on your own machine, surely this will be a salve in the aftermath <https://github.com/Sebby37/Dead-Internet>.
 
 
 [1]: https://www.theatlantic.com/technology/archive/2021/08/dead-internet-theory-wrong-but-feels-true/619937/

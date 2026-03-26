@@ -35,14 +35,16 @@ Most folks know the phrase "Sticks and Stones can break your bones, but words ca
 
 [Conway's Law][3] is an addage that states that "Any organization that designs
 a system (defined broadly) will produce a design whose structure is a copy of
-the organization's communication structure." With that in mind, do we really want to perpetuate
-hostile communications? Is this really what's best for our users?
+the organization's communication structure." With that in mind, do we really
+want to perpetuate hostile communications? Is this really what's best for our
+users? You can eat your own dogfood, or drink your own champaigne; what's good
+for the goose is good for the gander. If your teams can't even talk, you've got
+deeper troubles than you'd like to admit.
 
 
 > Great things in business are never done by one person, They are done by a team of people.
 
 Steve Jobs, Steve Jobs: His Own Words and Wisdom
-
 
 [The Recourse Center has 4 social rules][4] to "help create a friendly, intellectual environment" are:
 
@@ -77,6 +79,7 @@ visiting <https://100daystooffload.com>
 <!-- unincorporated -->
 https://www.showingupforracialjustice.org/white-supremacy-culture-characteristics.html
 
+https://tldp.org/HOWTO/Encourage-Women-Linux-HOWTO/index.html
 
 https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
 https://blog.kowsheek.com/the-technical-interview-is-an-ego-trip/
@@ -89,9 +92,6 @@ https://en.wiktionary.org/wiki/exclusive_or
 
 Anti-Racism RFC:
 https://tools.ietf.org/id/draft-knodel-terminology-00.html
-
-
-
 
 
 "best practices" is an opinion & doesn't mean anything specific... https://meta.stackexchange.com/a/322777/143539

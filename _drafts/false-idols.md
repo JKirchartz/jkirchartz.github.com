@@ -3,9 +3,6 @@ layout: post
 title: False Idols
 ---
 
-
-
-
 My speciality (if I have one as a web developer) is turning real things into
 digital things ... but the magic idea of digital things that makes real things
 based off digital pseudo-ideas of real things based on a statistically-probably

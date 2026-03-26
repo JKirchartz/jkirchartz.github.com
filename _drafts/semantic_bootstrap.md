@@ -10,8 +10,10 @@ One of the complaints most often lobbed at Bootstrap is that the way [Bootstrap 
 I agree, but what if I told you there was a better way, that already works with Bootstrap?
 
 
-[Bootstrap Live Customizer][1] is a tool that makes it easy to generate a custom theme, with a live preview of all variables (currently in v3.3.7) it will output a LESS file for you.
-You can convert this less file to sass with `sed` on the commandline.
+[Bootstrap Live Customizer][1] is a tool that makes it easy to generate a
+custom theme, with a live preview of all variables (currently in v3.3.7) it
+will output a LESS file for you.  You can convert this less file to sass with
+`sed` on the commandline.
 
         sed -i'' -e 's/@/$/g' variables.less
 
