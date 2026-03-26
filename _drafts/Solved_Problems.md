@@ -29,11 +29,11 @@ suggesting to cut a child in half to determine the rightful claimant.
 In the early 19th Century, Europe was in the midst of the Napoleonic Wars, an
 Emperor was trying to re-implement his Ancien régime, inspired by stories of
 Alexander's Ancient Regime. Across the channel, The British Empire had a
-problem turning it's imported cotton into exports. The weavers, inspired by
-French & American Revolutionaries, kept sabotaging the machines & threatening
-factory owners, protesting for better conditions, and costing the factory
-owners time and money. The Luddites were not technophobes, they were the men,
-women, and children working the machines and suffering in the factory
+problem turning it's imported cotton and wool into exports. The weavers,
+inspired by French & American Revolutionaries, kept sabotaging the machines &
+threatening factory owners, protesting for better conditions, and costing the
+factory owners time and money. The Luddites were not technophobes, they were
+the men, women, and children working the machines and suffering in the factory
 conditions that had replaced their bucolic handicrafts and uprooted their
 entire livlihoods. But the British Government had a solution, they sent in
 government troops and violently suppressed this Luddite movement. Instead of
@@ -169,9 +169,9 @@ crass material desires, to enter into Plato's Realm of Ideal Forms, a new
 Heaven, a new Elysian field, and become ghosts inside the machines. And they
 don't care how many people have to die for them to get it.
 
-Orson Well's Time Machine predicted a result from this timeline, that human
+H.G. Well's Time Machine predicted a result from this timeline, that human
 evolution would diverge, into the delicate and graceful Eloi, who live on the
-surface and enjoy all the pleasures the world has to offer; ot the Morlocks who
+surface and enjoy all the pleasures the world has to offer; or the Morlocks who
 live in the underworld working the machines that make the Eloi's world
 possible, but occasionally when an Eloi gets too close to the Morlock's world,
 the Eloi gets eaten for dinner.
