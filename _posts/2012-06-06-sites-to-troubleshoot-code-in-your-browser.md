@@ -15,16 +15,13 @@ that make writing &amp; repairing code with your browser all sorts of easier<!--
 
 ## server-side / programming languages
 
-* [codepad.viper-7.com](http://codepad.viper-7.com/)
 * [pythonfiddle.com](http://pythonfiddle.com/)
 * [phpfiddle.com](http://phpfiddle.com/)
-* [\*compilr.com](http://compilr.com/)
 * [\*onlinecompiler.net](http://www.onlinecompiler.net/)
 * [dpriver.com/pp/sqlformat.htm](http://www.dpriver.com/pp/sqlformat.htm)
 * [sqlfiddle.com](http://sqlfiddle.com/)
 * [coderun.com/ide](http://www.coderun.com/ide/) (404'd)
 * [\*repl.it](http://repl.it/)
-* [wonderfl.net](http://wonderfl.net/)
 * [dotnetfiddle.net](http://dotnetfiddle.net/)
 * [ember-twiddle.com](https://ember-twiddle.com/)
 * [trinket.io](https://trinket.io/)
@@ -44,16 +41,12 @@ that make writing &amp; repairing code with your browser all sorts of easier<!--
 * [tinkerbin.com](http://tinkerbin.com/)
 * [jsdo.it](http://jsdo.it/)
 * [dabblet.com](http://dabblet.com/)
-* [cssdesk.com](http://cssdesk.com/)
-* [cssdeck.com](http://cssdeck.com/)
 * [akshell.com](http://www.akshell.com/)
 * [plnkr.co](http://plnkr.co/)
-* [rendera.heroku.com](http://rendera.heroku.com/)
 * [fiddlesalad.com](http://fiddlesalad.com/)
 * [htmlinstant.com](http://www.htmlinstant.com/)
 * [scratchpad.io](http://scratchpad.io/)
 * [babeljs.io/repl](https://babeljs.io/repl/)
-* [es6fiddle.net](http://es6fiddle.net)
 * [ember-twiddle.com](https://ember-twiddle.com/)
 
 ## validators / cleaners
@@ -76,15 +69,15 @@ mod_redirect &amp; just about anything else, just [don't parse html](http://stac
 * [regexplained](https://leaverou.github.io/regexplained/)
 * [pyregex.com](http://pyregex.com/)
 * [pythex.org](http://pythex.org/)
-* [rentzsch.github.com/JSRegexTeststand](http://rentzsch.github.com/JSRegexTeststand/)
+* [rentzsch.github.com/JSRegexTeststand](https://rentzsch.github.io/JSRegexTeststand/)
 * [regexplanet.com](http://www.regexplanet.com/)
 * [regextester.com](http://www.regextester.com/)
 * [rextester.com](http://rextester.com/)
-* [regexp.quaxio.com](http://regexp.quaxio.com/) (linter)
 * [htaccess.madewithlove.be](http://htaccess.madewithlove.be/)
 * [txt2re.com](http://www.txt2re.com/)
-* [2problems.com](http://2problems.com/)
 * [extendsclass.com](https://extendsclass.com/regex-tester.html)
+* [softwium.com](https://softwium.com/regex-explainer/)
+* [phphub.net/regex/](https://phphub.net/regex/)
 
 ## cdn
 include a library into your sandbox
@@ -94,7 +87,6 @@ include a library into your sandbox
 * [developers.google.com/speed/libraries/devguide](http://developers.google.com/speed/libraries/devguide)
 * [code.createjs.com](http://code.createjs.com/)
 * [jsdelivr.com](http://www.jsdelivr.com/)
-* [cdn.tl](http://www.cdn.tl/)
 
 ## image placeholders
 no images yet want to show some?
@@ -105,11 +97,8 @@ no images yet want to show some?
 * [placekitten.com](http://placekitten.com/)
 * [placehold.it](http://placehold.it/)
 * [imageplaceholder.com](http://imageplaceholder.com/)
-* [placebox.es](http://placebox.es/)
 * [flickholdr.com](http://flickholdr.com/)
 * [placedog.com](http://placedog.com/)
-* [placecage.com](http://www.placecage.com/)
-* [fillmurray.com](http://www.fillmurray.com/)
 * [stevensegallery.com](http://www.stevensegallery.com/)
 
 ## IDEs
@@ -123,7 +112,6 @@ no images yet want to show some?
 Other interesting things that don't fit above.
 
 * [BuiltWith.com](http://builtwith.com) see the full stack of what a site is built with
-* [beta.jhere.net/bin/](http://beta.jhere.net/bin/) jHere makes maps easy w/ javascript
 * [jotted](https://github.com/ghinda/jotted) self-hosted editable html/css/javascript demos
 * [httpstatus.es](http://httpstatus.es/)
 * [hyperpolyglot.org](http://hyperpolyglot.org/)
