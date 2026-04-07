@@ -142,7 +142,11 @@ rejuvination, or whatever you imagine to be the meta-meta-physicial esoteric
 workings to be.
 
 > Everything works out in the end. If it didn’t, it’s because it hasn’t come to an end yet.
--- Fernando Sabino
+> -- Fernando Sabino
+
+
+> As long as there were no machines, programming was no problem at all; when we had a few weak computers, programming became a mild problem, and now we have gigantic computers, programming has become an equally gigantic problem.
+> -- Edsger W. Dijkstra
 
 They don't worry about the maintenence or upkeep, or anything but themselves
 and their self-aggrandizing mythologies. For example, [Musk recently floated
