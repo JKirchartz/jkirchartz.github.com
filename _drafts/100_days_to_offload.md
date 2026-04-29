@@ -15,11 +15,12 @@ blogger by any stretch of the imagination, so I should just get on with it!
 
 Ultimately, this site contains my demos, writings, resume, and portfolio - so there is
 a degree of professionalism I strive for; but not everything I write needs to
-be focused entirely on writing and maintaining code, culture is important too.
+be focused entirely on writing and maintaining code, culture and other things are also important.
 
-In the next 12 months I strive to create, finish, and/or publish 100 articles,
-and maybe build a new habit where I get things out of my head and into the
-world.
+I'm to much of a generalist to begin with to constrain myself to too much
+specialization, so in the next 12 months I strive to create, finish, and/or
+publish 100 articles, and maybe build a new habit where I get things out of my
+head and into the world.
 
 As suggested in the inspiration of this, I leave you with this final statement:
 

@@ -21,23 +21,20 @@ mobile device dominance and "blazing fast streaming."
 Home computers and servers and T1 shared hosting made way for megacorporate
 data clouds, The Internet evolved from niche microcultures passed by
 word-of-mouth or at baud rate, and into global cultural dominance dangling like
-a carrot at the end of a search query
+a carrot at the end of a search query, then each search query started to be
+locked behind a paywall of LLM Hallucinations.
+
 
 It is the dream of many a computer programmer to give it all up and live a
-bucolic live herding sheep or somesuch. And here they may find that the world
-isn't entirely connected. There's a time to sow your wild oats, and there's a
-time to reap them; similarly there's a time to follow trends and go with the
-flow, and a time to say "enough is enough."
+bucolic live herding sheep or as a mountain guide. And here they may find that
+the world isn't entirely connected. There's a time to sow your wild oats, and
+there's a time to reap them; similarly there's a time to follow trends and go
+with the flow, and a time to say "enough is enough."
 
 I'm not ready to start herding sheep, but I am tired of [shaving yaks][1], and
 I don't want to solve any more problems that don't need solved.
 
 I'm turning into a simple bucolic hacker, chopping wood and tending the fire.
-
-
-
-
-
 
 [^1]: Some of my long-lost best my best was similar to Jib-Jab, but mostly I was trying to be Terry Gilliam.
 [^2]: Now the browser is a monolith, so complicated that most browsers now descend from Webkit.

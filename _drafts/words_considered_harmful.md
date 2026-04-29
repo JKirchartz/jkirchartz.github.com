@@ -36,11 +36,10 @@ Most folks know the phrase "Sticks and Stones can break your bones, but words ca
 [Conway's Law][3] is an addage that states that "Any organization that designs
 a system (defined broadly) will produce a design whose structure is a copy of
 the organization's communication structure." With that in mind, do we really
-want to perpetuate hostile communications? Is this really what's best for our
-users? You can eat your own dogfood, or drink your own champaigne; what's good
-for the goose is good for the gander. If your teams can't even talk, you've got
-deeper troubles than you'd like to admit.
-
+want to perpetuate hostile communications? Is this really what's best for
+business, for our users? You can eat your own dogfood, or drink your own
+champaigne; what's good for the goose is good for the gander. If your teams
+can't even talk, you've got deeper troubles than you'd like to admit.
 
 > Great things in business are never done by one person, They are done by a team of people.
 
@@ -62,13 +61,12 @@ All these rules are intended to make people feel welcome and free to focus on pr
 > destructive to a supportive, productive, and fun learning environment.
 
 
-
 I’m publishing this as part of 100 Days To Offload. You can join in yourself by
 visiting <https://100daystooffload.com>
 
 <!-- footnotes -->
 [^1]: "Sophist" is an ancient greek word meaning "Teacher" - from "Sophos"
-  meaning "Wise Man"
+  meaning "Wise Man" - Platonists use it as a devastating insult, you're devastated.
 
 <!-- links -->
 [1]: https://the-pastry-box-project.net/brad-frost/2014-january-28
