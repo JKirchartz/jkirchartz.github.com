@@ -3,7 +3,7 @@ Solved Problems
 
 Before Alexander the Great became Great he was the King of Macedonia, the
 hegemonic leader of the unified Greek Military forces. When Alexander's forces
-invaded the Phyrgian Empire he came to their capital, a city called Gordion,
+invaded the Phyrgian Empire he came to their capital, a city named Gordion,<!--more-->
 named after another legendary King who ended a civil war by driving his
 Ox-Cart, but that's another story. This Ox-Cart was put in a position of Honor
 in the town as a monument; and it was held tight with a complex knot that
@@ -25,7 +25,25 @@ you can't untie the knot and don't care about the rope[^gordian]. Another
 legendary King, Solomon had a similar solution to a child custody dispute,
 suggesting to cut a child in half to determine the rightful claimant.
 
+Two thousand years later, inspired by storied of Alexander the Great, another
+Emperor was trying to re-implement his Ancien régime and plunged Europe and the
+Kingdom of Great Britain into the Napoleonic Wars. To make matters worse, the
+Britains had a problem turning it's imported cotton into exports. The weavers,
+inspired by the recent history of French & American Revolutions, kept fighting
+being replaced by machine by using sabotaging & threatening factory owners,
+protesting for better conditions, and costing the factory owners time and
+money. The Luddites were not technophobes, they were the men, women, and
+children working the machines and suffering in the factory conditions that had
+replaced their bucolic handicrafts and uprooted their entire livlihoods, priced
+out of their homes, and displacing them into cramped and unsanitary urban
+conditions and working dangerous machines. But the British Government had a
+solution, they sent in government troops they were using in their wars to
+suppressed this Luddite movement. Instead of protecting the workers, the
+military protected the machines and their owners. The Luddites didn't hate the
+machines, they hated the system that was treating them like disposable pieces
+of a machine instead of people.
 
+<!--
 In the early 19th Century, Europe was in the midst of the Napoleonic Wars, an
 Emperor was trying to re-implement his Ancien régime, inspired by stories of
 Alexander's Ancient Regime. Across the channel, The British Empire had a
@@ -40,13 +58,17 @@ government troops and violently suppressed this Luddite movement. Instead of
 protecting the workers, they protected the machines and their owners. The
 Luddites didn't hate the machines, they hated the system that was treating them
 like machines instead of people.
+-->
+
+> "it is tempting, if the only tool you have is a hammer, to treat everything as if it were a nail."
+> -- Abraham Maslow, 1966
 
 This has all happened before, and it'll likely happen again in a slightly
 different way, not because history repeats out of nowhere, but when a problem's
 solved you use the solution that you already know works for the results you're
-trying to achieve. There's systems that we followed step-by-step, some of them
-were called algorithms, but we don't need algorithms anymore, algorithms are a
-solved problem.
+trying to achieve. There's systems that we followed step-by-step, a recipe,
+some of them we call algorithms, but we don't need algorithms anymore,
+algorithms are a solved problem.
 
 The Gordian Knot is a solved problem.</br> Design is a solved problem,<br>
 Coding is a solved problem,<br>Making decisions was solved by A/B testing, or
