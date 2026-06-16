@@ -9,5 +9,5 @@ ruby '3.1.0'
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem 'github-pages', group: :jekyll_plugins
-gem "ffi", force_ruby_platform: true
+gem "ffi"
 gem 'jekyll-compose', group: :jekyll_plugins
