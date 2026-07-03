@@ -1,8 +1,0 @@
----
-language: ruby
-branches:
-  only:
-    master
-rvm:
-  - 2.5
-script: "JEKYLL_ENV=production bundle exec jekyll build"

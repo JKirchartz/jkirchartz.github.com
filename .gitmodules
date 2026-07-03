@@ -1,0 +1,6 @@
+[submodule "bin/lowdown"]
+	path = deps/lowdown
+	url = git@github.com:kristapsdz/lowdown.git
+[submodule "bin/sblg"]
+	path = deps/sblg
+	url = git@github.com:kristapsdz/sblg.git
