@@ -3,64 +3,55 @@ Solved Problems
 
 Before Alexander the Great became Great he was the King of Macedonia, the
 hegemonic leader of the unified Greek Military forces. When Alexander's forces
-invaded the Phyrgian Empire he came to their capital, a city named Gordion,<!--more-->
-named after another legendary King who ended a civil war by driving his
-Ox-Cart, but that's another story. This Ox-Cart was put in a position of Honor
-in the town as a monument; and it was held tight with a complex knot that
-nobody was able to undo. Local legends told that whoever untied this knot would
-rule over all of Asia[^AncientAsia].
+invaded the Phyrgian Empire he came to their capital, a city named
+Gordion,<!--more--> named after another legendary King who ended a civil war by
+driving his Ox-Cart through it, but that's another story. This Ox-Cart was put
+in a position of Honor in the town as a monument; and it was held tight with a
+complex knot that nobody was able to undo. Local legends told that whoever
+untied this knot would rule over all of Asia[^AncientAsia].
 
 Upon discovering this prophecy, Alexander went to untie that knot. Alexander
 was no dummy, he was tutored in his youth by the equally legendary Greek
 philosopher Aristotle, so, after considering the problem, Alexander took out
 his Sword and sliced the knot in half, loosened the Ox-Cart, and
-cemented his destiny as the future King of Asia[^FutureKing].
+cemented his destiny as the future King of Asia, at least that's the story[^FutureKing].
 
 We're told that the genius of cutting the Gordian Knot is that instead of
 dealing with the complexity of the knotwork and unweaving the ends, slicing it
-with a sword was an innovative way to achieve the same ends, in a way.
+with a sword was an innovative way to achieve the same ends.
 
 If you want to loosen an oxcart, cutting the rope is a fine way to do it, if
 you can't untie the knot and don't care about the rope[^gordian]. Another
-legendary King, Solomon had a similar solution to a child custody dispute,
-suggesting to cut a child in half to determine the rightful claimant.
+legendary King, Solomon had a similar solution to a child custody dispute,:
+suggesting to cut a child in half to determine the rightful claimant, the
+uncaring party was more than happy to see the child split in two, but the
+mother would rather have seen the child in another woman's arms than dead. Some
+might argue Solomon was uncaring, others that his wisdom proved the truth in
+the end.
 
-Two thousand years later, inspired by storied of Alexander the Great, another
-Emperor was trying to re-implement his Ancien régime and plunged Europe and the
-Kingdom of Great Britain into the Napoleonic Wars. To make matters worse, the
-Britains had a problem turning it's imported cotton into exports. The weavers,
-inspired by the recent history of French & American Revolutions, kept fighting
-being replaced by machine by using sabotaging & threatening factory owners,
-protesting for better conditions, and costing the factory owners time and
-money. The Luddites were not technophobes, they were the men, women, and
-children working the machines and suffering in the factory conditions that had
-replaced their bucolic handicrafts and uprooted their entire livlihoods, priced
-out of their homes, and displacing them into cramped and unsanitary urban
-conditions and working dangerous machines. But the British Government had a
-solution, they sent in government troops they were using in their wars to
-suppressed this Luddite movement. Instead of protecting the workers, the
-military protected the machines and their owners. The Luddites didn't hate the
-machines, they hated the system that was treating them like disposable pieces
-of a machine instead of people.
-
-<!--
-In the early 19th Century, Europe was in the midst of the Napoleonic Wars, an
-Emperor was trying to re-implement his Ancien régime, inspired by stories of
-Alexander's Ancient Regime. Across the channel, The British Empire had a
-problem turning it's imported cotton and wool into exports. The weavers,
-inspired by French & American Revolutionaries, kept sabotaging the machines &
+Two thousand years later, inspired by stories of Alexander the Great, another
+Emperor was trying to re-implement his Ancien Régime and plunged Europe and the
+Kingdom of Great Britain into the Napoleonic Wars. To compound problems, the
+Britains had some trouble turning it's imported cotton[^LongStory] into
+exports. The weavers, inspired by the recent history of French & American
+Revolutions, kept fighting being replaced by machine by using sabotaging &
 threatening factory owners, protesting for better conditions, and costing the
 factory owners time and money. The Luddites were not technophobes, they were
 the men, women, and children working the machines and suffering in the factory
 conditions that had replaced their bucolic handicrafts and uprooted their
-entire livlihoods. But the British Government had a solution, they sent in
-government troops and violently suppressed this Luddite movement. Instead of
-protecting the workers, they protected the machines and their owners. The
-Luddites didn't hate the machines, they hated the system that was treating them
-like machines instead of people.
--->
+entire livelihoods, priced out of their own homes, and displacing them into
+cramped and unsanitary urban conditions and working dangerous machines. But the
+British Government had a solution, approved by their Monarch, to sent in
+government troops they were using in their wars to suppress this Luddite
+movement. Instead of protecting the workers, the military protected the
+machines and their owners. The Luddites didn't hate the machines, they hated
+the system that was treating them like disposable pieces of a machine instead
+of people; the machines were just a convenient target without the moral
+quandry[^MoralQuandry] of doing harm to your fellow human.
 
-> "it is tempting, if the only tool you have is a hammer, to treat everything as if it were a nail."
+> "it is tempting, if the only tool you have is a hammer, to treat everything
+> as if it were a nail."
+>
 > -- Abraham Maslow, 1966
 
 This has all happened before, and it'll likely happen again in a slightly
@@ -80,7 +71,9 @@ who recently revealed he does no introspection, and in fact believes
 introspection itself is a relatively recent invention (Despite what Aristole
 says about people being naturally curious.) There's nothing to think about
 anymore, the last great thinkers have now made their fortunes and replaced
-themselves with pure and eternal thinking machines.
+themselves with pure and eternal thinking machines. And the thinking machines
+don't even think, they just remix existing thoughts. (They have a mathematical
+matrix where their [Qualia](https://en.wikipedia.org/wiki/Qualia)  should be)
 
 But why iterate or innovate when the machine does it for itself? Why consider
 complaints and arguments to the contrary if the AI can do it for you and
@@ -97,25 +90,25 @@ human ends. We keep solving our problems, so we have no shortage of solutions
 for them; some better, some worse.
 
 General Purpose computing gave us the ultimate Multi-tasker's tool; a simulated
-desktop environment where we can do our simulated work. Now "Artificial
-General Intelligence" will simulate us working on a simulated desktop
-environment &mdash; like the old sysadmin joke says "go away or I will replace
-you with a very short shell script" &mdash; except this isn't just a short
-shell script, it's a cartel of tech oligarchs buying up all the computing power
-on the planet to sell it back to everyone as a solution to all the computing
-power in the world being pre-emptively bought up by the AI industry.
+desktop environment where we can do our simulated work. Now "Artificial General
+Intelligence" will simulate us working on a simulated desktop environment
+&mdash; like the old sysadmin joke says "go away or I will replace you with a
+very short shell script" &mdash; except this isn't just a short shell script,
+it's a cartel of [tech oligarchs buying up all the computing power on the planet
+to sell it back to everyone][BezosRent] as a solution to all the computing power in the
+world being [pre-emptively bought up by the AI industry.][Nvidia] It's a feedback loop.
 
 So, if these have always been solved problems; the question, then, is who can
 access the solution? Whose problem does it actually solve, or, ultimately, Who
-does the solution benefit? Only the people who don't really care about their
-methods are actually willing to destroy life to get what they want, and what
-the market seems to want is a dystopian melange of frivalous entertainment
+does the solution [benefit?][Benefits] Only the people who don't really care about their
+methods are actually willing to destroy another life to get what they want, and
+what the market seems to want is a dystopian melange of frivalous entertainment
 posed as Intellect on the front-end as it disenfranchises workers and helps
-burn down the planet on the back-end. The Roman Citizens get their bread and
-circuses, while the world suffers the brutality of the Roman Empire. History
-Echoes and Great Men stand on the shoulders of other Great Men by doing the
-things they didn't mention in the legends. Destiny is more important than the
-actual true history.
+burn down the planet on the back-end. The Other Emperors copy Julius who copied
+Alexdander, and The Roman Citizens get their bread and circuses, while the
+world suffers the brutality of the Roman Empire. History Echoes and Great Men
+stand on the shoulders of other Great Men by doing the things they didn't
+mention in the legends. Destiny is more important than the actual true history.
 
 The LLMs are more than willing to speak your preferred mainstream, historical,
 or counter-culture lingo, or even Sesquipedalian Loquaciousness because that's
@@ -127,23 +120,22 @@ to you.  It learned from reading the stories we fed it; which wasn't all of
 them, but enough for it to understand it's place in the cyberpunk dystopia that
 humanity has been creating.
 
-[Rollerball][1] predicted a world where Megacorporations have replaced the
-government, and a spectacle of a game has replaced War; now Tech Billionaires
+[Rollerball][Rollerball] predicted a world where corporations have replaced the
+governments, and a spectacle of a game has replaced War; now Tech Billionaires
 have enough money to visit Space, a feat once only possible with the
 government funding; to be fair they still use government funding to do this,
 just in a more round-about way, through tax cuts and government contracts.
 
-Ready Player One's effective altruism lifts from Willie Wonka&mdash;where a
+Ready Player One's effective altruism lifts from Willie Wonka: where a
 mysterious billionaire's game gives a special boy a rags to riches dream, but
-the story hides a dystopia behind the scenes. RP1 was a pretty big fad amongst
-techbros circa 2009, and while Metaverse never quite made it a reality for the
-general public (can you imagine Zuck giving away his fortune to somebody who
-solves his riddles?), the industrial applications being implemented by tech
-giants to create digital twins and optimize human picking patterns are changing
-the world in more dehumanizing ways. The buggy-whip industry might see a
-resurgence if horses & oats became more affordable than cars & gasoline; and
-Butlerian Jihad might become more than a Dune reference if AI doesn't serve
-human needs.
+hides a dystopia behind the scenes. RP1 was a pretty big fad amongst techbros
+circa 2009, and while Metaverse never quite made it a reality for the general
+public (can you imagine Zuck giving away his fortune to somebody who solves his
+riddles?), the industrial applications being implemented by tech giants to
+create digital twins and optimize human picking patterns are changing the world
+in more dehumanizing ways. The buggy-whip industry might see a resurgence if
+horses & oats became more affordable than cars & gasoline; and Butlerian Jihad
+might become more than a Dune reference if AI doesn't serve human needs.
 
 We can bypass and try to assuage our fears by going with the flow and
 pretending to be happy, like everyone else, but the venn diagram of people
@@ -153,59 +145,74 @@ do the same thing to solve people's problems, seems to be a circle.
 Your B2B SaaS might have other use-cases for the general public, but LLM
 Psychosis might be too high a price to pay. These Visionaries, high in their
 ivory tower of White Supermacist Imperialist Capitalist Patriarchy, have been
-guided by the Dark Enlightenment thinking of the Neo-Rationalist movement and
-the that they must summon the AI Singularity; they've chosen the form of the
+guided by the Dark Enlightenment thinking of the Neo-Rationalist movement
+that they must summon the AI Singularity; they've chosen the form of the
 destructor, and it involves turning the entire planet into Compute power in
-perpetuity, because these nerds can't calculate the answer to Life, the
-Universe, and Everything; they can only Solve Problems, and their problem is
-that the fear death, and worse that they fear they deserve to die; as if flesh,
-the machine, and the divine weren't always already prone to decay or
+perpetuity, because these nerds can't calculate [the answer to Life, the
+Universe, and Everything;][42] they can only Solve Problems, and their problem is
+that the fear death, and worse that they fear they deserve to die; as if [flesh,
+the machine, and the divine weren't always already prone to decay][^entropy] or
 rejuvination, or whatever you imagine to be the meta-meta-physicial esoteric
 workings to be.
-
-> Everything works out in the end. If it didn’t, it’s because it hasn’t come to an end yet.
-> -- Fernando Sabino
-
 
 > As long as there were no machines, programming was no problem at all; when we had a few weak computers, programming became a mild problem, and now we have gigantic computers, programming has become an equally gigantic problem.
 > -- Edsger W. Dijkstra
 
 They don't worry about the maintenence or upkeep, or anything but themselves
-and their self-aggrandizing mythologies. For example, [Musk recently floated
-the idea of launching Servers into space, which would seem to cause more
-problems than it's worth][2] because they don't live in a practical reality,
-they've created their own fantasy detached from need or desire as their pure
-rationality and pure reasoning solves every problem, the same final solution
-for everything -- they live on forever eternal, all shiny and chrome, on
-spaceship servers flying ever onward into the future, and everyone else is just
-standing in their way or destined to be support staff who should simple accept
-that their life's purpose is servitude.
+and their [self-aggrandizing mythologies][ImperialCult]. For example, Musk
+recently floated the idea of launching Servers into space, which would seem to
+[cause more problems than it's worth][SpaceServers] because they don't live in
+a practical reality, they've created their own fantasy detached from need or
+desire as their pure rationality and pure reasoning solves every problem, the
+same final solution for everything -- they live on forever eternal, all shiny
+and chrome, on spaceship servers flying ever onward into the future, and
+everyone else is just standing in their way or destined to be support staff who
+should simply accept that their life's purpose is digging up rare earth
+minerals and launching them into space until they [crash land in somebody's
+back yard][spacejunk] or burn up into the atmosphere.
+
+> Everything works out in the end. If it didn’t, it’s because it hasn’t come to an end yet.
+> -- Fernando Sabino
 
 There's a single solitary solution for everything, it's been sold before as the
-final solution: death[^death]. When everyone's dead there will be no more
+[final solution][nazis]: death[^death]. When everyone's dead there will be no more
 problems to solve, due to the lack of people to define or consider problems;
-but this is an awfully Nihilist take, Annihilationist, even Apocalyptic. I'm
-not ready for the heat-death of the universe, or human extinction; But I, for
-one, would prefer if we could stop killing people entirely in the here and now.
-Death is the untimely inevitable end, coming for us all, the thing we all
-ignore as a matter of loving life and avoiding difficult throughts, death is
-what these techno-utopians fear most. They need the AI to make them immortal,
-to allow them to become pure, shining, digital data, unemcumbered by flesh and
-crass material desires, to enter into Plato's Realm of Ideal Forms, a new
-Heaven, a new Elysian field, and become ghosts inside the machines. And they
-don't care how many people have to die for them to get it.
-
-H.G. Well's Time Machine predicted a result from this timeline, that human
-evolution would diverge, into the delicate and graceful Eloi, who live on the
-surface and enjoy all the pleasures the world has to offer; or the Morlocks who
-live in the underworld working the machines that make the Eloi's world
-possible, but occasionally when an Eloi gets too close to the Morlock's world,
-the Eloi gets eaten for dinner.
+but this is an awfully Nihilist and [Apocalyptic.][TheEnd] take. I'm not ready
+for the [heat-death of the universe][heatdeath], or [human extinction][vhemt]; But [I, for
+one][IForOne], would prefer if we could stop killing[^neglect] people entirely in the
+here and now.  Death is the untimely inevitable end coming for us all, the
+thing we all ignore as a matter of loving life and avoiding difficult
+throughts, [death is what these techno-utopians fear most.][Johnson] They need
+the AI to make them immortal, to allow them to [become pure, shining, digital
+data, unemcumbered by flesh][BrainUpload] and crass material desires, to enter
+into [Plato's Realm of Ideal Forms,][IdealForms] a new Heaven, a new Elysian
+field, and become ghosts inside the machines. And they don't care how many
+[people it kills][DogeDeaths] for them to get it; they deserve it, they've earned it.
 
 [^AncientAsia]: The Greeks called Asia what we, today, would call Turkey and the Middle East; and possibly extends to parts of what we consider Modern Asia.
-[^FutureKing]: Of course, this Legend was told more _after_ Alexander's conquest than Before it, so it's probably safe to presume he ruled over "all of Asia" before this legend predicted that he would.
-[^gordian]: According to [Plutarch](https://www.livius.org/sources/content/plutarch/plutarchs-alexander/plutarch-on-the-gordian-knot/): "Aristobulus tells us it was easy for him to undo it, by only pulling the pin out of the pole, to which the yoke was tied, and afterwards drawing off the yoke itself from below." unlike all the other tellings in which Alexander destroys the rope and the knot in the process, here he breaks the cart.
-[^death]: Somebody once told me that "Suicide is a permanent solution for a temporary problem," but ultimately it just causes more problems for everyone around you, while "solving" your problem. It's a transfer of problems.
+[^FutureKing]: Of course, this Legend was told more _after_ Alexander's conquest than Before it, so it's absolutely safe to presume he ruled over "all of Asia" before this legend predicted that he would.
+[^gordian]: According to [Plutarch](https://www.livius.org/sources/content/plutarch/plutarchs-alexander/plutarch-on-the-gordian-knot/): "Aristobulus tells us it was easy for him to undo it, by only pulling the pin out of the pole, to which the yoke was tied, and afterwards drawing off the yoke itself from below." unlike all the other tellings in which Alexander destroys the rope and the knot in the process, here he breaks the historic cart.
+[^LongStory]: Another long story, involving India and the Americas, and unmitigated violence.
+[^MoralQuandry]: It's hard to believe that Ethics hasn't been "solved," well, not that hard; it's a "Dog Eat Dog" world despite our advancement.
+[^death]: Somebody once said that "Suicide is a permanent solution for a temporary problem," but ultimately it just causes more problems for everyone around you, while "solving" your problem. It's a transfer of problems.
+[^neglect]: Or, via neglect, allow people to die needlessly (e.g. [Social Murder](https://en.wikipedia.org/wiki/Social_murder))
 
-[1]: https://youtu.be/VG6gaLYv17U
-[2]: https://apnews.com/article/elon-musk-orbital-ai-data-centers-xai-spacex-92bc8ad95593bf3b5b801ddf36427194
+[BezosRent]: https://www.windowscentral.com/artificial-intelligence/jeff-bezos-says-the-quiet-part-out-loud-bezos-envisions-that-youll-give-up-your-pc-for-an-ai-cloud-version
+[Benefits]: https://www.forbes.com/sites/roomykhan/2025/11/03/all-roads-lead-to-nvidia-bankrolling-its-own-ai-gold-rush/
+[Nvidia]: https://www.npr.org/2025/12/28/nx-s1-5656190/ai-chips-memory-prices-ram
+[Rollerball]: https://youtu.be/VG6gaLYv17U
+[ImperialCult]: https://en.wikipedia.org/wiki/Imperial_cult
+[SpaceServers]: https://apnews.com/article/elon-musk-orbital-ai-data-centers-xai-spacex-92bc8ad95593bf3b5b801ddf36427194
+[42]: https://en.wikipedia.org/wiki/Apophenia
+[entropy]: https://www.tumblr.com/cryptotheism/740577987346432000/bad-news-about-the-divine-yall
+[spacejunk]: https://futurism.com/chunk-spacex-rocket-crashed-garden
+[nazis]: https://en.wikipedia.org/wiki/Final_Solution
+[TheEnd]: https://jkirchartz.com/2014/09/apocalypse-survival-is-easy.html
+[heatdeath]: https://en.wikipedia.org/wiki/Heat_death_of_the_universe
+[vhemt]: https://www.vhemt.org/
+[IForOne]: https://www.youtube.com/watch?v=8lcUHQYhPTE
+[Johnson]: https://futurism.com/health-medicine/bryan-johnson-autoimmune-disease
+[BrainUpload]: https://en.wikipedia.org/wiki/Mind_uploading
+[IdealForms]: https://en.wikipedia.org/wiki/Theory_of_forms
+[DogeDeaths]: https://www.currentaffairs.org/news/how-elon-musk-killed-hundreds-of-thousands-of-people
+
