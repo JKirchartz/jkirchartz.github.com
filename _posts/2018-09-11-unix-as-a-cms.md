@@ -22,7 +22,7 @@ In the below script I set the shell, use `wildcard` to find all markdown files, 
 Running `make` at the command line will take each `md` file process it with pandoc and create a `html` file, this is then moved to the appropriate `public_html` directory (which we will assume is one directory higher than where you keep your unpublished markdown files.)
 If you're using `vim` as your text editor the command `:make` can also be used.
 
-{% gist 51837825945a6d1509d3f11b487a3b09 %}
+<script src="https://gist.github.com/JKirchartz/51837825945a6d1509d3f11b487a3b09.js"></script>
 
 It is possible to tell pandoc to include certain CSS files, but providing your own template will give more control and IMHO make customization easier.
 
