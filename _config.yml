@@ -12,7 +12,7 @@ title: JKirchartz - Web Yinzer n'at
 description: Musings, Music, and More from the WebYinzer n'at
 github: [metadata]
 author: jkirchartz
-repository: https://github.com/jkirchartz/jkirchartz.github.com
+repository: git@github.com:JKirchartz/jkirchartz.github.com.git
 jekyll_compose:
   auto_open: true
   draft_default_frontmatter:
