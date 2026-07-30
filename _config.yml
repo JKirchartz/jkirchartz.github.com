@@ -26,5 +26,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-url-metadata
   - jemoji
   - github-metadata
