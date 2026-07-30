@@ -1,0 +1,19 @@
+---
+layout: base
+title: Web Log
+---
+
+<h2>Web Log</h2>
+<nav class="subnav">
+  <a href="/notes.html">Notes</a>
+  <a href="/noise.html">Noise</a>
+  <a href="/portfolio.html">Portfolio</a>
+</nav>
+<div class="archive">
+  {% for post in site.posts %}
+  {% if post.redirect %}
+  {% else %}
+    {% include post_archive.html %}
+  {% endif %}
+  {% endfor %}
+</div>
