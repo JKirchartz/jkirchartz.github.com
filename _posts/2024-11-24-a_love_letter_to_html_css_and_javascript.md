@@ -8,9 +8,9 @@ tags: article
 
 If you've read any of my other writings you've probably guessed my secret shame.
 
-I am not a Real Programmer &tm;.<!--more-->
+I am not a Real Programmer &trade;.<!--more-->
 
-A Real Programmer &tm; could never take these toy web browsers seriously. The
+A Real Programmer &trade; could never take these toy web browsers seriously. The
 web is just a fad, real programs are compiled in dark terminals and guided by
 an occult hand. Their inner workings are arcane knowledge, every bit is under
 the control of these True Illuminates. And so web developers have worked hard
