@@ -1,4 +1,6 @@
- :root {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&display=swap');
+:root {
   --amber: #ffbb00;
   --choco: #995555;
   /* #3e2723; #795548; #A63A12; */
@@ -11,15 +13,19 @@
   --red: #f65a5a;
   /* #FF8C00; */
   --gold: #c99738;
-  --white: #DDD;
+  --white: #ddd;
   --background: var(--grey);
+  --font-size: 18px;
   --text: var(--dark);
   --link: var(--red);
   --link-active: var(--red);
   --link-hover: var(--choco);
   --icon-fill: var(--link);
-  --icon-path: var(--text);
+  --icon-path: var(--background);
+  --rainbow-size: 3rem;
+  --stripe-size: calc(var(--rainbow-size) / 6);
 }
+
 @media (prefers-color-scheme: dark) {
   :root {
     --link: var(--amber);
@@ -29,11 +35,13 @@
     --link-hover: var(--gold);
   }
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   margin-top: 2em;
   margin-left: 1em;
@@ -41,38 +49,43 @@ html {
   width: calc(100vw + 1em);
   overflow-x: hidden;
 }
+
 body {
   background: var(--background);
   color: var(--text);
+  line-height:1.25;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: var(--font-size);
   overflow: auto;
   position: relative;
-  box-shadow: inset 4px 4px 0 0 var(--choco),
-              inset 8px 8px 0 0 var(--red),
-              inset 12px 12px 0 0 var(--gold),
-              inset 16px 16px 0 0 var(--amber),
-              inset 20px 20px 0 0 var(--cyan);
+  box-shadow:
+    inset var(--stripe-size) var(--stripe-size) 0 0 var(--choco),
+    inset calc(var(--stripe-size) * 2) calc(var(--stripe-size) * 2) 0 0 var(--red),
+    inset calc(var(--stripe-size) * 3) calc(var(--stripe-size) * 3) 0 0 var(--gold),
+    inset calc(var(--stripe-size) * 4) calc(var(--stripe-size) * 4) 0 0 var(--amber),
+    inset calc(var(--stripe-size) * 5) calc(var(--stripe-size) * 5) 0 0 var(--cyan);
 
   &:before {
+    /* fix radius by not having one and covering it with a radial gradient :P */
     content: "";
     display: block;
     position: absolute;
+    pointer-events: none;
     z-index: 1000;
     top: 0;
     left: 0;
-    height: 24px;
-    width: 24px;
+    height: var(--rainbow-size);
+    width: var(--rainbow-size);
     background: var(--choco);
     background-image:
-      radial-gradient(circle at 24px 24px,
-        var(--background) 0 4px,
-        var(--cyan) 4px 8px,
-        var(--amber) 8px 12px,
-        var(--gold) 12px 16px,
-        var(--red) 16px 20px,
-        var(--choco) 20px 24px,
-        var(--background) 24px 100%
+      radial-gradient(circle at var(--rainbow-size) var(--rainbow-size),
+        var(--background) 0 var(--stripe-size),
+        var(--cyan) var(--stripe-size) calc(var(--stripe-size) * 2),
+        var(--amber) calc(var(--stripe-size) * 2) calc(var(--stripe-size) * 3),
+        var(--gold) calc(var(--stripe-size) * 3) calc(var(--stripe-size) * 4),
+        var(--red) calc(var(--stripe-size) * 4) calc(var(--stripe-size) * 5),
+        var(--choco) calc(var(--stripe-size) * 5) var(--rainbow-size),
+        var(--background) var(--rainbow-size) 100%
       );
   }
 }
@@ -80,30 +93,36 @@ body {
 img {
   max-width: 100%;
   height: auto;
+  margin: 0 auto;
 }
 
-header {
+a {
+  color: var(--link);
+
+  &:active,
+  &:visited {
+    color: var(--link-active);
+  }
+  &:hover {
+    color: var(--link-hover);
+  }
+}
+
+header#top {
   display: flex;
   justify-content: right;
   margin-top: -0.3em;
   margin-right: 2em;
+  height: var(--rainbow-size);
 }
-header a {
-  display: block;
-  font-size: 29px;
-  line-height: 1;
-  font-weight: 900;
-  text-decoration: none;
-  text-transform: uppercase;
-  margin: 0 10px;
-  padding: 0 10px;
-}
-header#top small { display: none; } /* hide web yinzer tagline */
+
+header#top small { display: none; }
+
 header#top a {
   background: var(--background);
   color: var(--link);
   display: block;
-  font-size: 28px;
+  font-size: var(--rainbow-size);
   line-height: 1;
   font-weight: 900;
   text-decoration: none;
@@ -111,30 +130,43 @@ header#top a {
   margin: 0 10px;
   margin-top: 6px;
   padding: 0 10px;
-  padding-bottom: 6px;
 }
-header#top h1 a {
-  margin: inherit;
-  margin-top: -4px;
-  font: inherit;
-  font-size: 28px;
+
+header#top h1,
+header#top h1 a,
+header#top nav a {
+  border: none!important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+
+header#top h1 {
+  margin-top: calc(var(--rainbow-size) * -0.85);
+  font-size: calc(var(--rainbow-size) * 1.25);
   font-weight: 900;
+}
+
+header#top h1 a {
+  font: inherit;
   background: transparent;
   color: var(--background);
+  border-bottom: none!important;
+  text-decoration: none !important;
 
   .fullname {
     display: none;
   }
 }
+
 header#top h1 a:hover {
   background: var(--background);
   color: var(--link);
-  font-size: 24px;
-  margin-right: 10px;
+
   .fullname {
     display: inline;
   }
 }
+
 header#top nav {
   display: flex;
   justify-content: right;
@@ -145,10 +177,12 @@ header#top nav {
 header#top a:first-of-type {
   margin-left: 0;
 }
+
 header#top a:active {
   color: var(--link-active);
   box-shadow: 0 10px 0 0 var(--link-active);
 }
+
 header#top a:hover {
   color: var(--link-hover);
   box-shadow: 0 10px 0 0 var(--link-hover);
@@ -158,9 +192,9 @@ nav.subnav {
   display: flex;
   justify-content: center;
 }
+
 nav.subnav a {
   display: inline-block;
-  border: 1px solid;
   font-weight: 900;
   padding: 0.5em 1em;
   margin: 1em;
@@ -203,58 +237,45 @@ nav.subnav a {
 
 footer,
 main#main,
-article {
+.article {
   height: 100%;
   margin: 2rem auto;
-  /* transform: translateX(-6em); */
-  /*
-  border-radius: 10px;
-  border-top: 2px solid var(--cyan);
-  border-right: 2px solid var(--cyan);
-  */
   background: var(--background);
   color: var(--text);
   width: 100%;
   max-width: 46em;
   padding: 1rem;
 }
-main#main h1,
-article h1,
-h2,
-h3,
-h4,
-h5 {
+p, .h1, h1, .h2, h2 { padding: 1.25em 0; }
+.h3, h3, h4, .h4, .h5, h5 { padding: 1.51786em 0; }
+.h1, h1 { font-size: 3em; }
+.h2, h2 { font-size: 2em; }
+.h3, h3 { font-size: 1.75em; }
+.h4, h4 { font-size: 1.5em }
+.h5, h5 {  font-size: 1.33em }
+
+.h1, h1,
+.h2, h2,
+.h3, h3,
+.h4, h4,
+.h5, h5 {
   color: var(--red);
   display: block;
-  font-weight: normal;
+  font: inherit;
+  font-weight: 900;
   line-height: 2;
-  padding: 0 0 10px 0;
-  margin-top: 0.5em;
-  margin-bottom: 1em;
+  margin: 0;
   box-shadow: inset 0 -10px 0 0 var(--red);
-}
-main#main a,
-.article a,
-article a {
-  color: var(--link);
 
-  &:hover {
-    color: var(--link-hover);
-  }
-
-  h1 a,
-  h2 a,
-  h3 a,
-  h4 a,
-  h5 a {
-    color: var(--red);
-    font: inherit;
-    font-size: 28px;
+  a {
     color: inherit;
-    text-decoration: none!important;
+    font: inherit;
+    text-decoration: none;
   }
 }
 
+.archive h2 { clear: both }
+.archive h2 time { float: right; }
 
 footer {
   text-align: center;
@@ -300,14 +321,23 @@ footer {
   height: 2rem;
   width: 2rem;
 }
+
 .social svg * {
   fill: var(--icon-fill);
-  path: var(--icon-path);
+  stroke: var(--icon-path);
+  transition: fill 0.2s;
 }
 
 .social svg:hover * {
   fill: var(--link-hover);
-  transition: d 0.2s;
-  d: path("M2,5 C2,2 8,2 8,5");
 }
 
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
