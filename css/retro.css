@@ -1,37 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&display=swap');
 :root {
   --amber: #ffbb00;
-  --choco: #995555;
-  /* #3e2723; #795548; #A63A12; */
-  --dark: #333e3e;
-  /* #33333f; #1A1F36; #626b66 < lighter ... darker > #333e3a */
-  --cyan: #a0e4ff;
-  /* #7DF9FF; */
-  --grey: #bfbfbf;
-  /* #CBD5D6; */
-  --red: #f65a5a;
-  /* #FF8C00; */
-  --gold: #c99738;
+  --choco: #995555; /* #3e2723; #795548; #A63A12; */
+  --dark: #2E3838; /* #33333f; #1A1F36; #626b66 < lighter ... darker > #333e3a */
+  --cyan: #a0e4ff; /* #7DF9FF; */
+  --grey: #bfbfbf; /* #CBD5D6; */
+  --red: #f65a5a; /* #FF8C00; */
+  --gold: #c99738; /* #DFC28B; */
   --white: #ddd;
-  --background: var(--grey);
+  --background: var(--white);
   --font-size: 18px;
   --text: var(--dark);
-  --link: var(--red);
-  --link-active: var(--red);
-  --link-hover: var(--choco);
+  --link: var(--amber);
+  --link-active: var(--choco);
+  --link-hover: var(--gold);
   --icon-fill: var(--link);
   --icon-path: var(--background);
   --rainbow-size: 3rem;
   --stripe-size: calc(var(--rainbow-size) / 6);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:ital,wght@0,900;1,900&display=swap');
+
 @media (prefers-color-scheme: dark) {
   :root {
     --link: var(--amber);
-    --text: var(--amber);
+    --text: var(--white);
     --background: var(--dark);
-    --link-active: var(--red);
+    --link-active: var(--choco);
     --link-hover: var(--gold);
   }
 }
@@ -53,8 +48,9 @@ html {
 body {
   background: var(--background);
   color: var(--text);
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
   line-height:1.25;
-  font-family: "Montserrat", sans-serif;
   font-size: var(--font-size);
   overflow: auto;
   position: relative;
@@ -108,6 +104,35 @@ a {
   }
 }
 
+p, ul, ol, .h1, h1, .h2, h2 { padding: 1.25em 0; }
+li { padding: 0.5em 0; }
+.h3, h3, h4, .h4, .h5, h5 { padding: 1.51786em 0; }
+.h1, h1 { font-size: 3em; }
+.h2, h2 { font-size: 2em; }
+.h3, h3 { font-size: 1.75em; }
+.h4, h4 { font-size: 1.5em }
+.h5, h5 {  font-size: 1.33em }
+
+.h1, h1,
+.h2, h2,
+.h3, h3,
+.h4, h4,
+.h5, h5 {
+  font-family: "Montserrat", sans-serif;
+  color: var(--red);
+  display: block;
+  font-weight: 900;
+  line-height: 2;
+  margin: 0;
+  box-shadow: inset 0 -10px 0 0 var(--red);
+
+  a {
+    color: inherit;
+    font: inherit;
+    text-decoration: none;
+  }
+}
+
 header#top {
   display: flex;
   justify-content: right;
@@ -132,18 +157,22 @@ header#top a {
   padding: 0 10px;
 }
 
-header#top h1,
-header#top h1 a,
 header#top nav a {
+  font-family: "Montserrat", sans-serif;
   border: none!important;
   text-decoration: none !important;
-  box-shadow: none !important;
+  margin: 0.1em 1rem 0 0;
+  padding: 0 0.5em;
 }
 
 header#top h1 {
-  margin-top: calc(var(--rainbow-size) * -0.85);
-  font-size: calc(var(--rainbow-size) * 1.25);
+  display:block;
+  padding: 0;
+  margin: -0.18em 0 0 0;
+  font-size: calc(var(--rainbow-size) * 1.2);
   font-weight: 900;
+  line-height: 1;
+  box-shadow: none !important;
 }
 
 header#top h1 a {
@@ -153,29 +182,26 @@ header#top h1 a {
   border-bottom: none!important;
   text-decoration: none !important;
 
+  &:hover {
+    background: var(--background);
+    color: var(--link);
+
+    .fullname {
+      display: inline;
+    }
+  }
+
   .fullname {
     display: none;
   }
 }
 
-header#top h1 a:hover {
-  background: var(--background);
-  color: var(--link);
-
-  .fullname {
-    display: inline;
-  }
-}
 
 header#top nav {
   display: flex;
   justify-content: right;
   margin-top: -0.3em;
   margin-right: 2em;
-}
-
-header#top a:first-of-type {
-  margin-left: 0;
 }
 
 header#top a:active {
@@ -193,7 +219,9 @@ nav.subnav {
   justify-content: center;
 }
 
+a.button,
 nav.subnav a {
+  text-transform: allcaps;
   display: inline-block;
   font-weight: 900;
   padding: 0.5em 1em;
@@ -236,43 +264,17 @@ nav.subnav a {
 }
 
 footer,
-main#main,
+#main,
 .article {
   height: 100%;
-  margin: 2rem auto;
+  margin: 0 auto;
   background: var(--background);
   color: var(--text);
   width: 100%;
   max-width: 46em;
-  padding: 1rem;
+  padding: 1em;
 }
-p, .h1, h1, .h2, h2 { padding: 1.25em 0; }
-.h3, h3, h4, .h4, .h5, h5 { padding: 1.51786em 0; }
-.h1, h1 { font-size: 3em; }
-.h2, h2 { font-size: 2em; }
-.h3, h3 { font-size: 1.75em; }
-.h4, h4 { font-size: 1.5em }
-.h5, h5 {  font-size: 1.33em }
 
-.h1, h1,
-.h2, h2,
-.h3, h3,
-.h4, h4,
-.h5, h5 {
-  color: var(--red);
-  display: block;
-  font: inherit;
-  font-weight: 900;
-  line-height: 2;
-  margin: 0;
-  box-shadow: inset 0 -10px 0 0 var(--red);
-
-  a {
-    color: inherit;
-    font: inherit;
-    text-decoration: none;
-  }
-}
 
 .archive h2 { clear: both }
 .archive h2 time { float: right; }
@@ -330,6 +332,416 @@ footer {
 
 .social svg:hover * {
   fill: var(--link-hover);
+}
+
+.wallpaper { display: none; }
+
+blockquote p:first-of-type{
+  padding-top: 0;
+}
+
+blockquote p:last-of-type{
+  padding-bottom: 0;
+}
+
+blockquote {
+  margin: 1em;
+  quotes: "“" "" "“" "";
+  border-radius: 1em;
+  background: black;
+  padding: 1em;
+  background: rgba(0,0,0,0.25);
+}
+
+blockquote::before {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 6em;
+  line-height: 0;
+  content: open-quote;
+  display: block;
+  margin: 0 0 0 -0.5em;
+}
+
+.highlight pre {
+  background-color: #272822;
+  overflow: auto;
+  color: #f8f8f2;
+  padding: 0.5rem;
+}
+
+.highlight .hll {
+  background-color: #272822;
+}
+
+.highlight .c {
+  color: #75715e;
+}
+
+/* Comment */
+
+.highlight .err {
+  color: #960050;
+  background-color: #1e0010;
+}
+
+/* Error */
+
+.highlight .k {
+  color: #66d9ef;
+}
+
+/* Keyword */
+
+.highlight .l {
+  color: #ae81ff;
+}
+
+/* Literal */
+
+.highlight .n {
+  color: #f8f8f2;
+}
+
+/* Name */
+
+.highlight .o {
+  color: #f92672;
+}
+
+/* Operator */
+
+.highlight .p {
+  color: #f8f8f2;
+}
+
+/* Punctuation */
+
+.highlight .cm {
+  color: #75715e;
+}
+
+/* Comment.Multiline */
+
+.highlight .cp {
+  color: #75715e;
+}
+
+/* Comment.Preproc */
+
+.highlight .c1 {
+  color: #75715e;
+}
+
+/* Comment.Single */
+
+.highlight .cs {
+  color: #75715e;
+}
+
+/* Comment.Special */
+
+.highlight .ge {
+  font-style: italic;
+}
+
+/* Generic.Emph */
+
+.highlight .gs {
+  font-weight: bold;
+}
+
+/* Generic.Strong */
+
+.highlight .kc {
+  color: #66d9ef;
+}
+
+/* Keyword.Constant */
+
+.highlight .kd {
+  color: #66d9ef;
+}
+
+/* Keyword.Declaration */
+
+.highlight .kn {
+  color: #f92672;
+}
+
+/* Keyword.Namespace */
+
+.highlight .kp {
+  color: #66d9ef;
+}
+
+/* Keyword.Pseudo */
+
+.highlight .kr {
+  color: #66d9ef;
+}
+
+/* Keyword.Reserved */
+
+.highlight .kt {
+  color: #66d9ef;
+}
+
+/* Keyword.Type */
+
+.highlight .ld {
+  color: #e6db74;
+}
+
+/* Literal.Date */
+
+.highlight .m {
+  color: #ae81ff;
+}
+
+/* Literal.Number */
+
+.highlight .s {
+  color: #e6db74;
+}
+
+/* Literal.String */
+
+.highlight .na {
+  color: #a6e22e;
+}
+
+/* Name.Attribute */
+
+.highlight .nb {
+  color: #f8f8f2;
+}
+
+/* Name.Builtin */
+
+.highlight .nc {
+  color: #a6e22e;
+}
+
+/* Name.Class */
+
+.highlight .no {
+  color: #66d9ef;
+}
+
+/* Name.Constant */
+
+.highlight .nd {
+  color: #a6e22e;
+}
+
+/* Name.Decorator */
+
+.highlight .ni {
+  color: #f8f8f2;
+}
+
+/* Name.Entity */
+
+.highlight .ne {
+  color: #a6e22e;
+}
+
+/* Name.Exception */
+
+.highlight .nf {
+  color: #a6e22e;
+}
+
+/* Name.Function */
+
+.highlight .nl {
+  color: #f8f8f2;
+}
+
+/* Name.Label */
+
+.highlight .nn {
+  color: #f8f8f2;
+}
+
+/* Name.Namespace */
+
+.highlight .nx {
+  color: #a6e22e;
+}
+
+/* Name.Other */
+
+.highlight .py {
+  color: #f8f8f2;
+}
+
+/* Name.Property */
+
+.highlight .nt {
+  color: #f92672;
+}
+
+/* Name.Tag */
+
+.highlight .nv {
+  color: #f8f8f2;
+}
+
+/* Name.Variable */
+
+.highlight .ow {
+  color: #f92672;
+}
+
+/* Operator.Word */
+
+.highlight .w {
+  color: #f8f8f2;
+}
+
+/* Text.Whitespace */
+
+.highlight .mf {
+  color: #ae81ff;
+}
+
+/* Literal.Number.Float */
+
+.highlight .mh {
+  color: #ae81ff;
+}
+
+/* Literal.Number.Hex */
+
+.highlight .mi {
+  color: #ae81ff;
+}
+
+/* Literal.Number.Integer */
+
+.highlight .mo {
+  color: #ae81ff;
+}
+
+/* Literal.Number.Oct */
+
+.highlight .sb {
+  color: #e6db74;
+}
+
+/* Literal.String.Backtick */
+
+.highlight .sc {
+  color: #e6db74;
+}
+
+/* Literal.String.Char */
+
+.highlight .sd {
+  color: #e6db74;
+}
+
+/* Literal.String.Doc */
+
+.highlight .s2 {
+  color: #e6db74;
+}
+
+/* Literal.String.Double */
+
+.highlight .se {
+  color: #ae81ff;
+}
+
+/* Literal.String.Escape */
+
+.highlight .sh {
+  color: #e6db74;
+}
+
+/* Literal.String.Heredoc */
+
+.highlight .si {
+  color: #e6db74;
+}
+
+/* Literal.String.Interpol */
+
+.highlight .sx {
+  color: #e6db74;
+}
+
+/* Literal.String.Other */
+
+.highlight .sr {
+  color: #e6db74;
+}
+
+/* Literal.String.Regex */
+
+.highlight .s1 {
+  color: #e6db74;
+}
+
+/* Literal.String.Single */
+
+.highlight .ss {
+  color: #e6db74;
+}
+
+/* Literal.String.Symbol */
+
+.highlight .bp {
+  color: #f8f8f2;
+}
+
+/* Name.Builtin.Pseudo */
+
+.highlight .vc {
+  color: #f8f8f2;
+}
+
+/* Name.Variable.Class */
+
+.highlight .vg {
+  color: #f8f8f2;
+}
+
+/* Name.Variable.Global */
+
+.highlight .vi {
+  color: #f8f8f2;
+}
+
+/* Name.Variable.Instance */
+
+.highlight .il {
+  color: #ae81ff;
+}
+
+/* Literal.Number.Integer.Long */
+
+.highlight .gh {
+}
+
+/* Generic Heading & Diff Header */
+
+.highlight .gu {
+  color: #75715e;
+}
+
+/* Generic.Subheading & Diff Unified/Comment? */
+
+.highlight .gd {
+  color: #f92672;
+}
+
+/* Generic.Deleted & Diff Deleted */
+
+.highlight .gi {
+  color: #a6e22e;
 }
 
 @media (prefers-reduced-motion: reduce) {

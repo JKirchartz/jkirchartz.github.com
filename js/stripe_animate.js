@@ -1,10 +1,11 @@
+(() => {
 var d = document, b = d.getElementsByTagName('body')[0],
 	wa = d.createElement('div'),
 	w = window.innerWidth, h = window.innerHeight;
 style = "background: linear-gradient(",
 	ran = (x) => Math.floor(Math.random() * x),
 	bgi = bgp = bgs = "", c = p = s = 0,
-	cv = [...document.styleSheets[0].cssRules.item('root').style ?? []].filter(i => (i.match(/-/g) || []).length < 3); // get CSS3 variables
+	cv = [...d.styleSheets[0].cssRules.item('root').style ?? []].filter(i => (i.match(/-/g) || []).length < 3); // get CSS3 variables
 wa.setAttribute('class', 'wallpaper');
 /* generate wallpaper */
 for (var i = 0, l = 15; i != l; i++) {
@@ -23,3 +24,4 @@ for (var i = 0, l = 15; i != l; i++) {
 wa.innerHTML = "<div class='bg-stripe'><div style='" + style + "'></div></div>"
 wa.setAttribute("style", 'background-image:' + bgi.slice(0, -1) + ';background-size:' + bgs.slice(0, -1) + ';background-position:' + bgp.slice(0, -1) + ';');
 b.appendChild(wa);
+})();
