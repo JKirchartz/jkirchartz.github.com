@@ -2,7 +2,6 @@
   <a href="{{ post.url }}">
     <h2>
       {% if post.projectName %}{{ post.projectName }}{% else %}{{ post.title }}{% endif %}
-      {% include time.html %}
     </h2>
   </a>
   {% if post.projectImg %}<img class="card-img-top" src="{{ post.projectImg }}" alt="{% if post.projectName %}{{ post.projectName }}{% else %}{{ post.title }}{% endif %} screenshot"/>{% endif %}
@@ -12,4 +11,5 @@
     {% endif %}
     <a href="{{post.url }}">See More &raquo;</a>
   </p>
+  {% include time.html %}
 </div>

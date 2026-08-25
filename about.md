@@ -26,6 +26,24 @@ setup (at the momement) check out my
 [dotfiles](https://tildegit.org/kirch/dotfiles), or just ask - by email (see
 footer) or [Tumblr](https://stash.jkirchartz.com/ask).
 
+
+## Interests/Services
+
+1. Custom Web Development
+  - Accessibility
+  - Web Standards
+  - Legacy Code Modernization
+  - Frameworkless
+  - React-Fatigue Devlopment
+  - Low-Code Devlopment
+3. Permaculture/Permacomputing
+  - Sustainable Ecosystems, online and off, Cyberspace & Meatspace
+  - Transhumanism, We're Already Cyborgs
+4. Zines & Small-Scale Printing
+  - Creativity & Design
+  - Zine Fairs & Festivals
+  - Hand-Made
+
 I solve problems online for a living, but also enjoy creating art, music, and
 electronics, working on my voice &amp; making weird sounds with my mouth and
 anything I can find, practicing various circus skills, feats of

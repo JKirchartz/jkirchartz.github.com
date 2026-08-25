@@ -96,7 +96,7 @@ creative methods and techniques to take a corpus and generate something new
 from it. Even with Neural Nets, the results were never that good; the best
 results in generative writing are curated by humans; even now, 10 years later,
 the LLMs still aren't good &mdash;with billions of more times processing power
-than I ever hadp&mdash; and a human in the loop is preferred to letting the
+than I ever had &mdash; and a human in the loop is preferred to letting the
 machines run rampant. What I learned from NaNoGenMo is that if you wanted an AI
 assistant to perfectly replicate you, they'd need to have lived your life and
 experienced it in ways that would invade your privacy, ways you'd never allow
@@ -117,18 +117,23 @@ format that the rest of the software could actually use instead of mutilate it,
 but even with big software companies having the LLMs and hundreds of developers
 working around the clock to prompt and hopefully further train these LLMS, a
 lot of money has been spent but not a lot of results seem to have taken off.
+Personally, I don't want to do Q/A testing and help train the AIs that require
+failing harder and faster than any human ever possibly could just for a chance
+to find a potential jackpot; the only winners are the ones running the
+casino.
 
 [The only humanity the AI has is what us Humans bring with
 us.](https://posts.decontextualize.com/language-models-poetry/) It will always
 be [limited by inherent paradoxes in the language of
 Mathmatics](https://www.cam.ac.uk/research/news/mathematical-paradox-demonstrates-the-limits-of-ai),
 before we even get to the language of Logic or the language of
-[rhetoricians](https://en.wikipedia.org/wiki/Gorgias_(dialogue)) and
-[sophists](https://en.wikipedia.org/wiki/Sophist_(dialogue)), people [lying on
+[rhetoricians](https://en.wikipedia.org/wiki/Gorgias_\(dialogue\)) and
+[sophists](https://en.wikipedia.org/wiki/Sophist_\(dialogue\)), people [lying on
 the internet is a security risk for
 AI](https://www.sentinelone.com/cybersecurity-101/cybersecurity/data-poisoning/),
 and AI Brokers will pass the liability of those lies onto their clients. The Big
 Players like Amazon, Google, and Microsoft can eat the costs, but can you?
+
 
 [^costly]: The hidden cost for one startup was $500 Million worth of API calls to Anthropic's Claude
 [^firefighting]: Anywhere except grease/oil fires, Those need a wet blanket, or I guess firefighters use foam? IDK, I'm not a fire expert.
