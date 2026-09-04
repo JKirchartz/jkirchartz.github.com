@@ -6,7 +6,6 @@ markdown: kramdown
 highlighter: rouge
 syntax-highlighting:
   enabled: true
-paginate: 2
 excerpt_separator: <!--more-->
 title: JKirchartz - Web Yinzer n'at
 description: Musings, Music, and More from the WebYinzer n'at
@@ -24,7 +23,6 @@ jekyll_compose:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-url-metadata
   - jemoji
