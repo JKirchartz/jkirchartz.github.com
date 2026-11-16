@@ -1,12 +1,12 @@
 :root {
-  --amber: gold;
-  --choco: sienna;
-  --dark: darkslategray;
-  --cyan: powderblue;
-  --grey: darkgray;
-  --red: indianred;
-  --gold: peru;
-  --white: lavender;
+  --amber: #ffbb00;
+  --choco: #995555;
+  --dark: #001F01;
+  --cyan: #a0e4ff;
+  --grey: #bfbfbf;
+  --red: #f65a5a;
+  --gold: #c99738;
+  --white: #dddddd;
 
 /* original colors...
   --amber: #ffbb00;
@@ -20,14 +20,14 @@
 
   imperial colors:
 
-#ffbb00  orange         gold           orange
-#995555  sienna         indianred      sienna
-#2E3838  darkslategray  darkslategray  midnightblue
-#a0e4ff  paleturquoise  paleturquoise  powderblue
-#bfbfbf  silver         silver         darkgray
-#f65a5a  tomato         tomato         indianred
-#c99738  peru           goldenrod      peru
-#dddddd  gainsboro      lavender       gainsboro
+  #ffbb00  orange         gold           orange
+  #995555  sienna         indianred      sienna
+  #2E3838  darkslategray  darkslategray  midnightblue
+  #a0e4ff  paleturquoise  paleturquoise  powderblue
+  #bfbfbf  silver         silver         darkgray
+  #f65a5a  tomato         tomato         indianred
+  #c99738  peru           goldenrod      peru
+  #dddddd  gainsboro      lavender       gainsboro
 */
 
   --background: var(--white);
@@ -49,7 +49,7 @@
     --link: var(--amber);
     --text: var(--white);
     --background: var(--dark);
-    --link-active: var(--choco);
+    --link-active: var(--grey);
     --link-hover: var(--gold);
   }
 }
@@ -62,7 +62,7 @@
 
 html {
   background: var(--background);
-  box-shadow: inset 0 0 100% black;
+  /* box-shadow: inset 0 0 100% black; */
   padding-top: 2em;
   padding-left: 1em;
   min-height: calc(100vh + 2em);
@@ -147,12 +147,12 @@ li { padding: 0.5em 0; }
 .h4, h4,
 .h5, h5 {
   font-family: "Montserrat", sans-serif;
-  color: var(--red);
+  color: var(--amber);
   display: block;
   font-weight: 900;
   line-height: 2;
   margin: 0;
-  box-shadow: inset 0 -10px 0 0 var(--red);
+  box-shadow: inset 0 -0.1em 0 0 var(--red);
 
 }
 
@@ -180,7 +180,7 @@ header#top {
 header#top small { display: none; }
 
 header#top a,
-header#top #menutoggle {
+header#top #menuopen {
   background: var(--background);
   border: none!important;
   color: var(--link);
@@ -206,7 +206,7 @@ header#top #menutoggle {
   }
 }
 
-header#top #menutoggle {
+header#top #menuopen {
   display: none;
 }
 
@@ -242,21 +242,16 @@ header#top h1 a {
   }
 }
 
-#navtoggle {
-  position: absolute;
-  opacity: 0;
-  pointer-events: none;
-}
-
-#navtoggle:checked ~ nav {
-  display: block;
-}
-
-header#top nav {
+#navbar {
   display: inline-flex;
   justify-content: right;
   margin-top: -0.3em;
   margin-right: 2em;
+
+  #menuopen,
+  #menuclose {
+    display: none;
+  }
 }
 
 nav.subnav {
@@ -328,7 +323,15 @@ footer,
 }
 
 
-time { display: block; text-align: center; font-size: 0.8em }
+time {
+  display: block;
+  text-align: center;
+  border-bottom: 0.1rem solid var(--cyan);
+  margin: 0 1rem;
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
 
 footer {
   text-align: center;
@@ -412,6 +415,21 @@ blockquote::before {
   content: open-quote;
   display: block;
   margin: 0 0 0 -0.5em;
+}
+
+.archive.portfolio {
+  column-count: 3;
+  column-gap: 1rem;
+  max-width: 80em;
+
+  .article {
+    display: flex;
+    flex-direction: column;
+    break-inside: avoid;
+  }
+  img {
+    max-width: 100%;
+  }
 }
 
 .highlight pre {
@@ -798,39 +816,51 @@ blockquote::before {
 
 @media (max-width: 801px) {
   /* smaller than the sacred and ancient accepted order of 800x600 */
-  html { margin: 0; }
-  header#top {
-    /*
-    display: flex;
-    justify-content: space-between;
-    */
+  html {
     margin: 0;
+    padding: 1rem 0 0 0;
+  }
+  header#top {
+    margin: 0;
+    justify-content: space-between;
     h1 {
       display: inline-block;
-      margin-top: -16px;
+      margin-top: -0.3em;
       a {
-        margin: 0;
         padding: 0 0.25em;
       }
     }
     .fullname { display: none; } /* don't expand the name */
-    #menutoggle {
+    #navbar {
+      display: block;
+      height: 30em;
+      width: 100%;
+      margin: 5em 0;
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-image:
+        linear-gradient(to right var(--rainbow-size) var(--rainbow-size),
+          var(--background) 0 var(--stripe-size),
+          var(--cyan) var(--stripe-size) calc(var(--stripe-size) * 2),
+          var(--amber) calc(var(--stripe-size) * 2) calc(var(--stripe-size) * 3),
+          var(--gold) calc(var(--stripe-size) * 3) calc(var(--stripe-size) * 4),
+          var(--red) calc(var(--stripe-size) * 4) calc(var(--stripe-size) * 5),
+          var(--choco) calc(var(--stripe-size) * 5) var(--rainbow-size),
+          var(--background) var(--rainbow-size) 100%
+        );
+      a {
+        font-size: 14vw;
+        display: block;
+      }
+    }
+    #menuopen,
+    #menuclose {
       display: inline-block;
       font-family: "Montserrat", sans-serif;
       border: none!important;
       text-decoration: none !important;
-      margin: 0.1em 0.1rem 0 0;
+      margin: -0.1em 0.1rem 0 0;
       padding: 0 0.25em;
-    }
-    nav {
-      display: none;
-      margin: 0 auto;
-      a {
-        font-size: 2rem;
-      }
-    }
-    #navtoggle:checked ~ nav {
-      display: block;
     }
   }
   body {
@@ -847,6 +877,9 @@ blockquote::before {
   .h3, h3 { font-size: 1.5em; }
   .h4, h4 { font-size: 1.33em }
   .h5, h5 {  font-size: 1.15em }
+  .archive.portfolio {
+    column-count: 1;
+  }
 }
 
 

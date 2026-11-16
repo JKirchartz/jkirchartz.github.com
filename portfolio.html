@@ -3,10 +3,8 @@ layout: base
 title: Projects
 ---
 <h2>Portfolio</h2>
-<div class="projects">
-      <div class="archive">
-        {% for post in site.tags.portfolio %}
-          {% include post_archive.html %}
-        {% endfor %}
-      </div>
+<div class="archive portfolio">
+  {% for post in site.tags.portfolio %}
+  {% include post_archive.html %}
+  {% endfor %}
 </div>
