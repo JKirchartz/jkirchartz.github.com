@@ -42,7 +42,9 @@
   --stripe-size: calc(var(--rainbow-size) / 6);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:ital,wght@0,900;1,900&display=swap');
+::backdrop {
+  background: rgb(0 0 0 / 50%);
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -65,8 +67,8 @@ html {
   /* box-shadow: inset 0 0 100% black; */
   padding-top: 2em;
   padding-left: 1em;
-  min-height: calc(100vh + 2em);
-  width: calc(100vw + 1em);
+  min-height: 100vh;
+  width: 100vw;
   overflow-x: hidden;
 }
 
@@ -189,7 +191,6 @@ header#top #menuopen {
   font-size: var(--rainbow-size);
   font-weight: 900;
   line-height: 1;
-  margin-top: 6px;
   margin: 0.1em 1rem 0 0;
   padding: 0 0.5em;
   text-decoration: none;
@@ -206,29 +207,28 @@ header#top #menuopen {
   }
 }
 
-header#top #menuopen {
-  display: none;
-}
-
-
 header#top h1 {
-  display:block;
+  display:flex;
   padding: 0;
-  margin: -0.2em 0 0 0;
-  font-size: calc(var(--rainbow-size) * 1.2);
+  margin: 0;
+  font-size: var(--rainbow-size);
   font-weight: 900;
   line-height: 1;
   box-shadow: none !important;
 }
 
 header#top h1 a {
-  font: inherit;
   background: transparent;
   color: var(--background);
   border-bottom: none!important;
   text-decoration: none !important;
+  font-size: calc(var(--rainbow-size) * 1.2);
+  font-weight: 900;
+  margin-top: -0.1em;
 
   &:hover {
+    font-size: calc(var(--rainbow-size) * 1.05);
+    margin-top: -0.05em;
     background: var(--background);
     color: var(--link);
 
@@ -242,16 +242,24 @@ header#top h1 a {
   }
 }
 
-#navbar {
-  display: inline-flex;
+header#top #menuopen {
+  display: none;
+}
+
+nav#navbar {
+  display: flex;
   justify-content: right;
   margin-top: -0.3em;
   margin-right: 2em;
+  background: transparent;
+  position: unset;
+  border: none;
+  overflow: visible;
+}
 
-  #menuopen,
-  #menuclose {
-    display: none;
-  }
+#menuopen,
+#menuclose {
+  display: none;
 }
 
 nav.subnav {
@@ -261,7 +269,7 @@ nav.subnav {
 
 a.button,
 nav.subnav a {
-  text-transform: allcaps;
+  text-transform: uppercase;
   display: inline-block;
   font-weight: 900;
   padding: 0.5em 1em;
@@ -286,7 +294,7 @@ nav.subnav a {
   border-right: 1rem solid #D3D3EE;
   border-left: 1rem solid #D3D3EE;
   border-bottom: 5rem solid #D3D3EE;
-  box-shadow: 10px inset #BDBDEE;
+  box-shadow: 0 10px inset #BDBDEE;
   rotate: 5deg;
   margin: 1em;
   background: black;
@@ -825,13 +833,22 @@ blockquote::before {
     justify-content: space-between;
     h1 {
       display: inline-block;
-      margin-top: -0.3em;
+      margin-top: -0.1em;
       a {
         padding: 0 0.25em;
       }
     }
     .fullname { display: none; } /* don't expand the name */
-    #navbar {
+    nav#navbar {
+      display: none;
+    }
+    #navbar:popover-open {
+      --rainbow-size: 100vw;
+      --stripe-size: calc(var(--rainbow-size) / 6);
+      overscroll-behavior: contain;
+      position-anchor: auto;
+      top: calc(anchor(bottom) + 10px);
+      justify-self: anchor-center;
       display: block;
       height: 30em;
       width: 100%;
@@ -839,7 +856,7 @@ blockquote::before {
       position: absolute;
       top: 0; left: 0; right: 0; bottom: 0;
       background-image:
-        linear-gradient(to right var(--rainbow-size) var(--rainbow-size),
+        linear-gradient(to right,
           var(--background) 0 var(--stripe-size),
           var(--cyan) var(--stripe-size) calc(var(--stripe-size) * 2),
           var(--amber) calc(var(--stripe-size) * 2) calc(var(--stripe-size) * 3),
@@ -849,17 +866,24 @@ blockquote::before {
           var(--background) var(--rainbow-size) 100%
         );
       a {
-        font-size: 14vw;
+        font-size: 12vw;
+        margin: 0.5rem;
         display: block;
       }
     }
-    #menuopen,
-    #menuclose {
+    #menuopen {
       display: inline-block;
       font-family: "Montserrat", sans-serif;
       border: none!important;
       text-decoration: none !important;
-      margin: -0.1em 0.1rem 0 0;
+      margin: -0.85rem 0.5rem 0 0;
+      padding: 0 0.25em;
+    }
+    #menuclose {
+      display: inline-block;
+      font-family: "Montserrat", sans-serif;
+      text-decoration: none !important;
+      margin: 0.25em;
       padding: 0 0.25em;
     }
   }

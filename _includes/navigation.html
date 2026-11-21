@@ -1,6 +1,6 @@
-<button popovertarget="navbar" popovertargetaction="show" id="menuopen" aria-label="Toggle Navigation Menu">☰</button>
-<nav id="navbar" class="navbar" role="navigation" popover="auto">
-        <button popover-target="navbar" popovertargetaction="hide" id="menuclose" aria-label="Close Navigation Menu">✖ </button>
+<button popovertarget="navbar" popovertargetaction="toggle" id="menuopen" aria-label="Toggle Navigation Menu"><span class="aria-hidden">☰</span></button>
+<nav id="navbar" class="navbar" role="navigation" popover>
+  <button popovertarget="navbar" popovertargetaction="hide" id="menuclose" aria-label="Close Navigation Menu"><span class="aria-hidden">✖ </span></button>
         <!-- <a href="/contact.html">Contact</a> -->
         <a href="/blog.html">Blog</a>
         <!---
@@ -10,14 +10,3 @@
         <a href="/portfolio.html">Portfolio</a>
         <a href="/resume/">Resume</a>
 </nav>
-<script>
-        const popover = document.getElementById('navbar');
-        const navbar_open_btn = document.getElementById('menuopen');
-        popover.addEventListener('beforetoggle', (evt) => {
-                if (evt.newState === 'open') {
-                        navbar_open_btn.classList.add('hidden');
-                } else {
-                        navbar_open_btn.classList.remove('hidden');
-                }
-        });
-</script>
