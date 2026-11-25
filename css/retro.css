@@ -173,7 +173,7 @@ li { padding: 0.5em 0; }
 
 header#top {
   display: flex;
-  justify-content: right;
+  justify-content: space-around;
   margin-top: -0.3em;
   margin-right: 2em;
   height: var(--rainbow-size);
@@ -227,18 +227,12 @@ header#top h1 a {
   margin-top: -0.1em;
 
   &:hover {
-    font-size: calc(var(--rainbow-size) * 1.05);
-    margin-top: -0.05em;
     background: var(--background);
     color: var(--link);
-
-    .fullname {
-      display: inline;
-    }
   }
 
   .fullname {
-    display: none;
+    display: inline;
   }
 }
 
@@ -251,10 +245,6 @@ nav#navbar {
   justify-content: right;
   margin-top: -0.3em;
   margin-right: 2em;
-  background: transparent;
-  position: unset;
-  border: none;
-  overflow: visible;
 }
 
 #menuopen,
@@ -366,7 +356,7 @@ footer {
 .social_media {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 2rem 5rem;
   text-align: center;
 }
@@ -822,8 +812,13 @@ blockquote::before {
   color: #a6e22e;
 }
 
-@media (max-width: 801px) {
-  /* smaller than the sacred and ancient accepted order of 800x600 */
+@media (max-width: 1540px) { /* magic number to shrink name */
+  header#top h1 a .fullname {
+    display: none;
+  }
+}
+
+@media (max-width: 1300px) { /* magic number hamburger nav */
   html {
     margin: 0;
     padding: 1rem 0 0 0;
@@ -838,9 +833,14 @@ blockquote::before {
         padding: 0 0.25em;
       }
     }
-    .fullname { display: none; } /* don't expand the name */
+    header#top h1 a .fullname {
+      display: inline;
+    }
     nav#navbar {
       display: none;
+    }
+    html:has(#navbar:popover-open) {
+        overflow: hidden;
     }
     #navbar:popover-open {
       --rainbow-size: 100vw;
@@ -903,6 +903,33 @@ blockquote::before {
   .h5, h5 {  font-size: 1.15em }
   .archive.portfolio {
     column-count: 1;
+  }
+}
+@media (min-width: 1300px) { /* unhamburger the menu */
+  nav#navbar[popover] {
+    position: static;
+    width: auto;
+    height: auto;
+    border: 0;
+    overflow: visible;
+    background: transparent;
+    color: inherit;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1300px) { /* magic number to shrink name */
+  header#top h1 a .fullname {
+    display: inline;
+  }
+}
+
+@media (max-width: 580px) { /* magic number to shrink name */
+  header#top h1 a .fullname {
+    display: none;
+  }
+  .featured-img {
+    float: none;
+    margin: 0 auto;
   }
 }
 
