@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Distraction-Free Offline Reading With Ebooks
 tags: article browser epub ebook one-tab plugins 100-days-to-offload
 ---

@@ -11,6 +11,7 @@ group :jekyll_plugins do
   gem 'jekyll-paginate'
   gem 'jekyll-seo-tag'
   gem 'jemoji'
+  gem 'jekyll-url-metadata'
   gem 'jekyll-github-metadata'
   gem 'jekyll-compose'
 end

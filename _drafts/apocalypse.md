@@ -5,7 +5,6 @@ published: false
 tags: article, 100 days to offload
 ---
 
-
 The word "Apocalypse" comes from the Greek word apokalypsis which literally means "something uncovered" or "revealed." [^1]
 
 [20% of Christians][1] and [50% of Muslims][2] believe that the eschaton[^2]
@@ -19,22 +18,28 @@ Unfortunately, the end is not nigh, not in a universal sense. The End has
 already come and gone for many civilizations, and our period of relative
 stability may come to an end some day; usually it happens on a much smaller scale - like [the aftermath of natural disasters][5]
 
-A belief in the End of All Times isn't unique to Abrahamic religions,
-
-> “We live in capitalism. Its power seems inescapable. So did the divine right of kings. Any human power can be resisted and changed by human beings. Resistance and change often begin in art, and very often in our art, the art of words.”
->
-> ― Ursula K. Le Guin
+A belief in the End of All Times isn't unique to Abrahamic religions, Religions
+that have been in contact with them have picked up on the the idea that one
+final conflict will finally make everyone agree; but that's highly unlikely
+because every single "War to End All Wars" has failed to form unanimous
+agreement from everyone on the planet.
 
 Both World Wars were Apocalypses - some of the battlefields are still a
 no-man's land a century later -- the ground poisoned by chemical warfare,
 humanity doesn't seem to have learned much from the lessons revealed from any
 of these apocalypses.
 
+> “We live in capitalism. Its power seems inescapable. So did the divine right
+> of kings. Any human power can be resisted and changed by human beings.
+> Resistance and change often begin in art, and very often in our art, the art
+> of words.”
+>
+> ― Ursula K. Le Guin
+
+
 ## but don't take my word for it
 
 <iframe width="1407" height="480" src="https://www.youtube.com/embed/UNDX4tUdj1Y?list=TLPQMjAxMDIwMjFYqKtrNH1uiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="1407" height="480" src="https://www.youtube.com/embed/NP10A5ehOsY?list=TLPQMTUxMDIwMjE1z18EvmEJpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 [^3]: That's not included the hundreds of earlier prophecies (some fulfilled) of societal collpse.

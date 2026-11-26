@@ -6,7 +6,8 @@ tags: vim article
 
 
 This is commentary on and reply to ["Just Use Sublime Text"](https://delvarworld.github.io/blog/2013/03/16/just-use-sublime-text/), that posits that Vim is simply too difficult, and SublimeText is the way.
-As a Vimmer, I enjoy being able to log into almost any Linux/Unix server and finding Vim, it makes life so much easier to just learn to use the tools that are already in the toolbox than to re-invent the wheel.
+As a Vimmer, I enjoy being able to log into almost any Linux/Unix server and finding Vim, it makes life so much easier to just learn to use the tools that are already in the toolbox<!--more-->than to re-invent the wheel.
+
 
 Without further ado, Let's go blow-for-blow:
 

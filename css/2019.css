@@ -22,10 +22,12 @@ http://i.imgur.com/oCNbSjO.jpg // toothless grin
 
   /* defaults */
   --body-bg: var(--gray);
+  --background: var(--body-bg);
   --color: var(--black);
   --primary: var(--blue);
   --secondary: var(--purple);
   --icon-fill: var(--primary);
+  --icon-stoke: var(--body-bg);
   --hover: var(--orange);
   --font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif;
 
@@ -34,6 +36,8 @@ http://i.imgur.com/oCNbSjO.jpg // toothless grin
   --breakpoint-md: 992px;
   --breakpoint-lg: 1200px;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap');
 
 @media (color-index: 48) {
   :root {
@@ -224,13 +228,13 @@ header h1 a:active {
   color: inherit;
 }
 
-header h1 span {
+header h1 span:not(.fullname) {
   position: relative;
   display: block;
   padding: 0 0 0 1.5rem;
 }
 
-header h1 span::after {
+header h1 span:not(.fullname)::after {
   content: "";
   display: block;
   border-bottom: 1px solid var(--primary);
@@ -381,13 +385,11 @@ time {
 }
 .social svg * {
   fill: var(--icon-fill);
-  path: var(--icon-path);
+  stroke: var(--icon-path);
 }
 
 .social svg:hover * {
   fill: var(--hover);
-  transition: d 0.2s;
-  d: path("M2,5 C2,2 8,2 8,5");
 }
 
 @media (min-width: 767px) {
@@ -908,4 +910,14 @@ time {
 
 ::view-transition-new(root) {
   animation: 0.4s ease-in both move-in;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
 }

@@ -1,0 +1,279 @@
+---
+layout: solo
+title: Contact JKirchartz
+---
+
+<style>
+  /* --- Retro-style contact form --- */
+  #contact-form {
+    max-width: 32em;
+    margin: 0 auto;
+  }
+
+  #contact-form label {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 0.85em;
+    color: var(--choco);
+    margin: 1em 0 0.25em;
+  }
+
+  #contact-form input[type="text"],
+  #contact-form input[type="email"],
+  #contact-form textarea,
+  #contact-form select {
+    display: block;
+    width: 100%;
+    font-family: "DM Serif Display", serif;
+    font-size: 1em;
+    color: var(--text);
+    background: var(--background);
+    padding: 0.5em 0.75em;
+    border: 0.15em solid var(--gold);
+    border-radius: 1.5rem;
+
+    &:focus {
+      outline: none;
+      border-color: var(--white);
+    }
+  }
+
+  #contact-form textarea {
+    min-height: 8em;
+    resize: vertical;
+  }
+
+  #contact-form fieldset {
+    border: 0.15em solid var(--gold);
+    border-radius: 1.5rem;
+    padding: 1em;
+    margin: 1em 0 0;
+  }
+
+  #contact-form label,
+  #contact-form legend {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--red);
+    padding: 0 0.5em;
+  }
+  #contact-form fieldset label {
+    color: var(--text);
+    text-transform: none;
+  }
+
+  #contact-form fieldset input[type="checkbox"] {
+    accent-color: var(--amber);
+    margin-right: 0.5em;
+  }
+
+  #contact-form [data-fs-error] {
+    display: block;
+    font-family: "DM Serif Display", serif;
+    color: var(--red);
+    font-size: 0.85em;
+    margin-top: -0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  #contact-form button[data-fs-submit-btn] {
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    color: var(--dark) !important;
+    border: 0.2em solid var(--gold);
+    border-top-color: var(--white);
+    border-left-color: var(--white);
+    background: var(--amber);
+    cursor: pointer;
+
+    &:hover:not(:disabled) {
+      border-color: var(--white);
+      border-top-color: var(--gold);
+      border-left-color: var(--gold);
+      background: var(--link-hover);
+    }
+
+    &:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+  }
+
+  .form-message {
+    font-family: "DM Serif Display", serif;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 1.5rem;
+    background: rgba(0, 0, 0, 0.25);
+  }
+
+  .form-message--success {
+    color: var(--cyan);
+    box-shadow: inset 0 0 0 0.15em var(--cyan);
+  }
+
+  .form-message--error {
+    color: var(--red);
+    box-shadow: inset 0 0 0 0.15em var(--red);
+  }
+</style>
+
+  <div data-fs-success class="form-message form-message--success" hidden>
+    Thanks — your message is in. I'll get back to you shortly.
+  </div>
+  <div data-fs-error class="form-message form-message--error" hidden></div>
+
+  <form id="contact-form">
+    <fieldset>
+      <input
+        type="text"
+        name="_gotcha"
+        style="display: none"
+        tabindex="-1"
+        autocomplete="off"
+      />
+      <input
+        type="hidden"
+        name="_subject"
+        value="New inquiry from jkirchartz.com"
+      />
+
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" data-fs-field required />
+      <span data-fs-error="name"></span>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" data-fs-field required />
+      <span data-fs-error="email"></span>
+
+      <label for="name">Company Name</label>
+      <input type="text" id="company_name" name="company_name" data-fs-field />
+      <span data-fs-error="company_name"></span>
+      <fieldset>
+        <legend>What Can I Help With? (check all that apply)</legend>
+
+        <label
+          ><input type="checkbox" name="services" value="Creative Coding" />
+          Creative Coding</label
+        >
+        <label
+          ><input type="checkbox" name="services" value="Collaborations" />
+          Collaborations</label
+        >
+        <label
+          ><input type="checkbox" name="services" value="Copywriting" />
+          Copywriting</label
+        >
+        <label
+          ><input type="checkbox" name="services" value="Fix Websites" /> Fix
+          Websites</label
+        >
+        <label
+          ><input type="checkbox" name="services" value="Build New Websites" />
+          Build New Websites</label
+        >
+        <label
+          ><input
+            type="checkbox"
+            name="services"
+            value="Custom WordPress Development"
+          />
+          Custom WordPress Development</label
+        >
+        <label
+          ><input
+            type="checkbox"
+            name="services"
+            value="Zines or Papercrafts"
+          />
+          Zines or Papercrafts</label
+        >
+        <label
+          ><input
+            type="checkbox"
+            name="services"
+            value="Live Music"
+          />
+          Live Music</label
+        >
+        <label
+          ><input
+            type="checkbox"
+            name="services"
+            value="Electronics Repair (Computers, Guitars/Effects Pedals)"
+          />
+          Electronics Repair (Computers, Guitars/Effects Pedals, Other?)</label
+        >
+        <label
+          ><input
+            type="checkbox"
+            name="services"
+            value="Voice Over/Voice Acting"
+          />
+          Voice Over/Voice Acting</label
+        >
+        <label
+          ><input type="checkbox" name="services" value="Something Else" />
+          Something Else</label
+        >
+      </fieldset>
+      <span data-fs-error="services"></span>
+
+      <label for="message">Tell me a bit about the project</label>
+      <textarea id="message" name="message" data-fs-field required></textarea>
+      <span data-fs-error="message"></span>
+
+      <button type="submit" data-fs-submit-btn>Send inquiry</button>
+    </fieldset>
+  </form>
+
+  <script>
+    // require at least one checkbox in the "services" group before allowing submit
+    document
+      .getElementById("contact-form")
+      .addEventListener("submit", function (e) {
+        var checked = document.querySelectorAll(
+          'input[name="services"]:checked',
+        );
+        if (checked.length === 0) {
+          e.preventDefault();
+          e.stopImmediatePropagation();
+          document.querySelector('[data-fs-error="services"]').textContent =
+            "Please check at least one service.";
+        }
+      });
+
+    window.formspree =
+      window.formspree ||
+      function () {
+        (formspree.q = formspree.q || []).push(arguments);
+      };
+    formspree("initForm", { formElement: "#contact-form", formId: "xqpklnwj" });
+  </script>
+  <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+
+  <div
+    itemscope
+    itemprop="author"
+    itemtype="http://schema.org/Person"
+    style="text-align: center"
+  >
+    <meta
+      itemprop="description"
+      content="Full-stack developer and web generalist."
+    />
+    <div itemprop="name" style="display: none">J. Kirchartz</div>
+    <a itemprop="url" href="https://jkirchartz.com"
+      ><span itemprop="name"><strong>J. Kirchartz</strong></span></a
+    >
+    <div itemprop="jobtitle">Full Stack Web Developer</div>
+    <div itemprop="email">me@jkirchartz.com</div>
+    <div itemprop="telephone">412-387-7955</div>
+  </div>
