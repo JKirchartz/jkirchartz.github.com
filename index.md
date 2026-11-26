@@ -3,7 +3,7 @@ layout: base
 hide_license: true
 ---
 
-<img class="featured-img" src="//i.imgur.com/NRbMgti.webp">
+<img class="featured-img" alt="J. Kirchartz's headshot photograph" src="//i.imgur.com/NRbMgti.webp">
 <!-- srcset="//i.imgur.com/kpDsH1K.jpg 250w, -->
 <!--         //i.imgur.com/QQJKhBz.jpg 500w, -->
 <!--         //i.imgur.com/NRbMgti.jpg 700w" -->
