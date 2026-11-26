@@ -33,11 +33,12 @@
   --background: var(--white);
   --font-size: 18px;
   --text: var(--dark);
-  --link: var(--amber);
+  --link: var(--choco);
   --link-active: var(--choco);
-  --link-hover: var(--gold);
+  --link-hover: var(--dark);
   --icon-fill: var(--link);
   --icon-path: var(--background);
+  --heading: var(--red);
   --rainbow-size: 3rem;
   --stripe-size: calc(var(--rainbow-size) / 6);
 }
@@ -50,6 +51,7 @@
   :root {
     --link: var(--amber);
     --text: var(--white);
+    --heading: var(--amber);
     --background: var(--dark);
     --link-active: var(--grey);
     --link-hover: var(--gold);
@@ -149,7 +151,7 @@ li { padding: 0.5em 0; }
 .h4, h4,
 .h5, h5 {
   font-family: "Montserrat", sans-serif;
-  color: var(--amber);
+  color: var(--heading);
   display: block;
   font-weight: 900;
   line-height: 2;
@@ -268,7 +270,7 @@ nav.subnav a {
   border: 0.2em solid var(--gold);
   border-top-color: var(--white);
   border-left-color: var(--white);
-  background: var(--amber);
+  background: var(--heading);
   text-decoration: none;
 
   &:hover {
